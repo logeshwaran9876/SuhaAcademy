@@ -7,9 +7,9 @@ export const events = [
     date: "13–14 June 2026 (Sat & Sun, 8 AM – 5 PM)",
     venue: "Ixora BHS Recreational Club, Bollineni Hillside, Perumbakkam, Chennai",
     venueShort: "Ixora BHS Club, Perumbakkam, Chennai",
-    status: "upcoming",
+    status: "past",
     description:
-      "Two days of music, movement and classical expression. Suha Academy's flagship Kodai Kaala Kalai Vizha returns as 'The Classical Faceoff' — an all-inclusive competition celebrating Bharatanatyam and Carnatic Music for young and seasoned talents across South India.",
+      "Two exhilarating days of traditional rhythm, expression, and music. Suha Academy's signature festival brought together over 400 aspiring classical dancers and vocalists from across South India to perform before esteemed judging panels.",
     categories: [
       "Solo Dance – Bharatanatyam",
       "Bharatanatyam Group",

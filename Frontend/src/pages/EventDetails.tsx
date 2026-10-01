@@ -242,12 +242,23 @@ export default function EventDetails() {
                         </a>
                       </>
                     ) : (
-                      <Link
-                        to="/events"
-                        className="w-full inline-flex items-center justify-center gap-2 px-6 py-3 border border-gold-500/50 text-navy-900 font-medium text-sm rounded-sm hover:border-gold-500 transition-colors"
-                      >
-                        Explore All Events
-                      </Link>
+                      <div className="space-y-2.5">
+                        <a
+                          href={`https://wa.me/${academy.phoneRaw}?text=${encodeURIComponent(`Hi Suha Academy, I would like to enquire about future editions of ${event.title}.`)}`}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="w-full inline-flex items-center justify-center gap-2 px-6 py-3 bg-gold-500 text-navy-950 font-medium text-sm rounded-sm hover:bg-gold-400 transition-colors shadow-sm"
+                        >
+                          <MessageCircle className="w-4 h-4" />
+                          <span>Enquire for Next Edition</span>
+                        </a>
+                        <Link
+                          to="/events"
+                          className="w-full inline-flex items-center justify-center gap-2 px-6 py-2.5 border border-gold-500/50 text-navy-900 font-medium text-sm rounded-sm hover:border-gold-500 transition-colors"
+                        >
+                          Explore All Events
+                        </Link>
+                      </div>
                     )}
                   </div>
                 </div>

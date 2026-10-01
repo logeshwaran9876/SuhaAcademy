@@ -68,9 +68,9 @@ export default function Events() {
               {/* Left Column: Festival Highlights */}
               <div className="lg:col-span-7">
                 <Reveal>
-                  <div className="inline-flex items-center gap-2 px-3 py-1 bg-gold-500/20 border border-gold-400/40 rounded-full text-gold-300 text-xs font-semibold uppercase tracking-wider mb-4">
-                    <span className="w-2 h-2 rounded-full bg-gold-400 animate-ping" />
-                    <span>Flagship Classical Festival &middot; Registration Open</span>
+                  <div className="inline-flex items-center gap-2 px-3 py-1 bg-emerald-500/20 border border-emerald-400/40 rounded-full text-emerald-300 text-xs font-semibold uppercase tracking-wider mb-4">
+                    <span className="w-2 h-2 rounded-full bg-emerald-400" />
+                    <span>Flagship Classical Festival &middot; Successfully Concluded</span>
                   </div>
                 </Reveal>
 
@@ -85,7 +85,7 @@ export default function Events() {
 
                 <Reveal delay={0.2}>
                   <p className="text-cream-100/80 leading-relaxed mb-6 text-sm">
-                    Two exhilarating days of traditional rhythm, expression, and music. Suha Academy’s signature festival brings together over 400 aspiring classical dancers and vocalists from across South India to perform before esteemed judging panels.
+                    Two exhilarating days of traditional rhythm, expression, and music. Suha Academy’s signature festival brought together over 400 aspiring classical dancers and vocalists from across South India to perform before esteemed judging panels.
                   </p>
                 </Reveal>
 
@@ -95,9 +95,9 @@ export default function Events() {
                     <div className="flex items-start gap-3">
                       <Calendar className="w-4 h-4 text-gold-400 shrink-0 mt-0.5" />
                       <div>
-                        <p className="text-gold-300 font-semibold uppercase tracking-wider text-[11px]">Festival Dates</p>
+                        <p className="text-gold-300 font-semibold uppercase tracking-wider text-[11px]">Concluded Edition</p>
                         <p className="text-cream-50 font-medium">13–14 June 2026 (Sat & Sun)</p>
-                        <p className="text-cream-100/60 text-[11px]">8:00 AM to 5:00 PM</p>
+                        <p className="text-cream-100/60 text-[11px]">8:00 AM to 5:00 PM &bull; Registrations Closed</p>
                       </div>
                     </div>
 
@@ -135,19 +135,19 @@ export default function Events() {
                 <Reveal delay={0.35}>
                   <div className="flex flex-wrap items-center gap-4">
                     <a
-                      href={`https://wa.me/${academy.phoneRaw}?text=${encodeURIComponent("Hi Suha Academy, I would like to register for KKKV 2026 The Classical Faceoff.")}`}
+                      href={`https://wa.me/${academy.phoneRaw}?text=${encodeURIComponent("Hi Suha Academy, I would like to enquire about the upcoming edition of Kodai Kaala Kalai Vizha (KKKV).")}`}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="inline-flex items-center gap-2 px-7 py-3.5 bg-gold-500 text-navy-950 font-medium text-sm rounded-sm hover:bg-gold-400 transition-all duration-300 group shadow-lg"
                     >
                       <MessageCircle className="w-4 h-4" />
-                      <span>Register on WhatsApp</span>
+                      <span>Enquire for Next Edition</span>
                     </a>
                     <Link
                       to="/events/kkkv-2026"
                       className="inline-flex items-center gap-2 px-7 py-3.5 border border-cream-100/30 text-cream-50 font-medium text-sm rounded-sm hover:border-gold-400 hover:text-gold-300 transition-all duration-300"
                     >
-                      <span>Full Schedule & Rules</span>
+                      <span>Full Schedule & Archive</span>
                       <ArrowRight className="w-4 h-4" />
                     </Link>
                   </div>

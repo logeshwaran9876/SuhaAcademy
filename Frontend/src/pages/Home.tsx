@@ -346,9 +346,14 @@ export default function Home() {
               {/* 2026 Feature */}
               <Reveal delay={0.3}>
                 <div className="bg-navy-950/50 border border-gold-400/20 rounded-sm p-6 mb-8 max-w-lg">
-                  <p className="text-xs uppercase tracking-[0.2em] text-gold-300 mb-2">
-                    KKKV 2026
-                  </p>
+                  <div className="flex items-center gap-2 mb-2">
+                    <p className="text-xs uppercase tracking-[0.2em] text-gold-300">
+                      KKKV 2026
+                    </p>
+                    <span className="px-2 py-0.5 rounded-full text-[9px] uppercase tracking-wider font-semibold bg-emerald-500/20 text-emerald-300 border border-emerald-400/30">
+                      Concluded
+                    </span>
+                  </div>
                   <p className="font-display text-2xl text-cream-50 mb-3">
                     The Classical Faceoff
                   </p>

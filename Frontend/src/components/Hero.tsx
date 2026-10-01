@@ -3,57 +3,57 @@ import { Link } from "react-router-dom";
 import {
   ArrowRight,
   Sparkles,
-  Volume2,
-  VolumeX,
-  Play,
-  Pause,
-  BookOpen,
-  Award,
-  GraduationCap,
 } from "lucide-react";
-import { academy } from "@/data/academy";
 import { Reveal } from "./Reveal";
 
+const DANCER_STAGES = [
+  {
+    id: "solo_standing",
+    label: "Solo Abhinaya",
+    shortLabel: "Solo",
+    subtitle: "Classical Stage Stance",
+    image: "/suha_media/suha_fb_solo_standing_redcurtain_clean.jpg",
+    alt: "Suha Academy Bharatanatyam dancer in classical standing posture on stage",
+  },
+  {
+    id: "duet",
+    label: "Classical Duet",
+    shortLabel: "Duet",
+    subtitle: "Thematic Stage Ensemble",
+    image: "/suha_media/suha_fb_duet_redcurtain_clean.jpg",
+    alt: "Suha Academy Bharatanatyam duo performing on stage with red velvet curtains",
+  },
+  {
+    id: "seated",
+    label: "Araimandi & Bhava",
+    shortLabel: "Araimandi",
+    subtitle: "Muzhumandi Seated Mudra",
+    image: "/suha_media/suha_fb_solo_seated_redcurtain_clean.jpg",
+    alt: "Suha Academy dancer seated in traditional Araimandi pose with mudras",
+  },
+  {
+    id: "natya",
+    label: "Natya Mudra",
+    shortLabel: "Natya",
+    subtitle: "Classical Arm Postures",
+    image: "/suha_media/suha_fb_solo_natya_redcurtain_clean.jpg",
+    alt: "Suha Academy dancer with classical hand mudras and expressions",
+  },
+];
+
 export default function Hero() {
-  const [isMuted, setIsMuted] = useState(true);
-  const [isPlaying, setIsPlaying] = useState(true);
+  const [activeDancerIndex, setActiveDancerIndex] = useState(0);
   const [videoLoaded, setVideoLoaded] = useState(false);
   const videoRef = useRef<HTMLVideoElement>(null);
 
-  // Sync mute state with video ref
-  const toggleMute = () => {
-    if (videoRef.current) {
-      const nextMuted = !videoRef.current.muted;
-      videoRef.current.muted = nextMuted;
-      setIsMuted(nextMuted);
-      // If unmuting and video was paused, resume
-      if (!nextMuted && videoRef.current.paused) {
-        videoRef.current.play().catch(() => {});
-        setIsPlaying(true);
-      }
-    }
-  };
+  const activeDancer = DANCER_STAGES[activeDancerIndex];
 
-  // Sync play/pause state with video ref
-  const togglePlay = () => {
-    if (videoRef.current) {
-      if (videoRef.current.paused) {
-        videoRef.current.play().then(() => setIsPlaying(true)).catch(() => {});
-      } else {
-        videoRef.current.pause();
-        setIsPlaying(false);
-      }
-    }
-  };
-
-  // Attempt autoplay on mount
+  // Attempt autoplay on mount (muted ambient background)
   useEffect(() => {
     const video = videoRef.current;
     if (video) {
       video.muted = true;
-      video.play().catch(() => {
-        setIsPlaying(false);
-      });
+      video.play().catch(() => { });
     }
   }, []);
 
@@ -63,9 +63,8 @@ export default function Hero() {
       <div className="absolute inset-0 select-none overflow-hidden">
         {/* Fallback Theater Poster Texture */}
         <div
-          className={`absolute inset-0 bg-cover bg-center bg-no-repeat transition-opacity duration-1000 ${
-            videoLoaded ? "opacity-25" : "opacity-75"
-          }`}
+          className={`absolute inset-0 bg-cover bg-center bg-no-repeat transition-opacity duration-1000 ${videoLoaded ? "opacity-25" : "opacity-75"
+            }`}
           style={{
             backgroundImage: `url('/suha_media/suha_hero_theatre_banner.jpg')`,
           }}
@@ -76,13 +75,11 @@ export default function Hero() {
           ref={videoRef}
           autoPlay
           loop
-          muted={isMuted}
+          muted
           playsInline
           poster="/suha_media/suha_hero_theatre_banner.jpg"
           onLoadedData={() => setVideoLoaded(true)}
-          onPlay={() => setIsPlaying(true)}
-          onPause={() => setIsPlaying(false)}
-          className="absolute inset-0 w-full h-full object-cover object-[70%_center] lg:object-[68%_center] filter brightness-[0.88] contrast-[1.06] transition-opacity duration-1000"
+          className="absolute inset-0 w-full h-full object-cover object-[52%_center] lg:object-[46%_center] filter brightness-[0.88] contrast-[1.06] transition-opacity duration-1000"
         >
           <source src="/suha_media/hero_bg_recital.mp4" type="video/mp4" />
         </video>
@@ -127,30 +124,24 @@ export default function Hero() {
         </div>
       </div>
 
-      {/* Main Container - Left-Anchored (Flush to left padding, NOT centered with mx-auto) */}
-      <div className="relative z-10 w-full px-6 sm:px-10 md:px-14 lg:px-16 xl:px-20 pt-28 pb-12 lg:pt-32 lg:pb-16 flex flex-col justify-between min-h-[92svh] lg:min-h-screen">
-        {/* Main Grid: Left Content (Left Start) & Open Stage Right */}
-        <div className="grid lg:grid-cols-12 gap-8 lg:gap-12 items-center my-auto w-full">
-          {/* Left Column: Strictly Left-Start Editorial Content */}
-          <div className="lg:col-span-7 xl:col-span-7 flex flex-col items-start justify-center text-left max-w-2xl xl:max-w-3xl">
-            {/* Eyebrow: Traditional Lineage & Academy Tagline */}
+      {/* Main Container - Left Content & Right Corner Card */}
+      <div className="relative z-10 w-full px-6 sm:px-10 md:px-14 lg:px-16 xl:px-20 pt-28 pb-12 lg:pt-32 lg:pb-16 flex flex-col justify-center min-h-[92svh] lg:min-h-screen">
+        <div className="grid lg:grid-cols-12 gap-8 lg:gap-10 items-center w-full my-auto">
+          {/* Left Column: Minimal & Left-Start Editorial Content */}
+          <div className="lg:col-span-7 xl:col-span-7 flex flex-col items-start justify-center text-left max-w-xl xl:max-w-2xl">
+            {/* Eyebrow: Minimal Lineage */}
             <Reveal>
-              <div className="flex flex-col items-start gap-2 mb-5">
-                <div className="inline-flex items-center gap-2.5 px-3 py-1.5 rounded-full bg-gold-500/10 border border-gold-400/30 backdrop-blur-md">
-                  <span className="w-1.5 h-1.5 rounded-full bg-gold-400 animate-pulse" />
-                  <span className="text-[11px] sm:text-xs font-sans font-medium uppercase tracking-[0.22em] text-gold-300">
-                    Guru-Shishya Tradition &bull; Estd. 2010
-                  </span>
-                </div>
-                <p className="text-xs uppercase tracking-[0.25em] text-cream-100/60 font-sans font-medium pl-1">
-                  Bharatanatyam &bull; Carnatic Vocal &bull; Mohiniyattam
+              <div className="flex items-center gap-2 mb-4">
+                <span className="w-2 h-2 rounded-full bg-gold-400" />
+                <p className="text-xs sm:text-sm uppercase tracking-[0.25em] text-gold-300 font-sans font-medium">
+                  Suha Academy of Fine Arts &bull; Estd. 2010
                 </p>
               </div>
             </Reveal>
 
-            {/* Meaningful Main Headline */}
+            {/* Headline: Clean, Poetic & Meaningful */}
             <Reveal delay={0.1}>
-              <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-display font-medium text-white tracking-tight leading-[1.08] mb-6">
+              <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-display font-medium text-white tracking-tight leading-[1.08] mb-5">
                 Rooted in Tradition.
                 <br />
                 Elevated by Grace.
@@ -161,185 +152,110 @@ export default function Hero() {
               </h1>
             </Reveal>
 
-            {/* Meaningful Subtitle - Deeply authentic for Suha Academy */}
+            {/* Subtitle: Minimal, Clear & Authentic */}
             <Reveal delay={0.2}>
-              <p className="text-base sm:text-lg text-cream-100/85 leading-relaxed mb-8 font-light font-sans max-w-xl">
-                Under the direct mentorship of <span className="text-gold-200 font-medium">Smt. Ranjini Pradeep</span>, Suha Academy of Fine Arts nurtures aspiring artists in classical dance and music. From foundational adavus and sacred ragas to complete Margam repertoire and solo Arangetrams, we instill lifelong discipline, spiritual devotion, and stage excellence.
+              <p className="text-base sm:text-lg text-cream-100/80 font-light font-sans leading-relaxed mb-8 max-w-lg">
+                Authentic Bharatanatyam, Carnatic Vocal, and Mohiniyattam guided by Founder &amp; Artistic Director Smt. Ranjini Pradeep.
               </p>
             </Reveal>
 
-            {/* Call to Action Buttons & Ambient Sound Pill - All Left Start */}
+            {/* Actions: Primary CTA & Audio Control */}
             <Reveal delay={0.3}>
-              <div className="flex flex-wrap items-center justify-start gap-4 mb-8">
-                {/* Terracotta primary button */}
+              <div className="flex flex-wrap items-center gap-4">
+                {/* Primary button */}
                 <Link
                   to="/courses"
                   className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-[#C2734C] via-[#C97A52] to-[#B3653E] hover:from-[#B86841] hover:to-[#A75932] text-white font-medium text-sm tracking-wide rounded-md shadow-lg shadow-[#C2734C]/25 transition-all duration-300 group hover:translate-y-[-1px] active:scale-[0.99]"
                 >
-                  <span>Explore Classical Courses</span>
+                  <span>Explore Courses</span>
                   <ArrowRight className="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" />
                 </Link>
 
-                {/* Secondary transparent button */}
+                {/* Secondary Action button */}
                 <Link
                   to="/events"
-                  className="inline-flex items-center gap-2 px-6 py-4 border border-gold-400/35 hover:border-gold-300 text-cream-100 hover:text-white font-medium text-sm tracking-wide rounded-md transition-all duration-300 backdrop-blur-sm hover:bg-gold-500/10"
+                  className="inline-flex items-center gap-2.5 px-7 py-4 border border-gold-400/40 hover:border-gold-300 text-cream-100 hover:text-white font-medium text-sm tracking-wide rounded-md transition-all duration-300 backdrop-blur-md hover:bg-gold-500/10 shadow-lg shadow-black/20 group hover:translate-y-[-1px] active:scale-[0.99]"
                 >
-                  <Sparkles className="w-4 h-4 text-gold-400" />
-                  <span>Upcoming Stage Recitals</span>
+                  <Sparkles className="w-4 h-4 text-gold-400 group-hover:scale-110 transition-transform" />
+                  <span>Upcoming Events</span>
                 </Link>
-
-                {/* Ambient Sound & Video Controls */}
-                <div className="flex items-center gap-2 p-1.5 px-3 rounded-md bg-black/60 backdrop-blur-md border border-gold-400/30 shadow-lg">
-                  <button
-                    type="button"
-                    onClick={togglePlay}
-                    className="w-7 h-7 rounded-full bg-gold-500/20 hover:bg-gold-500/30 text-gold-300 flex items-center justify-center transition-all duration-200"
-                    title={isPlaying ? "Pause ambient video" : "Play ambient video"}
-                    aria-label={isPlaying ? "Pause ambient video" : "Play ambient video"}
-                  >
-                    {isPlaying ? <Pause className="w-3.5 h-3.5" /> : <Play className="w-3.5 h-3.5 ml-0.5" />}
-                  </button>
-                  <button
-                    type="button"
-                    onClick={toggleMute}
-                    className={`flex items-center gap-1.5 px-3 py-1.5 rounded-full text-xs font-sans font-medium transition-all duration-300 ${
-                      !isMuted
-                        ? "bg-gold-500 text-navy-950 font-semibold shadow-md shadow-gold-500/30"
-                        : "bg-white/10 text-cream-100 hover:text-white hover:bg-white/20"
-                    }`}
-                    title={isMuted ? "Click to play recital music" : "Click to mute"}
-                  >
-                    {!isMuted ? (
-                      <>
-                        <Volume2 className="w-3.5 h-3.5 text-navy-950 animate-bounce" />
-                        <span>Audio Playing</span>
-                        <span className="flex items-end gap-0.5 h-3">
-                          <span className="w-0.5 bg-navy-950 rounded-full animate-pulse h-3" />
-                          <span className="w-0.5 bg-navy-950 rounded-full animate-pulse h-2" />
-                          <span className="w-0.5 bg-navy-950 rounded-full animate-pulse h-3" />
-                        </span>
-                      </>
-                    ) : (
-                      <>
-                        <VolumeX className="w-3.5 h-3.5 text-gold-400" />
-                        <span>Unmute Recital</span>
-                      </>
-                    )}
-                  </button>
-                </div>
               </div>
             </Reveal>
 
-            {/* Credibility Chips / Highlights - Strictly Left Start */}
+            {/* Minimal Footnote: Locations */}
             <Reveal delay={0.35}>
-              <div className="flex flex-wrap items-center justify-start gap-y-2 gap-x-5 text-xs text-cream-100/70 font-sans pt-5 border-t border-cream-100/10 w-full max-w-xl">
-                <div className="flex items-center gap-2 text-gold-200">
-                  <span className="w-1.5 h-1.5 rounded-full bg-gold-400" />
-                  <span className="font-medium">Artistic Director Smt. Ranjini Pradeep</span>
-                </div>
-                <span className="text-gold-500/40 hidden sm:inline">&bull;</span>
-                <div>14+ Years Legacy (Estd. {academy.established})</div>
-                <span className="text-gold-500/40 hidden sm:inline">&bull;</span>
-                <div>Perungalathur &bull; Medavakkam &bull; Perumbakkam</div>
-              </div>
+              <p className="mt-8 text-xs text-cream-100/50 font-sans tracking-wide">
+                Old Perungalathur &bull; Medavakkam &bull; Perumbakkam
+              </p>
             </Reveal>
           </div>
 
-          {/* Right Column: Open Live Stage with Floating Accents (5 cols) */}
-          <div className="lg:col-span-5 relative flex flex-col items-start lg:items-end justify-between min-h-[160px] sm:min-h-[220px] pointer-events-none">
-            {/* Top-Right Floating Live Stage Badge */}
-            <Reveal delay={0.25}>
-              <div className="pointer-events-auto flex items-center gap-2.5 px-3.5 py-1.5 rounded-full bg-black/60 backdrop-blur-md border border-gold-400/30 shadow-xl">
-                <span className="relative flex h-2 w-2">
-                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75" />
-                  <span className="relative inline-flex rounded-full h-2 w-2 bg-red-500" />
-                </span>
-                <span className="text-[11px] font-sans font-semibold tracking-wider uppercase text-gold-300">
-                  Live Stage Recital
-                </span>
-                <span className="text-white/20">&bull;</span>
-                <span className="text-[11px] font-mono text-emerald-400 font-medium">1080p 60FPS</span>
-              </div>
-            </Reveal>
-
-            {/* Bottom-Right Floating Stage Citation Pill */}
-            <Reveal delay={0.4}>
-              <div className="pointer-events-auto mt-auto flex items-center gap-3 p-3 px-4 rounded-sm bg-black/60 backdrop-blur-md border border-gold-500/20 shadow-xl">
-                <div className="w-8 h-8 rounded-full bg-gold-500/15 border border-gold-400/30 flex items-center justify-center text-gold-300 shrink-0">
-                  <Sparkles className="w-4 h-4 text-gold-400" />
-                </div>
+          {/* Right Corner: Smooth Rounded DANCER_STAGES Card */}
+          <div className="lg:col-span-5 xl:col-span-5 flex justify-center lg:justify-end items-end w-full pt-6 lg:pt-0">
+            <Reveal delay={0.3}>
+              <div className="w-full max-w-[420px] sm:max-w-[440px] xl:max-w-[460px] relative rounded-2xl overflow-hidden bg-gradient-to-b from-[#180A0E]/90 to-[#0C0608]/95 backdrop-blur-xl border border-gold-500/30 shadow-2xl shadow-black/80 transition-all duration-500 group">
                 <div>
-                  <p className="text-xs font-display font-medium text-white">Stage Arangetram Recital</p>
-                  <p className="text-[10px] text-cream-100/70 font-sans">Jathi & Varnam &bull; Live Orchestra</p>
+                  {/* Dancer Image */}
+                  <div className="relative h-[420px] sm:h-[460px] w-full overflow-hidden flex items-end justify-center">
+                    <img
+                      key={activeDancer.id}
+                      src={activeDancer.image}
+                      alt={activeDancer.alt}
+                      className="w-full h-full object-cover object-top transition-all duration-700 group-hover:scale-[1.02]"
+                      fetchPriority="high"
+                    />
+
+                    {/* Stage dark vignettes */}
+                    <div className="absolute inset-0 bg-gradient-to-t from-[#0A0507] via-transparent to-transparent opacity-85" />
+                    <div className="absolute inset-0 bg-gradient-to-r from-[#0A0507]/40 via-transparent to-transparent" />
+
+                    {/* Stage Spotlight pool underneath feet */}
+                    <div className="absolute bottom-4 inset-x-8 h-8 bg-amber-400/20 blur-xl rounded-full pointer-events-none" />
+
+                    {/* Bottom overlay badge - Smooth rounded corners */}
+                    <div className="absolute bottom-4 left-3 right-3 sm:left-4 sm:right-4 z-20 flex items-center justify-between gap-3 p-3 px-3.5 rounded-xl bg-[#0A0507]/90 backdrop-blur-md border border-gold-400/25">
+                      <div className="min-w-0 flex-1">
+                        <p className="text-xs uppercase tracking-widest text-gold-300 font-medium whitespace-nowrap truncate">
+                          {activeDancer.label}
+                        </p>
+                        <p className="text-[11px] text-cream-100/80 font-sans whitespace-nowrap truncate">
+                          {activeDancer.subtitle} &bull; Suha Disciples
+                        </p>
+                      </div>
+                      <div className="flex items-center gap-1.5 shrink-0 whitespace-nowrap">
+                        <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 shrink-0" />
+                        <span className="text-[10px] uppercase tracking-wider text-emerald-300 font-medium whitespace-nowrap">
+                          Stage Archive
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Interactive Pose Switcher Tabs - Smooth rounded buttons */}
+                  <div className="p-2.5 bg-[#0C0608] border-t border-gold-500/25 flex items-center justify-between gap-1.5 overflow-x-auto [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden">
+                    {DANCER_STAGES.map((stage, idx) => (
+                      <button
+                        key={stage.id}
+                        type="button"
+                        onClick={() => setActiveDancerIndex(idx)}
+                        className={`flex-1 py-1.5 px-2 text-[10px] sm:text-[11px] font-sans font-medium rounded-lg transition-all duration-300 whitespace-nowrap text-center ${activeDancerIndex === idx
+                            ? "bg-gold-500/30 text-gold-100 border-2 border-gold-400 shadow-lg shadow-gold-500/25 font-semibold ring-1 ring-gold-400/40"
+                            : "border border-gold-500/20 bg-black/40 text-cream-100/60 hover:text-white hover:border-gold-400/60 hover:bg-gold-500/10"
+                          }`}
+                      >
+                        {stage.label}
+                      </button>
+                    ))}
+                  </div>
                 </div>
               </div>
             </Reveal>
           </div>
         </div>
-
-        {/* Bottom 3 Left-Aligned Feature Cards */}
-        <Reveal delay={0.45}>
-          <div className="mt-8 pt-6 border-t border-gold-500/25 grid grid-cols-1 md:grid-cols-3 gap-5 lg:gap-6 w-full">
-            {/* Card 1: Classical Foundation */}
-            <div className="p-5 rounded-sm bg-gradient-to-b from-[#14080B]/85 to-[#0A0507]/90 backdrop-blur-xl border border-gold-500/25 hover:border-gold-400/50 shadow-xl transition-all duration-300 group hover:-translate-y-0.5 text-left">
-              <div className="flex items-center justify-between mb-3">
-                <div className="w-9 h-9 rounded-full bg-gold-500/15 border border-gold-400/30 flex items-center justify-center text-gold-300 group-hover:scale-110 transition-transform">
-                  <BookOpen className="w-4 h-4" />
-                </div>
-                <span className="text-[10px] uppercase tracking-wider text-gold-400/90 font-medium px-2 py-0.5 rounded bg-gold-400/10">
-                  Authentic Pedagogy
-                </span>
-              </div>
-              <h3 className="text-lg font-display font-medium text-white mb-1.5 group-hover:text-gold-200 transition-colors">
-                Classical Foundations
-              </h3>
-              <p className="text-xs text-cream-100/75 font-sans leading-relaxed">
-                Step-by-step training in Adavus, Hastas (mudras), Tala rhythm, and Bhava, cultivating divine posture and discipline.
-              </p>
-            </div>
-
-            {/* Card 2: Arangetram Stage Training */}
-            <div className="p-5 rounded-sm bg-gradient-to-b from-[#14080B]/85 to-[#0A0507]/90 backdrop-blur-xl border border-gold-500/25 hover:border-gold-400/50 shadow-xl transition-all duration-300 group hover:-translate-y-0.5 text-left">
-              <div className="flex items-center justify-between mb-3">
-                <div className="w-9 h-9 rounded-full bg-gold-500/15 border border-gold-400/30 flex items-center justify-center text-gold-300 group-hover:scale-110 transition-transform">
-                  <Award className="w-4 h-4" />
-                </div>
-                <span className="text-[10px] uppercase tracking-wider text-emerald-400 font-medium px-2 py-0.5 rounded bg-emerald-400/10">
-                  500+ Disciples
-                </span>
-              </div>
-              <h3 className="text-lg font-display font-medium text-white mb-1.5 group-hover:text-gold-200 transition-colors">
-                Arangetram Excellence
-              </h3>
-              <p className="text-xs text-cream-100/75 font-sans leading-relaxed">
-                Rigorous solo debut preparation with full live orchestra: Nattuvangam, Mridangam, Violin, and Flute ensemble.
-              </p>
-            </div>
-
-            {/* Card 3: Certified University Diplomas */}
-            <div className="p-5 rounded-sm bg-gradient-to-b from-[#14080B]/85 to-[#0A0507]/90 backdrop-blur-xl border border-gold-500/25 hover:border-gold-400/50 shadow-xl transition-all duration-300 group hover:-translate-y-0.5 text-left">
-              <div className="flex items-center justify-between mb-3">
-                <div className="w-9 h-9 rounded-full bg-gold-500/15 border border-gold-400/30 flex items-center justify-center text-gold-300 group-hover:scale-110 transition-transform">
-                  <GraduationCap className="w-4 h-4" />
-                </div>
-                <span className="text-[10px] uppercase tracking-wider text-gold-400/90 font-medium px-2 py-0.5 rounded bg-gold-400/10">
-                  Recognized Lineage
-                </span>
-              </div>
-              <h3 className="text-lg font-display font-medium text-white mb-1.5 group-hover:text-gold-200 transition-colors">
-                Grade & Diploma Exams
-              </h3>
-              <p className="text-xs text-cream-100/75 font-sans leading-relaxed">
-                Structured certification and affiliated university grade examinations recognized across cultural councils in India.
-              </p>
-            </div>
-          </div>
-        </Reveal>
       </div>
 
-      {/* Crisp bottom border separating the hero banner from the next section */}
-      <div className="absolute bottom-0 inset-x-0 h-px bg-gradient-to-r from-transparent via-gold-500/40 to-transparent z-20 pointer-events-none" />
+      {/* Subtle bottom gradient transition */}
+      <div className="absolute bottom-0 inset-x-0 h-16 bg-gradient-to-t from-[#0A0507] to-transparent z-20 pointer-events-none" />
     </section>
   );
 }

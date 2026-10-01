@@ -2,8 +2,6 @@ import { Link } from "react-router-dom";
 import { Calendar, MapPin, ArrowRight } from "lucide-react";
 import { Reveal } from "./Reveal";
 import { GoldFrame } from "./Decorations";
-import SourceBadge from "./SourceBadge";
-import type { GalleryImage } from "./Gallery";
 
 export interface EventData {
   slug: string;
@@ -104,19 +102,14 @@ export default function EventCard({
             </div>
           )}
 
-          <div className="mt-auto flex items-center justify-between pt-2">
+          <div className="mt-auto pt-4 border-t border-ivory-100 flex items-center justify-between">
             <Link
               to={`/events/${event.slug}`}
-              className="inline-flex items-center gap-2 text-sm font-medium text-navy-900 hover:text-gold-600 transition-colors duration-300 group/link"
+              className="inline-flex items-center gap-2 text-sm font-semibold text-navy-950 hover:text-gold-600 transition-colors duration-300 group/link whitespace-nowrap"
             >
-              View Details
-              <ArrowRight className="w-4 h-4 transition-transform duration-300 group-hover/link:translate-x-1" />
+              <span>View Details</span>
+              <ArrowRight className="w-4 h-4 text-gold-500 transition-transform duration-300 group-hover/link:translate-x-1" />
             </Link>
-            <SourceBadge
-              source={event.source}
-              sourceLabel={event.sourceLabel}
-              url={event.source}
-            />
           </div>
         </div>
       </article>
