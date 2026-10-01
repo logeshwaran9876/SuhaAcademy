@@ -7,54 +7,19 @@ import {
   VolumeX,
   Play,
   Pause,
-  Film,
-  Camera,
-  Music,
+  Users,
   Award,
+  GraduationCap,
+  MapPin,
 } from "lucide-react";
 import { academy } from "@/data/academy";
 import { Reveal } from "./Reveal";
 
-const DANCER_STAGES = [
-  {
-    id: "solo_standing",
-    label: "Solo Abhinaya",
-    subtitle: "Classical Stage Stance",
-    image: "/suha_media/suha_fb_solo_standing_redcurtain_clean.jpg",
-    alt: "Suha Academy Bharatanatyam dancer in classical standing posture on stage",
-  },
-  {
-    id: "duet",
-    label: "Classical Duet",
-    subtitle: "Thematic Stage Ensemble",
-    image: "/suha_media/suha_fb_duet_redcurtain_clean.jpg",
-    alt: "Suha Academy Bharatanatyam duo performing on stage with red velvet curtains",
-  },
-  {
-    id: "seated",
-    label: "Araimandi & Bhava",
-    subtitle: "Muzhumandi Seated Mudra",
-    image: "/suha_media/suha_fb_solo_seated_redcurtain_clean.jpg",
-    alt: "Suha Academy dancer seated in traditional Araimandi pose with mudras",
-  },
-  {
-    id: "natya",
-    label: "Natya Mudra",
-    subtitle: "Classical Arm Postures",
-    image: "/suha_media/suha_fb_solo_natya_redcurtain_clean.jpg",
-    alt: "Suha Academy dancer with classical hand mudras and expressions",
-  },
-];
-
 export default function Hero() {
-  const [activeDancerIndex, setActiveDancerIndex] = useState(0);
-  const [rightViewMode, setRightViewMode] = useState<"video_spotlight" | "postures">("video_spotlight");
   const [isMuted, setIsMuted] = useState(true);
   const [isPlaying, setIsPlaying] = useState(true);
   const [videoLoaded, setVideoLoaded] = useState(false);
   const videoRef = useRef<HTMLVideoElement>(null);
-
-  const activeDancer = DANCER_STAGES[activeDancerIndex];
 
   // Sync mute state with video ref
   const toggleMute = () => {
@@ -62,7 +27,7 @@ export default function Hero() {
       const nextMuted = !videoRef.current.muted;
       videoRef.current.muted = nextMuted;
       setIsMuted(nextMuted);
-      // If unmuting and video was paused, resume
+      // If unmuting and video was paused, resume playback
       if (!nextMuted && videoRef.current.paused) {
         videoRef.current.play().catch(() => {});
         setIsPlaying(true);
@@ -88,7 +53,6 @@ export default function Hero() {
     if (video) {
       video.muted = true;
       video.play().catch(() => {
-        // Autoplay may be blocked until user interaction
         setIsPlaying(false);
       });
     }
@@ -101,7 +65,7 @@ export default function Hero() {
         {/* Fallback Theater Poster Texture */}
         <div
           className={`absolute inset-0 bg-cover bg-center bg-no-repeat transition-opacity duration-1000 ${
-            videoLoaded ? "opacity-30" : "opacity-75"
+            videoLoaded ? "opacity-25" : "opacity-75"
           }`}
           style={{
             backgroundImage: `url('/suha_media/suha_hero_theatre_banner.jpg')`,
@@ -119,14 +83,14 @@ export default function Hero() {
           onLoadedData={() => setVideoLoaded(true)}
           onPlay={() => setIsPlaying(true)}
           onPause={() => setIsPlaying(false)}
-          className="absolute inset-0 w-full h-full object-cover object-center filter brightness-[0.82] contrast-[1.08] transition-opacity duration-1000"
+          className="absolute inset-0 w-full h-full object-cover object-[70%_center] lg:object-[68%_center] filter brightness-[0.88] contrast-[1.06] transition-opacity duration-1000"
         >
           <source src="/suha_media/hero_bg_recital.mp4" type="video/mp4" />
         </video>
 
-        {/* Cinematic stage vignette: deep shadows on left for text legibility, clear stage on right */}
-        <div className="absolute inset-0 bg-gradient-to-r from-[#0A0507]/95 via-[#0A0507]/80 to-[#0A0507]/40 lg:w-[65%]" />
-        <div className="absolute inset-0 bg-gradient-to-t from-[#0A0507] via-transparent to-[#0A0507]/70" />
+        {/* Cinematic stage vignette: deep shadows on left for text legibility, crystal clear spotlight on center-right */}
+        <div className="absolute inset-0 bg-gradient-to-r from-[#0A0507] via-[#0A0507]/85 to-transparent w-full lg:w-[58%]" />
+        <div className="absolute inset-0 bg-gradient-to-t from-[#0A0507] via-transparent to-[#0A0507]/60" />
         <div className="absolute inset-0 bg-gradient-to-b from-[#0A0507]/90 via-transparent to-[#0A0507]" />
 
         {/* Subtle amber stage warmth filter over video */}
@@ -165,10 +129,10 @@ export default function Hero() {
       </div>
 
       {/* Main Container */}
-      <div className="relative z-10 container-wide section-padding pt-28 pb-16 lg:py-24">
-        <div className="grid lg:grid-cols-12 gap-10 lg:gap-8 items-center min-h-[70vh]">
+      <div className="relative z-10 container-wide section-padding pt-28 pb-14 lg:pt-32 lg:pb-16 flex flex-col justify-between min-h-[92svh] lg:min-h-screen">
+        <div className="grid lg:grid-cols-12 gap-8 lg:gap-12 items-center my-auto">
           {/* Left Column: Hero Typography & Actions (7 cols) */}
-          <div className="lg:col-span-7 flex flex-col justify-center text-left pt-6 lg:pt-0">
+          <div className="lg:col-span-7 flex flex-col justify-center text-left pt-4 lg:pt-0">
             {/* Eyebrow: Lotus ornament & Classical disciplines */}
             <Reveal>
               <div className="flex flex-col items-start gap-2 mb-5">
@@ -218,7 +182,7 @@ export default function Hero() {
 
             {/* Call to Action Buttons */}
             <Reveal delay={0.3}>
-              <div className="flex flex-wrap items-center gap-4 mb-8">
+              <div className="flex flex-wrap items-center gap-4 mb-6">
                 {/* Terracotta/Copper-gold primary button */}
                 <Link
                   to="/courses"
@@ -239,9 +203,41 @@ export default function Hero() {
               </div>
             </Reveal>
 
-            {/* Ambient Background Video Controls Bar */}
+            {/* Credibility Chips / Highlights */}
             <Reveal delay={0.35}>
-              <div className="flex items-center gap-3 p-2 px-3 rounded-full bg-black/60 backdrop-blur-md border border-gold-500/20 max-w-fit mb-6 shadow-inner">
+              <div className="flex flex-wrap items-center gap-y-2 gap-x-5 text-xs text-cream-100/70 font-sans pt-4 border-t border-cream-100/10 max-w-xl">
+                <div className="flex items-center gap-2 text-gold-200">
+                  <span className="w-1.5 h-1.5 rounded-full bg-gold-400" />
+                  <span className="font-medium">Under Guru Smt. Ranjini Pradeep</span>
+                </div>
+                <span className="text-gold-500/40 hidden sm:inline">&bull;</span>
+                <div>Estd. {academy.established}</div>
+                <span className="text-gold-500/40 hidden sm:inline">&bull;</span>
+                <div>Affiliated with TN Music & Fine Arts University</div>
+              </div>
+            </Reveal>
+          </div>
+
+          {/* Right Column: Unobstructed Stage Performance with Floating Glass Accents (5 cols) */}
+          <div className="lg:col-span-5 relative flex flex-col items-start lg:items-end justify-between min-h-[260px] sm:min-h-[320px] lg:min-h-[460px] pointer-events-none">
+            {/* Top-Right Floating Live Stage Badge */}
+            <Reveal delay={0.25}>
+              <div className="pointer-events-auto flex items-center gap-2.5 px-3.5 py-2 rounded-full bg-black/60 backdrop-blur-md border border-gold-400/30 shadow-xl">
+                <span className="relative flex h-2 w-2">
+                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75" />
+                  <span className="relative inline-flex rounded-full h-2 w-2 bg-red-500" />
+                </span>
+                <span className="text-[11px] font-sans font-semibold tracking-wider uppercase text-gold-300">
+                  Live Stage Recital
+                </span>
+                <span className="text-white/20">&bull;</span>
+                <span className="text-[11px] font-mono text-emerald-400 font-medium">1080p 60FPS</span>
+              </div>
+            </Reveal>
+
+            {/* Bottom-Right Floating Sound & Play Control Pill */}
+            <Reveal delay={0.4}>
+              <div className="pointer-events-auto mt-auto flex items-center gap-3 p-2 px-3.5 rounded-full bg-black/65 backdrop-blur-md border border-gold-400/35 shadow-2xl">
                 {/* Play/Pause Button */}
                 <button
                   type="button"
@@ -259,8 +255,8 @@ export default function Hero() {
                   onClick={toggleMute}
                   className={`flex items-center gap-2 px-3 py-1.5 rounded-full text-xs font-sans font-medium transition-all duration-300 ${
                     !isMuted
-                      ? "bg-gold-500 text-navy-950 shadow-md shadow-gold-500/30"
-                      : "bg-white/10 text-cream-100/80 hover:text-white hover:bg-white/15"
+                      ? "bg-gold-500 text-navy-950 font-semibold shadow-md shadow-gold-500/30"
+                      : "bg-white/10 text-cream-100/90 hover:text-white hover:bg-white/20"
                   }`}
                   title={isMuted ? "Click to play recital music" : "Click to mute"}
                 >
@@ -282,230 +278,55 @@ export default function Hero() {
                     </>
                   )}
                 </button>
-
-                <div className="h-3 w-px bg-white/15" />
-
-                {/* Status indicator */}
-                <div className="flex items-center gap-2 pr-1">
-                  <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
-                  <span className="text-[11px] text-cream-100/70 font-sans hidden sm:inline">
-                    Live Stage Video
-                  </span>
-                </div>
-              </div>
-            </Reveal>
-
-            {/* Credibility Chips / Highlights */}
-            <Reveal delay={0.4}>
-              <div className="flex flex-wrap items-center gap-y-2 gap-x-5 text-xs text-cream-100/70 font-sans pt-5 border-t border-cream-100/10 max-w-xl">
-                <div className="flex items-center gap-2 text-gold-200">
-                  <span className="w-1.5 h-1.5 rounded-full bg-gold-400" />
-                  <span className="font-medium">Under Guru Smt. Ranjini Pradeep</span>
-                </div>
-                <span className="text-gold-500/40 hidden sm:inline">&bull;</span>
-                <div>Estd. {academy.established}</div>
-                <span className="text-gold-500/40 hidden sm:inline">&bull;</span>
-                <div>Medavakkam &bull; Perumbakkam &bull; Old Perungalathur</div>
-              </div>
-            </Reveal>
-          </div>
-
-          {/* Right Column: Stage Showcase & Mudras Mode Switcher (5 cols) */}
-          <div className="lg:col-span-5 relative flex flex-col items-center lg:items-end justify-center">
-            <Reveal delay={0.2} className="w-full max-w-md lg:max-w-none">
-              <div className="relative rounded-sm overflow-hidden bg-gradient-to-b from-[#14080B]/90 via-[#0E0608]/85 to-[#0A0507]/90 backdrop-blur-xl border border-gold-500/30 shadow-2xl shadow-black/90 group">
-                {/* Top Lighting Beam */}
-                <div className="absolute top-0 inset-x-0 h-1 bg-gradient-to-r from-transparent via-gold-400/80 to-transparent z-20" />
-
-                {/* Mode Selector Header */}
-                <div className="p-3 bg-black/40 border-b border-gold-500/20 flex items-center justify-between">
-                  <div className="flex items-center gap-2">
-                    <button
-                      type="button"
-                      onClick={() => setRightViewMode("video_spotlight")}
-                      className={`flex items-center gap-1.5 px-3 py-1.5 rounded text-xs font-sans font-medium transition-all ${
-                        rightViewMode === "video_spotlight"
-                          ? "bg-gold-500/25 text-gold-300 border border-gold-400/40 shadow-sm"
-                          : "text-cream-100/60 hover:text-white"
-                      }`}
-                    >
-                      <Film className="w-3.5 h-3.5 text-gold-400" />
-                      <span>Stage Spotlight</span>
-                    </button>
-
-                    <button
-                      type="button"
-                      onClick={() => setRightViewMode("postures")}
-                      className={`flex items-center gap-1.5 px-3 py-1.5 rounded text-xs font-sans font-medium transition-all ${
-                        rightViewMode === "postures"
-                          ? "bg-gold-500/25 text-gold-300 border border-gold-400/40 shadow-sm"
-                          : "text-cream-100/60 hover:text-white"
-                      }`}
-                    >
-                      <Camera className="w-3.5 h-3.5 text-gold-400" />
-                      <span>Postures Archive</span>
-                    </button>
-                  </div>
-
-                  <span className="text-[10px] uppercase tracking-wider text-gold-400/80 font-sans font-medium">
-                    HD Recital
-                  </span>
-                </div>
-
-                {/* MODE 1: STAGE SPOTLIGHT CARD */}
-                {rightViewMode === "video_spotlight" ? (
-                  <div className="relative p-6 sm:p-7 flex flex-col justify-between min-h-[460px] sm:min-h-[500px]">
-                    {/* Theatrical Curtain Texture Backdrop */}
-                    <div
-                      className="absolute inset-0 opacity-20 bg-cover bg-center pointer-events-none mix-blend-screen"
-                      style={{
-                        backgroundImage: `url('/suha_media/suha_hero_theatre_banner.jpg')`,
-                      }}
-                    />
-
-                    {/* Spotlight Glow */}
-                    <div className="absolute top-1/3 left-1/2 -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-amber-500/15 rounded-full blur-3xl pointer-events-none" />
-
-                    {/* Header Info */}
-                    <div className="relative z-10">
-                      <div className="flex items-center justify-between gap-3 mb-4">
-                        <span className="px-2.5 py-1 rounded bg-gold-500/15 border border-gold-400/30 text-gold-300 text-[10px] uppercase tracking-widest font-semibold flex items-center gap-1.5">
-                          <Sparkles className="w-3 h-3 text-gold-400" />
-                          <span>Live Recital Showcase</span>
-                        </span>
-                        <span className="flex items-center gap-1 text-[11px] text-emerald-400 font-mono">
-                          <span className="w-2 h-2 rounded-full bg-emerald-400 animate-ping inline-block mr-1" />
-                          1080p 60FPS
-                        </span>
-                      </div>
-
-                      <h3 className="text-2xl sm:text-3xl font-display font-medium text-white mb-2 leading-tight">
-                        Bharatanatyam Stage Arangetram
-                      </h3>
-                      <p className="text-xs sm:text-sm text-cream-100/75 font-sans leading-relaxed">
-                        Watch authentic live performance by disciples of Suha Academy, featuring intricate Jathi footwork, Bhavam, and Carnatic nattuvangam rhythm.
-                      </p>
-                    </div>
-
-                    {/* Performance Highlights Widget */}
-                    <div className="relative z-10 space-y-2.5 my-4">
-                      <div className="p-3 rounded bg-black/40 border border-gold-500/15 flex items-center justify-between">
-                        <div className="flex items-center gap-3">
-                          <div className="w-8 h-8 rounded-full bg-gold-500/20 flex items-center justify-center text-gold-300">
-                            <Music className="w-4 h-4" />
-                          </div>
-                          <div>
-                            <p className="text-xs font-medium text-white">Nattuvangam & Mridangam</p>
-                            <p className="text-[10px] text-cream-100/60 font-sans">Traditional Tala & Solkattu</p>
-                          </div>
-                        </div>
-                        <button
-                          type="button"
-                          onClick={toggleMute}
-                          className="px-2.5 py-1 rounded text-[11px] font-sans bg-gold-500/20 hover:bg-gold-500/30 text-gold-300 border border-gold-400/30 transition-colors"
-                        >
-                          {isMuted ? "Listen Now" : "Mute"}
-                        </button>
-                      </div>
-
-                      <div className="p-3 rounded bg-black/40 border border-gold-500/15 flex items-center justify-between">
-                        <div className="flex items-center gap-3">
-                          <div className="w-8 h-8 rounded-full bg-gold-500/20 flex items-center justify-center text-gold-300">
-                            <Award className="w-4 h-4" />
-                          </div>
-                          <div>
-                            <p className="text-xs font-medium text-white">Kalaimamani & University Affiliated</p>
-                            <p className="text-[10px] text-cream-100/60 font-sans">15+ Years Cultural Legacy</p>
-                          </div>
-                        </div>
-                        <span className="text-[10px] text-gold-400 font-semibold px-2 py-0.5 rounded bg-gold-400/10">
-                          Accredited
-                        </span>
-                      </div>
-                    </div>
-
-                    {/* Bottom Actions */}
-                    <div className="relative z-10 pt-3 border-t border-gold-500/20 flex flex-col sm:flex-row items-center justify-between gap-3">
-                      <button
-                        type="button"
-                        onClick={toggleMute}
-                        className="w-full sm:w-auto flex-1 flex items-center justify-center gap-2 px-4 py-2.5 rounded bg-gradient-to-r from-gold-500 to-amber-600 text-navy-950 font-medium text-xs tracking-wider uppercase shadow-md shadow-gold-500/20 hover:brightness-110 transition-all"
-                      >
-                        {isMuted ? <Volume2 className="w-4 h-4" /> : <VolumeX className="w-4 h-4" />}
-                        <span>{isMuted ? "Experience Audio" : "Mute Sound"}</span>
-                      </button>
-
-                      <button
-                        type="button"
-                        onClick={() => setRightViewMode("postures")}
-                        className="w-full sm:w-auto flex items-center justify-center gap-1.5 px-3.5 py-2.5 rounded bg-white/10 hover:bg-white/15 text-cream-100 text-xs font-sans transition-colors"
-                      >
-                        <Camera className="w-3.5 h-3.5 text-gold-300" />
-                        <span>View Mudras</span>
-                      </button>
-                    </div>
-                  </div>
-                ) : (
-                  /* MODE 2: CLASSICAL POSTURES ARCHIVE */
-                  <div>
-                    {/* Dancer Image */}
-                    <div className="relative h-[420px] sm:h-[460px] w-full overflow-hidden flex items-end justify-center">
-                      <img
-                        key={activeDancer.id}
-                        src={activeDancer.image}
-                        alt={activeDancer.alt}
-                        className="w-full h-full object-cover object-top transition-all duration-700 group-hover:scale-[1.02]"
-                        fetchPriority="high"
-                      />
-
-                      {/* Stage dark vignettes */}
-                      <div className="absolute inset-0 bg-gradient-to-t from-[#0A0507] via-transparent to-transparent opacity-85" />
-                      <div className="absolute inset-0 bg-gradient-to-r from-[#0A0507]/40 via-transparent to-transparent" />
-
-                      {/* Stage Spotlight pool underneath feet */}
-                      <div className="absolute bottom-4 inset-x-8 h-8 bg-amber-400/20 blur-xl rounded-full pointer-events-none" />
-
-                      {/* Bottom overlay badge */}
-                      <div className="absolute bottom-4 left-4 right-4 z-20 flex items-center justify-between p-3.5 rounded-sm bg-[#0A0507]/85 backdrop-blur-md border border-gold-400/25">
-                        <div>
-                          <p className="text-xs uppercase tracking-widest text-gold-300 font-medium">
-                            {activeDancer.label}
-                          </p>
-                          <p className="text-[11px] text-cream-100/70 font-sans">
-                            {activeDancer.subtitle} &bull; Suha Academy Disciples
-                          </p>
-                        </div>
-                        <div className="flex items-center gap-1.5">
-                          <span className="w-1.5 h-1.5 rounded-full bg-emerald-400" />
-                          <span className="text-[10px] uppercase tracking-wider text-emerald-300 font-medium">
-                            Stage Archive
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-
-                    {/* Interactive Pose Switcher Tabs */}
-                    <div className="p-2.5 bg-[#0C0608] border-t border-gold-500/15 flex items-center justify-between gap-1 overflow-x-auto">
-                      {DANCER_STAGES.map((stage, idx) => (
-                        <button
-                          key={stage.id}
-                          onClick={() => setActiveDancerIndex(idx)}
-                          className={`flex-1 py-1.5 px-2 text-[10px] font-sans font-medium rounded-sm transition-all duration-300 whitespace-nowrap text-center ${
-                            activeDancerIndex === idx
-                              ? "bg-gold-500/20 text-gold-200 border border-gold-400/40 shadow-sm"
-                              : "text-cream-100/50 hover:text-cream-100 hover:bg-white/5"
-                          }`}
-                        >
-                          {stage.label}
-                        </button>
-                      ))}
-                    </div>
-                  </div>
-                )}
               </div>
             </Reveal>
           </div>
         </div>
+
+        {/* Bottom Theatrical Stats Strip — Anchors the Hero & Prevents Emptiness */}
+        <Reveal delay={0.45}>
+          <div className="pt-8 lg:pt-10 border-t border-gold-500/20 grid grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
+            <div className="flex items-center gap-3.5 group">
+              <div className="w-10 h-10 rounded-full bg-gold-500/10 border border-gold-400/30 flex items-center justify-center text-gold-400 group-hover:scale-105 transition-transform shrink-0">
+                <Users className="w-4 h-4 sm:w-5 sm:h-5" />
+              </div>
+              <div>
+                <p className="text-xl sm:text-2xl font-display font-medium text-white tracking-tight">500+</p>
+                <p className="text-[11px] sm:text-xs text-cream-100/70 font-sans">Disciples Trained</p>
+              </div>
+            </div>
+
+            <div className="flex items-center gap-3.5 group">
+              <div className="w-10 h-10 rounded-full bg-gold-500/10 border border-gold-400/30 flex items-center justify-center text-gold-400 group-hover:scale-105 transition-transform shrink-0">
+                <Award className="w-4 h-4 sm:w-5 sm:h-5" />
+              </div>
+              <div>
+                <p className="text-xl sm:text-2xl font-display font-medium text-white tracking-tight">15+ Years</p>
+                <p className="text-[11px] sm:text-xs text-cream-100/70 font-sans">Living Cultural Legacy</p>
+              </div>
+            </div>
+
+            <div className="flex items-center gap-3.5 group">
+              <div className="w-10 h-10 rounded-full bg-gold-500/10 border border-gold-400/30 flex items-center justify-center text-gold-400 group-hover:scale-105 transition-transform shrink-0">
+                <GraduationCap className="w-4 h-4 sm:w-5 sm:h-5" />
+              </div>
+              <div>
+                <p className="text-xl sm:text-2xl font-display font-medium text-white tracking-tight">100%</p>
+                <p className="text-[11px] sm:text-xs text-cream-100/70 font-sans">Arangetram Excellence</p>
+              </div>
+            </div>
+
+            <div className="flex items-center gap-3.5 group">
+              <div className="w-10 h-10 rounded-full bg-gold-500/10 border border-gold-400/30 flex items-center justify-center text-gold-400 group-hover:scale-105 transition-transform shrink-0">
+                <MapPin className="w-4 h-4 sm:w-5 sm:h-5" />
+              </div>
+              <div>
+                <p className="text-xl sm:text-2xl font-display font-medium text-white tracking-tight">3 Centers</p>
+                <p className="text-[11px] sm:text-xs text-cream-100/70 font-sans">Across Chennai</p>
+              </div>
+            </div>
+          </div>
+        </Reveal>
       </div>
 
       {/* Crisp bottom border separating the hero banner from the next section */}
@@ -513,4 +334,5 @@ export default function Hero() {
     </section>
   );
 }
+
 
