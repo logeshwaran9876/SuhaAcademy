@@ -55,7 +55,7 @@ export default function Footer() {
               <img
                 src={academy.msmeLogo}
                 alt="Government of India MSME"
-                className="h-12 w-12 object-contain shrink-0"
+                className="h-14 w-14 object-contain  p-1 rounded-sm shadow-sm shrink-0"
               />
               <div className="text-[11px] text-cream-100/70 leading-tight min-w-0">
                 <span className="text-gold-300 font-medium block whitespace-nowrap">

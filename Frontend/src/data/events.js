@@ -460,4 +460,16 @@ export const kkkvEvents = [];
 
 export const annualDay2024 = null;
 
-export const workshopArchive = null;
+export const workshopArchive = {
+  title: "Mandala Art Workshop",
+  date: "3 October 2021",
+  format: "Online via Zoom",
+  ageGroup: "7+",
+  conductor: "Mrs. Vallikkannu Krishnan",
+  description:
+    "A creative online workshop introducing students to the art of Mandala design, fundamentals, symmetry, and practical illustrations, organised by Suha Academy of Fine Arts.",
+  status: "Past Workshop",
+  source: "https://kidscontests.in/2021/09/mandala-art-workshop-organised-by-suha-academy/",
+  sourceLabel: "KidsContests / Suha Academy Official",
+  image: "/suha_media/mandala-workshop.jpg",
+};
