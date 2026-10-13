@@ -36,10 +36,10 @@ export default function Home() {
 
   return (
     <>
-      {/* 1. Hero */}
+      {/* 1. Hero Section */}
       <Hero />
 
-      {/* 1.5 Heritage & Admissions Bar below Hero (Crisp professional boundary, zero cloudy fog) */}
+      {/* 1.5 Heritage & Admissions Bar below Hero
       <div className="bg-[#0D0709] border-y border-gold-500/20 py-3.5 px-4 text-cream-100/90 text-xs font-sans relative z-20">
         <div className="container-wide section-padding flex flex-wrap items-center justify-between gap-4">
           <div className="flex items-center gap-2">
@@ -65,22 +65,22 @@ export default function Home() {
             </span>
           </div>
           <div className="flex items-center gap-2 text-gold-300/80 text-[11px]">
-            <span>Medavakkam &bull; Perumbakkam &bull; Old Perungalathur</span>
+            <span>Medavakkam &bull; Perumbakkam</span>
           </div>
         </div>
       </div>
+      */}
 
-      {/* 2. Academy Introduction */}
+      {/* 2. Academy Introduction
       <section className="relative py-24 md:py-32 bg-cream-50 overflow-hidden">
         <div className="container-wide section-padding">
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
-            {/* Left: Image */}
             <Reveal className="relative order-2 lg:order-1">
               <div className="relative max-w-lg mx-auto lg:mx-0">
                 <div className="absolute -inset-3 border border-gold-500/15 rounded-sm pointer-events-none" />
                 <div className="relative overflow-hidden rounded-sm bg-navy-950 shadow-2xl">
                   <img
-                    src="/suha_media/suha_img_3.jpg"
+                    src="/suha_media/home/home_showcase_stage_01.jpg"
                     alt="Suha Academy dancers in classical attire displaying traditional mudras"
                     loading="lazy"
                     className="w-full h-[560px] object-cover"
@@ -88,21 +88,23 @@ export default function Home() {
                   <div className="absolute inset-0 bg-gradient-to-t from-navy-950/40 to-transparent" />
                   <GoldFrame />
 
-                  {/* Floating Heritage Badge */}
                   <div className="absolute bottom-6 left-6 right-6 p-4 rounded-sm bg-[#0B0609]/90 backdrop-blur-md border border-gold-400/30 text-cream-100 flex items-center gap-3 shadow-xl">
                     <div className="w-10 h-10 rounded-full bg-gold-500/20 border border-gold-400/40 flex items-center justify-center text-gold-400 shrink-0">
                       <Sparkles className="w-5 h-5" />
                     </div>
                     <div>
-                      <p className="text-[11px] uppercase tracking-wider text-gold-400 font-semibold">Estd. 2010 • 15+ Years</p>
-                      <p className="text-xs text-cream-100/80">Nurturing classical excellence across Chennai</p>
+                      <p className="text-[11px] uppercase tracking-wider text-gold-400 font-semibold">
+                        Estd. 2010 • 15+ Years
+                      </p>
+                      <p className="text-xs text-cream-100/80">
+                        Nurturing classical excellence across Chennai
+                      </p>
                     </div>
                   </div>
                 </div>
               </div>
             </Reveal>
 
-            {/* Right: Content */}
             <div className="order-1 lg:order-2">
               <Reveal>
                 <div className="flex items-center gap-3 mb-4">
@@ -123,35 +125,41 @@ export default function Home() {
               <Reveal delay={0.2}>
                 <div className="space-y-4 text-navy-800/80 leading-relaxed">
                   <p>
-                    Suha Academy of Fine Arts is a Chennai-based classical arts
-                    academy dedicated to Bharatanatyam and Carnatic Music training.
+                    Suha Academy of Fine Arts is a Chennai-based classical arts academy dedicated
+                    to Bharatanatyam and Carnatic Music training.
                   </p>
                   <p>
-                    Founded in {academy.established}, the academy provides students
-                    with opportunities to learn, practise, perform and participate
-                    in cultural events.
+                    Founded in {academy.established}, the academy provides students with
+                    opportunities to learn, practise, perform and participate in cultural events.
                   </p>
                 </div>
               </Reveal>
 
               <Reveal delay={0.3}>
-                {/* Impact Metrics Strip */}
                 <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 my-7 p-4 bg-white/80 border border-ivory-200 rounded-sm">
                   <div className="text-center p-2">
                     <p className="font-display text-2xl font-bold text-navy-900">15+</p>
-                    <p className="text-[11px] text-navy-700/60 uppercase tracking-wider mt-0.5">Years Legacy</p>
+                    <p className="text-[11px] text-navy-700/60 uppercase tracking-wider mt-0.5">
+                      Years Legacy
+                    </p>
                   </div>
                   <div className="text-center p-2 border-l border-ivory-200">
                     <p className="font-display text-2xl font-bold text-gold-600">600+</p>
-                    <p className="text-[11px] text-navy-700/60 uppercase tracking-wider mt-0.5">Disciples</p>
+                    <p className="text-[11px] text-navy-700/60 uppercase tracking-wider mt-0.5">
+                      Disciples
+                    </p>
                   </div>
                   <div className="text-center p-2 border-l border-ivory-200">
-                    <p className="font-display text-2xl font-bold text-navy-900">4</p>
-                    <p className="text-[11px] text-navy-700/60 uppercase tracking-wider mt-0.5">Centers</p>
+                    <p className="font-display text-2xl font-bold text-navy-900">2</p>
+                    <p className="text-[11px] text-navy-700/60 uppercase tracking-wider mt-0.5">
+                      Centers
+                    </p>
                   </div>
                   <div className="text-center p-2 border-l border-ivory-200">
                     <p className="font-display text-2xl font-bold text-gold-600">8+</p>
-                    <p className="text-[11px] text-navy-700/60 uppercase tracking-wider mt-0.5">KKKV Festivals</p>
+                    <p className="text-[11px] text-navy-700/60 uppercase tracking-wider mt-0.5">
+                      KKKV Festivals
+                    </p>
                   </div>
                 </div>
 
@@ -164,10 +172,7 @@ export default function Home() {
                     "Student Confidence",
                     "Stage Experience",
                   ].map((item) => (
-                    <div
-                      key={item}
-                      className="flex items-center gap-2 text-sm text-navy-800"
-                    >
+                    <div key={item} className="flex items-center gap-2 text-sm text-navy-800">
                       <div className="w-1.5 h-1.5 rounded-full bg-gold-500" />
                       {item}
                     </div>
@@ -188,8 +193,9 @@ export default function Home() {
           </div>
         </div>
       </section>
+      */}
 
-      {/* 3. Courses */}
+      {/* 3. Courses
       <section className="relative py-24 md:py-32 bg-paper overflow-hidden">
         <div className="absolute right-0 top-1/4 w-72 h-72 text-gold-500/[0.04] pointer-events-none hidden md:block">
           <MandalaWatermark className="w-full h-full" />
@@ -222,36 +228,40 @@ export default function Home() {
           </div>
         </div>
       </section>
+      */}
 
-      {/* 4. Founder */}
+      {/* 4. Founder Section
       <FounderSection />
+      */}
 
-      {/* 5. Why Suha Academy */}
-      <section className="relative py-24 md:py-32 bg-navy-950 overflow-hidden">
-        <div className="absolute left-0 bottom-0 w-80 h-80 text-gold-400/[0.05] pointer-events-none">
+      {/* 5. Why Choose Suha Academy (Light Theme) */}
+      <section className="relative py-24 md:py-32 bg-cream-50/80 border-t border-b border-ivory-200 overflow-hidden">
+        <div className="absolute left-0 bottom-0 w-80 h-80 text-gold-500/[0.04] pointer-events-none">
+          <MandalaWatermark className="w-full h-full" />
+        </div>
+        <div className="absolute right-0 top-0 w-72 h-72 text-gold-500/[0.03] pointer-events-none hidden md:block">
           <MandalaWatermark className="w-full h-full" />
         </div>
 
         <div className="container-wide section-padding relative z-10">
           <SectionHeader
-            light
-            number="04"
-            eyebrow="Why Suha Academy"
-            title="More Than a Class. A Cultural Journey."
-            subtitle="A learning experience that goes beyond technique — building character, confidence and cultural connection."
+            number="02"
+            eyebrow="Why Choose Suha Academy"
+            title="Tradition, Discipline & Artistic Excellence"
+            subtitle="A nurturing classical arts ecosystem rooted in shastric depth, individual mentorship, and holistic stage confidence."
           />
 
           <div className="mt-14">
-            <FeatureList features={whySuha} light />
+            <FeatureList features={whySuha} />
           </div>
         </div>
       </section>
 
-      {/* 6. Student Journey / Class Groups */}
+      {/* 6. Student Journey / Class Groups
       <section className="relative py-24 md:py-32 bg-cream-50 overflow-hidden">
         <div className="container-wide section-padding">
           <SectionHeader
-            number="05"
+            number="03"
             eyebrow="Every Stage"
             title="A Place to Learn at Every Stage"
             subtitle="From young children to adults — programs tailored to age, level and learning goals."
@@ -283,8 +293,7 @@ export default function Home() {
 
           <Reveal delay={0.3}>
             <p className="text-center text-sm text-navy-700/60 italic mt-10 max-w-lg mx-auto">
-              Programs and batch structures can be tailored according to age,
-              level and learning goals.
+              Programs and batch structures can be tailored according to age, level and learning goals.
             </p>
           </Reveal>
 
@@ -301,13 +310,13 @@ export default function Home() {
           </div>
         </div>
       </section>
+      */}
 
-      {/* 7. KKKV Feature */}
+      {/* 7. Signature Event: KKKV Feature
       <section className="relative py-24 md:py-32 bg-navy-900 overflow-hidden">
-        {/* Background image */}
         <div className="absolute inset-0">
           <img
-            src="/suha_media/suha_img_1.jpg"
+            src="/suha_media/shared/shared_media_asset_01.jpg"
             alt="Suha Academy classical Bharatanatyam stage performance"
             loading="lazy"
             className="w-full h-full object-cover opacity-25"
@@ -320,7 +329,7 @@ export default function Home() {
             <div>
               <Reveal>
                 <div className="flex items-center gap-3 mb-5">
-                  <span className="text-xs font-serif italic text-gold-400/60">06</span>
+                  <span className="text-xs font-serif italic text-gold-400/60">04</span>
                   <div className="h-px w-8 bg-gold-400/40" />
                   <span className="eyebrow text-gold-300">Signature Event</span>
                 </div>
@@ -337,13 +346,11 @@ export default function Home() {
 
               <Reveal delay={0.2}>
                 <p className="text-cream-100/70 leading-relaxed mb-8 max-w-lg">
-                  Suha Academy's Kodai Kaala Kalai Vizha is a recurring classical
-                  arts competition and cultural event centred on Bharatanatyam and
-                  Carnatic Music.
+                  Suha Academy's Kodai Kaala Kalai Vizha is a recurring classical arts competition
+                  and cultural event centred on Bharatanatyam and Carnatic Music.
                 </p>
               </Reveal>
 
-              {/* 2026 Feature */}
               <Reveal delay={0.3}>
                 <div className="bg-navy-950/50 border border-gold-400/20 rounded-sm p-6 mb-8 max-w-lg">
                   <div className="flex items-center gap-2 mb-2">
@@ -392,13 +399,15 @@ export default function Home() {
               </Reveal>
             </div>
 
-            {/* Poster image with Interactive Lightbox Zoom */}
             <Reveal delay={0.2} className="relative">
               <div className="relative max-w-sm mx-auto group">
                 <div className="absolute -inset-3 border border-gold-400/25 rounded-sm pointer-events-none" />
-                <div className="relative overflow-hidden rounded-sm bg-navy-950 shadow-2xl cursor-pointer" onClick={() => setPosterLightboxOpen(true)}>
+                <div
+                  className="relative overflow-hidden rounded-sm bg-navy-950 shadow-2xl cursor-pointer"
+                  onClick={() => setPosterLightboxOpen(true)}
+                >
                   <img
-                    src="/suha_media/kodai-kalaai-vizha-2026.jpg"
+                    src="/suha_media/shared/shared_event_poster_kkkv_2026.jpg"
                     alt="Official KKKV 2026 The Classical Faceoff Poster"
                     loading="lazy"
                     className="w-full h-auto object-contain transition-transform duration-500 group-hover:scale-102"
@@ -417,12 +426,13 @@ export default function Home() {
           </div>
         </div>
       </section>
+      */}
 
-      {/* 8. Event Timeline */}
+      {/* 8. Event Timeline
       <section className="relative py-24 md:py-32 bg-cream-50 overflow-hidden">
         <div className="container-wide section-padding">
           <SectionHeader
-            number="07"
+            number="05"
             eyebrow="Through the Years"
             title="A Journey of Events"
             subtitle="From the first KKKV in 2019 to The Classical Faceoff in 2026."
@@ -433,13 +443,14 @@ export default function Home() {
           </div>
         </div>
       </section>
+      */}
 
-      {/* 9. Photo Story */}
+      {/* 9. Photo Story
       <section className="relative py-24 md:py-32 bg-navy-950 overflow-hidden">
         <div className="container-wide section-padding">
           <SectionHeader
             light
-            number="08"
+            number="06"
             eyebrow="Photo Story"
             title="Moments That Become Memories"
           />
@@ -481,12 +492,13 @@ export default function Home() {
           </div>
         </div>
       </section>
+      */}
 
-      {/* Video Highlights Showcase */}
+      {/* Video Highlights Showcase
       <section className="relative py-24 md:py-32 bg-paper overflow-hidden">
         <div className="container-wide section-padding">
           <SectionHeader
-            number="09"
+            number="07"
             eyebrow="Stage & Arangetram Highlights"
             title="Performances in Motion"
             subtitle="Glimpses from Suha Academy's Annual Days, Arangetrams, and classical concerts on our official YouTube channel."
@@ -546,12 +558,13 @@ export default function Home() {
           </div>
         </div>
       </section>
+      */}
 
-      {/* 10. Testimonials */}
+      {/* 10. Testimonials
       <section className="relative py-24 md:py-32 bg-cream-50 overflow-hidden">
         <div className="container-wide section-padding">
           <SectionHeader
-            number="09"
+            number="08"
             eyebrow="Voices"
             title="What Families Say"
             subtitle="Experiences shared by parents, students and participants."
@@ -562,12 +575,13 @@ export default function Home() {
           </div>
         </div>
       </section>
+      */}
 
-      {/* 11. Gallery Preview */}
+      {/* 11. Gallery Preview
       <section className="relative py-24 md:py-32 bg-paper overflow-hidden">
         <div className="container-wide section-padding">
           <SectionHeader
-            number="10"
+            number="09"
             eyebrow="Gallery"
             title="Moments from the Journey"
             subtitle="A glimpse of performances, practice and celebration."
@@ -590,12 +604,13 @@ export default function Home() {
           </div>
         </div>
       </section>
+      */}
 
-      {/* 12. Achievements */}
+      {/* 12. Achievements
       <section className="relative py-24 md:py-32 bg-cream-50 overflow-hidden">
         <div className="container-wide section-padding">
           <SectionHeader
-            number="11"
+            number="10"
             eyebrow="Milestones"
             title="A Journey of Learning & Performance"
             subtitle="Evidence of commitment to classical arts education and performance."
@@ -603,11 +618,7 @@ export default function Home() {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-14 max-w-6xl mx-auto">
             {achievements.map((item, i) => (
-              <Reveal
-                key={item.label}
-                delay={i * 0.1}
-                className="h-full"
-              >
+              <Reveal key={item.label} delay={i * 0.1} className="h-full">
                 <div className="h-full p-8 bg-white border border-ivory-200 rounded-sm text-center flex flex-col justify-between transition-all duration-500 hover:shadow-xl hover:border-gold-400 hover:-translate-y-1">
                   <div>
                     <p className="text-[11px] uppercase tracking-[0.2em] text-gold-700 font-semibold mb-2">
@@ -627,16 +638,12 @@ export default function Home() {
           </Reveal>
         </div>
       </section>
+      */}
 
-      {/* 13. Final CTA */}
-      <section className="relative py-32 md:py-40 overflow-hidden bg-navy-950">
+      {/* 13. Final Call to Action */}
+      <section className="relative py-32 md:py-10 overflow-hidden bg-navy-950">
         <div className="absolute inset-0">
-          <img
-            src="/suha_media/banner.jpg"
-            alt="Suha Academy of Fine Arts Official Brand Banner"
-            loading="lazy"
-            className="w-full h-full object-cover opacity-25"
-          />
+
           <div className="absolute inset-0 bg-gradient-to-b from-navy-950/85 via-navy-950/75 to-navy-950/95" />
         </div>
 
@@ -655,8 +662,8 @@ export default function Home() {
 
           <Reveal delay={0.2}>
             <p className="text-base md:text-lg text-cream-100/70 max-w-xl mx-auto leading-relaxed mb-10">
-              Discover Bharatanatyam and Carnatic Music through structured
-              learning, practice and performance.
+              Discover Bharatanatyam and Carnatic Music through structured learning, practice and
+              performance.
             </p>
           </Reveal>
 
@@ -680,18 +687,17 @@ export default function Home() {
         </div>
       </section>
 
-      {/* 14. Contact */}
+      {/* 14. Contact
       <section id="contact" className="relative py-24 md:py-32 bg-cream-50 overflow-hidden">
         <div className="container-wide section-padding">
           <SectionHeader
-            number="12"
+            number="11"
             eyebrow="Get in Touch"
             title="Begin Your Artistic Journey"
             subtitle="Interested in Bharatanatyam or Carnatic Music? Connect with Suha Academy of Fine Arts to learn more about classes, batches and upcoming programmes."
           />
 
           <div className="grid lg:grid-cols-2 gap-12 mt-14">
-            {/* Contact info */}
             <div className="flex flex-col gap-6">
               <Reveal>
                 <a
@@ -732,7 +738,9 @@ export default function Home() {
                     WhatsApp
                   </a>
                   <a
-                    href={`mailto:${academy.email}`}
+                    href={`https://mail.google.com/mail/?view=cm&fs=1&to=${academy.email}&su=${encodeURIComponent("Inquiry - Suha Academy of Fine Arts")}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="flex-1 inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-navy-900 text-cream-100 font-medium text-sm rounded-sm hover:bg-navy-800 transition-colors"
                   >
                     Email Us
@@ -741,7 +749,6 @@ export default function Home() {
               </Reveal>
             </div>
 
-            {/* Enquiry form */}
             <Reveal delay={0.15}>
               <div className="bg-white border border-ivory-200 rounded-sm p-8">
                 <h3 className="text-lg font-display font-medium text-navy-900 mb-1">
@@ -756,6 +763,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+      */}
 
       {/* Video Modal Player */}
       <VideoModal
@@ -768,7 +776,7 @@ export default function Home() {
       <Lightbox
         images={[
           {
-            src: "/suha_media/kodai-kalaai-vizha-2026.jpg",
+            src: "/suha_media/shared/shared_event_poster_kkkv_2026.jpg",
             alt: "KKKV 2026 Official Poster",
             title: "KKKV 2026 — The Classical Faceoff",
             category: "Official Festival Poster",
@@ -779,9 +787,8 @@ export default function Home() {
         ]}
         index={posterLightboxOpen ? 0 : null}
         onClose={() => setPosterLightboxOpen(false)}
-        onNavigate={() => {}}
+        onNavigate={() => { }}
       />
     </>
   );
 }
-

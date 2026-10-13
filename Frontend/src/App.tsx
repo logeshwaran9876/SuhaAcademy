@@ -8,13 +8,13 @@ import Home from "@/pages/Home";
 import About from "@/pages/About";
 import Courses from "@/pages/Courses";
 import CourseDetail from "@/pages/CourseDetail";
-import Journey from "@/pages/Journey";
 import Events from "@/pages/Events";
 import EventDetails from "@/pages/EventDetails";
 import GalleryPage from "@/pages/GalleryPage";
 import Testimonials from "@/pages/Testimonials";
 import Contact from "@/pages/Contact";
 import FAQ from "@/pages/FAQ";
+import Faculty from "@/pages/Faculty";
 import NotFound from "@/pages/NotFound";
 
 interface MetaConfig {
@@ -37,6 +37,18 @@ const pageMetas: MetaConfig[] = [
       "Learn about Suha Academy of Fine Arts — a Chennai-based classical arts academy founded in 2010, dedicated to Bharatanatyam and Carnatic Music education.",
   },
   {
+    path: "/faculty",
+    title: "Eminent Faculty & Gurus | Suha Academy of Fine Arts",
+    description:
+      "Meet the revered classical masters and faculty at Suha Academy of Fine Arts — Guru Smt. Ranjini Pradeep, Sri Thinagar Raj, and Smt. Swarna Sahasra.",
+  },
+  {
+    path: "/faculties",
+    title: "Eminent Faculty & Gurus | Suha Academy of Fine Arts",
+    description:
+      "Meet the revered classical masters and faculty at Suha Academy of Fine Arts — Guru Smt. Ranjini Pradeep, Sri Thinagar Raj, and Smt. Swarna Sahasra.",
+  },
+  {
     path: "/courses",
     title: "Courses | Suha Academy of Fine Arts",
     description:
@@ -47,6 +59,12 @@ const pageMetas: MetaConfig[] = [
     title: "Bharatanatyam Classes in Chennai | Suha Academy",
     description:
       "Learn Bharatanatyam at Suha Academy — from Pushpanjali to Thillana. Traditional classical dance training in Chennai for all ages.",
+  },
+  {
+    path: "/courses/mohiniyattam",
+    title: "Mohiniyattam Classes in Chennai | Suha Academy",
+    description:
+      "Learn Mohiniyattam at Suha Academy — graceful classical Kerala dance, basic adavus, chuzhippu, and traditional repertoire.",
   },
   {
     path: "/courses/carnatic-music",
@@ -82,7 +100,7 @@ const pageMetas: MetaConfig[] = [
     path: "/contact",
     title: "Contact | Suha Academy of Fine Arts",
     description:
-      "Contact Suha Academy of Fine Arts for Bharatanatyam and Carnatic Music classes in Old Perungalathur, Chennai. Call +91 98846 44298.",
+      "Contact Suha Academy of Fine Arts for Bharatanatyam and Carnatic Music classes in Medavakkam & Perumbakkam, Chennai. Call +91 98846 44298.",
   },
   {
     path: "/faq",
@@ -154,7 +172,7 @@ function useStructuredData() {
       email: "suhaacademychennai@gmail.com",
       address: {
         "@type": "PostalAddress",
-        addressLocality: "Old Perungalathur, Chennai",
+        addressLocality: "Medavakkam & Perumbakkam, Chennai",
         addressRegion: "Tamil Nadu",
         addressCountry: "IN",
       },
@@ -185,20 +203,21 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="/faculty" element={<Faculty />} />
+          <Route path="/faculties" element={<Faculty />} />
           <Route path="/courses" element={<Courses />} />
           <Route
             path="/courses/bharatanatyam"
             element={<CourseDetail slug="bharatanatyam" />}
           />
           <Route
+            path="/courses/mohiniyattam"
+            element={<CourseDetail slug="mohiniyattam" />}
+          />
+          <Route
             path="/courses/carnatic-music"
             element={<CourseDetail slug="carnatic-music" />}
           />
-          <Route
-            path="/courses/special-workshops"
-            element={<CourseDetail slug="special-workshops" />}
-          />
-          <Route path="/journey" element={<Journey />} />
           <Route path="/events" element={<Events />} />
           <Route path="/events/:slug" element={<EventDetails />} />
           <Route path="/gallery" element={<GalleryPage />} />

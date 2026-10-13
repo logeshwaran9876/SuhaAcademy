@@ -1,5 +1,6 @@
 import { useEffect, useState, useCallback } from "react";
-import { X, ChevronLeft, ChevronRight } from "lucide-react";
+import { Link } from "react-router-dom";
+import { X, ChevronLeft, ChevronRight, ArrowUpRight } from "lucide-react";
 import type { GalleryImage } from "./Gallery";
 
 interface LightboxProps {
@@ -43,7 +44,7 @@ export function Lightbox({ images, index, onClose, onNavigate }: LightboxProps) 
 
   return (
     <div
-      className="fixed inset-0 z-[70] bg-navy-950/95 backdrop-blur-sm flex items-center justify-center p-4 animate-fade-in"
+      className="fixed inset-0 z-[70] bg-navy-950/95 backdrop-blur-xs sm:backdrop-blur-sm flex items-center justify-center p-4 animate-modal-backdrop"
       onClick={onClose}
       role="dialog"
       aria-modal="true"
@@ -84,7 +85,7 @@ export function Lightbox({ images, index, onClose, onNavigate }: LightboxProps) 
 
       {/* Image */}
       <div
-        className="max-w-5xl max-h-[85vh] flex flex-col items-center"
+        className="max-w-5xl max-h-[85vh] flex flex-col items-center animate-modal-content"
         onClick={(e) => e.stopPropagation()}
       >
         <img
@@ -98,6 +99,17 @@ export function Lightbox({ images, index, onClose, onNavigate }: LightboxProps) 
             {img.category}
             {img.source ? ` \u00b7 ${img.source}` : ""}
           </p>
+          {img.eventUrl && (
+            <div className="mt-3">
+              <Link
+                to={img.eventUrl}
+                className="inline-flex items-center gap-2 px-5 py-2 rounded-full bg-gold-500 text-navy-950 text-xs font-semibold uppercase tracking-wider hover:bg-gold-400 transition-colors shadow-lg cursor-pointer"
+              >
+                <span>Go to Event: {img.eventTitle || "Explore Event"}</span>
+                <ArrowUpRight className="w-3.5 h-3.5" />
+              </Link>
+            </div>
+          )}
         </div>
       </div>
     </div>

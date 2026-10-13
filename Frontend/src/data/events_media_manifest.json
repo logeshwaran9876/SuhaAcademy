@@ -1,0 +1,2054 @@
+{
+  "suha-annual-day": {
+    "title": "Suha's Annual Day",
+    "folder": "/suha_media/events/annual_day",
+    "images": [
+      {
+        "src": "/suha_media/events/annual_day/annual_day_01.jpg",
+        "origName": "0J1A9027.JPG",
+        "origSize": 16841063,
+        "compressedSize": 273397,
+        "width": 8192,
+        "height": 5464
+      },
+      {
+        "src": "/suha_media/events/annual_day/annual_day_02.jpg",
+        "origName": "0J1A9060.JPG",
+        "origSize": 17205401,
+        "compressedSize": 289567,
+        "width": 8192,
+        "height": 5464
+      },
+      {
+        "src": "/suha_media/events/annual_day/annual_day_03.jpg",
+        "origName": "0J1A9067.JPG",
+        "origSize": 18365124,
+        "compressedSize": 278459,
+        "width": 8192,
+        "height": 5464
+      },
+      {
+        "src": "/suha_media/events/annual_day/annual_day_04.jpg",
+        "origName": "0J1A9582 (1).JPG",
+        "origSize": 20139465,
+        "compressedSize": 292964,
+        "width": 8192,
+        "height": 5464
+      },
+      {
+        "src": "/suha_media/events/annual_day/annual_day_05.jpg",
+        "origName": "FB_IMG_1791530153495.jpg",
+        "origSize": 97230,
+        "compressedSize": 89246,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "src": "/suha_media/events/annual_day/annual_day_06.jpg",
+        "origName": "FB_IMG_1791530332787.jpg",
+        "origSize": 89774,
+        "compressedSize": 84862,
+        "width": 960,
+        "height": 837
+      },
+      {
+        "src": "/suha_media/events/annual_day/annual_day_07.jpg",
+        "origName": "FB_IMG_1791530421785.jpg",
+        "origSize": 87702,
+        "compressedSize": 81919,
+        "width": 679,
+        "height": 960
+      },
+      {
+        "src": "/suha_media/events/annual_day/annual_day_08.jpg",
+        "origName": "FB_IMG_1791530478706.jpg",
+        "origSize": 166892,
+        "compressedSize": 153596,
+        "width": 1230,
+        "height": 720
+      },
+      {
+        "src": "/suha_media/events/annual_day/annual_day_09.jpg",
+        "origName": "FB_IMG_1791531844483.jpg",
+        "origSize": 62544,
+        "compressedSize": 58867,
+        "width": 960,
+        "height": 641
+      },
+      {
+        "src": "/suha_media/events/annual_day/annual_day_10.jpg",
+        "origName": "FB_IMG_1791531852540.jpg",
+        "origSize": 56757,
+        "compressedSize": 53662,
+        "width": 641,
+        "height": 960
+      },
+      {
+        "src": "/suha_media/events/annual_day/annual_day_11.jpg",
+        "origName": "FB_IMG_1791531889727.jpg",
+        "origSize": 59464,
+        "compressedSize": 55795,
+        "width": 960,
+        "height": 641
+      },
+      {
+        "src": "/suha_media/events/annual_day/annual_day_12.jpg",
+        "origName": "FB_IMG_1791531906679.jpg",
+        "origSize": 58035,
+        "compressedSize": 55098,
+        "width": 641,
+        "height": 960
+      },
+      {
+        "src": "/suha_media/events/annual_day/annual_day_13.jpg",
+        "origName": "IMG-20240706-WA0011.jpg",
+        "origSize": 199172,
+        "compressedSize": 196598,
+        "width": 1156,
+        "height": 868
+      },
+      {
+        "src": "/suha_media/events/annual_day/annual_day_14.jpg",
+        "origName": "IMG-20240706-WA0013.jpg",
+        "origSize": 168668,
+        "compressedSize": 167634,
+        "width": 868,
+        "height": 1156
+      },
+      {
+        "src": "/suha_media/events/annual_day/annual_day_15.jpg",
+        "origName": "IMG-20261013-WA0005.jpg",
+        "origSize": 368316,
+        "compressedSize": 202060,
+        "width": 1600,
+        "height": 1066
+      },
+      {
+        "src": "/suha_media/events/annual_day/annual_day_16.jpg",
+        "origName": "IMG-20261013-WA0006.jpg",
+        "origSize": 398036,
+        "compressedSize": 222680,
+        "width": 1600,
+        "height": 1066
+      },
+      {
+        "src": "/suha_media/events/annual_day/annual_day_17.jpg",
+        "origName": "IMG-20261013-WA0011.jpg",
+        "origSize": 333249,
+        "compressedSize": 178726,
+        "width": 1066,
+        "height": 1600
+      },
+      {
+        "src": "/suha_media/events/annual_day/annual_day_18.jpg",
+        "origName": "IMG-20261013-WA0012.jpg",
+        "origSize": 284413,
+        "compressedSize": 139519,
+        "width": 1066,
+        "height": 1600
+      },
+      {
+        "src": "/suha_media/events/annual_day/annual_day_19.jpg",
+        "origName": "IMG-20261013-WA0014.jpg",
+        "origSize": 508521,
+        "compressedSize": 273597,
+        "width": 1600,
+        "height": 1066
+      },
+      {
+        "src": "/suha_media/events/annual_day/annual_day_20.jpg",
+        "origName": "Screenshot_2026-10-12-08-19-55-103_com.instagram.android-edit.jpg",
+        "origSize": 814942,
+        "compressedSize": 176568,
+        "width": 1220,
+        "height": 1421
+      },
+      {
+        "src": "/suha_media/events/annual_day/annual_day_21.jpg",
+        "origName": "Screenshot_2026-10-12-08-20-13-657_com.instagram.android-edit.jpg",
+        "origSize": 1056129,
+        "compressedSize": 232634,
+        "width": 1220,
+        "height": 1403
+      },
+      {
+        "src": "/suha_media/events/annual_day/annual_day_22.jpg",
+        "origName": "_DSC9148.JPG",
+        "origSize": 13288913,
+        "compressedSize": 231953,
+        "width": 6000,
+        "height": 4000
+      },
+      {
+        "src": "/suha_media/events/annual_day/annual_day_23.jpg",
+        "origName": "_DSC9213.JPG",
+        "origSize": 2827958,
+        "compressedSize": 266303,
+        "width": 6000,
+        "height": 4000
+      },
+      {
+        "src": "/suha_media/events/annual_day/annual_day_24.jpg",
+        "origName": "_DSC9236.JPG",
+        "origSize": 1644388,
+        "compressedSize": 110629,
+        "width": 6000,
+        "height": 4000
+      }
+    ]
+  },
+  "international-recitals": {
+    "title": "Suha's International Recitals",
+    "folder": "/suha_media/events/international_recitals",
+    "images": [
+      {
+        "src": "/suha_media/events/international_recitals/international_recital_01.jpg",
+        "origName": "IMG-20261007-WA0018.jpg",
+        "origSize": 443252,
+        "compressedSize": 194827,
+        "width": 1279,
+        "height": 1600
+      },
+      {
+        "src": "/suha_media/events/international_recitals/international_recital_02.jpg",
+        "origName": "IMG-20261007-WA0019.jpg",
+        "origSize": 521347,
+        "compressedSize": 235327,
+        "width": 1280,
+        "height": 1600
+      },
+      {
+        "src": "/suha_media/events/international_recitals/international_recital_03.jpg",
+        "origName": "IMG-20261007-WA0020.jpg",
+        "origSize": 406981,
+        "compressedSize": 201673,
+        "width": 1280,
+        "height": 1600
+      },
+      {
+        "src": "/suha_media/events/international_recitals/international_recital_04.jpg",
+        "origName": "IMG-20261007-WA0021.jpg",
+        "origSize": 509706,
+        "compressedSize": 228907,
+        "width": 1279,
+        "height": 1600
+      }
+    ]
+  },
+  "kkkv-festival": {
+    "title": "Kodai Kaala Kalai Vizha (KKKV)",
+    "folder": "/suha_media/events/kkkv",
+    "images": [
+      {
+        "src": "/suha_media/events/kkkv/kkkv_01.jpg",
+        "origName": "DSC02559.JPG",
+        "origSize": 22533280,
+        "compressedSize": 198193,
+        "width": 7008,
+        "height": 4672
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_02.jpg",
+        "origName": "DSC02573.JPG",
+        "origSize": 23899550,
+        "compressedSize": 209129,
+        "width": 7008,
+        "height": 4672
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_03.jpg",
+        "origName": "DSC02606.JPG",
+        "origSize": 25503832,
+        "compressedSize": 188836,
+        "width": 7008,
+        "height": 4672
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_04.jpg",
+        "origName": "DSC02619.JPG",
+        "origSize": 23863023,
+        "compressedSize": 181065,
+        "width": 7008,
+        "height": 4672
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_05.jpg",
+        "origName": "DSC02674.JPG",
+        "origSize": 23930366,
+        "compressedSize": 277831,
+        "width": 7008,
+        "height": 4672
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_06.jpg",
+        "origName": "DSC02679.JPG",
+        "origSize": 24799636,
+        "compressedSize": 293960,
+        "width": 7008,
+        "height": 4672
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_07.jpg",
+        "origName": "DSC02687.JPG",
+        "origSize": 21155519,
+        "compressedSize": 165011,
+        "width": 7008,
+        "height": 4672
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_08.jpg",
+        "origName": "DSC02697.JPG",
+        "origSize": 24932850,
+        "compressedSize": 228861,
+        "width": 7008,
+        "height": 4672
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_09.jpg",
+        "origName": "DSC02707.JPG",
+        "origSize": 22216223,
+        "compressedSize": 243673,
+        "width": 7008,
+        "height": 4672
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_10.jpg",
+        "origName": "DSC02712.JPG",
+        "origSize": 18231402,
+        "compressedSize": 128367,
+        "width": 7008,
+        "height": 4672
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_11.jpg",
+        "origName": "DSC02716.JPG",
+        "origSize": 22487967,
+        "compressedSize": 156938,
+        "width": 7008,
+        "height": 4672
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_12.jpg",
+        "origName": "DSC02729.JPG",
+        "origSize": 26037591,
+        "compressedSize": 272167,
+        "width": 7008,
+        "height": 4672
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_13.jpg",
+        "origName": "DSC02735.JPG",
+        "origSize": 23496304,
+        "compressedSize": 174101,
+        "width": 7008,
+        "height": 4672
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_14.jpg",
+        "origName": "DSC02766.JPG",
+        "origSize": 22255336,
+        "compressedSize": 294121,
+        "width": 7008,
+        "height": 4672
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_15.jpg",
+        "origName": "DSC02783.JPG",
+        "origSize": 21099727,
+        "compressedSize": 164269,
+        "width": 7008,
+        "height": 4672
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_16.jpg",
+        "origName": "DSC02824.JPG",
+        "origSize": 23284524,
+        "compressedSize": 182312,
+        "width": 7008,
+        "height": 4672
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_17.jpg",
+        "origName": "DSC02839.JPG",
+        "origSize": 20989508,
+        "compressedSize": 163082,
+        "width": 7008,
+        "height": 4672
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_18.jpg",
+        "origName": "DSC02843.JPG",
+        "origSize": 23441588,
+        "compressedSize": 196211,
+        "width": 7008,
+        "height": 4672
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_19.jpg",
+        "origName": "DSC02859.JPG",
+        "origSize": 23850203,
+        "compressedSize": 187564,
+        "width": 7008,
+        "height": 4672
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_20.jpg",
+        "origName": "DSC02874.JPG",
+        "origSize": 23532109,
+        "compressedSize": 214068,
+        "width": 7008,
+        "height": 4672
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_21.jpg",
+        "origName": "DSC02882.JPG",
+        "origSize": 23346056,
+        "compressedSize": 200805,
+        "width": 7008,
+        "height": 4672
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_22.jpg",
+        "origName": "FB_IMG_1791530035654.jpg",
+        "origSize": 96904,
+        "compressedSize": 89804,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_23.jpg",
+        "origName": "FB_IMG_1791530438714.jpg",
+        "origSize": 123862,
+        "compressedSize": 111249,
+        "width": 1286,
+        "height": 714
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_24.jpg",
+        "origName": "FB_IMG_1791530463343.jpg",
+        "origSize": 174710,
+        "compressedSize": 165360,
+        "width": 853,
+        "height": 1280
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_25.jpg",
+        "origName": "FB_IMG_1791530653596.jpg",
+        "origSize": 190937,
+        "compressedSize": 180535,
+        "width": 1280,
+        "height": 1280
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_26.jpg",
+        "origName": "_DSC1876.JPG",
+        "origSize": 22021889,
+        "compressedSize": 239657,
+        "width": 7008,
+        "height": 4672
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_27.jpg",
+        "origName": "_DSC1930.JPG",
+        "origSize": 21150215,
+        "compressedSize": 203040,
+        "width": 7008,
+        "height": 4672
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_28.jpg",
+        "origName": "_DSC1939.JPG",
+        "origSize": 21901403,
+        "compressedSize": 246400,
+        "width": 7008,
+        "height": 4672
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_29.jpg",
+        "origName": "_DSC1952.JPG",
+        "origSize": 19772953,
+        "compressedSize": 156267,
+        "width": 7008,
+        "height": 4672
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_30.jpg",
+        "origName": "_DSC1958.JPG",
+        "origSize": 20620658,
+        "compressedSize": 187032,
+        "width": 7008,
+        "height": 4672
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_31.jpg",
+        "origName": "_DSC1967.JPG",
+        "origSize": 18396614,
+        "compressedSize": 142086,
+        "width": 7008,
+        "height": 4672
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_32.jpg",
+        "origName": "_DSC1976.JPG",
+        "origSize": 21869018,
+        "compressedSize": 207392,
+        "width": 7008,
+        "height": 4672
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_33.jpg",
+        "origName": "_DSC1999.JPG",
+        "origSize": 20515234,
+        "compressedSize": 205845,
+        "width": 7008,
+        "height": 4672
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_34.jpg",
+        "origName": "_DSC2010.JPG",
+        "origSize": 21365713,
+        "compressedSize": 193149,
+        "width": 7008,
+        "height": 4672
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_35.jpg",
+        "origName": "_DSC2020.JPG",
+        "origSize": 19866939,
+        "compressedSize": 146028,
+        "width": 7008,
+        "height": 4672
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_36.jpg",
+        "origName": "_DSC2034.JPG",
+        "origSize": 21409095,
+        "compressedSize": 175646,
+        "width": 7008,
+        "height": 4672
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_37.jpg",
+        "origName": "_DSC2055.JPG",
+        "origSize": 21950785,
+        "compressedSize": 240818,
+        "width": 7008,
+        "height": 4672
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_38.jpg",
+        "origName": "_DSC2070.JPG",
+        "origSize": 20490198,
+        "compressedSize": 158611,
+        "width": 7008,
+        "height": 4672
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_39.jpg",
+        "origName": "_DSC2098.JPG",
+        "origSize": 20763144,
+        "compressedSize": 191350,
+        "width": 7008,
+        "height": 4672
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_40.jpg",
+        "origName": "_DSC2111.JPG",
+        "origSize": 20826523,
+        "compressedSize": 191912,
+        "width": 7008,
+        "height": 4672
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_41.jpg",
+        "origName": "_DSC2145.JPG",
+        "origSize": 22340551,
+        "compressedSize": 243413,
+        "width": 7008,
+        "height": 4672
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_42.jpg",
+        "origName": "_DSC2150.JPG",
+        "origSize": 22907148,
+        "compressedSize": 217861,
+        "width": 7008,
+        "height": 4672
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_43.jpg",
+        "origName": "_DSC2155.JPG",
+        "origSize": 21783770,
+        "compressedSize": 244305,
+        "width": 7008,
+        "height": 4672
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_44.jpg",
+        "origName": "_DSC2159.JPG",
+        "origSize": 21619354,
+        "compressedSize": 224835,
+        "width": 7008,
+        "height": 4672
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_45.jpg",
+        "origName": "_DSC2168.JPG",
+        "origSize": 20847077,
+        "compressedSize": 196340,
+        "width": 7008,
+        "height": 4672
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_46.jpg",
+        "origName": "_DSC2173.JPG",
+        "origSize": 21769724,
+        "compressedSize": 205901,
+        "width": 7008,
+        "height": 4672
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_47.jpg",
+        "origName": "_DSC2185.JPG",
+        "origSize": 19102633,
+        "compressedSize": 184153,
+        "width": 7008,
+        "height": 4672
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_48.jpg",
+        "origName": "_DSC2195.JPG",
+        "origSize": 20823716,
+        "compressedSize": 216915,
+        "width": 7008,
+        "height": 4672
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_49.jpg",
+        "origName": "_DSC2200.JPG",
+        "origSize": 21380367,
+        "compressedSize": 198264,
+        "width": 7008,
+        "height": 4672
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_50.jpg",
+        "origName": "_DSC2221.JPG",
+        "origSize": 21889996,
+        "compressedSize": 216915,
+        "width": 7008,
+        "height": 4672
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_51.jpg",
+        "origName": "_DSC2242.JPG",
+        "origSize": 22556152,
+        "compressedSize": 261563,
+        "width": 7008,
+        "height": 4672
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_52.jpg",
+        "origName": "_DSC2246.JPG",
+        "origSize": 20313602,
+        "compressedSize": 148109,
+        "width": 7008,
+        "height": 4672
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_53.jpg",
+        "origName": "_DSC2254.JPG",
+        "origSize": 26356601,
+        "compressedSize": 319855,
+        "width": 7008,
+        "height": 4672
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_54.jpg",
+        "origName": "_DSC2263.JPG",
+        "origSize": 24449727,
+        "compressedSize": 291568,
+        "width": 7008,
+        "height": 4672
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_55.jpg",
+        "origName": "_DSC2271.JPG",
+        "origSize": 21776541,
+        "compressedSize": 208630,
+        "width": 7008,
+        "height": 4672
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_56.jpg",
+        "origName": "_DSC2286.JPG",
+        "origSize": 20389545,
+        "compressedSize": 162767,
+        "width": 7008,
+        "height": 4672
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_57.jpg",
+        "origName": "_DSC2307.JPG",
+        "origSize": 20953797,
+        "compressedSize": 189806,
+        "width": 7008,
+        "height": 4672
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_58.jpg",
+        "origName": "_DSC2324.JPG",
+        "origSize": 21217767,
+        "compressedSize": 202105,
+        "width": 7008,
+        "height": 4672
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_59.jpg",
+        "origName": "_DSC2351.JPG",
+        "origSize": 21872198,
+        "compressedSize": 218738,
+        "width": 7008,
+        "height": 4672
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_60.jpg",
+        "origName": "_DSC2378.JPG",
+        "origSize": 23313435,
+        "compressedSize": 295096,
+        "width": 7008,
+        "height": 4672
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_61.jpg",
+        "origName": "_DSC2397.JPG",
+        "origSize": 25720250,
+        "compressedSize": 312493,
+        "width": 7008,
+        "height": 4672
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_62.jpg",
+        "origName": "_DSC2469.JPG",
+        "origSize": 21832325,
+        "compressedSize": 183497,
+        "width": 7008,
+        "height": 4672
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_63.jpg",
+        "origName": "_DSC2485.JPG",
+        "origSize": 25184531,
+        "compressedSize": 296309,
+        "width": 7008,
+        "height": 4672
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_64.jpg",
+        "origName": "_DSC2500.JPG",
+        "origSize": 24392720,
+        "compressedSize": 195428,
+        "width": 7008,
+        "height": 4672
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_65.jpg",
+        "origName": "_DSC2516.JPG",
+        "origSize": 23515681,
+        "compressedSize": 177381,
+        "width": 7008,
+        "height": 4672
+      }
+    ]
+  },
+  "national-recitals": {
+    "title": "Suha's National Recitals",
+    "folder": "/suha_media/events/national_recitals",
+    "images": [
+      {
+        "src": "/suha_media/events/national_recitals/national_recital_01.jpg",
+        "origName": "-storage-emulated-0-DCIM-wetransfer_dance-photos-2_2025-09-05_1825-New folder-KPM_4638.JPG",
+        "origSize": 7182022,
+        "compressedSize": 212195,
+        "width": 5472,
+        "height": 3648
+      },
+      {
+        "src": "/suha_media/events/national_recitals/national_recital_02.jpg",
+        "origName": "FB_IMG_1791529837759.jpg",
+        "origSize": 58723,
+        "compressedSize": 53935,
+        "width": 1286,
+        "height": 858
+      },
+      {
+        "src": "/suha_media/events/national_recitals/national_recital_03.jpg",
+        "origName": "FB_IMG_1791529845235.jpg",
+        "origSize": 100027,
+        "compressedSize": 92845,
+        "width": 1286,
+        "height": 1597
+      },
+      {
+        "src": "/suha_media/events/national_recitals/national_recital_04.jpg",
+        "origName": "FB_IMG_1791529873345.jpg",
+        "origSize": 84025,
+        "compressedSize": 76760,
+        "width": 1222,
+        "height": 590
+      },
+      {
+        "src": "/suha_media/events/national_recitals/national_recital_05.jpg",
+        "origName": "FB_IMG_1791529898974.jpg",
+        "origSize": 90884,
+        "compressedSize": 83731,
+        "width": 1286,
+        "height": 858
+      },
+      {
+        "src": "/suha_media/events/national_recitals/national_recital_06.jpg",
+        "origName": "FB_IMG_1791530769345.jpg",
+        "origSize": 88515,
+        "compressedSize": 82683,
+        "width": 720,
+        "height": 960
+      },
+      {
+        "src": "/suha_media/events/national_recitals/national_recital_07.jpg",
+        "origName": "FB_IMG_1791530772111.jpg",
+        "origSize": 90638,
+        "compressedSize": 86088,
+        "width": 960,
+        "height": 720
+      },
+      {
+        "src": "/suha_media/events/national_recitals/national_recital_08.jpg",
+        "origName": "FB_IMG_1791530776782.jpg",
+        "origSize": 97612,
+        "compressedSize": 93031,
+        "width": 960,
+        "height": 540
+      },
+      {
+        "src": "/suha_media/events/national_recitals/national_recital_09.jpg",
+        "origName": "FB_IMG_1791530815515.jpg",
+        "origSize": 100376,
+        "compressedSize": 95399,
+        "width": 960,
+        "height": 720
+      },
+      {
+        "src": "/suha_media/events/national_recitals/national_recital_10.jpg",
+        "origName": "FB_IMG_1791530878571.jpg",
+        "origSize": 93486,
+        "compressedSize": 88318,
+        "width": 720,
+        "height": 960
+      },
+      {
+        "src": "/suha_media/events/national_recitals/national_recital_11.jpg",
+        "origName": "FB_IMG_1791530883705.jpg",
+        "origSize": 126535,
+        "compressedSize": 120480,
+        "width": 720,
+        "height": 960
+      },
+      {
+        "src": "/suha_media/events/national_recitals/national_recital_12.jpg",
+        "origName": "FB_IMG_1791530912531.jpg",
+        "origSize": 164163,
+        "compressedSize": 154172,
+        "width": 960,
+        "height": 540
+      },
+      {
+        "src": "/suha_media/events/national_recitals/national_recital_13.jpg",
+        "origName": "IMG-20261011-WA0032.jpg",
+        "origSize": 159788,
+        "compressedSize": 158222,
+        "width": 1600,
+        "height": 720
+      },
+      {
+        "src": "/suha_media/events/national_recitals/national_recital_14.jpg",
+        "origName": "IMG-20261011-WA0034.jpg",
+        "origSize": 123808,
+        "compressedSize": 123034,
+        "width": 720,
+        "height": 1600
+      },
+      {
+        "src": "/suha_media/events/national_recitals/national_recital_15.jpg",
+        "origName": "IMG-20261011-WA0038.jpg",
+        "origSize": 180504,
+        "compressedSize": 178426,
+        "width": 1600,
+        "height": 720
+      },
+      {
+        "src": "/suha_media/events/national_recitals/national_recital_16.jpg",
+        "origName": "IMG-20261012-WA0000.jpg",
+        "origSize": 257081,
+        "compressedSize": 244333,
+        "width": 1600,
+        "height": 747
+      },
+      {
+        "src": "/suha_media/events/national_recitals/national_recital_17.jpg",
+        "origName": "IMG-20261012-WA0001.jpg",
+        "origSize": 261719,
+        "compressedSize": 249026,
+        "width": 1600,
+        "height": 747
+      },
+      {
+        "src": "/suha_media/events/national_recitals/national_recital_18.jpg",
+        "origName": "IMG-20261012-WA0002.jpg",
+        "origSize": 257631,
+        "compressedSize": 245690,
+        "width": 1600,
+        "height": 747
+      },
+      {
+        "src": "/suha_media/events/national_recitals/national_recital_19.jpg",
+        "origName": "IMG-20261012-WA0003.jpg",
+        "origSize": 389435,
+        "compressedSize": 384979,
+        "width": 1600,
+        "height": 1200
+      },
+      {
+        "src": "/suha_media/events/national_recitals/national_recital_20.jpg",
+        "origName": "IMG-20261012-WA0004.jpg",
+        "origSize": 403515,
+        "compressedSize": 395537,
+        "width": 1600,
+        "height": 1200
+      },
+      {
+        "src": "/suha_media/events/national_recitals/national_recital_21.jpg",
+        "origName": "IMG-20261012-WA0005.jpg",
+        "origSize": 418138,
+        "compressedSize": 407038,
+        "width": 1600,
+        "height": 1200
+      },
+      {
+        "src": "/suha_media/events/national_recitals/national_recital_22.jpg",
+        "origName": "IMG-20261012-WA0006.jpg",
+        "origSize": 485469,
+        "compressedSize": 457985,
+        "width": 1600,
+        "height": 1200
+      },
+      {
+        "src": "/suha_media/events/national_recitals/national_recital_23.jpg",
+        "origName": "IMG-20261012-WA0014.jpg",
+        "origSize": 371615,
+        "compressedSize": 207457,
+        "width": 1600,
+        "height": 1066
+      },
+      {
+        "src": "/suha_media/events/national_recitals/national_recital_24.jpg",
+        "origName": "IMG-20261013-WA0009.jpg",
+        "origSize": 304045,
+        "compressedSize": 162284,
+        "width": 1066,
+        "height": 1600
+      },
+      {
+        "src": "/suha_media/events/national_recitals/national_recital_25.jpg",
+        "origName": "IMG-20261013-WA0016.jpg",
+        "origSize": 314353,
+        "compressedSize": 165340,
+        "width": 1066,
+        "height": 1600
+      },
+      {
+        "src": "/suha_media/events/national_recitals/national_recital_26.jpg",
+        "origName": "IMG-20261013-WA0037.jpg",
+        "origSize": 230575,
+        "compressedSize": 237967,
+        "width": 1280,
+        "height": 853
+      },
+      {
+        "src": "/suha_media/events/national_recitals/national_recital_27.jpg",
+        "origName": "IMG-20261013-WA0038.jpg",
+        "origSize": 156210,
+        "compressedSize": 160331,
+        "width": 1024,
+        "height": 768
+      },
+      {
+        "src": "/suha_media/events/national_recitals/national_recital_28.jpg",
+        "origName": "IMG-20261013-WA0040.jpg",
+        "origSize": 229908,
+        "compressedSize": 237278,
+        "width": 1280,
+        "height": 853
+      },
+      {
+        "src": "/suha_media/events/national_recitals/national_recital_29.jpg",
+        "origName": "IMG-20261013-WA0042.jpg",
+        "origSize": 234404,
+        "compressedSize": 241627,
+        "width": 1280,
+        "height": 853
+      },
+      {
+        "src": "/suha_media/events/national_recitals/national_recital_30.jpg",
+        "origName": "IMG-20261013-WA0043.jpg",
+        "origSize": 237850,
+        "compressedSize": 245468,
+        "width": 1280,
+        "height": 853
+      },
+      {
+        "src": "/suha_media/events/national_recitals/national_recital_31.jpg",
+        "origName": "IMG-20261013-WA0044.jpg",
+        "origSize": 158196,
+        "compressedSize": 162548,
+        "width": 1024,
+        "height": 768
+      },
+      {
+        "src": "/suha_media/events/national_recitals/national_recital_32.jpg",
+        "origName": "IMG-20261013-WA0045.jpg",
+        "origSize": 226270,
+        "compressedSize": 234085,
+        "width": 1280,
+        "height": 853
+      },
+      {
+        "src": "/suha_media/events/national_recitals/national_recital_33.jpg",
+        "origName": "IMG-20261013-WA0046.jpg",
+        "origSize": 156228,
+        "compressedSize": 160809,
+        "width": 1024,
+        "height": 768
+      },
+      {
+        "src": "/suha_media/events/national_recitals/national_recital_34.jpg",
+        "origName": "IMG-20261013-WA0049.jpg",
+        "origSize": 172554,
+        "compressedSize": 176620,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "src": "/suha_media/events/national_recitals/national_recital_35.jpg",
+        "origName": "IMG-20261013-WA0051.jpg",
+        "origSize": 158501,
+        "compressedSize": 161761,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "src": "/suha_media/events/national_recitals/national_recital_36.jpg",
+        "origName": "IMG-20261013-WA0055.jpg",
+        "origSize": 148800,
+        "compressedSize": 152438,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "src": "/suha_media/events/national_recitals/national_recital_37.jpg",
+        "origName": "IMG-20261013-WA0056.jpg",
+        "origSize": 212068,
+        "compressedSize": 217461,
+        "width": 1280,
+        "height": 960
+      },
+      {
+        "src": "/suha_media/events/national_recitals/national_recital_38.jpg",
+        "origName": "IMG-20261013-WA0059.jpg",
+        "origSize": 219063,
+        "compressedSize": 224559,
+        "width": 1280,
+        "height": 960
+      },
+      {
+        "src": "/suha_media/events/national_recitals/national_recital_39.jpg",
+        "origName": "IMG-20261013-WA0066.jpg",
+        "origSize": 233574,
+        "compressedSize": 232864,
+        "width": 1600,
+        "height": 900
+      },
+      {
+        "src": "/suha_media/events/national_recitals/national_recital_40.jpg",
+        "origName": "IMG-20261013-WA0069.jpg",
+        "origSize": 366110,
+        "compressedSize": 365556,
+        "width": 1599,
+        "height": 899
+      },
+      {
+        "src": "/suha_media/events/national_recitals/national_recital_41.jpg",
+        "origName": "IMG-20261013-WA0072.jpg",
+        "origSize": 347241,
+        "compressedSize": 346552,
+        "width": 1600,
+        "height": 1204
+      },
+      {
+        "src": "/suha_media/events/national_recitals/national_recital_42.jpg",
+        "origName": "IMG-20261013-WA0077.jpg",
+        "origSize": 266087,
+        "compressedSize": 266239,
+        "width": 1600,
+        "height": 1201
+      },
+      {
+        "src": "/suha_media/events/national_recitals/national_recital_43.jpg",
+        "origName": "IMG-20261013-WA0078.jpg",
+        "origSize": 307108,
+        "compressedSize": 307610,
+        "width": 1600,
+        "height": 1201
+      },
+      {
+        "src": "/suha_media/events/national_recitals/national_recital_44.jpg",
+        "origName": "IMG-20261013-WA0079.jpg",
+        "origSize": 143748,
+        "compressedSize": 144164,
+        "width": 1027,
+        "height": 735
+      },
+      {
+        "src": "/suha_media/events/national_recitals/national_recital_45.jpg",
+        "origName": "IMG-20261013-WA0082(1).jpg",
+        "origSize": 181140,
+        "compressedSize": 180644,
+        "width": 1600,
+        "height": 720
+      },
+      {
+        "src": "/suha_media/events/national_recitals/national_recital_46.jpg",
+        "origName": "IMG-20261013-WA0082(2).jpg",
+        "origSize": 181140,
+        "compressedSize": 180644,
+        "width": 1600,
+        "height": 720
+      },
+      {
+        "src": "/suha_media/events/national_recitals/national_recital_47.jpg",
+        "origName": "IMG-20261013-WA0082.jpg",
+        "origSize": 181140,
+        "compressedSize": 180644,
+        "width": 1600,
+        "height": 720
+      },
+      {
+        "src": "/suha_media/events/national_recitals/national_recital_48.jpg",
+        "origName": "IMG-20261013-WA0083(1).jpg",
+        "origSize": 174116,
+        "compressedSize": 173767,
+        "width": 1599,
+        "height": 899
+      },
+      {
+        "src": "/suha_media/events/national_recitals/national_recital_49.jpg",
+        "origName": "IMG-20261013-WA0083.jpg",
+        "origSize": 174116,
+        "compressedSize": 173767,
+        "width": 1599,
+        "height": 899
+      },
+      {
+        "src": "/suha_media/events/national_recitals/national_recital_50.jpg",
+        "origName": "IMG-20261013-WA0084.jpg",
+        "origSize": 136194,
+        "compressedSize": 135468,
+        "width": 720,
+        "height": 1600
+      },
+      {
+        "src": "/suha_media/events/national_recitals/national_recital_51.jpg",
+        "origName": "IMG_20241004_182558~2.jpg",
+        "origSize": 2186454,
+        "compressedSize": 257465,
+        "width": 4080,
+        "height": 3060
+      },
+      {
+        "src": "/suha_media/events/national_recitals/national_recital_52.jpg",
+        "origName": "IMG_20261012_183752.jpg",
+        "origSize": 3793106,
+        "compressedSize": 254463,
+        "width": 1832,
+        "height": 4080
+      },
+      {
+        "src": "/suha_media/events/national_recitals/national_recital_53.jpg",
+        "origName": "IMG_20261012_184455.jpg",
+        "origSize": 3481134,
+        "compressedSize": 258326,
+        "width": 1832,
+        "height": 4080
+      },
+      {
+        "src": "/suha_media/events/national_recitals/national_recital_54.jpg",
+        "origName": "IMG_20261012_184702.jpg",
+        "origSize": 2886535,
+        "compressedSize": 195371,
+        "width": 1832,
+        "height": 4080
+      },
+      {
+        "src": "/suha_media/events/national_recitals/national_recital_55.jpg",
+        "origName": "IMG_20261012_190349.jpg",
+        "origSize": 1673747,
+        "compressedSize": 226091,
+        "width": 3280,
+        "height": 1472
+      },
+      {
+        "src": "/suha_media/events/national_recitals/national_recital_56.jpg",
+        "origName": "IMG_20261012_192742.jpg",
+        "origSize": 3185193,
+        "compressedSize": 211983,
+        "width": 1832,
+        "height": 4080
+      },
+      {
+        "src": "/suha_media/events/national_recitals/national_recital_57.jpg",
+        "origName": "IMG_20261012_192822.jpg",
+        "origSize": 2011441,
+        "compressedSize": 217046,
+        "width": 1472,
+        "height": 3280
+      },
+      {
+        "src": "/suha_media/events/national_recitals/national_recital_58.jpg",
+        "origName": "KPM_4268.JPG",
+        "origSize": 8900764,
+        "compressedSize": 311743,
+        "width": 5472,
+        "height": 3648
+      },
+      {
+        "src": "/suha_media/events/national_recitals/national_recital_59.jpg",
+        "origName": "KPM_4273.JPG",
+        "origSize": 9431546,
+        "compressedSize": 330813,
+        "width": 5472,
+        "height": 3648
+      },
+      {
+        "src": "/suha_media/events/national_recitals/national_recital_60.jpg",
+        "origName": "KPM_4281.JPG",
+        "origSize": 8608975,
+        "compressedSize": 327182,
+        "width": 5472,
+        "height": 3648
+      },
+      {
+        "src": "/suha_media/events/national_recitals/national_recital_61.jpg",
+        "origName": "KPM_4289.JPG",
+        "origSize": 6237410,
+        "compressedSize": 183948,
+        "width": 5472,
+        "height": 3648
+      },
+      {
+        "src": "/suha_media/events/national_recitals/national_recital_62.jpg",
+        "origName": "Screenshot_2026-10-09-13-00-27-660_com.facebook.katana.jpg",
+        "origSize": 788093,
+        "compressedSize": 97877,
+        "width": 1220,
+        "height": 2712
+      },
+      {
+        "src": "/suha_media/events/national_recitals/national_recital_63.jpg",
+        "origName": "Screenshot_2026-10-09-13-00-42-082_com.facebook.katana.jpg",
+        "origSize": 794914,
+        "compressedSize": 98967,
+        "width": 1220,
+        "height": 2712
+      },
+      {
+        "src": "/suha_media/events/national_recitals/national_recital_64.jpg",
+        "origName": "Screenshot_2026-10-09-13-00-53-536_com.facebook.katana.jpg",
+        "origSize": 712075,
+        "compressedSize": 81039,
+        "width": 1220,
+        "height": 2712
+      },
+      {
+        "src": "/suha_media/events/national_recitals/national_recital_65.jpg",
+        "origName": "Screenshot_2026-10-09-13-01-22-388_com.facebook.katana.jpg",
+        "origSize": 637291,
+        "compressedSize": 71954,
+        "width": 1220,
+        "height": 2712
+      },
+      {
+        "src": "/suha_media/events/national_recitals/national_recital_66.jpg",
+        "origName": "Screenshot_2026-10-09-13-01-30-259_com.facebook.katana.jpg",
+        "origSize": 672394,
+        "compressedSize": 76016,
+        "width": 1220,
+        "height": 2712
+      },
+      {
+        "src": "/suha_media/events/national_recitals/national_recital_67.jpg",
+        "origName": "Screenshot_2026-10-09-13-01-43-395_com.facebook.katana.jpg",
+        "origSize": 700543,
+        "compressedSize": 82521,
+        "width": 1220,
+        "height": 2712
+      },
+      {
+        "src": "/suha_media/events/national_recitals/national_recital_68.jpg",
+        "origName": "Screenshot_2026-10-09-13-02-04-203_com.facebook.katana.jpg",
+        "origSize": 548950,
+        "compressedSize": 65586,
+        "width": 1220,
+        "height": 2712
+      },
+      {
+        "src": "/suha_media/events/national_recitals/national_recital_69.jpg",
+        "origName": "Screenshot_2026-10-09-13-02-13-352_com.facebook.katana.jpg",
+        "origSize": 782602,
+        "compressedSize": 92423,
+        "width": 1220,
+        "height": 2712
+      },
+      {
+        "src": "/suha_media/events/national_recitals/national_recital_70.jpg",
+        "origName": "Screenshot_2026-10-09-13-03-02-268_com.facebook.katana.jpg",
+        "origSize": 798078,
+        "compressedSize": 93314,
+        "width": 1220,
+        "height": 2712
+      },
+      {
+        "src": "/suha_media/events/national_recitals/national_recital_71.jpg",
+        "origName": "Screenshot_2026-10-09-13-11-31-943_com.facebook.katana.jpg",
+        "origSize": 848761,
+        "compressedSize": 100390,
+        "width": 1220,
+        "height": 2712
+      },
+      {
+        "src": "/suha_media/events/national_recitals/national_recital_72.jpg",
+        "origName": "Screenshot_2026-10-09-13-11-57-394_com.facebook.katana.jpg",
+        "origSize": 911380,
+        "compressedSize": 99008,
+        "width": 1220,
+        "height": 2712
+      },
+      {
+        "src": "/suha_media/events/national_recitals/national_recital_73.jpg",
+        "origName": "Screenshot_2026-10-13-13-49-26-452_com.instagram.android-edit.jpg",
+        "origSize": 417109,
+        "compressedSize": 97818,
+        "width": 1220,
+        "height": 444
+      },
+      {
+        "src": "/suha_media/events/national_recitals/national_recital_74.jpg",
+        "origName": "Screenshot_2026-10-13-13-50-00-432_com.instagram.android-edit.jpg",
+        "origSize": 389015,
+        "compressedSize": 75279,
+        "width": 1084,
+        "height": 621
+      },
+      {
+        "src": "/suha_media/events/national_recitals/national_recital_75.jpg",
+        "origName": "Screenshot_2026-10-13-13-50-38-628_com.instagram.android-edit.jpg",
+        "origSize": 370214,
+        "compressedSize": 74406,
+        "width": 1072,
+        "height": 582
+      },
+      {
+        "src": "/suha_media/events/national_recitals/national_recital_76.jpg",
+        "origName": "Screenshot_2026-10-13-13-51-45-933_com.instagram.android-edit.jpg",
+        "origSize": 369766,
+        "compressedSize": 72342,
+        "width": 1099,
+        "height": 679
+      },
+      {
+        "src": "/suha_media/events/national_recitals/national_recital_77.jpg",
+        "origName": "Screenshot_2026-10-13-13-52-02-685_com.instagram.android-edit.jpg",
+        "origSize": 433063,
+        "compressedSize": 95940,
+        "width": 1090,
+        "height": 657
+      }
+    ]
+  },
+  "salangai-pooja-arangetram": {
+    "title": "Salangai Pooja & Arangetram",
+    "folder": "/suha_media/events/salangai_pooja_arangetram",
+    "images": [
+      {
+        "src": "/suha_media/events/salangai_pooja_arangetram/salangai_pooja_01.jpg",
+        "origName": "FB_IMG_1791529737048.jpg",
+        "origSize": 122858,
+        "compressedSize": 107667,
+        "width": 1286,
+        "height": 1449
+      },
+      {
+        "src": "/suha_media/events/salangai_pooja_arangetram/salangai_pooja_02.jpg",
+        "origName": "FB_IMG_1791529771122.jpg",
+        "origSize": 171876,
+        "compressedSize": 129612,
+        "width": 1233,
+        "height": 1800
+      },
+      {
+        "src": "/suha_media/events/salangai_pooja_arangetram/salangai_pooja_03.jpg",
+        "origName": "FB_IMG_1791529788774.jpg",
+        "origSize": 181044,
+        "compressedSize": 115056,
+        "width": 1235,
+        "height": 2048
+      },
+      {
+        "src": "/suha_media/events/salangai_pooja_arangetram/salangai_pooja_04.jpg",
+        "origName": "FB_IMG_1791529806765.jpg",
+        "origSize": 132514,
+        "compressedSize": 111459,
+        "width": 1286,
+        "height": 1676
+      },
+      {
+        "src": "/suha_media/events/salangai_pooja_arangetram/salangai_pooja_05.jpg",
+        "origName": "FB_IMG_1791529809079.jpg",
+        "origSize": 137397,
+        "compressedSize": 88985,
+        "width": 1159,
+        "height": 2048
+      },
+      {
+        "src": "/suha_media/events/salangai_pooja_arangetram/salangai_pooja_06.jpg",
+        "origName": "FB_IMG_1791529819433.jpg",
+        "origSize": 139104,
+        "compressedSize": 106061,
+        "width": 1250,
+        "height": 1800
+      },
+      {
+        "src": "/suha_media/events/salangai_pooja_arangetram/salangai_pooja_07.jpg",
+        "origName": "FB_IMG_1791529823797.jpg",
+        "origSize": 170105,
+        "compressedSize": 106749,
+        "width": 1101,
+        "height": 2048
+      },
+      {
+        "src": "/suha_media/events/salangai_pooja_arangetram/salangai_pooja_08.jpg",
+        "origName": "FB_IMG_1791529828338.jpg",
+        "origSize": 142381,
+        "compressedSize": 126089,
+        "width": 1232,
+        "height": 1500
+      },
+      {
+        "src": "/suha_media/events/salangai_pooja_arangetram/salangai_pooja_09.jpg",
+        "origName": "FB_IMG_1791529829561.jpg",
+        "origSize": 203859,
+        "compressedSize": 128170,
+        "width": 1279,
+        "height": 2048
+      },
+      {
+        "src": "/suha_media/events/salangai_pooja_arangetram/salangai_pooja_10.jpg",
+        "origName": "FB_IMG_1791530317733.jpg",
+        "origSize": 63565,
+        "compressedSize": 58937,
+        "width": 960,
+        "height": 503
+      },
+      {
+        "src": "/suha_media/events/salangai_pooja_arangetram/salangai_pooja_11.jpg",
+        "origName": "FB_IMG_1791530483432.jpg",
+        "origSize": 109700,
+        "compressedSize": 96873,
+        "width": 1047,
+        "height": 1280
+      },
+      {
+        "src": "/suha_media/events/salangai_pooja_arangetram/salangai_pooja_12.jpg",
+        "origName": "FB_IMG_1791530589330.jpg",
+        "origSize": 71695,
+        "compressedSize": 67289,
+        "width": 569,
+        "height": 960
+      },
+      {
+        "src": "/suha_media/events/salangai_pooja_arangetram/salangai_pooja_13.jpg",
+        "origName": "IMG-20261011-WA0017.jpg",
+        "origSize": 419716,
+        "compressedSize": 216471,
+        "width": 777,
+        "height": 1600
+      },
+      {
+        "src": "/suha_media/events/salangai_pooja_arangetram/salangai_pooja_14.jpg",
+        "origName": "IMG-20261011-WA0018.jpg",
+        "origSize": 270720,
+        "compressedSize": 125492,
+        "width": 1066,
+        "height": 1600
+      },
+      {
+        "src": "/suha_media/events/salangai_pooja_arangetram/salangai_pooja_15.jpg",
+        "origName": "IMG-20261011-WA0019.jpg",
+        "origSize": 725910,
+        "compressedSize": 364498,
+        "width": 1186,
+        "height": 1600
+      },
+      {
+        "src": "/suha_media/events/salangai_pooja_arangetram/salangai_pooja_16.jpg",
+        "origName": "IMG-20261011-WA0020.jpg",
+        "origSize": 537331,
+        "compressedSize": 278245,
+        "width": 1600,
+        "height": 1066
+      },
+      {
+        "src": "/suha_media/events/salangai_pooja_arangetram/salangai_pooja_17.jpg",
+        "origName": "IMG-20261011-WA0021.jpg",
+        "origSize": 427904,
+        "compressedSize": 209953,
+        "width": 1600,
+        "height": 1066
+      },
+      {
+        "src": "/suha_media/events/salangai_pooja_arangetram/salangai_pooja_18.jpg",
+        "origName": "IMG-20261011-WA0022.jpg",
+        "origSize": 661763,
+        "compressedSize": 340400,
+        "width": 1389,
+        "height": 1600
+      },
+      {
+        "src": "/suha_media/events/salangai_pooja_arangetram/salangai_pooja_19.jpg",
+        "origName": "IMG-20261011-WA0023.jpg",
+        "origSize": 381582,
+        "compressedSize": 199465,
+        "width": 1066,
+        "height": 1600
+      },
+      {
+        "src": "/suha_media/events/salangai_pooja_arangetram/salangai_pooja_20.jpg",
+        "origName": "IMG-20261011-WA0024.jpg",
+        "origSize": 898615,
+        "compressedSize": 472914,
+        "width": 1600,
+        "height": 1586
+      },
+      {
+        "src": "/suha_media/events/salangai_pooja_arangetram/salangai_pooja_21.jpg",
+        "origName": "IMG-20261011-WA0025.jpg",
+        "origSize": 624305,
+        "compressedSize": 303799,
+        "width": 1158,
+        "height": 1600
+      },
+      {
+        "src": "/suha_media/events/salangai_pooja_arangetram/salangai_pooja_22.jpg",
+        "origName": "IMG-20261011-WA0026.jpg",
+        "origSize": 300542,
+        "compressedSize": 148947,
+        "width": 1066,
+        "height": 1600
+      },
+      {
+        "src": "/suha_media/events/salangai_pooja_arangetram/salangai_pooja_23.jpg",
+        "origName": "IMG-20261011-WA0027.jpg",
+        "origSize": 389111,
+        "compressedSize": 193258,
+        "width": 1600,
+        "height": 1149
+      },
+      {
+        "src": "/suha_media/events/salangai_pooja_arangetram/salangai_pooja_24.jpg",
+        "origName": "IMG-20261011-WA0028.jpg",
+        "origSize": 355666,
+        "compressedSize": 192842,
+        "width": 1600,
+        "height": 1066
+      },
+      {
+        "src": "/suha_media/events/salangai_pooja_arangetram/salangai_pooja_25.jpg",
+        "origName": "IMG-20261011-WA0029.jpg",
+        "origSize": 304146,
+        "compressedSize": 145941,
+        "width": 1066,
+        "height": 1600
+      },
+      {
+        "src": "/suha_media/events/salangai_pooja_arangetram/salangai_pooja_26.jpg",
+        "origName": "IMG-20261013-WA0032.jpg",
+        "origSize": 53918,
+        "compressedSize": 49392,
+        "width": 737,
+        "height": 1600
+      },
+      {
+        "src": "/suha_media/events/salangai_pooja_arangetram/salangai_pooja_27.jpg",
+        "origName": "IMG-20261013-WA0033.jpg",
+        "origSize": 71941,
+        "compressedSize": 67484,
+        "width": 737,
+        "height": 1600
+      },
+      {
+        "src": "/suha_media/events/salangai_pooja_arangetram/salangai_pooja_28.jpg",
+        "origName": "IMG-20261013-WA0034.jpg",
+        "origSize": 71548,
+        "compressedSize": 67287,
+        "width": 737,
+        "height": 1600
+      },
+      {
+        "src": "/suha_media/events/salangai_pooja_arangetram/salangai_pooja_29.jpg",
+        "origName": "IMG-20261013-WA0035.jpg",
+        "origSize": 90647,
+        "compressedSize": 86080,
+        "width": 737,
+        "height": 1600
+      },
+      {
+        "src": "/suha_media/events/salangai_pooja_arangetram/salangai_pooja_30.jpg",
+        "origName": "IMG-20261013-WA0036.jpg",
+        "origSize": 73037,
+        "compressedSize": 68630,
+        "width": 737,
+        "height": 1600
+      },
+      {
+        "src": "/suha_media/events/salangai_pooja_arangetram/salangai_pooja_31.jpg",
+        "origName": "IMG_8538(1).JPG",
+        "origSize": 12014563,
+        "compressedSize": 317180,
+        "width": 6000,
+        "height": 4000
+      },
+      {
+        "src": "/suha_media/events/salangai_pooja_arangetram/salangai_pooja_32.jpg",
+        "origName": "IMG_8538.JPG",
+        "origSize": 12014563,
+        "compressedSize": 317180,
+        "width": 6000,
+        "height": 4000
+      },
+      {
+        "src": "/suha_media/events/salangai_pooja_arangetram/salangai_pooja_33.jpg",
+        "origName": "IMG_8653(1).JPG",
+        "origSize": 6294674,
+        "compressedSize": 153440,
+        "width": 6000,
+        "height": 4000
+      },
+      {
+        "src": "/suha_media/events/salangai_pooja_arangetram/salangai_pooja_34.jpg",
+        "origName": "IMG_8653.JPG",
+        "origSize": 6294674,
+        "compressedSize": 153440,
+        "width": 6000,
+        "height": 4000
+      },
+      {
+        "src": "/suha_media/events/salangai_pooja_arangetram/salangai_pooja_35.jpg",
+        "origName": "IMG_8734(1).JPG",
+        "origSize": 6607184,
+        "compressedSize": 179261,
+        "width": 6000,
+        "height": 4000
+      },
+      {
+        "src": "/suha_media/events/salangai_pooja_arangetram/salangai_pooja_36.jpg",
+        "origName": "IMG_8734.JPG",
+        "origSize": 6607184,
+        "compressedSize": 179261,
+        "width": 6000,
+        "height": 4000
+      },
+      {
+        "src": "/suha_media/events/salangai_pooja_arangetram/salangai_pooja_37.jpg",
+        "origName": "IMG_8776(1).JPG",
+        "origSize": 4448460,
+        "compressedSize": 102742,
+        "width": 6000,
+        "height": 4000
+      },
+      {
+        "src": "/suha_media/events/salangai_pooja_arangetram/salangai_pooja_38.jpg",
+        "origName": "IMG_8776.JPG",
+        "origSize": 4448460,
+        "compressedSize": 102742,
+        "width": 6000,
+        "height": 4000
+      },
+      {
+        "src": "/suha_media/events/salangai_pooja_arangetram/salangai_pooja_39.jpg",
+        "origName": "IMG_8845.JPG",
+        "origSize": 6450713,
+        "compressedSize": 165639,
+        "width": 6000,
+        "height": 4000
+      },
+      {
+        "src": "/suha_media/events/salangai_pooja_arangetram/salangai_pooja_40.jpg",
+        "origName": "IMG_8851.JPG",
+        "origSize": 6425550,
+        "compressedSize": 165415,
+        "width": 6000,
+        "height": 4000
+      },
+      {
+        "src": "/suha_media/events/salangai_pooja_arangetram/salangai_pooja_41.jpg",
+        "origName": "IMG_8984.JPG",
+        "origSize": 11041638,
+        "compressedSize": 281647,
+        "width": 6000,
+        "height": 4000
+      },
+      {
+        "src": "/suha_media/events/salangai_pooja_arangetram/salangai_pooja_42.jpg",
+        "origName": "IMG_8989.JPG",
+        "origSize": 10129232,
+        "compressedSize": 273937,
+        "width": 6000,
+        "height": 4000
+      },
+      {
+        "src": "/suha_media/events/salangai_pooja_arangetram/salangai_pooja_43.jpg",
+        "origName": "Screenshot_2026-10-07-15-20-09-840_com.google.android.apps.docs-edit.jpg",
+        "origSize": 1034619,
+        "compressedSize": 150641,
+        "width": 1220,
+        "height": 1677
+      },
+      {
+        "src": "/suha_media/events/salangai_pooja_arangetram/salangai_pooja_44.jpg",
+        "origName": "Screenshot_2026-10-07-16-09-49-805_com.google.android.apps.nbu.files.jpg",
+        "origSize": 574228,
+        "compressedSize": 64304,
+        "width": 1220,
+        "height": 2712
+      },
+      {
+        "src": "/suha_media/events/salangai_pooja_arangetram/salangai_pooja_45.jpg",
+        "origName": "Screenshot_2026-10-07-16-09-52-399_com.google.android.apps.nbu.files.jpg",
+        "origSize": 602118,
+        "compressedSize": 63747,
+        "width": 1220,
+        "height": 2712
+      },
+      {
+        "src": "/suha_media/events/salangai_pooja_arangetram/salangai_pooja_46.jpg",
+        "origName": "Screenshot_2026-10-07-16-11-04-023_com.google.android.apps.nbu.files.jpg",
+        "origSize": 357110,
+        "compressedSize": 41138,
+        "width": 1220,
+        "height": 2712
+      },
+      {
+        "src": "/suha_media/events/salangai_pooja_arangetram/salangai_pooja_47.jpg",
+        "origName": "Screenshot_2026-10-07-16-11-06-125_com.google.android.apps.nbu.files.jpg",
+        "origSize": 388935,
+        "compressedSize": 44927,
+        "width": 1220,
+        "height": 2712
+      },
+      {
+        "src": "/suha_media/events/salangai_pooja_arangetram/salangai_pooja_48.jpg",
+        "origName": "Screenshot_2026-10-07-16-11-08-775_com.google.android.apps.nbu.files.jpg",
+        "origSize": 544861,
+        "compressedSize": 60067,
+        "width": 1220,
+        "height": 2712
+      },
+      {
+        "src": "/suha_media/events/salangai_pooja_arangetram/salangai_pooja_49.jpg",
+        "origName": "Screenshot_2026-10-07-16-11-13-737_com.google.android.apps.nbu.files.jpg",
+        "origSize": 592930,
+        "compressedSize": 65999,
+        "width": 1220,
+        "height": 2712
+      },
+      {
+        "src": "/suha_media/events/salangai_pooja_arangetram/salangai_pooja_50.jpg",
+        "origName": "Screenshot_2026-10-07-16-11-15-849_com.google.android.apps.nbu.files.jpg",
+        "origSize": 441943,
+        "compressedSize": 48591,
+        "width": 1220,
+        "height": 2712
+      },
+      {
+        "src": "/suha_media/events/salangai_pooja_arangetram/salangai_pooja_51.jpg",
+        "origName": "Screenshot_2026-10-07-16-11-18-801_com.google.android.apps.nbu.files(1).jpg",
+        "origSize": 1223034,
+        "compressedSize": 126608,
+        "width": 1220,
+        "height": 2712
+      },
+      {
+        "src": "/suha_media/events/salangai_pooja_arangetram/salangai_pooja_52.jpg",
+        "origName": "Screenshot_2026-10-07-16-11-18-801_com.google.android.apps.nbu.files.jpg",
+        "origSize": 1223034,
+        "compressedSize": 126608,
+        "width": 1220,
+        "height": 2712
+      },
+      {
+        "src": "/suha_media/events/salangai_pooja_arangetram/salangai_pooja_53.jpg",
+        "origName": "Screenshot_2026-10-07-16-11-21-221_com.google.android.apps.nbu.files.jpg",
+        "origSize": 409025,
+        "compressedSize": 47109,
+        "width": 1220,
+        "height": 2712
+      },
+      {
+        "src": "/suha_media/events/salangai_pooja_arangetram/salangai_pooja_54.jpg",
+        "origName": "Screenshot_2026-10-07-16-11-23-974_com.google.android.apps.nbu.files.jpg",
+        "origSize": 456258,
+        "compressedSize": 52448,
+        "width": 1220,
+        "height": 2712
+      },
+      {
+        "src": "/suha_media/events/salangai_pooja_arangetram/salangai_pooja_55.jpg",
+        "origName": "Screenshot_2026-10-07-16-11-26-433_com.google.android.apps.nbu.files.jpg",
+        "origSize": 405761,
+        "compressedSize": 47287,
+        "width": 1220,
+        "height": 2712
+      },
+      {
+        "src": "/suha_media/events/salangai_pooja_arangetram/salangai_pooja_56.jpg",
+        "origName": "Screenshot_2026-10-07-16-11-28-997_com.google.android.apps.nbu.files.jpg",
+        "origSize": 364070,
+        "compressedSize": 41921,
+        "width": 1220,
+        "height": 2712
+      },
+      {
+        "src": "/suha_media/events/salangai_pooja_arangetram/salangai_pooja_57.jpg",
+        "origName": "Screenshot_2026-10-07-16-11-31-395_com.google.android.apps.nbu.files(1).jpg",
+        "origSize": 1206762,
+        "compressedSize": 123678,
+        "width": 1220,
+        "height": 2712
+      },
+      {
+        "src": "/suha_media/events/salangai_pooja_arangetram/salangai_pooja_58.jpg",
+        "origName": "Screenshot_2026-10-07-16-11-31-395_com.google.android.apps.nbu.files.jpg",
+        "origSize": 1206762,
+        "compressedSize": 123678,
+        "width": 1220,
+        "height": 2712
+      },
+      {
+        "src": "/suha_media/events/salangai_pooja_arangetram/salangai_pooja_59.jpg",
+        "origName": "Screenshot_2026-10-07-16-11-34-381_com.google.android.apps.nbu.files.jpg",
+        "origSize": 601649,
+        "compressedSize": 65915,
+        "width": 1220,
+        "height": 2712
+      },
+      {
+        "src": "/suha_media/events/salangai_pooja_arangetram/salangai_pooja_60.jpg",
+        "origName": "Screenshot_2026-10-07-16-11-44-450_com.google.android.apps.nbu.files.jpg",
+        "origSize": 494382,
+        "compressedSize": 55158,
+        "width": 1220,
+        "height": 2712
+      },
+      {
+        "src": "/suha_media/events/salangai_pooja_arangetram/salangai_pooja_61.jpg",
+        "origName": "Screenshot_2026-10-09-13-07-16-120_com.facebook.katana.jpg",
+        "origSize": 646960,
+        "compressedSize": 71816,
+        "width": 1220,
+        "height": 2712
+      },
+      {
+        "src": "/suha_media/events/salangai_pooja_arangetram/salangai_pooja_62.jpg",
+        "origName": "Screenshot_2026-10-09-13-07-52-514_com.facebook.katana.jpg",
+        "origSize": 411440,
+        "compressedSize": 57029,
+        "width": 1220,
+        "height": 2712
+      }
+    ]
+  },
+  "suha-utsavam": {
+    "title": "Suha's Utsavams",
+    "folder": "/suha_media/events/utsavams",
+    "images": [
+      {
+        "src": "/suha_media/events/utsavams/utsavam_01.jpg",
+        "origName": "IMG-20261013-WA0047.jpg",
+        "origSize": 297669,
+        "compressedSize": 294149,
+        "width": 1472,
+        "height": 1104
+      },
+      {
+        "src": "/suha_media/events/utsavams/utsavam_02.jpg",
+        "origName": "IMG_20260103_210142.jpg",
+        "origSize": 5380797,
+        "compressedSize": 311637,
+        "width": 4080,
+        "height": 3060
+      },
+      {
+        "src": "/suha_media/events/utsavams/utsavam_03.jpg",
+        "origName": "_DSC1129c.jpg",
+        "origSize": 27321570,
+        "compressedSize": 331704,
+        "width": 7728,
+        "height": 4896
+      },
+      {
+        "src": "/suha_media/events/utsavams/utsavam_04.jpg",
+        "origName": "_DSC1170c.jpg",
+        "origSize": 20704138,
+        "compressedSize": 298002,
+        "width": 8144,
+        "height": 4000
+      },
+      {
+        "src": "/suha_media/events/utsavams/utsavam_05.jpg",
+        "origName": "_DSC1187c.jpg",
+        "origSize": 20688857,
+        "compressedSize": 274507,
+        "width": 8256,
+        "height": 4112
+      },
+      {
+        "src": "/suha_media/events/utsavams/utsavam_06.jpg",
+        "origName": "_DSC1213c.jpg",
+        "origSize": 14122898,
+        "compressedSize": 208951,
+        "width": 8256,
+        "height": 2768
+      },
+      {
+        "src": "/suha_media/events/utsavams/utsavam_07.jpg",
+        "origName": "_DSC1355.JPG",
+        "origSize": 12257419,
+        "compressedSize": 286107,
+        "width": 8256,
+        "height": 5504
+      },
+      {
+        "src": "/suha_media/events/utsavams/utsavam_08.jpg",
+        "origName": "_DSC1368.JPG",
+        "origSize": 12894676,
+        "compressedSize": 325071,
+        "width": 8256,
+        "height": 5504
+      },
+      {
+        "src": "/suha_media/events/utsavams/utsavam_09.jpg",
+        "origName": "_DSC1372.JPG",
+        "origSize": 13808605,
+        "compressedSize": 220262,
+        "width": 8256,
+        "height": 5504
+      },
+      {
+        "src": "/suha_media/events/utsavams/utsavam_10.jpg",
+        "origName": "_DSC1375a.jpg",
+        "origSize": 14809935,
+        "compressedSize": 238875,
+        "width": 5072,
+        "height": 6456
+      },
+      {
+        "src": "/suha_media/events/utsavams/utsavam_11.jpg",
+        "origName": "_DSC1377.JPG",
+        "origSize": 13601582,
+        "compressedSize": 260861,
+        "width": 8256,
+        "height": 5504
+      },
+      {
+        "src": "/suha_media/events/utsavams/utsavam_12.jpg",
+        "origName": "_DSC1435c.jpg",
+        "origSize": 19837602,
+        "compressedSize": 320525,
+        "width": 7264,
+        "height": 5504
+      },
+      {
+        "src": "/suha_media/events/utsavams/utsavam_13.jpg",
+        "origName": "_DSC1438.JPG",
+        "origSize": 13504574,
+        "compressedSize": 271069,
+        "width": 8256,
+        "height": 5504
+      },
+      {
+        "src": "/suha_media/events/utsavams/utsavam_14.jpg",
+        "origName": "_DSC1439.JPG",
+        "origSize": 11976933,
+        "compressedSize": 294690,
+        "width": 8256,
+        "height": 5504
+      },
+      {
+        "src": "/suha_media/events/utsavams/utsavam_15.jpg",
+        "origName": "_DSC1440.JPG",
+        "origSize": 14105625,
+        "compressedSize": 278669,
+        "width": 8256,
+        "height": 5504
+      },
+      {
+        "src": "/suha_media/events/utsavams/utsavam_16.jpg",
+        "origName": "_DSC1441.JPG",
+        "origSize": 12904662,
+        "compressedSize": 303643,
+        "width": 8256,
+        "height": 5504
+      },
+      {
+        "src": "/suha_media/events/utsavams/utsavam_17.jpg",
+        "origName": "_DSC1460c.jpg",
+        "origSize": 19038516,
+        "compressedSize": 305170,
+        "width": 7728,
+        "height": 3728
+      },
+      {
+        "src": "/suha_media/events/utsavams/utsavam_18.jpg",
+        "origName": "_DSC1465.JPG",
+        "origSize": 11911654,
+        "compressedSize": 328584,
+        "width": 8256,
+        "height": 5504
+      },
+      {
+        "src": "/suha_media/events/utsavams/utsavam_19.jpg",
+        "origName": "_DSC1466c.jpg",
+        "origSize": 20469783,
+        "compressedSize": 347254,
+        "width": 7264,
+        "height": 4352
+      },
+      {
+        "src": "/suha_media/events/utsavams/utsavam_20.jpg",
+        "origName": "_DSC1472.JPG",
+        "origSize": 14430688,
+        "compressedSize": 320465,
+        "width": 8256,
+        "height": 5504
+      }
+    ]
+  }
+}

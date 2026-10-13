@@ -24,11 +24,11 @@ export default function Footer() {
           {/* Brand */}
           <div className="lg:col-span-1">
             <div className="flex items-center gap-3 mb-4">
-              <div className="w-12 h-12 rounded-full overflow-hidden border border-gold-500/50 shadow-md">
+              <div className="relative shrink-0">
                 <img
                   src={academy.logo}
                   alt="Suha Academy Seal"
-                  className="w-full h-full object-cover"
+                  className="w-12 h-12 object-contain drop-shadow-md"
                 />
               </div>
               <div>
@@ -49,6 +49,23 @@ export default function Footer() {
             <p className="text-xs text-cream-100/40">
               Founder & Artistic Director: <span className="text-cream-100/80">{academy.founder}</span>
             </p>
+
+            {/* MSME Govt Recognition Badge */}
+            <div className="mt-5 pt-4 border-t border-cream-100/10 flex items-center gap-3">
+              <img
+                src={academy.msmeLogo}
+                alt="Government of India MSME"
+                className="h-12 w-12 object-contain shrink-0"
+              />
+              <div className="text-[11px] text-cream-100/70 leading-tight min-w-0">
+                <span className="text-gold-300 font-medium block whitespace-nowrap">
+                  Govt. of India MSME Regd.
+                </span>
+                <span className="text-[10px] text-cream-100/60 block mt-1.5 whitespace-nowrap tracking-tight">
+                  UDYAM Reg. No.: {academy.msmeUdyam}
+                </span>
+              </div>
+            </div>
           </div>
 
           {/* Quick Links */}
@@ -115,39 +132,57 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Contact & Locations */}
+          {/* Contact & Centers */}
           <div>
             <h4 className="text-xs uppercase tracking-[0.25em] text-gold-400 mb-5 font-medium">
               Contact & Centers
             </h4>
-            <ul className="flex flex-col gap-3">
+            <ul className="flex flex-col gap-3.5">
               <li>
                 <a
                   href={`tel:${academy.phoneRaw}`}
-                  className="inline-flex items-start gap-3 text-sm text-cream-100/70 hover:text-gold-300 transition-colors"
+                  className="inline-flex items-start gap-3 text-sm text-cream-100/80 hover:text-gold-300 transition-colors"
                 >
-                  <Phone className="w-4 h-4 mt-0.5 flex-shrink-0" />
+                  <Phone className="w-4 h-4 mt-0.5 flex-shrink-0 text-gold-400" />
                   <span>
-                    {academy.phone}
-                    <span className="block text-xs text-cream-100/40">Alt: {academy.phoneAlt}</span>
+                    <span className="block text-cream-50 font-medium">{academy.phone}</span>
+                    <span className="block text-[11px] text-cream-100/50">Admission Enquiries</span>
                   </span>
                 </a>
               </li>
               <li>
                 <a
-                  href={`mailto:${academy.email}`}
-                  className="inline-flex items-start gap-3 text-sm text-cream-100/70 hover:text-gold-300 transition-colors break-all"
+                  href={`tel:${academy.phoneAltRaw}`}
+                  className="inline-flex items-start gap-3 text-sm text-cream-100/80 hover:text-gold-300 transition-colors"
                 >
-                  <Mail className="w-4 h-4 mt-0.5 flex-shrink-0" />
-                  {academy.email}
+                  <Phone className="w-4 h-4 mt-0.5 flex-shrink-0 text-gold-400/80" />
+                  <span>
+                    <span className="block text-cream-50 font-medium">{academy.phoneAlt}</span>
+                    <span className="block text-[11px] text-cream-100/50">Event Enquiries</span>
+                  </span>
                 </a>
               </li>
-              <li className="inline-flex items-start gap-3 text-sm text-cream-100/70">
-                <MapPin className="w-4 h-4 mt-0.5 flex-shrink-0" />
+              <li>
+                <a
+                  href={`https://mail.google.com/mail/?view=cm&fs=1&to=${encodeURIComponent(academy.email)}&su=${encodeURIComponent("Inquiry - Suha Academy of Fine Arts")}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2.5 text-xs sm:text-[13px] text-cream-100/70 hover:text-gold-300 transition-colors whitespace-nowrap"
+                  title="Open in Gmail"
+                >
+                  <Mail className="w-4 h-4 shrink-0 text-gold-400" />
+                  <span className="whitespace-nowrap tracking-tight">{academy.email}</span>
+                </a>
+              </li>
+              <li className="inline-flex items-start gap-3 text-xs text-cream-100/70 leading-relaxed pt-1 border-t border-cream-100/10">
+                <MapPin className="w-4 h-4 mt-0.5 flex-shrink-0 text-gold-400" />
                 <span>
-                  {academy.location}
-                  <span className="block text-[11px] text-gold-400/70 mt-1">
-                    Old Perungalathur &middot; Medavakkam &middot; Perumbakkam
+                  <strong className="block text-cream-50 font-medium text-xs mb-0.5">
+                    3rd Floor, Ixora Club House
+                  </strong>
+                  BSCPL BOLLINENI HILLSIDE, Bollineni Hillside Road, Perumbakkam, Chennai, Tamil Nadu 600131
+                  <span className="block text-[11px] text-gold-400/80 mt-1">
+                    Centers: Perumbakkam &middot; Medavakkam
                   </span>
                 </span>
               </li>

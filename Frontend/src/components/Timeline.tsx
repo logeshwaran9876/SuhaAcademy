@@ -296,32 +296,58 @@ export function FeatureList({
 
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-      {list.map((item, i) => (
-        <Reveal key={item.title} delay={i * 0.08} className="h-full">
-          <div
-            className={`p-6 rounded-sm h-full flex flex-col transition-all duration-300 ${
-              light
-                ? "bg-navy-900/60 border border-gold-500/20 text-cream-100 hover:border-gold-400/40"
-                : "bg-white border border-ivory-200 text-navy-900 hover:border-gold-300"
-            }`}
+      {list.map((item, i) => {
+        const isCapstone = i === list.length - 1 && list.length % 3 === 1;
+
+        return (
+          <Reveal
+            key={item.title}
+            delay={i * 0.08}
+            className={`h-full ${isCapstone ? "md:col-span-2 lg:col-span-3" : ""}`}
           >
-            <h3
-              className={`font-display text-lg mb-2 font-medium ${
-                light ? "text-gold-300" : "text-navy-900"
+            <div
+              className={`p-6 sm:p-7 rounded-sm h-full flex flex-col justify-between transition-all duration-300 relative group ${
+                light
+                  ? "bg-navy-900/60 border border-gold-500/20 text-cream-100 hover:border-gold-400/50 hover:bg-navy-900/80 hover:shadow-xl hover:shadow-gold-500/5"
+                  : "bg-white border border-ivory-200 text-navy-900 hover:border-gold-400 hover:shadow-xl hover:shadow-navy-900/5 hover:-translate-y-1"
               }`}
             >
-              {item.title}
-            </h3>
-            <p
-              className={`text-xs leading-relaxed ${
-                light ? "text-cream-100/70" : "text-navy-700/70"
-              }`}
-            >
-              {item.description}
-            </p>
-          </div>
-        </Reveal>
-      ))}
+              <div>
+                <div className="flex items-center justify-between gap-4 mb-4">
+                  <span
+                    className={`text-[11px] font-mono font-medium px-2 py-0.5 rounded tracking-wider ${
+                      light
+                        ? "bg-gold-500/10 text-gold-400 border border-gold-400/20"
+                        : "bg-gold-50 text-gold-800 border border-gold-200/70 font-semibold shadow-2xs"
+                    }`}
+                  >
+                    0{i + 1}
+                  </span>
+                  <div
+                    className={`w-1.5 h-1.5 rounded-full ${
+                      light ? "bg-gold-400/50 group-hover:bg-gold-400" : "bg-gold-500/60 group-hover:bg-gold-600"
+                    } transition-colors`}
+                  />
+                </div>
+                <h3
+                  className={`font-display text-lg mb-2.5 font-medium leading-snug ${
+                    light ? "text-gold-300 group-hover:text-gold-200" : "text-navy-900 group-hover:text-gold-700"
+                  } transition-colors`}
+                >
+                  {item.title}
+                </h3>
+                <p
+                  className={`text-xs sm:text-sm leading-relaxed ${
+                    light ? "text-cream-100/75" : "text-navy-700/80"
+                  } ${isCapstone ? "max-w-3xl" : ""}`}
+                >
+                  {item.description}
+                </p>
+              </div>
+            </div>
+          </Reveal>
+        );
+      })}
     </div>
   );
 }

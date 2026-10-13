@@ -237,7 +237,7 @@ export default function EnquiryForm({ compact = false }: { compact?: boolean }) 
               value={form.preferredLocation}
               onChange={(e) => update("preferredLocation", e.target.value)}
               className={inputClass("preferredLocation")}
-              placeholder="e.g. Old Perungalathur"
+              placeholder="e.g. Medavakkam "
             />
           </div>
 

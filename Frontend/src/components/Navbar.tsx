@@ -33,11 +33,10 @@ export default function Navbar() {
   return (
     <>
       <header
-        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-[#FAF7F2]/95 backdrop-blur-md border-b ${
-          scrolled
+        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-[#FAF7F2]/95 backdrop-blur-md border-b ${scrolled
             ? "border-gold-500/25 shadow-md shadow-navy-950/5 py-3"
             : "border-[#E7DECB]/80 py-3.5"
-        }`}
+          }`}
       >
         {/* Subtle Top Gold Hairline Accent */}
         <div className="absolute top-0 left-0 right-0 h-[1.5px] bg-gradient-to-r from-transparent via-gold-500/50 to-transparent pointer-events-none" />
@@ -49,14 +48,12 @@ export default function Navbar() {
             className="flex items-center gap-3 group transition-transform duration-300 hover:scale-[1.01]"
             aria-label="Suha Academy Home"
           >
-            <div className="relative p-[1.5px] rounded-full bg-gradient-to-tr from-gold-600 via-gold-300 to-gold-700 shadow-sm shrink-0">
-              <div className="w-10 h-10 rounded-full overflow-hidden bg-navy-950">
-                <img
-                  src={academy.logo}
-                  alt="Suha Academy Official Emblem"
-                  className="w-full h-full object-cover"
-                />
-              </div>
+            <div className="relative shrink-0">
+              <img
+                src={academy.logo}
+                alt="Suha Academy Official Emblem"
+                className="w-11 h-11 object-contain drop-shadow-xs transition-transform duration-300 group-hover:scale-105"
+              />
             </div>
             <div className="flex flex-col leading-tight">
               <span className="font-serif text-[17px] font-semibold tracking-tight text-navy-950 group-hover:text-gold-700 transition-colors">
@@ -76,17 +73,15 @@ export default function Navbar() {
                 <li key={link.path}>
                   <Link
                     to={link.path}
-                    className={`relative text-[13.5px] tracking-wide font-medium transition-all duration-200 py-1 flex flex-col items-center ${
-                      active
+                    className={`relative text-[13.5px] tracking-wide font-medium transition-all duration-200 py-1 flex flex-col items-center ${active
                         ? "text-gold-700 font-semibold"
                         : "text-navy-900/80 hover:text-gold-700"
-                    }`}
+                      }`}
                   >
                     <span>{link.label}</span>
                     <span
-                      className={`h-[2px] bg-gradient-to-r from-gold-500 to-gold-600 rounded-full transition-all duration-300 mt-0.5 ${
-                        active ? "w-full opacity-100" : "w-0 opacity-0 group-hover:w-full"
-                      }`}
+                      className={`h-[2px] bg-gradient-to-r from-gold-500 to-gold-600 rounded-full transition-all duration-300 mt-0.5 ${active ? "w-full opacity-100" : "w-0 opacity-0 group-hover:w-full"
+                        }`}
                     />
                   </Link>
                 </li>
@@ -98,7 +93,7 @@ export default function Navbar() {
           <div className="hidden lg:flex items-center">
             <Link
               to="/contact"
-              className="inline-flex items-center gap-2 px-5 py-2.5 bg-gradient-to-r from-navy-950 to-navy-900 text-gold-300 text-xs uppercase tracking-wider font-semibold rounded-sm border border-gold-500/35 hover:bg-gold-500 hover:text-navy-950 hover:border-gold-500 hover:shadow-md transition-all duration-300 group"
+              className="inline-flex items-center gap-2 px-5 py-2.5 bg-gradient-to-r from-navy-950 to-navy-900 hover:from-gold-500 hover:to-gold-600 text-gold-300 hover:text-navy-950 text-xs uppercase tracking-wider font-semibold rounded-sm border border-gold-500/35 hover:border-gold-500 hover:shadow-md hover:shadow-gold-500/20 transition-all duration-300 group"
             >
               <span>Join Academy</span>
               <ArrowRight className="w-3.5 h-3.5 transition-transform duration-300 group-hover:translate-x-0.5" />
@@ -118,18 +113,16 @@ export default function Navbar() {
 
       {/* Mobile Full-Screen Drawer */}
       <div
-        className={`fixed inset-0 z-[60] lg:hidden transition-all duration-500 ${
-          menuOpen ? "opacity-100 visible" : "opacity-0 invisible"
-        }`}
+        className={`fixed inset-0 z-[60] lg:hidden transition-all duration-500 ${menuOpen ? "opacity-100 visible" : "opacity-0 invisible"
+          }`}
       >
         <div
           className="absolute inset-0 bg-navy-950/95 backdrop-blur-xl"
           onClick={() => setMenuOpen(false)}
         />
         <div
-          className={`relative h-full flex flex-col items-center justify-center gap-3 transition-all duration-500 ${
-            menuOpen ? "translate-y-0 opacity-100" : "-translate-y-4 opacity-0"
-          }`}
+          className={`relative h-full flex flex-col items-center justify-center gap-3 transition-all duration-500 ${menuOpen ? "translate-y-0 opacity-100" : "-translate-y-4 opacity-0"
+            }`}
         >
           <button
             className="absolute top-6 right-6 text-cream-100 p-2 hover:text-gold-300 transition-colors"
@@ -164,17 +157,15 @@ export default function Navbar() {
                 style={{
                   transitionDelay: menuOpen ? `${i * 50 + 150}ms` : "0ms",
                 }}
-                className={`transition-all duration-500 ${
-                  menuOpen ? "translate-y-0 opacity-100" : "translate-y-4 opacity-0"
-                }`}
+                className={`transition-all duration-500 ${menuOpen ? "translate-y-0 opacity-100" : "translate-y-4 opacity-0"
+                  }`}
               >
                 <Link
                   to={link.path}
-                  className={`text-xl font-serif transition-colors ${
-                    location.pathname === link.path
+                  className={`text-xl font-serif transition-colors ${location.pathname === link.path
                       ? "text-gold-400 font-semibold"
                       : "text-cream-100/90 hover:text-gold-300"
-                  }`}
+                    }`}
                 >
                   {link.label}
                 </Link>
@@ -201,7 +192,7 @@ export default function Navbar() {
           </div>
 
           <div className="mt-4 text-center text-[11px] text-cream-100/50">
-            <p>Medavakkam &middot; Perumbakkam &middot; Old Perungalathur</p>
+            <p>Medavakkam &middot; Perumbakkam </p>
           </div>
         </div>
       </div>

@@ -3,68 +3,314 @@ import { Link } from "react-router-dom";
 import {
   ArrowRight,
   Sparkles,
-  Award,
-  Calendar,
-  Clock,
   MapPin,
   CheckCircle2,
   BookOpen,
-  Music,
-  Users,
-  GraduationCap,
   Globe,
-  HelpCircle,
-  Phone,
   MessageCircle,
 } from "lucide-react";
 import PageHero from "@/components/PageHero";
 import SectionHeader from "@/components/SectionHeader";
-import CourseCard from "@/components/CourseCard";
+import CourseShowcaseCard, { type CourseShowcaseData } from "@/components/CourseShowcaseCard";
 import { Reveal } from "@/components/Reveal";
-import { OrnamentDivider, MandalaWatermark, GoldFrame } from "@/components/Decorations";
+import { OrnamentDivider, MandalaWatermark } from "@/components/Decorations";
 import { courses, studentGroups } from "@/data/courses";
 import { academy } from "@/data/academy";
 
-type FilterTab = "all" | "bharatanatyam" | "carnatic-music" | "mohiniyattam" | "workshops";
+const courseShowcases: CourseShowcaseData[] = [
+  {
+    slug: "bharatanatyam",
+    title: "Bharatanatyam",
+    eyebrow: "Classical Dance · Thanjavur Bani",
+    shortDescription:
+      "Explore the structure, rhythm, expression, and storytelling of one of India's most revered classical dance traditions. From foundational adavus to full margam repertoire and solo Arangetrams.",
+    curriculum: [
+      "Adavus & Mudras",
+      "Pushpanjali",
+      "Alarippu",
+      "Jathiswaram",
+      "Shabdam",
+      "Varnam Centerpiece",
+      "Padam & Keerthanam",
+      "Thillana & Mangalam",
+      "Arangetram Guidance",
+    ],
+    cta: "Explore Bharatanatyam",
+    eventBadge: "Annual Day, Singapore Tour & Arangetram",
+    eventDesc:
+      "Students perform in grand thematic productions (Dasaavatharam), SOTA Singapore, and solo Arangetrams.",
+    eventLink: "/events/suha-annual-day",
+    features: [
+      "Bridge Academy Graded Certification",
+      "Medavakkam & Perumbakkam Centers",
+      "Stage Repertoire & Salangai Pooja",
+    ],
+    photos: [
+      {
+        src: "/suha_media/courses/course_bharatanatyam_slider_01.jpg",
+        alt: "Bharatanatyam Stage Margam Solo Recital",
+        title: "Margam Repertoire & Solo Precision",
+        subtitle: "Classic Araimandi, posture alignment and sculpted hasta mudras",
+        objectPosition: "center center",
+      },
+      {
+        src: "/suha_media/courses/course_bharatanatyam_slider_02.jpg",
+        alt: "Bharatanatyam Classical Stage Performance",
+        title: "Stage Recitals & Grand Productions",
+        subtitle: "Dressed in temple silk costumes and traditional temple jewellery",
+        objectPosition: "center center",
+      },
+      {
+        src: "/suha_media/courses/course_bharatanatyam_slider_03.jpg",
+        alt: "Senior Disciple Stage Portrait",
+        title: "Arangetram & Solo Stage Grooming",
+        subtitle: "Rigorous 1-on-1 mentorship for full solo stage debuts",
+        objectPosition: "center center",
+      },
+      {
+        src: "/suha_media/courses/course_bharatanatyam_slider_04.jpg",
+        alt: "Traditional Costume & Shringara Details",
+        title: "Sacred Aesthetic & Aharya Abhinaya",
+        subtitle: "Traditional temple jewellery, fresh flowers & velvet salangai",
+        objectPosition: "center center",
+      },
+      {
+        src: "/suha_media/courses/course_bharatanatyam_slider_05.jpg",
+        alt: "Group Ensemble Classical Presentation",
+        title: "Synchronized Ensemble Choreography",
+        subtitle: "Group formations, rhythmic coordination and laya control",
+        objectPosition: "center center",
+      },
+      {
+        src: "/suha_media/courses/course_bharatanatyam_slider_06.jpg",
+        alt: "Senior Disciple Solo Recital",
+        title: "Classical Form & Lineage Nuances",
+        subtitle: "Thanjavur Bani aesthetics nurtured across all levels",
+        objectPosition: "center center",
+      },
+      {
+        src: "/suha_media/shared/shared_event_thematic_kingini_aada.jpg",
+        alt: "Thematic Production Highlights",
+        title: "Thematic Stage Productions",
+        subtitle: "Dasaavatharam and Geetham Paada – Kingini Aada",
+        objectPosition: "center center",
+      },
+      {
+        src: "/suha_media/shared/shared_event_dasaavatharam_production.jpg",
+        alt: "Dasaavatharam Classical Production",
+        title: "Dasaavatharam Production Highlights",
+        subtitle: "Grand auditorium recitals and annual cultural tours",
+        objectPosition: "center center",
+      },
+    ],
+  },
+  {
+    slug: "mohiniyattam",
+    title: "Mohiniyattam",
+    eyebrow: "The Dance of the Enchantress · Kerala Tradition",
+    shortDescription:
+      "Embrace the grace, gentle swaying movements, and lyrical abhinaya of Kerala's classical dance tradition. Structured into three progressive levels — Basic, Intermediate, and Advanced — emphasizing Lasya, balance, and fluid wave-like rhythm.",
+    curriculum: [
+      "Cholkettu Invocation",
+      "Jatiswaram Rhythm",
+      "Varnam Storytelling",
+      "Padam & Abhinaya",
+      "Thillana Finale",
+      "Slokam & Moksha",
+      "Navarasa Expression",
+    ],
+    cta: "Explore Mohiniyattam",
+    eventBadge: "Margazhi Maha Utsav & Sabha Recitals",
+    eventDesc:
+      "Festive temple presentations, Sopana classical ensembles, and prestigious sabha showcases.",
+    eventLink: "/events/suha-utsavam",
+    features: [
+      "Structured 3-Level Syllabus",
+      "Kasavu Costume & Lyrical Lasya",
+      "Individualized Feedback & Posture Grooming",
+    ],
+    photos: [
+      {
+        src: "/suha_media/courses/course_mohiniyattam_slider_01.jpg",
+        alt: "Mohiniyattam Lasya Grace & Mudra by Smt. Swarna Sahasra",
+        title: "The Dance of the Enchantress",
+        subtitle: "Sculpted Lasya, subtle sway and serene facial expression",
+        objectPosition: "center center",
+      },
+      {
+        src: "/suha_media/courses/course_mohiniyattam_slider_02.jpg",
+        alt: "Swati Tirunal Classical Festival Recital",
+        title: "Swati Sangeetha Utsav Recitals",
+        subtitle: "Sopana sangeetham rhythms and pristine Kerala Kasavu costumes",
+        objectPosition: "center center",
+      },
+      {
+        src: "/suha_media/courses/course_mohiniyattam_slider_03.jpg",
+        alt: "Kasavu Costume & Lyrical Wave-like Sway",
+        title: "Fluid Wave-Like Andolika Movements",
+        subtitle: "Graceful torsos mimicking the gentle sway of Kerala palms",
+        objectPosition: "center center",
+      },
+      {
+        src: "/suha_media/courses/course_mohiniyattam_slider_04.jpg",
+        alt: "Mohiniyattam Ensemble Presentation",
+        title: "Cholkettu to Moksha Progression",
+        subtitle: "Structured traditional margam taught with authentic nuance",
+        objectPosition: "center center",
+      },
+      {
+        src: "/suha_media/courses/course_mohiniyattam_slider_05.jpg",
+        alt: "Stage Lighting Classical Performance",
+        title: "Solo Sabha Recitals & Temple Offerings",
+        subtitle: "Expressive devotional abhinaya in temple sabha environments",
+        objectPosition: "center center",
+      },
+      {
+        src: "/suha_media/courses/course_mohiniyattam_slider_06.jpg",
+        alt: "Traditional Temple Mandapam Recital",
+        title: "Heritage & Living Tradition",
+        subtitle: "Cultivating poise, patience and expressive eyes (Drishti Bheda)",
+        objectPosition: "center center",
+      },
+    ],
+  },
+  {
+    slug: "carnatic-music",
+    title: "Carnatic Vocal Music",
+    eyebrow: "Carnatic Sangeetham · Sacred Vocal Pedagogy",
+    shortDescription:
+      "Cultivate pristine Shruti, Tala discipline, Gamaka modulation, and devotion through an authentic, step-by-step classical syllabus — from foundational Sarali Varisais and Geethams to elaborate Krithis and Manodharma improvisation.",
+    curriculum: [
+      "Sarali, Jantai & Dhatu Varisais",
+      "Alankaram & Melakarta Ragas",
+      "Geethams & Swarajathis",
+      "Adi & Ata Tala Varnams",
+      "Trinity Keerthanams",
+      "Raga Alapana & Neraval",
+      "Kalpanaswaras & Thillanas",
+    ],
+    cta: "Explore Carnatic Music",
+    eventBadge: "Thyagaraja Aradhana & Vasantha Swaranjali",
+    eventDesc:
+      "Pancharatna homage alongside vidwans, Margazhi concert series, and elders seva recitals.",
+    eventLink: "/events/vasantha-swaranjali",
+    features: [
+      "Acoustic Tanpura & Voice Culture",
+      "Dual Dance-Music Rhythmic Harmony",
+      "Graded University Exam Certifications",
+    ],
+    photos: [
+      {
+        src: "/suha_media/courses/course_carnatic_slider_05.jpg",
+        alt: "Senior Disciple Vocal Recital",
+        title: "Shruti Discipline & Voice Culture",
+        subtitle: "Gamaka modulation, breath regulation and swara clarity",
+        objectPosition: "center center",
+      },
+      {
+        src: "/suha_media/shared/shared_event_thyagaraja_homage.jpg",
+        alt: "Thyagaraja Aradhana Pancharatna Homage",
+        title: "Thyagaraja Aradhana Homage",
+        subtitle: "Annual renditions alongside esteemed vidwans in sabhas",
+        objectPosition: "center center",
+      },
+      {
+        src: "/suha_media/courses/course_carnatic_slider_06.jpg",
+        alt: "Sabha Vocal Kutcheri Recital",
+        title: "Keerthanams & Sahithya Purity",
+        subtitle: "Compositions of Trinity: Thyagaraja, Dikshitar & Syama Sastri",
+        objectPosition: "center center",
+      },
+      {
+        src: "/suha_media/courses/course_carnatic_slider_01.jpg",
+        alt: "Classical Vocal Kutcheri Presentation",
+        title: "Live Concert Stage Presentations",
+        subtitle: "Seated classical kutcheri format with acoustic accompaniments",
+        objectPosition: "center center",
+      },
+      {
+        src: "/suha_media/courses/course_carnatic_slider_02.jpg",
+        alt: "Raga Alapana & Swara Improvisation",
+        title: "Raga Alapana & Neraval",
+        subtitle: "Intricate melodic exploration and bhava-rich phrasing",
+        objectPosition: "center center",
+      },
+      {
+        src: "/suha_media/courses/course_carnatic_slider_03.jpg",
+        alt: "Trinity Repertoire & Sahitya Articulation",
+        title: "Classical Sahitya & Diction",
+        subtitle: "Clear pronunciation of Sanskrit, Telugu, and Tamil compositions",
+        objectPosition: "center center",
+      },
+
+      {
+        src: "/suha_media/courses/course_carnatic_slider_04.jpg",
+        alt: "Senior Vocal Student Solo Concert",
+        title: "Manodharma Sangeetham Roadmap",
+        subtitle: "Kalpanaswaras, Korvai calculations and concert readiness",
+        objectPosition: "center center",
+      },
+
+      {
+        src: "/suha_media/courses/course_carnatic_slider_07.jpg",
+        alt: "Vasantha Swaranjali Compassionate Seva Recital",
+        title: "Vasantha Swaranjali Musical Seva",
+        subtitle: "Singing devotional melodies and receiving blessings from elders",
+        objectPosition: "center center",
+      },
+    ],
+  },
+];
+
+type FilterTab = "all" | "bharatanatyam" | "mohiniyattam" | "carnatic-music";
 
 export default function Courses() {
   const [activeTab, setActiveTab] = useState<FilterTab>("all");
+  const [selectedCurriculumSlug, setSelectedCurriculumSlug] = useState<string>("bharatanatyam");
+  const [selectedLevelIdx, setSelectedLevelIdx] = useState<number>(0);
 
-  const filteredCourses = useMemo(() => {
-    if (activeTab === "all") return courses;
-    if (activeTab === "workshops") return courses.filter((c) => c.isWorkshop);
-    return courses.filter((c) => c.slug === activeTab);
+  const displayedCourses = useMemo(() => {
+    if (activeTab === "all") return courseShowcases;
+    return courseShowcases.filter((c) => c.slug === activeTab);
   }, [activeTab]);
+
+  const activeCurriculumCourse = useMemo(() => {
+    return courses.find((c) => c.slug === selectedCurriculumSlug) || courses[0];
+  }, [selectedCurriculumSlug]);
 
   return (
     <>
       <PageHero
         eyebrow="Courses & Training"
         title="Learn the Classical Arts"
-        subtitle="Structured, authentic pedagogy in Bharatanatyam, Carnatic Vocal, Mohiniyattam, and artistic masterclasses — rooted in tradition and groomed for the stage."
-        image="/suha_media/suha_hero_theatre_banner.jpg"
+        subtitle="Structured, authentic pedagogy in Bharatanatyam, Mohiniyattam, and Carnatic Music — rooted in tradition and groomed for the stage."
+        image="/suha_media/shared/shared_hero_theatre_banner.jpg"
         height="lg"
       />
 
       {/* Filter Tabs Bar */}
-      <section className="bg-white border-b border-ivory-200 sticky top-[69px] z-30 py-3   shadow-xs">
+      <section className="bg-white border-b border-ivory-200 sticky top-[69px] z-30 py-3 shadow-xs">
         <div className="container-wide section-padding">
           <div className="flex items-center justify-start md:justify-center gap-2 overflow-x-auto no-scrollbar py-1">
             {[
               { id: "all", label: "All Disciplines" },
               { id: "bharatanatyam", label: "Bharatanatyam" },
-              { id: "carnatic-music", label: "Carnatic Vocal" },
               { id: "mohiniyattam", label: "Mohiniyattam" },
-              { id: "workshops", label: "Workshops & Art" },
+              { id: "carnatic-music", label: "Carnatic Music" },
             ].map((tab) => (
               <button
                 key={tab.id}
-                onClick={() => setActiveTab(tab.id as FilterTab)}
-                className={`px-5 py-2 text-xs uppercase tracking-wider font-medium rounded-full transition-all duration-300 whitespace-nowrap cursor-pointer ${
-                  activeTab === tab.id
-                    ? "bg-navy-950 text-gold-300 shadow-sm"
-                    : "bg-cream-100/70 text-navy-800 hover:bg-gold-50 hover:text-gold-700"
-                }`}
+                onClick={() => {
+                  const newTab = tab.id as FilterTab;
+                  setActiveTab(newTab);
+                  if (newTab !== "all") {
+                    setSelectedCurriculumSlug(newTab);
+                  }
+                }}
+                className={`px-5 py-2 text-xs uppercase tracking-wider font-medium rounded-full transition-all duration-300 whitespace-nowrap cursor-pointer ${activeTab === tab.id
+                  ? "bg-navy-950 text-gold-300 shadow-sm"
+                  : "bg-cream-100/70 text-navy-800 hover:bg-gold-50 hover:text-gold-700"
+                  }`}
               >
                 {tab.label}
               </button>
@@ -73,20 +319,197 @@ export default function Courses() {
         </div>
       </section>
 
-      {/* Course Cards Catalog */}
-      <section className="relative py-20 md:py-28 bg-cream-50">
+      {/* Courses Showcases: Displayed One by One, each with its own multi-photo slider */}
+      <section className="relative py-16 md:py-24 bg-cream-50" id="courses-showcase">
         <div className="container-wide section-padding">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-10 max-w-6xl mx-auto">
-            {filteredCourses.map((course, i) => (
-              <CourseCard key={course.slug} course={course} index={i} />
+          <SectionHeader
+            number="01"
+            eyebrow="Classical Disciplines"
+            title="Our Courses & Progressive Repertoire"
+            subtitle="Explore each discipline one by one — each accompanied by its own dedicated gallery of stage recitals, classroom training, and syllabus milestones."
+          />
+
+          <div className="mt-12 space-y-12 md:space-y-16">
+            {displayedCourses.map((course, idx) => (
+              <Reveal key={course.slug} delay={idx * 0.1}>
+                <CourseShowcaseCard
+                  course={course}
+                  index={idx}
+                  onExploreCurriculum={(slug) => {
+                    setSelectedCurriculumSlug(slug);
+                    setSelectedLevelIdx(0);
+                    const el = document.getElementById("curriculum-roadmap");
+                    if (el) el.scrollIntoView({ behavior: "smooth" });
+                  }}
+                />
+              </Reveal>
             ))}
           </div>
 
           <div className="mt-14 p-6 rounded-sm bg-white border border-gold-500/20 max-w-3xl mx-auto text-center shadow-xs">
             <p className="text-sm text-navy-800 leading-relaxed">
-              <strong className="text-gold-700 font-serif">Dual Art Discipline Discount:</strong> Many students enroll in both Bharatanatyam and Carnatic Vocal for holistic rhythm & melodic mastery. Special coordinated scheduling is provided across Medavakkam, Perumbakkam, and Perungalathur centers.
+              <strong className="text-gold-700 font-serif">Dual Art Discipline Advantage:</strong> Many disciples
+              enroll concurrently in both Bharatanatyam and Carnatic Music for holistic rhythm (Talam) & melodic mastery. Special coordinated
+              scheduling is provided across our Medavakkam and Perumbakkam centers.
             </p>
           </div>
+        </div>
+      </section>
+
+      {/* Interactive In-Depth Curriculum & Progression Levels */}
+      <section id="curriculum-roadmap" className="relative py-24 md:py-32 bg-navy-950 overflow-hidden text-cream-100">
+        <div className="absolute right-0 top-1/4 w-96 h-96 text-gold-400/[0.03] pointer-events-none">
+          <MandalaWatermark className="w-full h-full" />
+        </div>
+
+        <div className="container-wide section-padding relative z-10">
+          <SectionHeader
+            light
+            number="02"
+            eyebrow="Structured Syllabi"
+            title="Comprehensive Curriculum & Levels"
+            subtitle="Explore our progressive three-level training roadmap across Bharatanatyam, Mohiniyattam, and Carnatic Music."
+          />
+
+          {/* Discipline Selector Buttons */}
+          <div className="flex flex-wrap items-center justify-center gap-3 mt-12 max-w-3xl mx-auto">
+            {courses.map((c) => (
+              <button
+                key={c.slug}
+                type="button"
+                onClick={() => {
+                  setSelectedCurriculumSlug(c.slug);
+                  setSelectedLevelIdx(0);
+                }}
+                className={`px-6 py-3 rounded-full text-xs sm:text-sm uppercase tracking-wider font-semibold transition-all duration-300 cursor-pointer ${selectedCurriculumSlug === c.slug
+                  ? "bg-gold-500 text-navy-950 shadow-lg shadow-gold-500/20 border border-gold-400"
+                  : "bg-navy-900/80 text-cream-100/70 border border-gold-500/20 hover:text-gold-300 hover:border-gold-400/40"
+                  }`}
+              >
+                {c.title}
+              </button>
+            ))}
+          </div>
+
+          {/* Course Intro Text (if present) */}
+          {activeCurriculumCourse.intro && (
+            <Reveal delay={0.1}>
+              <div className="max-w-4xl mx-auto mt-10 p-6 sm:p-8 rounded-sm bg-navy-900/60 border border-gold-500/20 text-cream-100/80 text-xs sm:text-sm leading-relaxed whitespace-pre-line text-center font-sans">
+                {activeCurriculumCourse.intro}
+              </div>
+            </Reveal>
+          )}
+
+          {/* Level Switcher Pills */}
+          {activeCurriculumCourse.levels && activeCurriculumCourse.levels.length > 0 && (
+            <div className="max-w-2xl mx-auto mt-10">
+              <div className="flex items-center justify-center gap-2 p-1.5 bg-navy-900/90 rounded-full border border-gold-500/20">
+                {activeCurriculumCourse.levels.map((lvl, idx) => (
+                  <button
+                    key={lvl.name}
+                    type="button"
+                    onClick={() => setSelectedLevelIdx(idx)}
+                    className={`flex-1 py-2 px-3 text-center rounded-full text-[11px] sm:text-xs uppercase tracking-wider font-medium transition-all duration-300 cursor-pointer ${selectedLevelIdx === idx
+                      ? "bg-gold-500 text-navy-950 font-semibold shadow-md"
+                      : "text-cream-100/60 hover:text-gold-300"
+                      }`}
+                  >
+                    {lvl.name}
+                  </button>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* Active Level Detailed Card */}
+          {activeCurriculumCourse.levels && activeCurriculumCourse.levels[selectedLevelIdx] && (
+            <div className="max-w-5xl mx-auto mt-12 animate-fade-in">
+              <div className="p-6 sm:p-8 rounded-sm bg-navy-900/80 border border-gold-500/30 mb-8">
+                <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 mb-2">
+                  <span className="text-xs font-mono uppercase tracking-widest text-gold-400 font-semibold">
+                    {activeCurriculumCourse.title} &bull; Level 0{selectedLevelIdx + 1}
+                  </span>
+                  <Link
+                    to={`/courses/${activeCurriculumCourse.slug}`}
+                    className="inline-flex items-center gap-1.5 text-xs text-gold-300 hover:text-gold-200 font-medium"
+                  >
+                    <span>View Dedicated Page</span>
+                    <ArrowRight className="w-3.5 h-3.5" />
+                  </Link>
+                </div>
+                <h3 className="font-display text-2xl text-cream-50 font-medium mb-1">
+                  {activeCurriculumCourse.levels[selectedLevelIdx].name}
+                </h3>
+                <p className="text-sm font-serif italic text-gold-300 mb-4">
+                  {activeCurriculumCourse.levels[selectedLevelIdx].subtitle}
+                </p>
+                <p className="text-xs sm:text-sm text-cream-100/75 leading-relaxed">
+                  {activeCurriculumCourse.levels[selectedLevelIdx].description}
+                </p>
+              </div>
+
+              {/* Modules (Bharatanatyam) */}
+              {activeCurriculumCourse.levels[selectedLevelIdx].modules && (
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                  {activeCurriculumCourse.levels[selectedLevelIdx].modules.map((mod, i) => (
+                    <Reveal key={mod.title} delay={i * 0.05} className="h-full">
+                      <div className="p-6 rounded-sm bg-[#120B0E] border border-gold-500/20 h-full flex flex-col justify-between hover:border-gold-400/40 transition-colors">
+                        <div>
+                          <div className="flex items-center justify-between mb-3">
+                            <span className="text-[11px] font-mono text-gold-400 font-medium px-2 py-0.5 rounded bg-gold-500/10 border border-gold-400/20">
+                              0{i + 1}
+                            </span>
+                            <Sparkles className="w-3.5 h-3.5 text-gold-500/60" />
+                          </div>
+                          <h4 className="font-display text-lg text-cream-50 font-medium mb-2">
+                            {mod.title}
+                          </h4>
+                          <p className="text-xs text-cream-100/75 leading-relaxed">
+                            {mod.description}
+                          </p>
+                        </div>
+                      </div>
+                    </Reveal>
+                  ))}
+                </div>
+              )}
+
+              {/* Sections (Mohiniyattam & Carnatic Music) */}
+              {activeCurriculumCourse.levels[selectedLevelIdx].sections && (
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                  {activeCurriculumCourse.levels[selectedLevelIdx].sections.map((sec, i) => (
+                    <Reveal key={sec.category} delay={i * 0.08} className="h-full">
+                      <div className="p-7 rounded-sm bg-[#120B0E] border border-gold-500/25 h-full flex flex-col">
+                        <div className="flex items-center gap-2 mb-4 pb-3 border-b border-cream-100/10">
+                          <BookOpen className="w-4 h-4 text-gold-400" />
+                          <h4 className="font-display text-lg text-gold-300 font-medium">
+                            {sec.category}
+                          </h4>
+                        </div>
+                        <ul className="space-y-3 flex-1">
+                          {sec.items.map((item, idx) => (
+                            <li key={idx} className="flex items-start gap-2.5 text-xs sm:text-sm text-cream-100/80 leading-relaxed">
+                              <span className="text-gold-400 font-bold mt-0.5 shrink-0">✦</span>
+                              <span>{item}</span>
+                            </li>
+                          ))}
+                        </ul>
+                      </div>
+                    </Reveal>
+                  ))}
+                </div>
+              )}
+
+              {/* Closing Summary Note */}
+              {activeCurriculumCourse.closingNote && (
+                <div className="mt-10 p-5 rounded-sm bg-gold-500/10 border border-gold-400/25 text-center">
+                  <p className="text-xs sm:text-sm font-serif italic text-gold-200 leading-relaxed max-w-3xl mx-auto">
+                    &ldquo;{activeCurriculumCourse.closingNote}&rdquo;
+                  </p>
+                </div>
+              )}
+            </div>
+          )}
         </div>
       </section>
 
@@ -98,7 +521,7 @@ export default function Courses() {
 
         <div className="container-wide section-padding relative z-10">
           <SectionHeader
-            number="01"
+            number="03"
             eyebrow="Accredited Pathway"
             title="Grade Examinations & Certification"
             subtitle="Suha Academy trains students for formal graded examinations conducted in collaboration with Bridge Academy and esteemed Music & Dance Universities."
@@ -167,18 +590,18 @@ export default function Courses() {
         </div>
       </section>
 
-      {/* Branch Schedules Matrix */}
+      {/* Center Schedules (The 3 Centers) */}
       <section className="relative py-24 md:py-32 bg-navy-950 text-cream-100 overflow-hidden">
         <div className="container-wide section-padding relative z-10">
           <SectionHeader
             light
-            number="02"
+            number="04"
             eyebrow="Center Schedules"
             title="Batch Timings by Location"
-            subtitle="We conduct regular batches across 3 prime centers in Chennai, plus dedicated 1-on-1 online sessions for global learners."
+            subtitle="We conduct regular batches across our prime centers in Chennai, plus dedicated 1-on-1 online sessions for global learners."
           />
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-14">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-14 max-w-5xl mx-auto">
             {/* Center 1: Medavakkam */}
             <Reveal delay={0.1} className="h-full">
               <div className="bg-[#120B0E] border border-gold-500/20 rounded-sm p-6 flex flex-col justify-between h-full">
@@ -247,46 +670,12 @@ export default function Courses() {
               </div>
             </Reveal>
 
-            {/* Center 3: Old Perungalathur */}
+            {/* Center 3: Global Online */}
             <Reveal delay={0.3} className="h-full">
               <div className="bg-[#120B0E] border border-gold-500/20 rounded-sm p-6 flex flex-col justify-between h-full">
                 <div>
                   <div className="flex items-center gap-2 text-gold-400 text-xs uppercase tracking-wider font-semibold mb-2">
-                    <MapPin className="w-4 h-4" /> Old Perungalathur
-                  </div>
-                  <h3 className="font-display text-lg text-cream-50 mb-1">Main Academy Studio</h3>
-                  <p className="text-xs text-cream-100/60 mb-4">Near Railway Station, Perungalathur</p>
-
-                  <div className="space-y-3 pt-3 border-t border-cream-100/10 text-xs">
-                    <div>
-                      <p className="text-gold-300 font-medium">Weekday Batches:</p>
-                      <p className="text-cream-100/70">Tuesday & Thursday, 5:30 – 7:30 PM</p>
-                    </div>
-                    <div>
-                      <p className="text-gold-300 font-medium">Sunday Repertoire:</p>
-                      <p className="text-cream-100/70">3:00 PM – 6:00 PM (Margam & KKKV)</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="mt-6 pt-4 border-t border-cream-100/10">
-                  <a
-                    href={`https://wa.me/${academy.phoneRaw}?text=${encodeURIComponent("Hi Suha Academy, I am inquiring about batch timings at the Old Perungalathur center.")}`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 text-xs text-gold-300 hover:text-gold-200 font-medium"
-                  >
-                    <MessageCircle className="w-3.5 h-3.5" /> Book Perungalathur Trial &rarr;
-                  </a>
-                </div>
-              </div>
-            </Reveal>
-
-            {/* Center 4: Global Online */}
-            <Reveal delay={0.4} className="h-full">
-              <div className="bg-[#120B0E] border border-gold-500/20 rounded-sm p-6 flex flex-col justify-between h-full">
-                <div>
-                  <div className="flex items-center gap-2 text-gold-400 text-xs uppercase tracking-wider font-semibold mb-2">
-                    <Globe className="w-4 h-4" /> Global Online
+                    <Globe className="w-4 h-4" /> Global Online Academy
                   </div>
                   <h3 className="font-display text-lg text-cream-50 mb-1">Live Interactive Batches</h3>
                   <p className="text-xs text-cream-100/60 mb-4">USA, UK, Singapore, Middle East</p>
@@ -294,17 +683,17 @@ export default function Courses() {
                   <div className="space-y-3 pt-3 border-t border-cream-100/10 text-xs">
                     <div>
                       <p className="text-gold-300 font-medium">Timezone Coordinated:</p>
-                      <p className="text-cream-100/70">Personalized 1-on-1 & small groups</p>
+                      <p className="text-cream-100/70">Personalized 1-on-1 & small batches</p>
                     </div>
                     <div>
-                      <p className="text-gold-300 font-medium">High-Def Audio / Video:</p>
-                      <p className="text-cream-100/70">Talam analysis, posture correction</p>
+                      <p className="text-gold-300 font-medium">High-Def Training:</p>
+                      <p className="text-cream-100/70">Talam analysis & posture correction</p>
                     </div>
                   </div>
                 </div>
                 <div className="mt-6 pt-4 border-t border-cream-100/10">
                   <a
-                    href={`https://wa.me/${academy.phoneRaw}?text=${encodeURIComponent("Hi Suha Academy, I am inquiring about Global Online classes for Bharatanatyam / Carnatic Vocal.")}`}
+                    href={`https://wa.me/${academy.phoneRaw}?text=${encodeURIComponent("Hi Suha Academy, I am inquiring about Global Online classes for Bharatanatyam / Carnatic Music.")}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-2 text-xs text-gold-300 hover:text-gold-200 font-medium"
@@ -318,14 +707,14 @@ export default function Courses() {
         </div>
       </section>
 
-      {/* Student Groups / Every Stage */}
+      {/* Student Groups / Every Stage
       <section className="relative py-24 md:py-32 bg-cream-50">
         <div className="container-wide section-padding">
           <SectionHeader
-            number="03"
+            number="05"
             eyebrow="Every Stage"
             title="A Place to Learn at Every Age"
-            subtitle="From four-year-old beginners stepping to rhythmic tat-tai-ta-ha to working professionals and homemakers."
+            subtitle="From four-year-old beginners stepping to rhythmic tat-tai-ta-ha to working professionals and adult learners."
           />
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-5 mt-14">
@@ -361,13 +750,13 @@ export default function Courses() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Classroom Essentials & Pedagogy */}
       <section className="relative py-24 md:py-32 bg-paper overflow-hidden">
         <div className="container-wide section-padding">
           <SectionHeader
-            number="04"
+            number="06"
             eyebrow="Classroom Traditions"
             title="Practice Essentials & Studio Discipline"
             subtitle="The sacred habits that transform learners into poised classical performers."
@@ -381,7 +770,8 @@ export default function Courses() {
                 </div>
                 <h3 className="font-display text-base text-navy-900 mb-2">Salangai (Brass Bells)</h3>
                 <p className="text-xs text-navy-700/70 leading-relaxed">
-                  Consecrated through formal Salangai Pooja under Guru Smt. Ranjini Pradeep once foundational footwork rhythm is perfected. Authentic triple-row brass bells mounted on padded leather/velvet straps.
+                  Consecrated through formal Salangai Pooja under Guru Smt. Ranjini Pradeep once foundational footwork
+                  rhythm is perfected. Authentic triple-row brass bells mounted on padded velvet straps.
                 </p>
               </div>
             </Reveal>
@@ -393,7 +783,8 @@ export default function Courses() {
                 </div>
                 <h3 className="font-display text-base text-navy-900 mb-2">Practice Saree & Uniform</h3>
                 <p className="text-xs text-navy-700/70 leading-relaxed">
-                  Students learn in traditional cotton dance practice sarees or academy kurti uniforms that facilitate Araimandi (half-sitting posture) and full body symmetry without restriction.
+                  Students learn in traditional cotton dance practice sarees or academy kurti uniforms that facilitate
+                  Araimandi (half-sitting posture) and full body symmetry without restriction.
                 </p>
               </div>
             </Reveal>
@@ -405,7 +796,8 @@ export default function Courses() {
                 </div>
                 <h3 className="font-display text-base text-navy-900 mb-2">Voice & Shruti Culture</h3>
                 <p className="text-xs text-navy-700/70 leading-relaxed">
-                  Vocal disciples train with acoustic electronic Tanpuras, disciplined breath regulation (Pranayama), Gamaka exercises, and handwritten sloka/keerthanam sahithya notebooks.
+                  Vocal disciples train with acoustic electronic Tanpuras, disciplined breath regulation (Pranayama),
+                  Gamaka exercises, and handwritten sloka/keerthanam sahithya notebooks.
                 </p>
               </div>
             </Reveal>
@@ -426,7 +818,7 @@ export default function Courses() {
               {[
                 { step: "1", title: "Enquiry", desc: "Submit contact form or WhatsApp us with student age and interest." },
                 { step: "2", title: "Consultation", desc: "Speak directly with Guru or senior faculty to assess level." },
-                { step: "3", title: "Batch Allocation", desc: "Choose nearest center (Medavakkam, Perumbakkam, Perungalathur)." },
+                { step: "3", title: "Batch Allocation", desc: "Choose nearest center (Medavakkam or Perumbakkam)." },
                 { step: "4", title: "Vidyarambham", desc: "Begin your artistic journey with auspicious traditional prayer." },
               ].map((s) => (
                 <div key={s.step} className="bg-white p-5 rounded-sm border border-ivory-200 text-center">

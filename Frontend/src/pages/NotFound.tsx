@@ -7,7 +7,7 @@ export default function NotFound() {
       {/* Background */}
       <div className="absolute inset-0">
         <img
-          src="/suha_media/suha_img_2.jpg"
+          src="/suha_media/shared/shared_media_asset_17.jpg"
           alt="Bharatanatyam dancer at night"
           className="w-full h-full object-cover opacity-15"
         />

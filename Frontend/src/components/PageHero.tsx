@@ -37,7 +37,7 @@ export default function PageHero({
           src={image}
           alt={title}
           className={`w-full h-full object-cover ${imagePosition} scale-100 opacity-80 md:opacity-85 animate-slow-zoom transition-transform duration-1000`}
-          fetchPriority="high"
+          {...{ fetchpriority: "high" }}
         />
 
         {/* Balanced theatrical vignette: keeps dancers visible while maintaining text contrast */}

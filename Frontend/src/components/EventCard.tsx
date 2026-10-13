@@ -15,8 +15,22 @@ export interface EventData {
   description: string;
   categories: string[];
   poster: string;
-  source: string;
-  sourceLabel: string;
+  gallery?: Array<{
+    src: string;
+    title?: string;
+    subtitle?: string;
+  }>;
+  source?: string;
+  sourceLabel?: string;
+  category?: string;
+  thematicHighlights?: string;
+  celebrityPresence?: string;
+  mediaLinks?: Array<{
+    title: string;
+    url: string;
+    type: string;
+    category?: string;
+  }>;
 }
 
 export default function EventCard({
@@ -30,7 +44,10 @@ export default function EventCard({
 
   return (
     <Reveal delay={index * 0.1} className="h-full">
-      <article className="group h-full flex flex-col bg-white border border-ivory-200 rounded-sm overflow-hidden transition-all duration-500 hover:shadow-2xl hover:shadow-navy-900/10 hover:border-gold-300">
+      <Link
+        to={`/events/${event.slug}`}
+        className="group h-full flex flex-col bg-white border border-ivory-200 rounded-sm overflow-hidden transition-all duration-500 hover:shadow-2xl hover:shadow-navy-900/10 hover:border-gold-300 block cursor-pointer"
+      >
         {/* Poster */}
         <div className="relative h-56 overflow-hidden">
           <img
@@ -42,17 +59,23 @@ export default function EventCard({
           <div className="absolute inset-0 bg-gradient-to-t from-navy-950/70 to-transparent" />
           <GoldFrame />
 
-          {/* Year badge */}
-          <div className="absolute top-4 left-4">
+          {/* Badges */}
+          <div className="absolute top-4 left-4 right-4 flex items-center justify-between pointer-events-none">
             <span
               className={`px-3 py-1 text-xs uppercase tracking-wider font-medium rounded-sm ${
                 isUpcoming
                   ? "bg-gold-500 text-navy-950"
-                  : "bg-navy-950/60 text-cream-100 backdrop-blur-sm"
+                  : "bg-navy-950/70 text-cream-100 backdrop-blur-sm border border-gold-400/20"
               }`}
             >
               {isUpcoming ? "Upcoming" : event.year}
             </span>
+
+            {event.gallery && event.gallery.length > 0 && (
+              <span className="px-2.5 py-1 text-[11px] font-medium rounded-sm bg-navy-950/80 text-gold-300 backdrop-blur-sm border border-gold-400/20">
+                ✦ {event.gallery.length} Photos
+              </span>
+            )}
           </div>
 
           <div className="absolute bottom-0 left-0 right-0 p-5">
@@ -103,16 +126,13 @@ export default function EventCard({
           )}
 
           <div className="mt-auto pt-4 border-t border-ivory-100 flex items-center justify-between">
-            <Link
-              to={`/events/${event.slug}`}
-              className="inline-flex items-center gap-2 text-sm font-semibold text-navy-950 hover:text-gold-600 transition-colors duration-300 group/link whitespace-nowrap"
-            >
+            <span className="inline-flex items-center gap-2 text-sm font-semibold text-navy-950 group-hover:text-gold-600 transition-colors duration-300 whitespace-nowrap">
               <span>View Details</span>
-              <ArrowRight className="w-4 h-4 text-gold-500 transition-transform duration-300 group-hover/link:translate-x-1" />
-            </Link>
+              <ArrowRight className="w-4 h-4 text-gold-500 transition-transform duration-300 group-hover:translate-x-1" />
+            </span>
           </div>
         </div>
-      </article>
+      </Link>
     </Reveal>
   );
 }

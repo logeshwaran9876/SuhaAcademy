@@ -30,7 +30,7 @@ export default function FounderSection() {
 
               <div className="relative overflow-hidden rounded-sm bg-navy-950">
                 <img
-                  src="/suha_media/suha_img_4.jpg"
+                  src="/suha_media/shared/shared_media_asset_02.jpg"
                   alt="Suha Academy of Fine Arts stage presentation under Founder Guru Smt. Ranjini Pradeep"
                   loading="lazy"
                   className="w-full h-[520px] object-cover object-top"
@@ -43,7 +43,7 @@ export default function FounderSection() {
                   <img
                     src={academy.founderVeenaImg}
                     alt={academy.founder}
-                    className="w-9 h-9 rounded-full object-cover border border-gold-400"
+                    className="w-9 h-9 rounded-full object-cover object-top border border-gold-400"
                   />
                   <div className="pr-1 text-left">
                     <p className="text-[11px] font-display font-medium text-gold-200 leading-tight">
@@ -65,8 +65,8 @@ export default function FounderSection() {
                       {academy.founderTitle} &middot; Estd. {academy.established}
                     </p>
                   </div>
-                  <div className="w-10 h-10 rounded-full border border-gold-400/40 overflow-hidden bg-navy-950">
-                    <img src={academy.logo} alt="Insignia" className="w-full h-full object-cover" />
+                  <div className="w-10 h-10 rounded-full border border-gold-400/40 overflow-hidden bg-navy-950 flex items-center justify-center">
+                    <img src={academy.logo} alt="Insignia" className="w-full h-full object-contain p-0.5" />
                   </div>
                 </div>
               </div>
@@ -137,23 +137,7 @@ export default function FounderSection() {
               <OrnamentDivider className="my-6 justify-start" />
             </Reveal>
 
-            <Reveal delay={0.35}>
-              <div className="flex items-center gap-4">
-                <Link
-                  to="/about"
-                  className="inline-flex items-center gap-2 px-6 py-3 bg-navy-900 text-cream-100 text-sm font-medium rounded-sm hover:bg-navy-800 transition-all duration-300 group"
-                >
-                  Read Academy Story
-                  <ArrowRight className="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" />
-                </Link>
-                <Link
-                  to="/contact"
-                  className="inline-flex items-center gap-2 text-sm font-medium text-gold-700 hover:text-navy-900 transition-colors"
-                >
-                  Enquire About Batches
-                </Link>
-              </div>
-            </Reveal>
+          
           </div>
         </div>
       </div>

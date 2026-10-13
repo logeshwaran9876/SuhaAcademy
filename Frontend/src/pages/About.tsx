@@ -1,175 +1,327 @@
 import { Link } from "react-router-dom";
-import { ArrowRight } from "lucide-react";
+import {
+  ArrowRight,
+  Sparkles,
+  Award,
+  Users,
+  MapPin,
+  Calendar,
+  Globe,
+  Heart,
+  Music,
+} from "lucide-react";
 import PageHero from "@/components/PageHero";
 import SectionHeader from "@/components/SectionHeader";
 import FounderSection from "@/components/FounderSection";
 import { Reveal } from "@/components/Reveal";
-import { VerticalTimeline } from "@/components/Timeline";
-import { OrnamentDivider, GoldFrame } from "@/components/Decorations";
-import { academy } from "@/data/academy";
-import { timeline } from "@/data/timeline";
-import { whySuha } from "@/data/courses";
+import { OrnamentDivider, MandalaWatermark, GoldFrame } from "@/components/Decorations";
+import { academy, faculty } from "@/data/academy";
 
 export default function About() {
+  const distinguishedGuests = [
+    { name: "Dr. Nithyashree Mahadevan", role: "Eminent Carnatic Vocalist" },
+    { name: "Smt. Mahathi", role: "Carnatic Vocalist & Playback Singer" },
+    { name: "Anand Aravindakshan", role: "Playback Singer & Title Winner" },
+    { name: "Sriram & Roshini", role: "Playback Singers" },
+    { name: "Dr. Divyasena", role: "Bharatanatyam Exponent & Guru" },
+    { name: "Smt. Srekala Bharath", role: "Kalaimamani Bharatanatyam Guru" },
+    { name: "Sri Narendra Kumar", role: "Classical Dancer & Choreographer" },
+    { name: "Sri Shivakumar", role: "Classical Dancer" },
+    { name: "Dr. Udaykumar", role: "Cultural Scholar & Dignitary" },
+    { name: "Amit Bhargav", role: "Prominent Actor & Media Personality" },
+    { name: "MGR Latha", role: "Veteran Actress & Classical Patron" },
+    { name: "Sadhagaparavaigal Sankar & Bharanidaran", role: "Renowned Music Ensembles" },
+  ];
+
+  const milestones = [
+    {
+      year: "2010",
+      title: "The Humble Inception",
+      desc: "Founded in Chennai by Smt. Ranjini Pradeep with just two neighbourhood students, named in honour of her parents Subhashini & Hariharan.",
+      badge: "Foundation",
+    },
+    {
+      year: "2012",
+      title: "First Disciples Arangetram",
+      desc: "Two disciples presented their Bharatanatyam Arangetram in the revered presence of Paramaguru Smt. Chithra Muralidharan.",
+      badge: "Debut Milestone",
+    },
+    {
+      year: "2012–2014",
+      title: "Hyderabad Chapter & Salanga Poojas",
+      desc: "Ranjini served as Dance Teacher at Silver Oaks International School, Bachupally, sustaining online/offline learning and guiding 4 disciples through Salanga Pooja.",
+      badge: "Expansion",
+    },
+    {
+      year: "2014–2019",
+      title: "Chennai Growth & KKKV Launch",
+      desc: "Resumed full-scale training in Chennai with Anna Nagar & Tambaram centres (~100 students). Inauguration of Kodai Kaala Kalai Vizha (KKKV) state-level competition.",
+      badge: "Signature Festival",
+    },
+    {
+      year: "2020–2025",
+      title: "Post-Pandemic Thriving Community",
+      desc: "Consolidated premier centres in Vengaivasal–Medavakkam and Bollineni Hills–Perumbakkam, expanding to 160+ active disciples, 25 Salanga Poojas, and 6 Arangetrams.",
+      badge: "160+ Disciples",
+    },
+    {
+      year: "2026",
+      title: "International Artistic Footprint",
+      desc: "Artistic outreach extended beyond Indian shores, with Suha Academy students and cultural programmes reaching stages in Singapore and Malaysia.",
+      badge: "Global Stages",
+    },
+  ];
+
   return (
     <>
+      {/* 1. Page Hero */}
       <PageHero
-        eyebrow="About"
+        eyebrow="The School of Classical Dance and Carnatic Music"
         title="Suha Academy of Fine Arts"
-        subtitle="A Chennai-based classical arts academy dedicated to Bharatanatyam, Mohiniyattam, and Carnatic Music — preserving tradition, nurturing expression."
-        image="/suha_media/suha_hero_duet_banner.jpg"
+        subtitle="Preserving India’s timeless artistic heritage through classical dance, Carnatic music, and the nurturing of future generations of artists."
+        image="/suha_media/shared/shared_hero_duet_banner.jpg"
         height="lg"
       />
 
-      {/* Academy Story */}
-      <section className="relative py-24 md:py-32 bg-cream-50">
+      {/* 2. Overview / Mission */}
+      <section className="relative py-24 md:py-32 bg-cream-50 overflow-hidden">
         <div className="container-wide section-padding">
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
-            <Reveal className="relative">
+            {/* Visual Column - Always visible immediately on load */}
+            <div className="relative">
               <div className="relative max-w-lg mx-auto lg:mx-0">
                 <div className="absolute -inset-3 border border-gold-500/15 rounded-sm pointer-events-none" />
-                <div className="relative overflow-hidden rounded-sm bg-navy-950">
+                <div className="relative overflow-hidden rounded-sm bg-navy-950 shadow-2xl">
                   <img
-                    src="/suha_media/suha_img_5.jpg"
-                    alt="Classical Bharatanatyam standing Natarajar asana discipline"
-                    loading="lazy"
-                    className="w-full h-[520px] object-cover"
+                    src="/suha_media/about/about_heritage_gurukulam_01.jpg"
+                    alt="Classical Bharatanatyam discipline at Suha Academy of Fine Arts"
+                    {...{ fetchpriority: "high" }}
+                    className="w-full h-[540px] object-cover object-top"
                   />
+                  <div className="absolute inset-0 bg-gradient-to-t from-navy-950/70 via-navy-950/20 to-transparent" />
                   <GoldFrame />
+
+                  <div className="absolute bottom-6 left-6 right-6 p-4 rounded-sm bg-[#0B0609]/90 backdrop-blur-md border border-gold-400/30 text-cream-100 flex items-center gap-3 shadow-xl">
+                    <div className="w-10 h-10 rounded-full bg-gold-500/20 border border-gold-400/40 flex items-center justify-center text-gold-400 shrink-0">
+                      <Sparkles className="w-5 h-5" />
+                    </div>
+                    <div>
+                      <p className="text-[11px] uppercase tracking-wider text-gold-400 font-semibold">
+                        Estd. 2010 • 160+ Students
+                      </p>
+                      <p className="text-xs text-cream-100/80">
+                        Medavakkam & Perumbakkam, Chennai
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Content Column */}
+            <div>
+              <div className="flex items-center gap-3 mb-4">
+                <div className="h-px w-8 bg-gold-500/40" />
+                <span className="eyebrow">About the Academy</span>
+              </div>
+
+              <h2 className="text-display-md font-display font-medium text-navy-900 mb-6">
+                Preserving Heritage.
+                <br />
+                <span className="italic text-gold-700">Cultivating Artistry.</span>
+              </h2>
+
+              <div className="space-y-4 text-navy-800/85 leading-relaxed text-sm md:text-base">
+                  <p>
+                    Established in 2010, <strong>Suha Academy of Fine Arts</strong> is a vibrant centre
+                    dedicated to the learning, preservation and propagation of India’s rich classical arts.
+                  </p>
+                  <p>
+                    Rooted in tradition and guided by artistic excellence, the Academy offers systematic
+                    training in <strong>Bharatanatyam</strong>, <strong>Mohiniyattam</strong> and{" "}
+                    <strong>Carnatic Music</strong>, nurturing students to discover their artistic voice
+                    while developing a deep appreciation for India’s cultural heritage.
+                  </p>
+                  <p>
+                    Our approach extends beyond technique. Through dedicated training, disciplined practice,
+                    devotion and meaningful stage exposure, students develop confidence, grace, musicality
+                    and a strong artistic foundation.
+                  </p>
+                  <p>
+                    With a thriving community of over <strong>160 students</strong> across our centres in{" "}
+                    <strong>Medavakkam</strong> and <strong>Perumbakkam</strong>, Chennai, Suha Academy
+                    remains committed to making classical arts accessible while upholding the authenticity
+                    and values of traditional learning.
+                  </p>
+
+                  <div className="p-4 rounded-sm bg-gold-50/80 border-l-2 border-gold-500 mt-5">
+                    <p className="text-xs font-serif italic text-navy-950 leading-relaxed font-medium">
+                      &ldquo;Preserving heritage. Cultivating artistry. Inspiring the next generation.&rdquo;
+                    </p>
+                  </div>
+                </div>
+
+              {/* Key Impact Stats */}
+              <Reveal delay={0.3}>
+                <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mt-8 p-4 bg-white border border-ivory-200 rounded-sm">
+                  <div className="text-center p-2">
+                    <p className="font-display text-2xl font-bold text-navy-900">2010</p>
+                    <p className="text-[11px] text-navy-700/60 uppercase tracking-wider mt-0.5">Established</p>
+                  </div>
+                  <div className="text-center p-2 border-l border-ivory-200">
+                    <p className="font-display text-2xl font-bold text-gold-600">160+</p>
+                    <p className="text-[11px] text-navy-700/60 uppercase tracking-wider mt-0.5">Active Disciples</p>
+                  </div>
+                  <div className="text-center p-2 border-l border-ivory-200">
+                    <p className="font-display text-2xl font-bold text-navy-900">25</p>
+                    <p className="text-[11px] text-navy-700/60 uppercase tracking-wider mt-0.5">Salanga Poojas</p>
+                  </div>
+                  <div className="text-center p-2 border-l border-ivory-200">
+                    <p className="font-display text-2xl font-bold text-gold-600">6</p>
+                    <p className="text-[11px] text-navy-700/60 uppercase tracking-wider mt-0.5">Arangetrams</p>
+                  </div>
+                </div>
+              </Reveal>
+
+           
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* 3. Founder Section */}
+      <FounderSection />
+
+
+      {/* 4. Our Journey: From a Humble Beginning to a Growing Artistic Legacy */}
+      <section className="relative py-24 md:py-32 bg-paper overflow-hidden">
+        <div className="absolute right-0 top-1/4 w-96 h-96 text-gold-500/[0.03] pointer-events-none">
+          <MandalaWatermark className="w-full h-full" />
+        </div>
+
+        <div className="container-wide section-padding relative z-10">
+          <SectionHeader
+            number="01"
+            eyebrow="Our Journey"
+            title="From a Humble Beginning to a Growing Artistic Legacy"
+            subtitle="The inspiring evolution of Suha Academy of Fine Arts — founded in 2010 on devotion, family support, and artistic excellence."
+          />
+
+          {/* Story Narrative: Inception & Naming */}
+          <div className="max-w-4xl mx-auto mt-14">
+            <Reveal>
+              <div className="p-8 sm:p-10 bg-white border border-ivory-200 rounded-sm shadow-sm space-y-6 text-navy-800/85 text-sm sm:text-base leading-relaxed">
+                <div className="flex items-center gap-3">
+                  <div className="w-8 h-8 rounded-full bg-gold-500/10 text-gold-600 flex items-center justify-center font-bold text-sm">
+                    ✦
+                  </div>
+                  <h3 className="font-display text-xl text-navy-900 font-medium">
+                    A Vision Nurtured with Devotion & Family Support
+                  </h3>
+                </div>
+
+                <p>
+                  Founded in 2010 by <strong>Smt. Ranjini Pradeep</strong>, Suha Academy of Fine Arts began
+                  with a humble yet purposeful vision—to create a space where the timeless traditions of
+                  Indian classical arts could be learnt, experienced and carried forward with discipline,
+                  devotion and dignity.
+                </p>
+
+                <p>
+                  What began with just two enthusiastic students from her neighbourhood gradually blossomed into
+                  a growing artistic community. With the steadfast encouragement and support of her mother,{" "}
+                  <strong>Mrs. Subhashini Hariharan</strong>, who has remained a constant pillar of strength,
+                  Ranjini nurtured the Academy with the belief that artistic education must extend far beyond
+                  learning steps, notes and compositions.
+                </p>
+
+                <div className="p-4 rounded-sm bg-cream-50 border-l-2 border-gold-500">
+                  <p className="text-xs text-navy-800 font-medium">
+                    <strong>The Name &lsquo;Suha&rsquo;:</strong> The Academy was named in loving honour of her parents,{" "}
+                    <em>Subhashini</em> and <em>Hariharan</em>, acknowledging their unwavering support and encouragement
+                    from the very first step.
+                  </p>
                 </div>
               </div>
             </Reveal>
 
-            <div>
-              <Reveal>
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="h-px w-8 bg-gold-500/40" />
-                  <span className="eyebrow">Our Story</span>
+            {/* Journey Pillars: Experience & Competition */}
+            <div className="grid md:grid-cols-2 gap-6 mt-8">
+              <Reveal delay={0.1} className="h-full">
+                <div className="p-8 bg-white border border-ivory-200 rounded-sm h-full flex flex-col justify-between">
+                  <div>
+                    <span className="text-xs font-mono uppercase tracking-wider text-gold-600 font-semibold block mb-2">
+                      Stage Repertoire & Ensemble
+                    </span>
+                    <h4 className="font-display text-lg text-navy-900 mb-3">
+                      A Journey Rooted in Experience
+                    </h4>
+                    <p className="text-xs sm:text-sm text-navy-700/80 leading-relaxed">
+                      From its early years, Suha Academy’s Annual Day celebrations were envisioned not merely
+                      as performances, but as valuable learning experiences. Performing together as an ensemble
+                      teaches young artists to adapt to stage dynamics, work as a team, develop meaningful
+                      senior-junior relationships and support one another in the pursuit of excellence.
+                    </p>
+                  </div>
                 </div>
               </Reveal>
 
-              <Reveal delay={0.1}>
-                <h2 className="text-display-md font-display font-medium text-navy-900 mb-6">
-                  A Tradition of
-                  <br />
-                  <span className="italic text-gold-700">Classical Learning</span>
-                </h2>
-              </Reveal>
-
-              <Reveal delay={0.2}>
-                <div className="space-y-4 text-navy-800/80 leading-relaxed">
-                  <p>
-                    Suha Academy of Fine Arts was founded in {academy.established}{" "}
-                    by {academy.founder} in Chennai, Tamil Nadu. The academy is
-                    dedicated to the teaching and promotion of two of India's most
-                    revered classical art forms — Bharatanatyam and Carnatic Music.
-                  </p>
-                  <p>
-                    Over the years, the academy has grown into a cultural
-                    institution that not only trains students in technique and
-                    repertoire but also provides platforms for performance,
-                    competition and celebration through events like Kodai Kaala
-                    Kalai Vizha.
-                  </p>
-                  <p>
-                    The academy welcomes students of all ages — from young
-                    children taking their first steps in classical arts to adults
-                    seeking to connect with their cultural heritage.
-                  </p>
-
-                  {/* Official Vision Quote */}
-                  <div className="p-4 rounded-sm bg-gold-50/60 border-l-2 border-gold-500 mt-4">
-                    <p className="text-[10px] uppercase tracking-widest text-gold-700 font-semibold mb-1">
-                      Academy Vision
+              <Reveal delay={0.15} className="h-full">
+                <div className="p-8 bg-white border border-ivory-200 rounded-sm h-full flex flex-col justify-between">
+                  <div>
+                    <span className="text-xs font-mono uppercase tracking-wider text-gold-600 font-semibold block mb-2">
+                      Kodai Kaala Kalai Vizha (KKKV)
+                    </span>
+                    <h4 className="font-display text-lg text-navy-900 mb-3">
+                      Healthy Competition & Growth
+                    </h4>
+                    <p className="text-xs sm:text-sm text-navy-700/80 leading-relaxed">
+                      Ranjini’s own formative years, enriched by participation in numerous competitions, inspired
+                      another important initiative—<strong>Kodai Kaala Kalai Vizha (KKKV)</strong>. Created to provide
+                      young artists with opportunities for healthy competition, KKKV encourages participants to showcase
+                      their abilities, learn from experience, identify areas for improvement and appreciate fellow artists.
                     </p>
-                    <p className="text-sm font-serif italic text-navy-900 leading-relaxed">
-                      "{academy.vision}"
+                  </div>
+                  <div className="mt-4 pt-3 border-t border-ivory-100">
+                    <p className="text-xs italic text-gold-700 font-serif">
+                      &ldquo;Competition should inspire growth, performance should build confidence, and tradition should always remain at the heart of artistic expression.&rdquo;
                     </p>
                   </div>
                 </div>
               </Reveal>
             </div>
           </div>
-        </div>
-      </section>
 
-      {/* Founder */}
-      <FounderSection />
-
-      {/* Philosophy */}
-      <section className="relative py-24 md:py-32 bg-navy-950 overflow-hidden">
-        <div className="container-wide section-padding relative z-10">
-          <SectionHeader
-            light
-            eyebrow="Philosophy"
-            title="Tradition in Motion"
-            subtitle="Learning that honours classical roots while preparing students for the stage."
-          />
-
-          <div className="grid md:grid-cols-3 gap-6 mt-14 max-w-4xl mx-auto">
-            {[
-              {
-                title: "Discipline",
-                text: "Structured, progressive learning that builds strong foundations in classical technique.",
-              },
-              {
-                title: "Expression",
-                text: "Encouraging students to find their voice through abhinaya, melody and performance.",
-              },
-              {
-                title: "Community",
-                text: "A shared space where students, families and teachers celebrate classical arts together.",
-              },
-            ].map((item, i) => (
-              <Reveal key={item.title} delay={i * 0.1}>
-                <div className="text-center p-8 border border-cream-100/10 rounded-sm hover:border-gold-400/20 transition-colors">
-                  <h3 className="font-display text-xl text-gold-300 mb-3">
-                    {item.title}
-                  </h3>
-                  <p className="text-sm text-cream-100/60 leading-relaxed">
-                    {item.text}
-                  </p>
-                </div>
-              </Reveal>
-            ))}
-          </div>
-
-          {/* The 4 Shastric Pillars */}
-          <div className="mt-20 pt-16 border-t border-cream-100/10 max-w-5xl mx-auto">
-            <div className="text-center mb-12">
-              <span className="text-xs uppercase tracking-[0.25em] text-gold-400 font-semibold">Shastric Framework</span>
-              <h3 className="text-display-sm font-display text-cream-50 mt-1">The Four Pillars of Our Pedagogy</h3>
+          {/* Timeline of Milestones */}
+          <div className="max-w-5xl mx-auto mt-20">
+            <div className="text-center mb-14">
+              <span className="text-xs uppercase tracking-[0.25em] text-gold-600 font-semibold">
+                Historical Progression
+              </span>
+              <h3 className="text-display-sm font-display text-navy-900 mt-1">
+                Milestones of Excellence
+              </h3>
             </div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-              {[
-                {
-                  sanskrit: "नृत्त • Nritta",
-                  title: "Pure Technique",
-                  desc: "Geometric body lines, precise Araimandi, energetic adavu execution, and intricate rhythmic footwork (tala laya).",
-                },
-                {
-                  sanskrit: "नृत्य • Nritya",
-                  title: "Bhava & Abhinaya",
-                  desc: "Facial expressions, eye movements (drishti bhedas), hand gestures (mudras), and evocative poetic portrayal.",
-                },
-                {
-                  sanskrit: "नाट्य • Natya",
-                  title: "Dramatic Repertoire",
-                  desc: "Narrative storytelling bringing mythological and devotional themes to life with theatrical grandeur.",
-                },
-                {
-                  sanskrit: "सङ्गीत • Sangeetham",
-                  title: "Carnatic Melody",
-                  desc: "Purity of shruti, classical ragas, disciplined breath control, and deep spiritual communion through song.",
-                },
-              ].map((pillar, idx) => (
-                <Reveal key={pillar.title} delay={idx * 0.1} className="h-full">
-                  <div className="bg-[#120B0E] p-6 rounded-sm border border-gold-500/20 h-full flex flex-col justify-between hover:border-gold-400/40 transition-colors">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {milestones.map((m, idx) => (
+                <Reveal key={m.year} delay={idx * 0.08} className="h-full">
+                  <div className="p-7 bg-white border border-ivory-200 rounded-sm h-full flex flex-col justify-between hover:border-gold-300 hover:shadow-lg transition-all group">
                     <div>
-                      <p className="text-xs font-serif text-gold-400 font-medium mb-1">{pillar.sanskrit}</p>
-                      <h4 className="font-display text-base text-cream-50 mb-3">{pillar.title}</h4>
-                      <p className="text-xs text-cream-100/70 leading-relaxed">{pillar.desc}</p>
+                      <div className="flex items-center justify-between mb-3">
+                        <span className="font-display text-xl font-bold text-navy-900 group-hover:text-gold-700 transition-colors">
+                          {m.year}
+                        </span>
+                        <span className="text-[10px] uppercase font-mono font-medium px-2 py-0.5 rounded bg-gold-500/10 text-gold-700 border border-gold-400/20">
+                          {m.badge}
+                        </span>
+                      </div>
+                      <h4 className="font-display text-base text-navy-900 mb-2 font-medium">
+                        {m.title}
+                      </h4>
+                      <p className="text-xs text-navy-700/75 leading-relaxed">
+                        {m.desc}
+                      </p>
                     </div>
                   </div>
                 </Reveal>
@@ -179,183 +331,208 @@ export default function About() {
         </div>
       </section>
 
-      {/* Teaching Approach */}
-      <section className="relative py-24 md:py-32 bg-cream-50">
-        <div className="container-wide section-padding">
+      {/* 5. A Platform for Art and Artists (Dignitaries, Sabhas & Global Outreach) */}
+      <section className="relative py-24 md:py-32 bg-navy-950 overflow-hidden text-cream-100">
+        <div className="container-wide section-padding relative z-10">
           <SectionHeader
-            eyebrow="Approach"
-            title="How We Teach"
-            subtitle="A methodology rooted in classical tradition, adapted for every learner."
+            light
+            number="02"
+            eyebrow="A Platform for Art and Artists"
+            title="Eminent Guests & Cultural Platforms"
+            subtitle="Distinguished personalities from music, dance and cinema who have graced Suha Academy’s stages and guided our disciples."
           />
 
-          <div className="grid md:grid-cols-2 gap-12 mt-14 max-w-4xl mx-auto">
-            <Reveal>
-              <div className="space-y-6">
-                {[
-                  { step: "01", title: "Foundations", text: "Students begin with the fundamentals — basic postures, hand gestures, and swara patterns." },
-                  { step: "02", title: "Progression", text: "Structured advancement through repertoire items, building complexity and expression." },
-                ].map((item) => (
-                  <div key={item.step} className="flex gap-4">
-                    <span className="font-display text-2xl text-gold-500/60 flex-shrink-0">{item.step}</span>
-                    <div>
-                      <h3 className="font-display text-lg text-navy-900 mb-1">{item.title}</h3>
-                      <p className="text-sm text-navy-700/70">{item.text}</p>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </Reveal>
-
-            <Reveal delay={0.15}>
-              <div className="space-y-6">
-                {[
-                  { step: "03", title: "Performance", text: "Opportunities to take the stage through events, competitions and annual day celebrations." },
-                  { step: "04", title: "Celebration", text: "Recognising growth and achievement through certificates, awards and community gatherings." },
-                ].map((item) => (
-                  <div key={item.step} className="flex gap-4">
-                    <span className="font-display text-2xl text-gold-500/60 flex-shrink-0">{item.step}</span>
-                    <div>
-                      <h3 className="font-display text-lg text-navy-900 mb-1">{item.title}</h3>
-                      <p className="text-sm text-navy-700/70">{item.text}</p>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </Reveal>
-          </div>
-        </div>
-      </section>
-
-      {/* Classical Disciplines + Performance */}
-      <section className="relative py-24 md:py-32 bg-paper">
-        <div className="container-wide section-padding">
-          <SectionHeader
-            eyebrow="Disciplines"
-            title="Two Classical Traditions"
-            subtitle="Bharatanatyam and Carnatic Music — the heart of Suha Academy."
-          />
-
-          <div className="grid md:grid-cols-2 gap-8 mt-14">
-            {[
-              {
-                title: "Bharatanatyam",
-                text: "One of India's oldest classical dance forms, originating in Tamil Nadu. Students learn from Pushpanjali to Thillana — a complete journey through nritta and abhinaya.",
-                image: "/suha_media/suha_img_1.jpg",
-                link: "/courses/bharatanatyam",
-              },
-              {
-                title: "Carnatic Vocal",
-                text: "South India's classical music tradition. Students develop voice, raga understanding and repertoire spanning devotional pieces to complex compositional forms.",
-                image: "/suha_media/suha_img_6.jpg",
-                link: "/courses/carnatic-music",
-              },
-            ].map((disc, i) => (
-              <Reveal key={disc.title} delay={i * 0.1}>
-                <Link
-                  to={disc.link}
-                  className="group block relative overflow-hidden rounded-sm"
-                >
-                  <img
-                    src={disc.image}
-                    alt={disc.title}
-                    loading="lazy"
-                    className="w-full h-80 object-cover transition-transform duration-700 group-hover:scale-105"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-navy-950/85 to-navy-950/20" />
-                  <GoldFrame />
-                  <div className="absolute bottom-0 left-0 right-0 p-8">
-                    <h3 className="font-display text-2xl text-cream-50 mb-2">{disc.title}</h3>
-                    <p className="text-sm text-cream-100/70 mb-3">{disc.text}</p>
-                    <span className="inline-flex items-center gap-2 text-sm text-gold-300 group-hover:gap-3 transition-all">
-                      Learn More <ArrowRight className="w-4 h-4" />
-                    </span>
-                  </div>
-                </Link>
+          {/* Guests Grid */}
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 mt-14 max-w-5xl mx-auto">
+            {distinguishedGuests.map((guest, idx) => (
+              <Reveal key={guest.name} delay={idx * 0.05} className="h-full">
+                <div className="p-5 rounded-sm bg-navy-900/60 border border-gold-500/15 h-full flex flex-col justify-center text-center hover:border-gold-400/40 transition-colors">
+                  <p className="font-display text-sm sm:text-base text-cream-50 font-medium mb-1">
+                    {guest.name}
+                  </p>
+                  <p className="text-[11px] text-gold-400/80">
+                    {guest.role}
+                  </p>
+                </div>
               </Reveal>
             ))}
           </div>
 
-          {/* Annual Academy Traditions */}
-          <div className="mt-20 pt-16 border-t border-ivory-200">
-            <div className="text-center mb-12">
-              <span className="text-xs uppercase tracking-[0.25em] text-gold-600 font-semibold">Living Culture</span>
-              <h3 className="text-display-sm font-display text-navy-900 mt-1">Sacred Annual Traditions</h3>
-            </div>
-
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-              <Reveal delay={0.1}>
-                <div className="p-7 bg-white border border-ivory-200 rounded-sm hover:border-gold-300 transition-all">
-                  <span className="text-xs uppercase tracking-wider text-gold-600 font-semibold block mb-1">December – January</span>
-                  <h4 className="font-display text-lg text-navy-900 mb-2">Margazhi Utsavam Recitals</h4>
-                  <p className="text-xs text-navy-700/70 leading-relaxed">
-                    Participation in Chennai's legendary Margazhi music & dance festival across prominent sabhas, instilling real concert discipline in senior disciples.
+          {/* Memorable Moments Photographic Showcase */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-12 max-w-5xl mx-auto">
+            <Reveal delay={0.1}>
+              <div className="relative overflow-hidden rounded-sm border border-gold-500/20 bg-navy-900 group">
+                <img
+                  src="/suha_media/shared/shared_media_asset_14.jpg"
+                  alt="Dignitaries and eminent artists felicitating Suha Academy at Annual Stage Event"
+                  loading="lazy"
+                  className="w-full h-64 object-cover object-top transition-transform duration-700 group-hover:scale-105"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-navy-950/90 via-navy-950/20 to-transparent" />
+                <div className="absolute bottom-4 left-4 right-4">
+                  <p className="text-xs uppercase tracking-wider text-gold-300 font-semibold mb-0.5">
+                    Stage Felicitation
+                  </p>
+                  <p className="text-sm text-cream-50 font-medium">
+                    Honouring cultural scholars and performing stalwarts
                   </p>
                 </div>
-              </Reveal>
+              </div>
+            </Reveal>
 
-              <Reveal delay={0.2}>
-                <div className="p-7 bg-white border border-ivory-200 rounded-sm hover:border-gold-300 transition-all">
-                  <span className="text-xs uppercase tracking-wider text-gold-600 font-semibold block mb-1">Maha Shivratri</span>
-                  <h4 className="font-display text-lg text-navy-900 mb-2">Temple Natyanjali Offerings</h4>
-                  <p className="text-xs text-navy-700/70 leading-relaxed">
-                    Spiritual dance pilgrimages offering classical sevas at Chidambaram Natarajar Temple and Brihadeeswarar Temple in Thanjavur.
+            <Reveal delay={0.2}>
+              <div className="relative overflow-hidden rounded-sm border border-gold-500/20 bg-navy-900 group">
+                <img
+                  src="/suha_media/shared/shared_media_asset_15.jpg"
+                  alt="Eminent guests and luminaries gracing Suha Academy stage recitals"
+                  loading="lazy"
+                  className="w-full h-64 object-cover object-center transition-transform duration-700 group-hover:scale-105"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-navy-950/90 via-navy-950/20 to-transparent" />
+                <div className="absolute bottom-4 left-4 right-4">
+                  <p className="text-xs uppercase tracking-wider text-gold-300 font-semibold mb-0.5">
+                    Celebrated Encounters
+                  </p>
+                  <p className="text-sm text-cream-50 font-medium">
+                    Mentorship and blessings from stalwarts across classical dance & music
                   </p>
                 </div>
-              </Reveal>
-
-              <Reveal delay={0.3}>
-                <div className="p-7 bg-white border border-ivory-200 rounded-sm hover:border-gold-300 transition-all">
-                  <span className="text-xs uppercase tracking-wider text-gold-600 font-semibold block mb-1">Vijayadasami</span>
-                  <h4 className="font-display text-lg text-navy-900 mb-2">Vidyarambham Ceremonies</h4>
-                  <p className="text-xs text-navy-700/70 leading-relaxed">
-                    Auspicious initiation day where new students write in rice, receive salangai blessings, and commence their lifelong dedication to classical arts.
-                  </p>
-                </div>
-              </Reveal>
-            </div>
+              </div>
+            </Reveal>
           </div>
+
         </div>
       </section>
 
-      {/* Timeline */}
-      <section className="relative py-24 md:py-32 bg-cream-50">
+      {/* 6. The Suha Philosophy & Shastric Pedagogy */}
+      <section className="relative py-24 md:py-32 bg-cream-50 overflow-hidden">
         <div className="container-wide section-padding">
           <SectionHeader
-            eyebrow="Journey"
-            title="Through the Years"
-            subtitle="Key milestones in the academy's story."
+            number="03"
+            eyebrow="The Suha Philosophy"
+            title="Tradition, Humility & Inner Expression"
+            subtitle="Classical arts regarded not merely as performing disciplines, but as a path to cultivate character, cultural awareness and lifelong joy."
           />
 
-          <div className="max-w-4xl mx-auto mt-16">
-            <VerticalTimeline items={timeline} />
+          <div className="max-w-4xl mx-auto mt-12">
+            <Reveal>
+              <div className="p-8 sm:p-10 bg-white border border-ivory-200 rounded-sm text-center space-y-4">
+                <p className="text-base md:text-lg text-navy-800/90 leading-relaxed font-serif italic max-w-2xl mx-auto">
+                  &ldquo;At Suha Academy, classical arts are regarded not merely as performing disciplines,
+                  but as a means of cultivating discipline, humility, confidence, creativity, cultural awareness
+                  and inner expression.&rdquo;
+                </p>
+                <p className="text-xs sm:text-sm text-navy-700/75 leading-relaxed max-w-2xl mx-auto">
+                  The Academy strives to make traditional arts accessible to students from diverse backgrounds
+                  while remaining firmly rooted in authenticity and heritage. Every student is encouraged to progress
+                  at their own pace, discover their individual strengths and step onto the stage with preparation,
+                  dignity and joy.
+                </p>
+              </div>
+            </Reveal>
+
+            {/* The 4 Shastric Pillars */}
+            <div className="mt-14 pt-12 border-t border-ivory-200">
+              <div className="text-center mb-10">
+                <span className="text-xs uppercase tracking-[0.25em] text-gold-700 font-semibold">
+                  Pedagogical Framework
+                </span>
+                <h3 className="text-display-sm font-display text-navy-900 mt-1">
+                  The Four Pillars of Our Training
+                </h3>
+              </div>
+
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                {[
+                  {
+                    sanskrit: "नृत्त • Nritta",
+                    title: "Pure Technique",
+                    desc: "Geometric body lines, precise Araimandi, energetic adavu execution, and intricate rhythmic footwork (tala laya).",
+                  },
+                  {
+                    sanskrit: "नृत्य • Nritya",
+                    title: "Bhava & Abhinaya",
+                    desc: "Facial expressions, eye movements (drishti bhedas), hand gestures (mudras), and evocative poetic portrayal.",
+                  },
+                  {
+                    sanskrit: "नाट्य • Natya",
+                    title: "Dramatic Repertoire",
+                    desc: "Narrative storytelling bringing mythological and devotional themes to life with theatrical grandeur.",
+                  },
+                  {
+                    sanskrit: "सङ्गीत • Sangeetham",
+                    title: "Carnatic Melody",
+                    desc: "Purity of shruti, classical ragas, disciplined breath control, and deep spiritual communion through song.",
+                  },
+                ].map((pillar, idx) => (
+                  <Reveal key={pillar.title} delay={idx * 0.08} className="h-full">
+                    <div className="bg-white p-6 rounded-sm border border-ivory-200 h-full flex flex-col justify-between hover:border-gold-300 transition-colors shadow-sm">
+                      <div>
+                        <p className="text-xs font-serif text-gold-700 font-medium mb-1">{pillar.sanskrit}</p>
+                        <h4 className="font-display text-base text-navy-900 mb-2 font-medium">{pillar.title}</h4>
+                        <p className="text-xs text-navy-700/75 leading-relaxed">{pillar.desc}</p>
+                      </div>
+                    </div>
+                  </Reveal>
+                ))}
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
-      {/* CTA */}
-      <section className="relative py-24 md:py-32 bg-navy-950 text-center">
-        <div className="container-wide section-padding">
+      {/* 7. Our Journey Continues (Closing & CTA) */}
+      <section className="relative py-28 md:py-36 bg-navy-950 overflow-hidden text-center text-cream-100">
+        <div className="absolute inset-0">
+          <img
+            src="/suha_media/shared/shared_page_header_banner.jpg"
+            alt="Suha Academy of Fine Arts Stage Presence"
+            loading="lazy"
+            className="w-full h-full object-cover opacity-20"
+          />
+          <div className="absolute inset-0 bg-gradient-to-b from-navy-950/90 via-navy-950/80 to-navy-950/95" />
+        </div>
+
+        <div className="container-wide section-padding relative z-10 max-w-3xl mx-auto">
           <Reveal>
-            <OrnamentDivider light className="mb-8" />
+            <span className="text-xs uppercase tracking-[0.25em] text-gold-300 font-semibold block mb-4">
+              Our Journey Continues
+            </span>
           </Reveal>
+
           <Reveal delay={0.1}>
-            <h2 className="text-display-md font-display text-cream-50 mb-4">
-              Where Learning Meets Expression
+            <h2 className="text-display-md md:text-display-lg font-display font-medium text-cream-50 mb-6 text-shadow-lg">
+              From Two Students to Global Stages
             </h2>
           </Reveal>
+
           <Reveal delay={0.2}>
-            <p className="text-cream-100/60 max-w-lg mx-auto mb-8">
-              Join a community dedicated to classical arts and cultural growth.
+            <p className="text-sm md:text-base text-cream-100/75 leading-relaxed mb-6">
+              From two students in 2010 to a thriving community of over 160 students today, Suha Academy’s journey
+              stands as a testament to a dream nurtured through dedication and sustained by the unwavering support
+              of family, students, parents, teachers and the artistic community.
+            </p>
+            <p className="text-sm md:text-base text-gold-300/90 font-serif italic leading-relaxed mb-10">
+              &ldquo;More than a decade later, the Academy continues to move forward with the same founding vision—to preserve the richness of Indian classical arts, nurture emerging talent, create meaningful opportunities for young artists and carry our cultural heritage to newer generations and wider horizons.&rdquo;
             </p>
           </Reveal>
+
           <Reveal delay={0.3}>
-            <Link
-              to="/contact"
-              className="inline-flex items-center gap-2 px-8 py-4 bg-gold-500 text-navy-950 font-medium text-sm rounded-sm hover:bg-gold-400 transition-all duration-300 group"
-            >
-              Join the Academy
-              <ArrowRight className="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" />
-            </Link>
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+              <Link
+                to="/contact"
+                className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-gold-500 text-navy-950 font-medium text-sm tracking-wide rounded-sm transition-all duration-300 hover:bg-gold-400 hover:shadow-xl hover:shadow-gold-500/30 active:scale-[0.98] group"
+              >
+                Join the Academy
+                <ArrowRight className="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" />
+              </Link>
+              <Link
+                to="/courses"
+                className="inline-flex items-center justify-center gap-2 px-8 py-4 border border-cream-100/30 text-cream-50 font-medium text-sm tracking-wide rounded-sm transition-all duration-300 hover:border-gold-400 hover:text-gold-300"
+              >
+                Explore Courses
+              </Link>
+            </div>
           </Reveal>
         </div>
       </section>
