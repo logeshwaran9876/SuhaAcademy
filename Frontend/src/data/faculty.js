@@ -228,7 +228,7 @@ export const coordinators = [
       "Day-to-day Administration & Operations",
       "MBA - Human Resource Management",
     ],
-    image: "/suha_media/shared/shared_faculty_mahalakshmi_dinakaran.jpg",
+    image: "/suha_media/shared/shared_faculty_mahalakshmi.jpg",
     experience: "MBA (HRM) · Student Engagement & Operations",
     credentials:
       "MBA Graduate Specializing in Human Resource Management · Background in Business Administration & Software Testing",
