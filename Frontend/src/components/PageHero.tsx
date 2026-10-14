@@ -197,7 +197,7 @@ export default function PageHero({
             )} */}
 
             {/* Lineage / Trust Chips */}
-            <Reveal delay={0.3}>
+            {/* <Reveal delay={0.3}>
               <div className="flex flex-wrap items-center gap-2 sm:gap-2.5">
                 {(badges && badges.length > 0
                   ? badges
@@ -212,7 +212,7 @@ export default function PageHero({
                   </span>
                 ))}
               </div>
-            </Reveal>
+            </Reveal> */}
           </div>
         </div>
       </div>
