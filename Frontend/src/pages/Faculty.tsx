@@ -503,57 +503,7 @@ export default function Faculty() {
       {/* =========================================================================
           PEDAGOGICAL PILLARS & ACADEMY HERITAGE
       ========================================================================= */}
-      <section id="pedagogy-ethos" className="relative py-20 md:py-28 bg-paper overflow-hidden">
-        <div className="container-wide section-padding max-w-6xl mx-auto">
-          <SectionHeader
-            number="04"
-            eyebrow="Our Educational Ethos"
-            title="The Guru-Shishya Tradition"
-            subtitle="At Suha Academy, classical arts are not taught as generic syllabi, but transmitted as a living tradition combining rigorous technique with personal character-building."
-          />
-
-          {/* Statistics Strip */}
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-16">
-            {facultyHighlights.map((stat, idx) => (
-              <div
-                key={idx}
-                className="p-5 sm:p-6 bg-white border border-gold-400/30 rounded-sm shadow-xs text-center"
-              >
-                <span className="font-display text-3xl sm:text-4xl font-bold text-gold-700 block mb-1">
-                  {stat.number}
-                </span>
-                <span className="text-xs uppercase tracking-wider font-bold text-navy-950 block mb-1">
-                  {stat.label}
-                </span>
-                <p className="text-[11px] text-navy-700 leading-snug">{stat.desc}</p>
-              </div>
-            ))}
-          </div>
-
-          {/* 4 Pillars Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {pedagogicalPillars.map((pillar, idx) => (
-              <div
-                key={idx}
-                className="p-6 bg-white border border-ivory-200 rounded-sm shadow-xs hover:border-gold-400 transition-colors"
-              >
-                <div className="flex items-center gap-3 mb-2.5">
-                  <span className="w-8 h-8 rounded-full bg-gold-100 border border-gold-400/40 flex items-center justify-center font-display font-bold text-gold-800 text-sm">
-                    {idx + 1}
-                  </span>
-                  <h4 className="font-display text-lg font-bold text-navy-950">
-                    {pillar.title}
-                  </h4>
-                </div>
-                <p className="text-xs sm:text-sm text-navy-700 leading-relaxed pl-11">
-                  {pillar.desc}
-                </p>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
+  
       {/* =========================================================================
           MODAL FOR COMPLETE PROFILES
       ========================================================================= */}

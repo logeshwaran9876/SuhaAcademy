@@ -425,52 +425,7 @@ export default function About() {
               </div>
             </Reveal>
 
-            {/* The 4 Shastric Pillars */}
-            <div className="mt-14 pt-12 border-t border-ivory-200">
-              <div className="text-center mb-10">
-                <span className="text-xs uppercase tracking-[0.25em] text-gold-700 font-semibold">
-                  Pedagogical Framework
-                </span>
-                <h3 className="text-display-sm font-display text-navy-900 mt-1">
-                  The Four Pillars of Our Training
-                </h3>
-              </div>
-
-              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-                {[
-                  {
-                    sanskrit: "नृत्त • Nritta",
-                    title: "Pure Technique",
-                    desc: "Geometric body lines, precise Araimandi, energetic adavu execution, and intricate rhythmic footwork (tala laya).",
-                  },
-                  {
-                    sanskrit: "नृत्य • Nritya",
-                    title: "Bhava & Abhinaya",
-                    desc: "Facial expressions, eye movements (drishti bhedas), hand gestures (mudras), and evocative poetic portrayal.",
-                  },
-                  {
-                    sanskrit: "नाट्य • Natya",
-                    title: "Dramatic Repertoire",
-                    desc: "Narrative storytelling bringing mythological and devotional themes to life with theatrical grandeur.",
-                  },
-                  {
-                    sanskrit: "सङ्गीत • Sangeetham",
-                    title: "Carnatic Melody",
-                    desc: "Purity of shruti, classical ragas, disciplined breath control, and deep spiritual communion through song.",
-                  },
-                ].map((pillar, idx) => (
-                  <Reveal key={pillar.title} delay={idx * 0.08} className="h-full">
-                    <div className="bg-white p-6 rounded-sm border border-ivory-200 h-full flex flex-col justify-between hover:border-gold-300 transition-colors shadow-sm">
-                      <div>
-                        <p className="text-xs font-serif text-gold-700 font-medium mb-1">{pillar.sanskrit}</p>
-                        <h4 className="font-display text-base text-navy-900 mb-2 font-medium">{pillar.title}</h4>
-                        <p className="text-xs text-navy-700/75 leading-relaxed">{pillar.desc}</p>
-                      </div>
-                    </div>
-                  </Reveal>
-                ))}
-              </div>
-            </div>
+         
           </div>
         </div>
       </section>

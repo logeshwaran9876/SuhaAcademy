@@ -86,7 +86,7 @@ export const achievements = [
   },
   {
     label: "Centers in Chennai",
-    value: "Perungalathur · Medavakkam · Perumbakkam",
+    value: "Medavakkam · Perumbakkam",
     icon: "Landmark",
   },
   {
