@@ -204,7 +204,7 @@ export default function Contact() {
                     </p>
                     <p className="text-base text-navy-900 font-semibold">{academy.phone}</p>
                     <p className="text-xs text-navy-600/70 mt-0.5">
-                      Mon–Sun 9:00 AM – 8:00 PM &middot; Guidance & Batch Placement
+                      Guidance &amp; Batch Placement
                     </p>
                   </div>
                 </a>
