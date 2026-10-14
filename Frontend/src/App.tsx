@@ -13,7 +13,6 @@ import EventDetails from "@/pages/EventDetails";
 import GalleryPage from "@/pages/GalleryPage";
 import Testimonials from "@/pages/Testimonials";
 import Contact from "@/pages/Contact";
-import FAQ from "@/pages/FAQ";
 import Faculty from "@/pages/Faculty";
 import NotFound from "@/pages/NotFound";
 
@@ -102,12 +101,7 @@ const pageMetas: MetaConfig[] = [
     description:
       "Contact Suha Academy of Fine Arts for Bharatanatyam and Carnatic Music classes in Medavakkam & Perumbakkam, Chennai. Call +91 98846 44298.",
   },
-  {
-    path: "/faq",
-    title: "FAQ | Suha Academy of Fine Arts",
-    description:
-      "Frequently asked questions about Suha Academy courses, batches, events and enrolment.",
-  },
+  
 ];
 
 function usePageMeta() {
@@ -223,7 +217,6 @@ function App() {
           <Route path="/gallery" element={<GalleryPage />} />
           <Route path="/testimonials" element={<Testimonials />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/faq" element={<FAQ />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </main>

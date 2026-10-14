@@ -23,7 +23,7 @@ export default function About() {
     { name: "Smt. Mahathi", role: "Carnatic Vocalist & Playback Singer" },
     { name: "Anand Aravindakshan", role: "Playback Singer & Title Winner" },
     { name: "Sriram & Roshini", role: "Playback Singers" },
-    { name: "Dr. Divyasena", role: "Bharatanatyam Exponent & Guru" },
+    { name: "Smt. Divyasena", role: "Bharatanatyam Exponent & Guru" },
     { name: "Smt. Srekala Bharath", role: "Kalaimamani Bharatanatyam Guru" },
     { name: "Sri Narendra Kumar", role: "Classical Dancer & Choreographer" },
     { name: "Sri Shivakumar", role: "Classical Dancer" },
@@ -43,7 +43,7 @@ export default function About() {
     {
       year: "2012",
       title: "First Disciples Arangetram",
-      desc: "Two disciples presented their Bharatanatyam Arangetram in the revered presence of Paramaguru Smt. Chithra Muralidharan.",
+      desc: "Two disciples presented their Bharatanatyam Arangetram in the esteemed presence of Ranjini’s Paramaguru, Smt. Chithra Muralidharan.",
       badge: "Debut Milestone",
     },
     {
@@ -231,9 +231,7 @@ export default function About() {
 
                 <div className="p-4 rounded-sm bg-cream-50 border-l-2 border-gold-500">
                   <p className="text-xs text-navy-800 font-medium">
-                    <strong>The Name &lsquo;Suha&rsquo;:</strong> The Academy was named in loving honour of her parents,{" "}
-                    <em>Subhashini</em> and <em>Hariharan</em>, acknowledging their unwavering support and encouragement
-                    from the very first step.
+                    The Academy was named in honour of her parents, acknowledging their unwavering support and encouragement.
                   </p>
                 </div>
               </div>
@@ -273,7 +271,7 @@ export default function About() {
                       Ranjini’s own formative years, enriched by participation in numerous competitions, inspired
                       another important initiative—<strong>Kodai Kaala Kalai Vizha (KKKV)</strong>. Created to provide
                       young artists with opportunities for healthy competition, KKKV encourages participants to showcase
-                      their abilities, learn from experience, identify areas for improvement and appreciate fellow artists.
+                      their abilities, learn from experience, identify areas for improvement and appreciate the talents of fellow artists.
                     </p>
                   </div>
                   <div className="mt-4 pt-3 border-t border-ivory-100">
@@ -352,46 +350,32 @@ export default function About() {
             ))}
           </div>
 
-          {/* Memorable Moments Photographic Showcase */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-12 max-w-5xl mx-auto">
+          {/* Narrative Paragraphs from Client Document (Pages 4 & 5) */}
+          <div className="max-w-4xl mx-auto mt-12 space-y-5 text-cream-100/85 text-sm sm:text-base leading-relaxed text-center">
             <Reveal delay={0.1}>
-              <div className="relative overflow-hidden rounded-sm border border-gold-500/20 bg-navy-900 group">
-                <img
-                  src="/suha_media/shared/shared_media_asset_14.jpg"
-                  alt="Dignitaries and eminent artists felicitating Suha Academy at Annual Stage Event"
-                  loading="lazy"
-                  className="w-full h-64 object-cover object-top transition-transform duration-700 group-hover:scale-105"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-navy-950/90 via-navy-950/20 to-transparent" />
-                <div className="absolute bottom-4 left-4 right-4">
-                  <p className="text-xs uppercase tracking-wider text-gold-300 font-semibold mb-0.5">
-                    Stage Felicitation
-                  </p>
-                  <p className="text-sm text-cream-50 font-medium">
-                    Honouring cultural scholars and performing stalwarts
-                  </p>
-                </div>
-              </div>
+              <p>
+                Suha Academy’s Annual Day celebrations have welcomed several distinguished personalities
+                from the worlds of music, dance and cinema, including playback singer Anand Aravindakshan,
+                singers Sriram and Roshini, Smt. Mahathi, Dr. Nithyashree Mahadevan, Dr. Udaykumar,
+                dancers Sri Narendra Kumar, Smt. Divyasena, Smt. Srekala Bharath and Sri Shivakumar,
+                actor Amit Bhargav, actress MGR Latha, and Sadhagaparavaigal Sankar and Bharanidaran,
+                among many other eminent guests and artists.
+              </p>
+            </Reveal>
+
+            <Reveal delay={0.15}>
+              <p>
+                Over the years, the Academy’s students have performed at numerous temples, cultural
+                institutions and sabhas across Chennai, gaining invaluable exposure to diverse
+                performance environments and audiences.
+              </p>
             </Reveal>
 
             <Reveal delay={0.2}>
-              <div className="relative overflow-hidden rounded-sm border border-gold-500/20 bg-navy-900 group">
-                <img
-                  src="/suha_media/shared/shared_media_asset_15.jpg"
-                  alt="Eminent guests and luminaries gracing Suha Academy stage recitals"
-                  loading="lazy"
-                  className="w-full h-64 object-cover object-center transition-transform duration-700 group-hover:scale-105"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-navy-950/90 via-navy-950/20 to-transparent" />
-                <div className="absolute bottom-4 left-4 right-4">
-                  <p className="text-xs uppercase tracking-wider text-gold-300 font-semibold mb-0.5">
-                    Celebrated Encounters
-                  </p>
-                  <p className="text-sm text-cream-50 font-medium">
-                    Mentorship and blessings from stalwarts across classical dance & music
-                  </p>
-                </div>
-              </div>
+              <p className="text-gold-300 font-serif italic text-base sm:text-lg">
+                In 2026, Suha Academy reached another proud milestone as its artistic journey extended
+                beyond Indian shores, with its students and programmes reaching Singapore and Malaysia.
+              </p>
             </Reveal>
           </div>
 
@@ -461,8 +445,12 @@ export default function About() {
               stands as a testament to a dream nurtured through dedication and sustained by the unwavering support
               of family, students, parents, teachers and the artistic community.
             </p>
-            <p className="text-sm md:text-base text-gold-300/90 font-serif italic leading-relaxed mb-10">
+            <p className="text-sm md:text-base text-gold-300/90 font-serif italic leading-relaxed mb-6">
               &ldquo;More than a decade later, the Academy continues to move forward with the same founding vision—to preserve the richness of Indian classical arts, nurture emerging talent, create meaningful opportunities for young artists and carry our cultural heritage to newer generations and wider horizons.&rdquo;
+            </p>
+            <p className="text-sm md:text-base text-cream-100/85 leading-relaxed mb-10">
+              From a humble beginning to stages across the world, Suha’s journey continues—with tradition
+              as its foundation, excellence as its aspiration and every student as a cherished part of its legacy.
             </p>
           </Reveal>
 

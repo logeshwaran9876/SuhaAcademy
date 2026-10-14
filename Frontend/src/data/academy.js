@@ -96,5 +96,4 @@ export const navLinks = [
   { label: "Gallery", path: "/gallery" },
   { label: "Testimonials", path: "/testimonials" },
   { label: "Contact", path: "/contact" },
-  { label: "FAQ", path: "/faq" },
 ];

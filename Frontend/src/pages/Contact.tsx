@@ -25,7 +25,7 @@ const branches = [
     tag: "Main Campus & Academy Studios",
     address:
       "3rd Floor, Ixora Club House, BSCPL BOLLINENI HILLSIDE, Bollineni Hillside Road, Perumbakkam, Chennai, Tamil Nadu 600131",
-    timing: "Saturday Evenings (4:00 – 7:00 PM) & Sunday Mornings (9:00 AM – 1:00 PM)",
+    timing: "Weekday & Weekend Batches Available (Contact Admissions for Current Schedule)",
     landmark: "3rd Floor, Ixora Club House, BSCPL BOLLINENI HILLSIDE",
     mapQuery:
       "Ixora Club House BSCPL BOLLINENI HILLSIDE Bollineni Hillside Road Perumbakkam Chennai 600131",
@@ -37,7 +37,7 @@ const branches = [
     name: "Medavakkam Center",
     tag: "South Chennai Center",
     address: "Navins Starwood Towers, Vengaivasal Main Road, Medavakkam, Chennai – 600100",
-    timing: "Friday Evenings (5:00 – 7:30 PM) & Saturday Mornings (9:30 AM – 12:30 PM)",
+    timing: "Weekday & Weekend Batches Available (Contact Admissions for Current Schedule)",
     landmark: "Opp. Global Hospital road junction, Navins Starwood Club",
     mapQuery: "Navins Starwood Towers Medavakkam Chennai",
     phone: academy.phone,
@@ -45,24 +45,7 @@ const branches = [
   }
 ];
 
-const contactFaqs = [
-  {
-    q: "Can children join without prior dance or vocal experience?",
-    a: "Absolutely! We welcome young children from age 4 onwards into our Young Learners batch, where they learn foundational postures, basic rhythm (adavus), and devotional slokas in a warm, encouraging environment.",
-  },
-  {
-    q: "Do you offer adult beginner batches for homemakers & working professionals?",
-    a: "Yes. Many of our students are adults who are reconnecting with classical arts after a gap or beginning fresh. We have tailored adult batches designed with flexible schedules and supportive pacing.",
-  },
-  {
-    q: "How are trial classes scheduled?",
-    a: "You can book a trial consultation by calling +91 99948 83303 or messaging us on WhatsApp. Our coordinator will schedule a trial session with Guru Smt. Ranjini Pradeep at our Perumbakkam campus.",
-  },
-  {
-    q: "Are students prepared for certified examinations?",
-    a: "Yes. Students are trained for structured graded examinations conducted in collaboration with Bridge Academy and accredited Music & Dance Universities, progressing from Grade 1 through Diploma and Arangetram.",
-  },
-];
+
 
 const directWhatsAppLink =
   "https://wa.me/919994883303?text=Hi%20Suha%20Academy%2C%20I%20would%20like%20to%20enroll%20%2F%20inquire%20about%20Bharatanatyam%20for%20Child%20(4%E2%80%9312%20yrs).%20Please%20share%20batch%20timings%20and%20admission%20details.";
@@ -94,8 +77,6 @@ export default function Contact() {
                   <span>
                     Direct phone: <strong className="text-navy-900">{academy.phone}</strong>
                   </span>
-                  <span className="hidden sm:inline">&middot;</span>
-                  <span>Mon–Sun 9 AM – 8 PM</span>
                 </div>
               </div>
             </div>
@@ -355,8 +336,8 @@ export default function Contact() {
                   <div className="flex items-start gap-2.5 text-navy-800">
                     <Clock className="w-4 h-4 text-gold-600 shrink-0 mt-0.5" />
                     <div>
-                      <strong className="text-navy-900">Campus Class Hours:</strong>
-                      <p className="text-navy-700/80">Saturday Evenings (4:00 – 7:00 PM) & Sunday Mornings (9:00 AM – 1:00 PM)</p>
+                      <strong className="text-navy-900">Batch Schedule:</strong>
+                      <p className="text-navy-700/80">Weekday &amp; Weekend Batches Available (Contact Admissions for Current Schedule)</p>
                     </div>
                   </div>
 
@@ -408,33 +389,7 @@ export default function Contact() {
         </div>
       </section>
 
-      {/* Admissions FAQ Accordion */}
-      <section className="relative py-20 bg-cream-50 border-t border-ivory-200">
-        <div className="container-wide section-padding">
-          <div className="max-w-3xl mx-auto">
-            <div className="text-center mb-10">
-              <span className="text-xs uppercase tracking-[0.25em] text-gold-600 font-semibold">Common Queries</span>
-              <h2 className="text-display-sm font-display text-navy-900 mt-1">Admissions Frequently Asked Questions</h2>
-            </div>
-
-            <div className="flex flex-col gap-4">
-              {contactFaqs.map((faq, i) => (
-                <details key={i} className="group bg-white border border-ivory-200 rounded-sm overflow-hidden">
-                  <summary className="flex items-center justify-between gap-4 p-5 cursor-pointer list-none select-none">
-                    <span className="font-display text-base text-navy-900 font-medium">
-                      {faq.q}
-                    </span>
-                    <ChevronDown className="w-4 h-4 text-gold-500 shrink-0 transition-transform duration-300 group-open:rotate-180" />
-                  </summary>
-                  <div className="px-5 pb-5 -mt-1 text-xs text-navy-700/80 leading-relaxed border-t border-ivory-100 pt-3">
-                    {faq.a}
-                  </div>
-                </details>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
+     
 
       {/* Final CTA */}
       <section className="relative py-24 bg-navy-950 text-center text-cream-100">

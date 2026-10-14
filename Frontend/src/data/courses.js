@@ -676,7 +676,7 @@ export const whySuha = [
   {
     title: "Nurturing the Next Generation of Artistes",
     description:
-      "With a growing community of 160+ students, Suha Academy strives to create not just skilled performers, but young artistes who carry forward the values of tradition, devotion, discipline and excellence.",
+      "With a growing community of 140+ students, Suha Academy strives to create not just skilled performers, but young artistes who carry forward the values of tradition, devotion, discipline and excellence.",
     icon: "Heart",
   },
 ];

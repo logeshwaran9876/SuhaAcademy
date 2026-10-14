@@ -413,12 +413,8 @@ export default function Courses() {
 
                   <div className="space-y-3 pt-4 border-t border-ivory-200 text-xs">
                     <div className="p-3 rounded-xs bg-[#FAF7F0] border border-gold-400/20">
-                      <p className="text-gold-800 font-bold mb-0.5">Friday Evenings:</p>
-                      <p className="text-navy-900 font-medium">5:00 PM – 7:30 PM (Bharatanatyam)</p>
-                    </div>
-                    <div className="p-3 rounded-xs bg-[#FAF7F0] border border-gold-400/20">
-                      <p className="text-gold-800 font-bold mb-0.5">Saturday Mornings:</p>
-                      <p className="text-navy-900 font-medium">9:30 AM – 12:30 PM (Vocal & Dance)</p>
+                      <p className="text-gold-800 font-bold mb-0.5">Batch Schedule:</p>
+                      <p className="text-navy-900 font-medium">Weekday &amp; Weekend Batches Available (Contact Admissions for Current Schedule)</p>
                     </div>
                   </div>
                 </div>
@@ -460,12 +456,8 @@ export default function Courses() {
 
                   <div className="space-y-3 pt-4 border-t border-ivory-200 text-xs">
                     <div className="p-3 rounded-xs bg-[#FAF7F0] border border-gold-400/20">
-                      <p className="text-gold-800 font-bold mb-0.5">Saturday Evenings:</p>
-                      <p className="text-navy-900 font-medium">4:00 PM – 7:00 PM (Dance & Music)</p>
-                    </div>
-                    <div className="p-3 rounded-xs bg-[#FAF7F0] border border-gold-400/20">
-                      <p className="text-gold-800 font-bold mb-0.5">Sunday Mornings:</p>
-                      <p className="text-navy-900 font-medium">9:00 AM – 1:00 PM (All Levels)</p>
+                      <p className="text-gold-800 font-bold mb-0.5">Batch Schedule:</p>
+                      <p className="text-navy-900 font-medium">Weekday &amp; Weekend Batches Available (Contact Admissions for Current Schedule)</p>
                     </div>
                   </div>
                 </div>

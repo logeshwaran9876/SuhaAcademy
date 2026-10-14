@@ -14,7 +14,6 @@ export type PageHeroKey =
   | "courses"
   | "events"
   | "faculty"
-  | "faq"
   | "gallery"
   | "testimonials"
   | "contact";
@@ -69,17 +68,6 @@ export const pageHeroes: Record<PageHeroKey, PageHeroData> = {
     badges: ["Guru Smt. Ranjini Pradeep", "Vocal & Natya Masters", "Personalized Guidance"],
     primaryAction: { label: "View All Faculty", href: "#faculty-grid" },
     secondaryAction: { label: "Enroll With Us", href: "/contact" },
-  },
-  faq: {
-    eyebrow: "Inquiries & Academy Guidelines",
-    title: "Frequently Asked Questions",
-    subtitle:
-      "Find clear answers regarding admissions, batch timings, curriculum levels, fee structures, examination criteria, dress etiquette, and stage recitals.",
-    image: "/suha_media/Tabs/Faq.png",
-    imagePosition: "object-[78%_center] sm:object-[76%_center]",
-    badges: ["Admissions & Batches", "Curriculum Details", "Fee Guidelines"],
-    primaryAction: { label: "Browse Questions", href: "#faq-search" },
-    secondaryAction: { label: "Ask a Question", href: "/contact" },
   },
   gallery: {
     eyebrow: "Recitals & Visual Archives",
