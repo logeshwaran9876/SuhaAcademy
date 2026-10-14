@@ -161,13 +161,7 @@ export default function FAQ() {
 
   return (
     <>
-      <PageHero
-        eyebrow="Help & Knowledge Base"
-        title="Frequently Asked Questions"
-        subtitle="Clear answers about admissions, batch timings, curriculum, dress code, exams, and stage performance opportunities."
-        image="/suha_media/shared/shared_hero_theatre_banner.jpg"
-        height="lg"
-      />
+      <PageHero pageKey="faq" />
 
       {/* Main Knowledge Hub Section */}
       <section className="relative py-14 md:py-20 bg-cream-50">
@@ -236,7 +230,7 @@ export default function FAQ() {
           </div>
 
           {/* Search Bar & Filter Strip */}
-          <div className="bg-white border border-gold-500/20 rounded-sm p-5 sm:p-6 mb-10 max-w-6xl mx-auto shadow-xs">
+          <div id="faq-search" className="bg-white border border-gold-500/20 rounded-sm p-5 sm:p-6 mb-10 max-w-6xl mx-auto shadow-xs">
             <div className="flex flex-col lg:flex-row lg:items-center justify-between gap-4">
               {/* Search Input */}
               <div className="relative flex-1">

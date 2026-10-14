@@ -75,16 +75,10 @@ export default function About() {
   return (
     <>
       {/* 1. Page Hero */}
-      <PageHero
-        eyebrow="The School of Classical Dance and Carnatic Music"
-        title="Suha Academy of Fine Arts"
-        subtitle="Preserving India’s timeless artistic heritage through classical dance, Carnatic music, and the nurturing of future generations of artists."
-        image="/suha_media/shared/shared_hero_duet_banner.jpg"
-        height="lg"
-      />
+      <PageHero pageKey="about" />
 
       {/* 2. Overview / Mission */}
-      <section className="relative py-24 md:py-32 bg-cream-50 overflow-hidden">
+      <section id="overview" className="relative py-24 md:py-32 bg-cream-50 overflow-hidden">
         <div className="container-wide section-padding">
           <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
             {/* Visual Column - Always visible immediately on load */}

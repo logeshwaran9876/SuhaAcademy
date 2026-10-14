@@ -70,13 +70,7 @@ const directWhatsAppLink =
 export default function Contact() {
   return (
     <>
-      <PageHero
-        eyebrow="Admissions & Locations"
-        title="Begin Your Artistic Journey"
-        subtitle="Connect with Suha Academy of Fine Arts to learn more about Bharatanatyam, Carnatic Vocal, Mohiniyattam, and KKKV registrations across our Chennai centers."
-        image="/suha_media/shared/shared_media_asset_01.jpg"
-        height="lg"
-      />
+      <PageHero pageKey="contact" />
 
       {/* Quick WhatsApp Inquiry Bar */}
       <section className="bg-white border-b border-ivory-200 py-6 md:py-8 shadow-xs">
@@ -202,7 +196,7 @@ export default function Contact() {
       </section>
 
       {/* Reach Us Directly & Official Headquarters Section */}
-      <section className="relative py-20 md:py-28 bg-paper">
+      <section id="contact-form" className="relative py-20 md:py-28 bg-paper">
         <div className="container-wide section-padding">
           <SectionHeader
             number="02"

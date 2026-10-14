@@ -278,18 +278,39 @@ export default function Courses() {
     return courses.find((c) => c.slug === selectedCurriculumSlug) || courses[0];
   }, [selectedCurriculumSlug]);
 
+  const heroImage = useMemo(() => {
+    if (activeTab === "mohiniyattam") return "/suha_media/Tabs/mohiniyattam.png";
+    if (activeTab === "carnatic-music") return "/suha_media/Tabs/Carnatic.png";
+    return "/suha_media/Tabs/Courses.png";
+  }, [activeTab]);
+
   return (
     <>
       <PageHero
-        eyebrow="Courses & Training"
-        title="Learn the Classical Arts"
-        subtitle="Structured, authentic pedagogy in Bharatanatyam, Mohiniyattam, and Carnatic Music — rooted in tradition and groomed for the stage."
-        image="/suha_media/shared/shared_hero_theatre_banner.jpg"
-        height="lg"
+        pageKey="courses"
+        image={heroImage}
+        eyebrow={
+          activeTab === "mohiniyattam"
+            ? "Kerala Classical Lasya Tradition"
+            : activeTab === "carnatic-music"
+            ? "South Indian Classical Shastric Tradition"
+            : activeTab === "bharatanatyam"
+            ? "Vazhuvoor Baani • Classical Dance"
+            : undefined
+        }
+        title={
+          activeTab === "mohiniyattam"
+            ? "Mohiniyattam Classical Arts"
+            : activeTab === "carnatic-music"
+            ? "Carnatic Vocal Sangeetham"
+            : activeTab === "bharatanatyam"
+            ? "Bharatanatyam Dance Tradition"
+            : undefined
+        }
       />
 
       {/* Filter Tabs Bar */}
-      <section className="bg-white border-b border-ivory-200 sticky top-[69px] z-30 py-3 shadow-xs">
+      <section id="disciplines" className="bg-white border-b border-ivory-200 sticky top-[69px] z-30 py-3 shadow-xs">
         <div className="container-wide section-padding">
           <div className="flex items-center justify-start md:justify-center gap-2 overflow-x-auto no-scrollbar py-1">
             {[
@@ -356,281 +377,62 @@ export default function Courses() {
         </div>
       </section>
 
-      {/* Interactive In-Depth Curriculum & Progression Levels */}
-      <section id="curriculum-roadmap" className="relative py-24 md:py-32 bg-navy-950 overflow-hidden text-cream-100">
-        <div className="absolute right-0 top-1/4 w-96 h-96 text-gold-400/[0.03] pointer-events-none">
-          <MandalaWatermark className="w-full h-full" />
-        </div>
+   
+  
 
-        <div className="container-wide section-padding relative z-10">
+      {/* Center Schedules (The 2 Prime Centers) */}
+      <section className="relative py-20 md:py-28 bg-[#FAF6EE] border-t border-gold-400/30 overflow-hidden">
+        <div className="container-wide section-padding relative z-10 max-w-5xl mx-auto">
           <SectionHeader
-            light
             number="02"
-            eyebrow="Structured Syllabi"
-            title="Comprehensive Curriculum & Levels"
-            subtitle="Explore our progressive three-level training roadmap across Bharatanatyam, Mohiniyattam, and Carnatic Music."
-          />
-
-          {/* Discipline Selector Buttons */}
-          <div className="flex flex-wrap items-center justify-center gap-3 mt-12 max-w-3xl mx-auto">
-            {courses.map((c) => (
-              <button
-                key={c.slug}
-                type="button"
-                onClick={() => {
-                  setSelectedCurriculumSlug(c.slug);
-                  setSelectedLevelIdx(0);
-                }}
-                className={`px-6 py-3 rounded-full text-xs sm:text-sm uppercase tracking-wider font-semibold transition-all duration-300 cursor-pointer ${selectedCurriculumSlug === c.slug
-                  ? "bg-gold-500 text-navy-950 shadow-lg shadow-gold-500/20 border border-gold-400"
-                  : "bg-navy-900/80 text-cream-100/70 border border-gold-500/20 hover:text-gold-300 hover:border-gold-400/40"
-                  }`}
-              >
-                {c.title}
-              </button>
-            ))}
-          </div>
-
-          {/* Course Intro Text (if present) */}
-          {activeCurriculumCourse.intro && (
-            <Reveal delay={0.1}>
-              <div className="max-w-4xl mx-auto mt-10 p-6 sm:p-8 rounded-sm bg-navy-900/60 border border-gold-500/20 text-cream-100/80 text-xs sm:text-sm leading-relaxed whitespace-pre-line text-center font-sans">
-                {activeCurriculumCourse.intro}
-              </div>
-            </Reveal>
-          )}
-
-          {/* Level Switcher Pills */}
-          {activeCurriculumCourse.levels && activeCurriculumCourse.levels.length > 0 && (
-            <div className="max-w-2xl mx-auto mt-10">
-              <div className="flex items-center justify-center gap-2 p-1.5 bg-navy-900/90 rounded-full border border-gold-500/20">
-                {activeCurriculumCourse.levels.map((lvl, idx) => (
-                  <button
-                    key={lvl.name}
-                    type="button"
-                    onClick={() => setSelectedLevelIdx(idx)}
-                    className={`flex-1 py-2 px-3 text-center rounded-full text-[11px] sm:text-xs uppercase tracking-wider font-medium transition-all duration-300 cursor-pointer ${selectedLevelIdx === idx
-                      ? "bg-gold-500 text-navy-950 font-semibold shadow-md"
-                      : "text-cream-100/60 hover:text-gold-300"
-                      }`}
-                  >
-                    {lvl.name}
-                  </button>
-                ))}
-              </div>
-            </div>
-          )}
-
-          {/* Active Level Detailed Card */}
-          {activeCurriculumCourse.levels && activeCurriculumCourse.levels[selectedLevelIdx] && (
-            <div className="max-w-5xl mx-auto mt-12 animate-fade-in">
-              <div className="p-6 sm:p-8 rounded-sm bg-navy-900/80 border border-gold-500/30 mb-8">
-                <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 mb-2">
-                  <span className="text-xs font-mono uppercase tracking-widest text-gold-400 font-semibold">
-                    {activeCurriculumCourse.title} &bull; Level 0{selectedLevelIdx + 1}
-                  </span>
-                  <Link
-                    to={`/courses/${activeCurriculumCourse.slug}`}
-                    className="inline-flex items-center gap-1.5 text-xs text-gold-300 hover:text-gold-200 font-medium"
-                  >
-                    <span>View Dedicated Page</span>
-                    <ArrowRight className="w-3.5 h-3.5" />
-                  </Link>
-                </div>
-                <h3 className="font-display text-2xl text-cream-50 font-medium mb-1">
-                  {activeCurriculumCourse.levels[selectedLevelIdx].name}
-                </h3>
-                <p className="text-sm font-serif italic text-gold-300 mb-4">
-                  {activeCurriculumCourse.levels[selectedLevelIdx].subtitle}
-                </p>
-                <p className="text-xs sm:text-sm text-cream-100/75 leading-relaxed">
-                  {activeCurriculumCourse.levels[selectedLevelIdx].description}
-                </p>
-              </div>
-
-              {/* Modules (Bharatanatyam) */}
-              {activeCurriculumCourse.levels[selectedLevelIdx].modules && (
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                  {activeCurriculumCourse.levels[selectedLevelIdx].modules.map((mod, i) => (
-                    <Reveal key={mod.title} delay={i * 0.05} className="h-full">
-                      <div className="p-6 rounded-sm bg-[#120B0E] border border-gold-500/20 h-full flex flex-col justify-between hover:border-gold-400/40 transition-colors">
-                        <div>
-                          <div className="flex items-center justify-between mb-3">
-                            <span className="text-[11px] font-mono text-gold-400 font-medium px-2 py-0.5 rounded bg-gold-500/10 border border-gold-400/20">
-                              0{i + 1}
-                            </span>
-                            <Sparkles className="w-3.5 h-3.5 text-gold-500/60" />
-                          </div>
-                          <h4 className="font-display text-lg text-cream-50 font-medium mb-2">
-                            {mod.title}
-                          </h4>
-                          <p className="text-xs text-cream-100/75 leading-relaxed">
-                            {mod.description}
-                          </p>
-                        </div>
-                      </div>
-                    </Reveal>
-                  ))}
-                </div>
-              )}
-
-              {/* Sections (Mohiniyattam & Carnatic Music) */}
-              {activeCurriculumCourse.levels[selectedLevelIdx].sections && (
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                  {activeCurriculumCourse.levels[selectedLevelIdx].sections.map((sec, i) => (
-                    <Reveal key={sec.category} delay={i * 0.08} className="h-full">
-                      <div className="p-7 rounded-sm bg-[#120B0E] border border-gold-500/25 h-full flex flex-col">
-                        <div className="flex items-center gap-2 mb-4 pb-3 border-b border-cream-100/10">
-                          <BookOpen className="w-4 h-4 text-gold-400" />
-                          <h4 className="font-display text-lg text-gold-300 font-medium">
-                            {sec.category}
-                          </h4>
-                        </div>
-                        <ul className="space-y-3 flex-1">
-                          {sec.items.map((item, idx) => (
-                            <li key={idx} className="flex items-start gap-2.5 text-xs sm:text-sm text-cream-100/80 leading-relaxed">
-                              <span className="text-gold-400 font-bold mt-0.5 shrink-0">✦</span>
-                              <span>{item}</span>
-                            </li>
-                          ))}
-                        </ul>
-                      </div>
-                    </Reveal>
-                  ))}
-                </div>
-              )}
-
-              {/* Closing Summary Note */}
-              {activeCurriculumCourse.closingNote && (
-                <div className="mt-10 p-5 rounded-sm bg-gold-500/10 border border-gold-400/25 text-center">
-                  <p className="text-xs sm:text-sm font-serif italic text-gold-200 leading-relaxed max-w-3xl mx-auto">
-                    &ldquo;{activeCurriculumCourse.closingNote}&rdquo;
-                  </p>
-                </div>
-              )}
-            </div>
-          )}
-        </div>
-      </section>
-
-      {/* Examination & Certification Pathway */}
-      <section className="relative py-24 md:py-32 bg-paper overflow-hidden">
-        <div className="absolute right-0 top-1/3 w-80 h-80 text-gold-500/[0.04] pointer-events-none hidden md:block">
-          <MandalaWatermark className="w-full h-full" />
-        </div>
-
-        <div className="container-wide section-padding relative z-10">
-          <SectionHeader
-            number="03"
-            eyebrow="Accredited Pathway"
-            title="Grade Examinations & Certification"
-            subtitle="Suha Academy trains students for formal graded examinations conducted in collaboration with Bridge Academy and esteemed Music & Dance Universities."
-          />
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-14">
-            {[
-              {
-                level: "Stage 01",
-                title: "Prathama & Praveshika",
-                grades: "Grades 1 & 2",
-                target: "Foundational Technique",
-                desc: "Basic Adavus (1–8 groups), Mudras (Asamyuta & Samyuta Hastas), Sarali, Jantai & Dhatu Varisais, Geethams in Malahari & Kalyani.",
-                badge: "Foundations",
-              },
-              {
-                level: "Stage 02",
-                title: "Madhyama Repertoire",
-                grades: "Grades 3 & 4",
-                target: "Intermediate Artistry",
-                desc: "Alaripu, Jathiswaram, Shabdam, Adi Tala Varnams, Navarasa expressions, Swarajathis, and theoretical Natya Shastra terminology.",
-                badge: "Intermediate",
-              },
-              {
-                level: "Stage 03",
-                title: "Visharad & Vidwath",
-                grades: "Grades 5 to Diploma",
-                target: "Advanced Mastery",
-                desc: "Full Margam execution, Pada Varnams, Keerthanams, Manodharma Sangeetham (Aalapanai, Neraval, Kalpanaswaras), and Tala avarthanams.",
-                badge: "Advanced",
-              },
-              {
-                level: "Stage 04",
-                title: "Arangetram Guidance",
-                grades: "Solo Debut",
-                target: "Stage Professionalism",
-                desc: "Rigorous 1-on-1 mentorship for full solo stage debut with live classical orchestra (Nattuvangam, Mridangam, Violin, Flute, Vocal).",
-                badge: "Solo Debut",
-              },
-            ].map((step, idx) => (
-              <Reveal key={step.level} delay={idx * 0.1} className="h-full">
-                <div className="h-full bg-white border border-ivory-200 rounded-sm p-6 flex flex-col justify-between hover:border-gold-400 hover:shadow-xl transition-all duration-300 group">
-                  <div>
-                    <div className="flex items-center justify-between mb-3">
-                      <span className="text-xs font-serif italic text-gold-600 font-semibold">{step.level}</span>
-                      <span className="px-2 py-0.5 text-[10px] uppercase tracking-wider bg-gold-50 text-gold-700 font-medium rounded-xs border border-gold-200">
-                        {step.badge}
-                      </span>
-                    </div>
-                    <h3 className="font-display text-lg text-navy-900 mb-1 group-hover:text-gold-700 transition-colors">
-                      {step.title}
-                    </h3>
-                    <p className="text-xs text-gold-600 font-medium mb-3">{step.grades} &middot; {step.target}</p>
-                    <p className="text-xs text-navy-700/70 leading-relaxed">
-                      {step.desc}
-                    </p>
-                  </div>
-                  <div className="mt-5 pt-4 border-t border-ivory-100 flex items-center gap-1.5 text-[11px] text-navy-600 font-medium">
-                    <CheckCircle2 className="w-3.5 h-3.5 text-gold-500" />
-                    <span>Annual Certificate Awarded</span>
-                  </div>
-                </div>
-              </Reveal>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Center Schedules (The 3 Centers) */}
-      <section className="relative py-24 md:py-32 bg-navy-950 text-cream-100 overflow-hidden">
-        <div className="container-wide section-padding relative z-10">
-          <SectionHeader
-            light
-            number="04"
             eyebrow="Center Schedules"
             title="Batch Timings by Location"
             subtitle="We conduct regular batches across our prime centers in Chennai, plus dedicated 1-on-1 online sessions for global learners."
           />
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-14 max-w-5xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8 mt-12 max-w-4xl mx-auto">
             {/* Center 1: Medavakkam */}
             <Reveal delay={0.1} className="h-full">
-              <div className="bg-[#120B0E] border border-gold-500/20 rounded-sm p-6 flex flex-col justify-between h-full">
+              <div className="bg-white border-2 border-gold-400/30 rounded-sm p-6 sm:p-7 flex flex-col justify-between h-full shadow-md hover:border-gold-500 hover:shadow-xl transition-all duration-300">
                 <div>
-                  <div className="flex items-center gap-2 text-gold-400 text-xs uppercase tracking-wider font-semibold mb-2">
-                    <MapPin className="w-4 h-4" /> Medavakkam Center
-                  </div>
-                  <h3 className="font-display text-lg text-cream-50 mb-1">Navins Starwood Towers</h3>
-                  <p className="text-xs text-cream-100/60 mb-4">Vengaivasal Main Rd, Medavakkam</p>
-
-                  <div className="space-y-3 pt-3 border-t border-cream-100/10 text-xs">
-                    <div>
-                      <p className="text-gold-300 font-medium">Friday Evenings:</p>
-                      <p className="text-cream-100/70">5:00 PM – 7:30 PM (Bharatanatyam)</p>
+                  <div className="flex items-center justify-between mb-3">
+                    <span className="px-2.5 py-0.5 text-[10px] uppercase font-mono tracking-wider bg-gold-500 text-navy-950 font-bold rounded-xs shadow-2xs">
+                      Central Studio
+                    </span>
+                    <div className="flex items-center gap-1.5 text-gold-700 text-xs uppercase tracking-wider font-bold">
+                      <MapPin className="w-4 h-4 text-gold-600" /> Medavakkam
                     </div>
-                    <div>
-                      <p className="text-gold-300 font-medium">Saturday Mornings:</p>
-                      <p className="text-cream-100/70">9:30 AM – 12:30 PM (Vocal & Dance)</p>
+                  </div>
+
+                  <h3 className="font-display text-xl font-bold text-navy-950 mb-1">
+                    Navins Starwood Towers
+                  </h3>
+                  <p className="text-xs text-navy-700/80 mb-5">
+                    Vengaivasal Main Rd, Medavakkam, Chennai - 600100
+                  </p>
+
+                  <div className="space-y-3 pt-4 border-t border-ivory-200 text-xs">
+                    <div className="p-3 rounded-xs bg-[#FAF7F0] border border-gold-400/20">
+                      <p className="text-gold-800 font-bold mb-0.5">Friday Evenings:</p>
+                      <p className="text-navy-900 font-medium">5:00 PM – 7:30 PM (Bharatanatyam)</p>
+                    </div>
+                    <div className="p-3 rounded-xs bg-[#FAF7F0] border border-gold-400/20">
+                      <p className="text-gold-800 font-bold mb-0.5">Saturday Mornings:</p>
+                      <p className="text-navy-900 font-medium">9:30 AM – 12:30 PM (Vocal & Dance)</p>
                     </div>
                   </div>
                 </div>
-                <div className="mt-6 pt-4 border-t border-cream-100/10">
+
+                <div className="mt-6 pt-4 border-t border-ivory-200">
                   <a
                     href={`https://wa.me/${academy.phoneRaw}?text=${encodeURIComponent("Hi Suha Academy, I am inquiring about batch timings at the Medavakkam center.")}`}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 text-xs text-gold-300 hover:text-gold-200 font-medium"
+                    className="inline-flex items-center gap-2 text-xs font-bold text-navy-950 hover:text-gold-700 transition-colors group"
                   >
-                    <MessageCircle className="w-3.5 h-3.5" /> Book Medavakkam Trial &rarr;
+                    <MessageCircle className="w-4 h-4 text-emerald-600" />
+                    <span>Book Medavakkam Trial Session</span>
+                    <span className="transition-transform group-hover:translate-x-1">&rarr;</span>
                   </a>
                 </div>
               </div>
@@ -638,67 +440,46 @@ export default function Courses() {
 
             {/* Center 2: Perumbakkam */}
             <Reveal delay={0.2} className="h-full">
-              <div className="bg-[#120B0E] border border-gold-500/20 rounded-sm p-6 flex flex-col justify-between h-full">
+              <div className="bg-white border-2 border-gold-400/30 rounded-sm p-6 sm:p-7 flex flex-col justify-between h-full shadow-md hover:border-gold-500 hover:shadow-xl transition-all duration-300">
                 <div>
-                  <div className="flex items-center gap-2 text-gold-400 text-xs uppercase tracking-wider font-semibold mb-2">
-                    <MapPin className="w-4 h-4" /> Perumbakkam Center
-                  </div>
-                  <h3 className="font-display text-lg text-cream-50 mb-1">Bollineni Hillside Ixora</h3>
-                  <p className="text-xs text-cream-100/60 mb-4">BHS Recreational Club, Perumbakkam</p>
-
-                  <div className="space-y-3 pt-3 border-t border-cream-100/10 text-xs">
-                    <div>
-                      <p className="text-gold-300 font-medium">Saturday Evenings:</p>
-                      <p className="text-cream-100/70">4:00 PM – 7:00 PM (Dance & Music)</p>
+                  <div className="flex items-center justify-between mb-3">
+                    <span className="px-2.5 py-0.5 text-[10px] uppercase font-mono tracking-wider bg-gold-500 text-navy-950 font-bold rounded-xs shadow-2xs">
+                      Bollineni Studio
+                    </span>
+                    <div className="flex items-center gap-1.5 text-gold-700 text-xs uppercase tracking-wider font-bold">
+                      <MapPin className="w-4 h-4 text-gold-600" /> Perumbakkam
                     </div>
-                    <div>
-                      <p className="text-gold-300 font-medium">Sunday Mornings:</p>
-                      <p className="text-cream-100/70">9:00 AM – 1:00 PM (All Levels)</p>
+                  </div>
+
+                  <h3 className="font-display text-xl font-bold text-navy-950 mb-1">
+                    Bollineni Hillside Ixora
+                  </h3>
+                  <p className="text-xs text-navy-700/80 mb-5">
+                    BHS Recreational Club, Perumbakkam, Chennai - 600126
+                  </p>
+
+                  <div className="space-y-3 pt-4 border-t border-ivory-200 text-xs">
+                    <div className="p-3 rounded-xs bg-[#FAF7F0] border border-gold-400/20">
+                      <p className="text-gold-800 font-bold mb-0.5">Saturday Evenings:</p>
+                      <p className="text-navy-900 font-medium">4:00 PM – 7:00 PM (Dance & Music)</p>
+                    </div>
+                    <div className="p-3 rounded-xs bg-[#FAF7F0] border border-gold-400/20">
+                      <p className="text-gold-800 font-bold mb-0.5">Sunday Mornings:</p>
+                      <p className="text-navy-900 font-medium">9:00 AM – 1:00 PM (All Levels)</p>
                     </div>
                   </div>
                 </div>
-                <div className="mt-6 pt-4 border-t border-cream-100/10">
+
+                <div className="mt-6 pt-4 border-t border-ivory-200">
                   <a
                     href={`https://wa.me/${academy.phoneRaw}?text=${encodeURIComponent("Hi Suha Academy, I am inquiring about batch timings at the Perumbakkam center.")}`}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 text-xs text-gold-300 hover:text-gold-200 font-medium"
+                    className="inline-flex items-center gap-2 text-xs font-bold text-navy-950 hover:text-gold-700 transition-colors group"
                   >
-                    <MessageCircle className="w-3.5 h-3.5" /> Book Perumbakkam Trial &rarr;
-                  </a>
-                </div>
-              </div>
-            </Reveal>
-
-            {/* Center 3: Global Online */}
-            <Reveal delay={0.3} className="h-full">
-              <div className="bg-[#120B0E] border border-gold-500/20 rounded-sm p-6 flex flex-col justify-between h-full">
-                <div>
-                  <div className="flex items-center gap-2 text-gold-400 text-xs uppercase tracking-wider font-semibold mb-2">
-                    <Globe className="w-4 h-4" /> Global Online Academy
-                  </div>
-                  <h3 className="font-display text-lg text-cream-50 mb-1">Live Interactive Batches</h3>
-                  <p className="text-xs text-cream-100/60 mb-4">USA, UK, Singapore, Middle East</p>
-
-                  <div className="space-y-3 pt-3 border-t border-cream-100/10 text-xs">
-                    <div>
-                      <p className="text-gold-300 font-medium">Timezone Coordinated:</p>
-                      <p className="text-cream-100/70">Personalized 1-on-1 & small batches</p>
-                    </div>
-                    <div>
-                      <p className="text-gold-300 font-medium">High-Def Training:</p>
-                      <p className="text-cream-100/70">Talam analysis & posture correction</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="mt-6 pt-4 border-t border-cream-100/10">
-                  <a
-                    href={`https://wa.me/${academy.phoneRaw}?text=${encodeURIComponent("Hi Suha Academy, I am inquiring about Global Online classes for Bharatanatyam / Carnatic Music.")}`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-flex items-center gap-2 text-xs text-gold-300 hover:text-gold-200 font-medium"
-                  >
-                    <MessageCircle className="w-3.5 h-3.5" /> Enquire Online Batches &rarr;
+                    <MessageCircle className="w-4 h-4 text-emerald-600" />
+                    <span>Book Perumbakkam Trial Session</span>
+                    <span className="transition-transform group-hover:translate-x-1">&rarr;</span>
                   </a>
                 </div>
               </div>
@@ -752,7 +533,7 @@ export default function Courses() {
         </div>
       </section> */}
 
-      {/* Classroom Essentials & Pedagogy */}
+      {/* Classroom Essentials & Pedagogy
       <section className="relative py-24 md:py-32 bg-paper overflow-hidden">
         <div className="container-wide section-padding">
           <SectionHeader
@@ -803,9 +584,9 @@ export default function Courses() {
             </Reveal>
           </div>
         </div>
-      </section>
+      </section> */}
 
-      {/* Admissions Step-by-Step */}
+      {/* Admissions Step-by-Step
       <section className="relative py-20 bg-cream-50 border-t border-ivory-200">
         <div className="container-wide section-padding">
           <div className="max-w-4xl mx-auto">
@@ -832,7 +613,7 @@ export default function Courses() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* CTA Section */}
       <section className="relative py-24 md:py-32 bg-navy-950 text-center">

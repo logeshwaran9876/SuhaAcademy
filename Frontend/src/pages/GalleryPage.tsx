@@ -15,16 +15,10 @@ export default function GalleryPage() {
 
   return (
     <>
-      <PageHero
-        eyebrow="Gallery"
-        title="Moments from the Journey"
-        subtitle="Authentic recitals, annual day showcases, Arangetrams, and festival celebrations at Suha Academy of Fine Arts."
-        image="/suha_media/shared/shared_hero_theatre_banner.jpg"
-        height="lg"
-      />
+      <PageHero pageKey="gallery" />
 
       {/* Photo Gallery */}
-      <section className="relative py-20 md:py-28 bg-cream-50">
+      <section id="gallery-grid" className="relative py-20 md:py-28 bg-cream-50">
         <div className="container-wide section-padding">
           <Gallery />
 

@@ -58,13 +58,7 @@ export default function Events() {
 
   return (
     <>
-      <PageHero
-        eyebrow="Milestones of Artistic Excellence"
-        title="Events & Classical Recitals"
-        subtitle="At Suha Academy of Fine Arts, every event celebrates artistic excellence, cultural heritage, and our students’ journey — from annual celebrations to national and international recitals."
-        image="/suha_media/shared/shared_hero_theatre_banner.jpg"
-        height="lg"
-      />
+      <PageHero pageKey="events" />
 
       {/* 01. Artistic Journey & Stage Ethos */}
       <section className="relative py-20 md:py-28 bg-cream-50 border-b border-ivory-200 overflow-hidden">

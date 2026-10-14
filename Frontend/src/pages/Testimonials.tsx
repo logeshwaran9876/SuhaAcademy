@@ -407,13 +407,7 @@ export default function Testimonials() {
 
   return (
     <>
-      <PageHero
-        eyebrow="Community & Acclaim"
-        title="Voices of Our Community"
-        subtitle="Authentic words of gratitude, growth, and stage milestones shared by our parents, festival participants, and patrons."
-        image="/suha_media/shared/shared_media_asset_01.jpg"
-        height="lg"
-      />
+      <PageHero pageKey="testimonials" />
 
       {/* Trust & Accolades Strip */}
       <section className="bg-white border-b border-ivory-200 py-6">
@@ -513,7 +507,7 @@ export default function Testimonials() {
       </section>
 
       {/* All Testimonials Grid */}
-      <section className="relative py-16 md:py-24 bg-cream-50">
+      <section id="reviews" className="relative py-16 md:py-24 bg-cream-50">
         <div className="container-wide section-padding">
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto items-start">
             {filteredReviews.map((r, i) => (
