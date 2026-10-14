@@ -99,7 +99,7 @@ const pageMetas: MetaConfig[] = [
     path: "/contact",
     title: "Contact | Suha Academy of Fine Arts",
     description:
-      "Contact Suha Academy of Fine Arts for Bharatanatyam and Carnatic Music classes in Medavakkam & Perumbakkam, Chennai. Call +91 98846 44298.",
+      "Contact Suha Academy of Fine Arts for Bharatanatyam and Carnatic Music classes in Medavakkam & Perumbakkam, Chennai. Call +91 99948 83303.",
   },
   
 ];
@@ -162,7 +162,7 @@ function useStructuredData() {
         "@type": "Person",
         name: "Smt. Ranjini Pradeep",
       },
-      telephone: "+91 98846 44298",
+      telephone: "+91 99948 83303",
       email: "suhaacademychennai@gmail.com",
       address: {
         "@type": "PostalAddress",

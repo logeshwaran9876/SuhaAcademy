@@ -24,6 +24,7 @@ import SectionHeader from "@/components/SectionHeader";
 import { Reveal } from "@/components/Reveal";
 import { GoldFrame, CornerMark } from "@/components/Decorations";
 import { courses } from "@/data/courses";
+import { academy } from "@/data/academy";
 
 export default function CourseDetail({ slug }: { slug: string }) {
   const course = courses.find((c) => c.slug === slug);
@@ -64,7 +65,7 @@ export default function CourseDetail({ slug }: { slug: string }) {
         badges={[course.tradition, "Beginner to Advanced", "Certified Curriculum"]}
       />
 
-    
+
 
       {/* =========================================================================
           SECTION 1: COURSE OVERVIEW & TRADITION SPOTLIGHT
@@ -180,7 +181,7 @@ export default function CourseDetail({ slug }: { slug: string }) {
                     <span>Explore 3-Stage Curriculum</span>
                     <ArrowRight className="w-4 h-4" />
                   </a>
-                 
+
                 </div>
               </Reveal>
             </div>
@@ -218,17 +219,15 @@ export default function CourseDetail({ slug }: { slug: string }) {
                   key={lvl.id || lIdx}
                   type="button"
                   onClick={() => setActiveLevelIndex(lIdx)}
-                  className={`w-full py-3.5 px-4 rounded-sm sm:rounded-full text-xs font-bold transition-all duration-300 flex flex-col items-center justify-center gap-1 cursor-pointer shadow-xs text-center border ${
-                    isActive
+                  className={`w-full py-3.5 px-4 rounded-sm sm:rounded-full text-xs font-bold transition-all duration-300 flex flex-col items-center justify-center gap-1 cursor-pointer shadow-xs text-center border ${isActive
                       ? "bg-navy-950 text-gold-300 border-gold-400 ring-2 ring-gold-400/40 shadow-md"
                       : "bg-white text-navy-800 border-gold-400/30 hover:border-gold-500 hover:bg-gold-50/60"
-                  }`}
+                    }`}
                 >
                   <div className="flex items-center gap-2">
                     <span
-                      className={`w-2 h-2 rounded-full shrink-0 ${
-                        isActive ? "bg-gold-400" : "bg-gold-600/40"
-                      }`}
+                      className={`w-2 h-2 rounded-full shrink-0 ${isActive ? "bg-gold-400" : "bg-gold-600/40"
+                        }`}
                     />
                     <span className="uppercase tracking-wider font-bold">
                       {shortName}
@@ -236,9 +235,8 @@ export default function CourseDetail({ slug }: { slug: string }) {
                   </div>
                   {subName && (
                     <span
-                      className={`text-[10px] sm:text-[11px] font-normal leading-tight ${
-                        isActive ? "text-gold-200/80" : "text-navy-600/75"
-                      }`}
+                      className={`text-[10px] sm:text-[11px] font-normal leading-tight ${isActive ? "text-gold-200/80" : "text-navy-600/75"
+                        }`}
                     >
                       ({subName})
                     </span>
@@ -512,7 +510,7 @@ export default function CourseDetail({ slug }: { slug: string }) {
                 features: ["Spacious Classical Dance Hall", "Parent Waiting Lounge", "Morning & Evening Batches"],
                 tag: "Bollineni Center",
               },
-            
+
             ].map((loc, idx) => (
               <Reveal key={idx} delay={idx * 0.1}>
                 <div className="p-6 sm:p-7 bg-white border-2 border-gold-400/30 rounded-sm shadow-xs hover:border-gold-500 hover:shadow-xl transition-all duration-300 flex flex-col justify-between h-full">
@@ -572,11 +570,11 @@ export default function CourseDetail({ slug }: { slug: string }) {
               </p>
               <div className="flex flex-wrap items-center justify-center md:justify-start gap-4 pt-2 text-xs text-navy-900 font-semibold">
                 <a
-                  href="tel:+919884644298"
+                  href={`tel:${academy.phoneRaw}`}
                   className="inline-flex items-center gap-1.5 text-navy-900 hover:text-gold-700 transition-colors"
                 >
                   <Phone className="w-3.5 h-3.5 text-gold-700" />
-                  <span>+91 98846 44298</span>
+                  <span>{academy.phone}</span>
                 </a>
                 <span className="text-gold-400">•</span>
                 <a
