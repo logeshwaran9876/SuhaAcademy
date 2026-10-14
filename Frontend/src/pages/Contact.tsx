@@ -12,6 +12,10 @@ import {
   Calendar,
   Sparkles,
   ChevronDown,
+  Youtube,
+  Instagram,
+  Facebook,
+  ArrowUpRight,
 } from "lucide-react";
 import PageHero from "@/components/PageHero";
 import SectionHeader from "@/components/SectionHeader";
@@ -270,34 +274,85 @@ export default function Contact() {
               </div>
 
               {/* Social Channels */}
-              <div className="pt-4 border-t border-ivory-200">
-                <p className="text-xs uppercase tracking-wider text-gold-600 font-semibold mb-3">
-                  Official Channels & Media
-                </p>
-                <div className="flex flex-wrap gap-2.5">
+              <div className="pt-5 border-t border-ivory-200">
+                <div className="flex items-center justify-between mb-3.5">
+                  <div className="flex items-center gap-2">
+                    <Sparkles className="w-3.5 h-3.5 text-gold-600" />
+                    <p className="text-[11px] uppercase tracking-[0.2em] text-gold-700 font-bold">
+                      Official Channels &amp; Media
+                    </p>
+                  </div>
+                  <span className="text-[10px] text-navy-500 font-medium hidden sm:inline">Connect &amp; Follow</span>
+                </div>
+
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-2.5">
+                  {/* YouTube */}
                   <a
                     href={academy.youtube}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="px-4 py-2 text-xs border border-red-200 text-red-700 bg-red-50/50 rounded-sm hover:bg-red-100/60 font-medium transition-colors"
+                    className="flex items-center justify-between p-3 bg-white border border-ivory-200 rounded-sm hover:border-red-400/60 hover:bg-red-50/20 hover:shadow-xs transition-all duration-300 group"
                   >
-                    YouTube Channel
+                    <div className="flex items-center gap-2.5 min-w-0">
+                      <div className="w-8 h-8 rounded-full bg-red-50 flex items-center justify-center shrink-0 border border-red-100 group-hover:bg-red-500 group-hover:text-white transition-colors duration-300">
+                        <Youtube className="w-4 h-4 text-red-600 group-hover:text-white transition-colors" />
+                      </div>
+                      <div className="min-w-0">
+                        <p className="text-xs font-semibold text-navy-950 truncate group-hover:text-red-700 transition-colors">
+                          YouTube
+                        </p>
+                        <p className="text-[10px] text-navy-500 truncate">
+                          Official Recitals
+                        </p>
+                      </div>
+                    </div>
+                    <ArrowUpRight className="w-3.5 h-3.5 text-navy-400 group-hover:text-red-600 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all shrink-0 ml-1" />
                   </a>
+
+                  {/* Instagram */}
                   <a
                     href={academy.instagram}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="px-4 py-2 text-xs border border-pink-200 text-pink-700 bg-pink-50/50 rounded-sm hover:bg-pink-100/60 font-medium transition-colors"
+                    className="flex items-center justify-between p-3 bg-white border border-ivory-200 rounded-sm hover:border-pink-400/60 hover:bg-pink-50/20 hover:shadow-xs transition-all duration-300 group"
                   >
-                    Instagram Profile
+                    <div className="flex items-center gap-2.5 min-w-0">
+                      <div className="w-8 h-8 rounded-full bg-pink-50 flex items-center justify-center shrink-0 border border-pink-100 group-hover:bg-gradient-to-tr group-hover:from-[#F58529] group-hover:via-[#DD2A7B] group-hover:to-[#8134AF] group-hover:text-white transition-colors duration-300">
+                        <Instagram className="w-4 h-4 text-pink-600 group-hover:text-white transition-colors" />
+                      </div>
+                      <div className="min-w-0">
+                        <p className="text-xs font-semibold text-navy-950 truncate group-hover:text-pink-700 transition-colors">
+                          Instagram
+                        </p>
+                        <p className="text-[10px] text-navy-500 truncate">
+                          @suha_academy
+                        </p>
+                      </div>
+                    </div>
+                    <ArrowUpRight className="w-3.5 h-3.5 text-navy-400 group-hover:text-pink-600 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all shrink-0 ml-1" />
                   </a>
+
+                  {/* Facebook */}
                   <a
                     href={academy.facebook}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="px-4 py-2 text-xs border border-blue-200 text-blue-700 bg-blue-50/50 rounded-sm hover:bg-blue-100/60 font-medium transition-colors"
+                    className="flex items-center justify-between p-3 bg-white border border-ivory-200 rounded-sm hover:border-blue-400/60 hover:bg-blue-50/20 hover:shadow-xs transition-all duration-300 group"
                   >
-                    Facebook Page
+                    <div className="flex items-center gap-2.5 min-w-0">
+                      <div className="w-8 h-8 rounded-full bg-blue-50 flex items-center justify-center shrink-0 border border-blue-100 group-hover:bg-[#1877F2] group-hover:text-white transition-colors duration-300">
+                        <Facebook className="w-4 h-4 text-blue-600 group-hover:text-white transition-colors" />
+                      </div>
+                      <div className="min-w-0">
+                        <p className="text-xs font-semibold text-navy-950 truncate group-hover:text-blue-700 transition-colors">
+                          Facebook
+                        </p>
+                        <p className="text-[10px] text-navy-500 truncate">
+                          Suha Community
+                        </p>
+                      </div>
+                    </div>
+                    <ArrowUpRight className="w-3.5 h-3.5 text-navy-400 group-hover:text-blue-600 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-all shrink-0 ml-1" />
                   </a>
                 </div>
               </div>
