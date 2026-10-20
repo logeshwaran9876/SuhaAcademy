@@ -1,0 +1,20 @@
+name: suha-academy
+
+services:
+  suha-academy:
+    build:
+      context: ./src
+      dockerfile: Dockerfile
+    image: suha-academy:latest
+    container_name: suha-academy-web
+    restart: unless-stopped
+    ports:
+      - "${PORT:-8080}:80"
+    healthcheck:
+      test: ["CMD-SHELL", "wget -q -O - http://127.0.0.1/healthz || exit 1"]
+      interval: 30s
+      timeout: 5s
+      start_period: 5s
+      retries: 3
+    environment:
+      - NODE_ENV=production

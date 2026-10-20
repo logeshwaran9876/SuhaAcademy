@@ -8,7 +8,12 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "typecheck": "tsc --noEmit -p tsconfig.app.json"
+    "typecheck": "tsc --noEmit -p tsconfig.app.json",
+    "docker:build": "docker build -t suha-academy -f Dockerfile .",
+    "docker:run": "docker run -d -p 8080:80 --name suha-academy suha-academy",
+    "docker:stop": "docker stop suha-academy && docker rm suha-academy",
+    "docker:compose": "docker compose -f ../docker-compose.yml up --build -d",
+    "docker:compose:down": "docker compose -f ../docker-compose.yml down"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.57.4",
