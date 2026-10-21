@@ -53,7 +53,7 @@ jobs:
       # 5. Configure kubectl
       - name: Configure Kubernetes
         env:
-          KUBE_CONFIG: ${{ secrets.KUBE_CONFIG }}
+          DO_KUBE_CONFIG: ${{ secrets.KUBE_CONFIG }}
         run: |
           mkdir -p "$HOME/.kube"
           printf '%s' "$KUBE_CONFIG" | base64 -d > "$HOME/.kube/config"
