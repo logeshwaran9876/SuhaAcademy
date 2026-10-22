@@ -41,7 +41,7 @@ export default function Hero() {
           muted
           playsInline
           onLoadedData={() => setVideoLoaded(true)}
-          className="absolute inset-0 w-full h-full object-cover object-[55%_top] lg:object-[48%_top] filter brightness-[1.14] contrast-[1.04] saturate-[1.10] transition-opacity duration-1000"
+          className="absolute inset-0 w-full h-full object-cover object-[68%_top] sm:object-[60%_top] lg:object-[48%_top] filter brightness-[1.14] contrast-[1.04] saturate-[1.10] transition-opacity duration-1000"
         >
           <source src="/suha_media/shared/shared_hero_bg_recital.mp4" type="video/mp4" />
         </video>
@@ -127,10 +127,10 @@ export default function Hero() {
                 {/* Primary button */}
                 <Link
                   to="/courses"
-                  className="flex-1 sm:flex-none inline-flex justify-center items-center gap-2 sm:gap-2.5 px-5 sm:px-8 py-3.5 sm:py-4 bg-gradient-to-r from-[#C2734C] via-[#C97A52] to-[#B3653E] hover:from-[#B86841] hover:to-[#A75932] text-white font-medium text-xs sm:text-sm tracking-wide rounded-md shadow-lg shadow-[#C2734C]/25 transition-all duration-300 group hover:translate-y-[-1px] active:scale-[0.99] whitespace-nowrap"
+                  className="flex-1 sm:flex-none inline-flex justify-center items-center gap-2 sm:gap-2.5 px-5 sm:px-8 py-3.5 sm:py-4 bg-gradient-to-r from-gold-500 via-gold-400 to-amber-400 hover:from-gold-400 hover:to-amber-300 text-navy-950 font-semibold text-xs sm:text-sm tracking-wide rounded-md shadow-lg shadow-gold-500/25 transition-all duration-300 group hover:translate-y-[-1px] active:scale-[0.99] whitespace-nowrap"
                 >
                   <span>Explore Courses</span>
-                  <ArrowRight className="w-3.5 h-3.5 sm:w-4 sm:h-4 transition-transform duration-300 group-hover:translate-x-1" />
+                  <ArrowRight className="w-3.5 h-3.5 sm:w-4 sm:h-4 transition-transform duration-300 group-hover:translate-x-1 text-navy-950" />
                 </Link>
 
                 {/* Secondary Action button */}
