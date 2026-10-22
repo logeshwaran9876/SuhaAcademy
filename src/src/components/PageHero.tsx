@@ -124,9 +124,11 @@ export default function PageHero({
               <div className="flex items-center gap-2 mb-3 sm:mb-4">
                 <span className="w-2 h-2 rounded-full bg-gold-400 shadow-sm shadow-gold-400/60 animate-pulse" />
                 <div className="inline-flex items-center gap-1.5 sm:gap-2 px-3.5 py-1 rounded-full bg-navy-950/80 border border-gold-400/35 backdrop-blur-md shadow-lg shadow-black/50">
-                  <Link to="/" className="text-[11px] sm:text-xs text-cream-100/75 hover:text-gold-300 transition-colors">
-                    {pageKey?.toLocaleUpperCase() || "HOME"}
-                  </Link>
+                  <span className="text-[11px] sm:text-xs text-cream-100/75 hover:text-gold-300 transition-colors">
+                    {pageKey
+                      ? pageKey.charAt(0).toUpperCase() + pageKey.slice(1).toLowerCase()
+                      : "Home"}
+                  </span>
                   <ChevronRight className="w-3 h-3 text-gold-400/50 shrink-0" />
                   <span className="text-[11px] sm:text-xs text-gold-300 font-medium tracking-wider uppercase font-sans truncate max-w-[220px] sm:max-w-none">
                     {eyebrow || "Suha Academy"}

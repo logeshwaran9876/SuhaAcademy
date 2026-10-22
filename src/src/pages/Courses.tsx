@@ -43,27 +43,7 @@ const courseShowcases: CourseShowcaseData[] = [
         subtitle: "Intricate raga alapana, swara kalpana, and Trinity keerthanams",
         objectPosition: "center center",
       },
-      {
-        src: "/suha_media/courses/course_carnatic_slider_04.jpg",
-        alt: "Classical Sabha Kutcheri Ensemble with Mridangam",
-        title: "Classical Sabha Kutcheri Ensemble",
-        subtitle: "Vocal duo accompanied by live mridangam rhythm",
-        objectPosition: "center center",
-      },
-      {
-        src: "/suha_media/courses/course_carnatic_slider_05.jpg",
-        alt: "Full Classical Concert Accompaniment with Violin & Mridangam",
-        title: "Full Classical Concert Accompaniment",
-        subtitle: "Performing alongside distinguished mridangam and violin vidwans",
-        objectPosition: "center center",
-      },
-      {
-        src: "/suha_media/courses/course_carnatic_slider_06.jpg",
-        alt: "Laya & Tala Rhythm Discipline on Mridangam",
-        title: "Laya & Tala Rhythm Discipline",
-        subtitle: "Understanding percussion synchronization, korvais, and rhythmic cycles",
-        objectPosition: "center center",
-      },
+     
       {
         src: "/suha_media/courses/course_carnatic_slider_07.jpg",
         alt: "Suha Youth Choral Presentation",
