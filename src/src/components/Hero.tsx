@@ -44,21 +44,20 @@ export default function Hero() {
           playsInline
           poster="/suha_media/shared/shared_hero_theatre_banner.jpg"
           onLoadedData={() => setVideoLoaded(true)}
-          className="absolute inset-0 w-full h-full object-cover object-[55%_center] lg:object-[46%_center] filter brightness-[0.88] contrast-[1.06] transition-opacity duration-1000"
+          className="absolute inset-0 w-full h-full object-cover object-[55%_top] lg:object-[48%_top] filter brightness-[1.14] contrast-[1.04] saturate-[1.10] transition-opacity duration-1000"
         >
           <source src="/suha_media/shared/shared_hero_bg_recital.mp4" type="video/mp4" />
         </video>
 
         {/* Theatrical Vignette & Stage Atmosphere Gradients */}
-        {/* Desktop: Deep left shadow for text legibility, clear stage on right */}
-        <div className="hidden lg:block absolute inset-0 bg-gradient-to-r from-[#0A0507] via-[#0A0507]/90 to-transparent w-[62%]" />
-        {/* Mobile: Soft dark vignette behind text so stage dancers remain visible */}
-        <div className="lg:hidden absolute inset-0 bg-gradient-to-b from-[#0A0507]/90 via-[#0A0507]/60 to-[#0A0507]/95" />
-        <div className="absolute inset-0 bg-gradient-to-t from-[#0A0507] via-transparent to-[#0A0507]/70" />
-        <div className="absolute inset-0 bg-gradient-to-b from-[#0A0507]/90 via-transparent to-[#0A0507]" />
-
-        {/* Subtle amber stage warmth filter over video */}
-        <div className="absolute inset-0 bg-amber-950/20 mix-blend-color-burn pointer-events-none" />
+        {/* Desktop: Left dark shadow for editorial copy legibility, radiant clear stage on right */}
+        <div className="hidden lg:block absolute inset-0 bg-gradient-to-r from-[#0A0507] via-[#0A0507]/85 via-50% to-transparent w-[58%]" />
+        {/* Mobile: Soft dark vignette behind text so stage dancers remain clearly visible */}
+        <div className="lg:hidden absolute inset-0 bg-gradient-to-b from-[#0A0507]/85 via-[#0A0507]/45 to-[#0A0507]/90" />
+        {/* Soft bottom edge blend */}
+        <div className="absolute inset-0 bg-gradient-to-t from-[#0A0507] via-transparent to-transparent pointer-events-none" />
+        {/* Soft top navbar protection */}
+        <div className="absolute top-0 inset-x-0 h-24 bg-gradient-to-b from-[#0A0507]/40 to-transparent pointer-events-none" />
 
         {/* Traditional gold mandala line-art watermark in top left corner with slow rotation */}
         <div
