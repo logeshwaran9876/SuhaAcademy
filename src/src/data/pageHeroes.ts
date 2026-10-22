@@ -97,7 +97,7 @@ export const pageHeroes: Record<PageHeroKey, PageHeroData> = {
     eyebrow: "Admissions & Studio Locations",
     title: "Begin Your Artistic Journey",
     subtitle:
-      "Connect with our team to inquire about admissions, studio locations in Perumbakkam and Medavakkam",
+      "Connect with our team to inquire about admissions, studio locations in Perumbakkam and Medavakkam.",
     image: "/suha_media/Tabs/Contact.png",
     imagePosition: "object-[82%_top] sm:object-[84%_top] lg:object-[86%_top]",
     badges: ["Perumbakkam & Medavakkam" , "WhatsApp Support"],
