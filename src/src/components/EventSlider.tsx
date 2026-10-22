@@ -125,7 +125,7 @@ export const eventSlidesData: EventSlide[] = [
     image: "/suha_media/shared/shared_event_poster_kkkv_2026.jpg",
     imagePosition: "center top",
     mediaCount: 1,
-    highlightText: "Solo & Group Bharatanatyam, Carnatic Krithis & Slokas",
+    highlightText: "Solo & Group Bharathanatyam, Carnatic Krithis & Slokas",
   },
 ];
 

@@ -52,7 +52,7 @@ const branches = [
 
 
 const directWhatsAppLink =
-  "https://wa.me/919994883303?text=Hi%20Suha%20Academy%2C%20I%20would%20like%20to%20enroll%20%2F%20inquire%20about%20Bharatanatyam%20for%20Child%20(4%E2%80%9312%20yrs).%20Please%20share%20batch%20timings%20and%20admission%20details.";
+  "https://wa.me/919994883303?text=Hi%20Suha%20Academy%2C%20I%20would%20like%20to%20enroll%20%2F%20inquire%20about%20Bharathanatyam%20for%20Child%20(4%E2%80%9312%20yrs).%20Please%20share%20batch%20timings%20and%20admission%20details.";
 
 export default function Contact() {
   return (

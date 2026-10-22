@@ -1,7 +1,7 @@
 export const testimonials = [
   {
     name: "Harish Narayanan",
-    role: "Parent of Bharatanatyam Student",
+    role: "Parent of Bharathanatyam Student",
     quote:
       "As a parent, I am delighted with the growth my daughter has experienced at Suha Academy. Under the guidance of Ranjani Mam, my daughter has blossomed into a confident and graceful dancer. The academy not only teaches dance but also shapes character, camaraderie with seniors and confidence.",
     image: "",
@@ -10,7 +10,7 @@ export const testimonials = [
   },
   {
     name: "Savitha",
-    role: "Parent of Bharatanatyam & Carnatic Student",
+    role: "Parent of Bharathanatyam & Carnatic Student",
     quote:
       "Guru Smt. Ranjini Pradeep pays attention to every detail—from choreography and orchestra to lighting, costumes and overall stage presentation. Initiatives like Swaranjali for senior citizens reflect the deep values nurtured by the academy.",
     image: "",

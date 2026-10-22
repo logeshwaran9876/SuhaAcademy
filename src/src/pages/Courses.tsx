@@ -55,7 +55,7 @@ const courseShowcases: CourseShowcaseData[] = [
   },
   {
     slug: "bharatanatyam",
-    title: "Bharatanatyam",
+    title: "Bharathanatyam",
     eyebrow: "Classical Dance · Vazhuvoor Baani",
     shortDescription:
       "Explore the structure, rhythm, expression and storytelling of one of India's most revered classical dance traditions. From foundational adavus to full margam repertoire and solo Arangetrams.",
@@ -165,7 +165,7 @@ export default function Courses() {
     <>
       <PageHero pageKey="courses" />
 
-      {/* Courses Showcases: Carnatic Music, Bharatanatyam, Mohiniyattam */}
+      {/* Courses Showcases: Carnatic Music, Bharathanatyam, Mohiniyattam */}
       <section className="relative py-16 md:py-24 bg-cream-50" id="courses-showcase">
         <div className="container-wide section-padding">
           <SectionHeader
@@ -191,7 +191,7 @@ export default function Courses() {
           <div className="mt-14 p-6 rounded-sm bg-white border border-gold-500/20 max-w-3xl mx-auto text-center shadow-xs">
             <p className="text-sm text-navy-800 leading-relaxed">
               <strong className="text-gold-700 font-serif">Dual Art Discipline Advantage:</strong> Many disciples
-              enroll concurrently in both Bharatanatyam and Carnatic Music for holistic rhythm (Talam) &amp; melodic mastery. Special coordinated
+              enroll concurrently in both Bharathanatyam and Carnatic Music for holistic rhythm (Talam) &amp; melodic mastery. Special coordinated
               scheduling is provided across our Medavakkam and Perumbakkam centers.
             </p>
           </div>

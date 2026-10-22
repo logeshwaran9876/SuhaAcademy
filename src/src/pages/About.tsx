@@ -23,8 +23,8 @@ export default function About() {
     { name: "Smt. Mahathi", role: "Carnatic Vocalist & Playback Singer" },
     { name: "Anand Aravindakshan", role: "Playback Singer & Title Winner" },
     { name: "Sriram & Roshini", role: "Playback Singers" },
-    { name: "Smt. Divyasena", role: "Bharatanatyam Exponent & Guru" },
-    { name: "Smt. Srekala Bharath", role: "Kalaimamani Bharatanatyam Guru" },
+    { name: "Smt. Divyasena", role: "Bharathanatyam Exponent & Guru" },
+    { name: "Smt. Srekala Bharath", role: "Kalaimamani Bharathanatyam Guru" },
     { name: "Sri Narendra Kumar", role: "Classical Dancer & Choreographer" },
     { name: "Sri Shivakumar", role: "Classical Dancer" },
     { name: "Dr. Udaykumar", role: "Cultural Scholar & Dignitary" },
@@ -43,7 +43,7 @@ export default function About() {
     {
       year: "2012",
       title: "First Disciples Arangetram",
-      desc: "Two disciples presented their Bharatanatyam Arangetram in the esteemed presence of Ranjini’s Paramaguru, Smt. Chithra Muralidharan.",
+      desc: "Two disciples presented their Bharathanatyam Arangetram in the esteemed presence of Ranjini’s Paramaguru, Smt. Chithra Muralidharan.",
       badge: "Debut Milestone",
     },
     {
@@ -100,7 +100,7 @@ export default function About() {
                 </p>
                 <p>
                   Rooted in tradition and guided by artistic excellence, the Academy offers systematic
-                  training in <strong>Carnatic Music</strong>, <strong>Bharatanatyam</strong> and{" "}
+                  training in <strong>Carnatic Music</strong>, <strong>Bharathanatyam</strong> and{" "}
                   <strong>Mohiniyattam</strong> nurturing students to discover their artistic voice
                   while developing a deep appreciation for India’s cultural heritage.
                 </p>

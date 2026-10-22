@@ -189,7 +189,7 @@ export default function Faculty() {
             number="02"
             eyebrow="Classical Gurus & Mentors"
             title="Classical Instructors"
-            subtitle="Distinguished performing artists and dedicated educators carrying forward unbroken lineages in Mohiniyattam, Bharatanatyam and Carnatic music."
+            subtitle="Distinguished performing artists and dedicated educators carrying forward unbroken lineages in Mohiniyattam, Bharathanatyam and Carnatic music."
           />
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto mt-10">

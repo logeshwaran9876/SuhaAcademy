@@ -18,7 +18,7 @@ export const eventPillars = [
     title: "Kodai Kaala Kalai Vizha (KKKV)",
     subtitle: "State-Level Classical Music & Dance Festival & Talent Competitions",
     description:
-      "Kodai Kaala Kalai Vizha (KKKV) is Suha Academy’s prestigious annual state-level classical arts competition and festival. Founded to provide young artists with a vibrant stage for healthy competition and artistic growth, KKKV features solo classical vocal, Bharatanatyam Margam presentations, instrumentals and group recitals judged by distinguished vidwans and celebrity guests.",
+      "Kodai Kaala Kalai Vizha (KKKV) is Suha Academy’s prestigious annual state-level classical arts competition and festival. Founded to provide young artists with a vibrant stage for healthy competition and artistic growth, KKKV features solo classical vocal, Bharathanatyam Margam presentations, instrumentals and group recitals judged by distinguished vidwans and celebrity guests.",
     image: "/suha_media/events/events_intro/event_intro_kkkv.jpg",
     slug: "kkkv",
   },
@@ -235,7 +235,7 @@ export const events = [
       "Intergenerational Classical Art Seva",
       "Warmth & Blessings from Elders",
       "Compassionate Youth Platform",
-      "Bharatanatyam & Vocal Offerings",
+      "Bharathanatyam & Vocal Offerings",
     ],
     poster: "/suha_media/events/events_intro/event_intro_vasantha_swaranjali.jpg",
     gallery: [
@@ -496,7 +496,7 @@ export const events = [
       "Temple Rituals & Guru Anugraham",
       "Maiden Solo Arangetram Recitals",
       "Live Carnatic Orchestra Accompaniment",
-      "Full Bharatanatyam Margam Presentation",
+      "Full Bharathanatyam Margam Presentation",
     ],
     poster: "/suha_media/events/events_intro/event_intro_salangai_pooja.jpg",
     gallery: makeGallery(
@@ -554,7 +554,7 @@ export const events = [
     description:
       "Kodai Kaala Kalai Vizha (KKKV) is Suha Academy’s flagship state-level classical festival and competition platform. Bringing together hundreds of aspiring classical dancers and Carnatic vocalists across Tamil Nadu, KKKV provides an enriching stage to showcase dedication, receive constructive adjudication from veteran masters and celebrate artistic excellence.",
     categories: [
-      "State-Level Classical Bharatanatyam Competitions",
+      "State-Level Classical Bharathanatyam Competitions",
       "Carnatic Vocal & Instrumental Music Showcases",
       "Constructive Feedback from Renowned Judges",
       "Celebrity Guest Felicitation & Grand Trophies",
@@ -590,7 +590,7 @@ export const kkkvEvents = [
     description:
       "Kodai Kaala Kalai Vizha (KKKV) 2026 brings together hundreds of classical dancers and Carnatic vocalists competing across junior, sub-junior and senior categories with grand trophies and felicitation by cultural stalwarts.",
     categories: [
-      "State-Level Classical Bharatanatyam Faceoff",
+      "State-Level Classical Bharathanatyam Faceoff",
       "Carnatic Vocal & Classical Instrumental Competitions",
       "Constructive Adjudication by Senior Gurus",
       "Grand Trophies & Excellence Certificates",

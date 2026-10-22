@@ -53,16 +53,16 @@ export const academy = {
   instagram: "https://www.instagram.com/suha_academy/",
   facebook: "https://www.facebook.com/suhaacademy/",
   whatsappMessage:
-    "Hello Suha Academy of Fine Arts, I would like to know more about Bharatanatyam / Carnatic Music / Mohiniyattam classes and events.",
+    "Hello Suha Academy of Fine Arts, I would like to know more about Bharathanatyam / Carnatic Music / Mohiniyattam classes and events.",
 };
 
 export const faculty = [
   {
     name: "Guru Smt. Ranjini Pradeep",
     title: "Founder & Artistic Director",
-    discipline: "Bharatanatyam & Saraswathi Veena",
+    discipline: "Bharathanatyam & Saraswathi Veena",
     image: "/suha_media/shared/shared_faculty_ranjini_pradeep.png",
-    bio: "Visionary Bharatanatyam guru, choreographer and founder of Suha Academy of Fine Arts and Kodai Kaala Kalai Vizha (KKKV). Disciple of Paramaguru Smt. Chithra Muralidharan, shaping over 160+ classical disciples across Chennai and international stages.",
+    bio: "Visionary Bharathanatyam guru, choreographer and founder of Suha Academy of Fine Arts and Kodai Kaala Kalai Vizha (KKKV). Disciple of Paramaguru Smt. Chithra Muralidharan, shaping over 160+ classical disciples across Chennai and international stages.",
     credentials: "B.A. & M.A. in Classical Dance & Music · 15+ Years Pedagogy",
   },
   {

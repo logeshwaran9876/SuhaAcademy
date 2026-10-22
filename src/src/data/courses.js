@@ -1,7 +1,7 @@
 export const courses = [
   {
     slug: "bharatanatyam",
-    title: "Bharatanatyam",
+    title: "Bharathanatyam",
     tamilTitle: "பரதநாட்டியம்",
     tradition: "Vazhuvoor Baani",
     leadGuru: "Guru Smt. Ranjini Pradeep",
@@ -16,7 +16,7 @@ export const courses = [
     shortDescription:
       "Structured classical dance training in the fluid, expressive Vazhuvoor Baani — from foundational adavus to full Margam and solo Arangetram debut.",
     longDescription:
-      "Bharatanatyam is one of the oldest and most revered classical dance forms of India, originating in Tamil Nadu. At Suha Academy of Fine Arts under the direct guidance of Founder & Artistic Director Smt. Ranjini Pradeep, students learn this tradition through a rigorous, progressive curriculum — from foundational adavus, mudras and basic postures to complete margam repertoire items that combine pure rhythmic dance (nritta) with expressive storytelling (abhinaya). Students are groomed for stage recitals, annual days and full solo Arangetrams.",
+      "Bharathanatyam is one of the oldest and most revered classical dance forms of India, originating in Tamil Nadu. At Suha Academy of Fine Arts under the direct guidance of Founder & Artistic Director Smt. Ranjini Pradeep, students learn this tradition through a rigorous, progressive curriculum — from foundational adavus, mudras and basic postures to complete margam repertoire items that combine pure rhythmic dance (nritta) with expressive storytelling (abhinaya). Students are groomed for stage recitals, annual days and full solo Arangetrams.",
     intro:
       "Bharathanatyam training at Suha Academy follows a systematic learning approach across three stages — Basic, Intermediate and Advanced — nurturing students into confident dancers with strong technique, rhythmic precision, expressive depth and a sound understanding of the art form.\n\nThe academy follows the Vazhuvoor Baani, celebrated for its fluid movements, graceful body lines, expressive facial expressions and vibrant stage presentation.\n\nAs students advance through each stage, they explore foundational adavus, hand gestures, rhythmic coordination and body control, gradually progressing to complex dance compositions, nuanced abhinaya, traditional repertoire and choreographic creativity.",
     keyFeatures: [
@@ -125,7 +125,7 @@ export const courses = [
         name: "3. Advanced Level",
         subtitle: "Margam Repertoire, Shastric Theory & Allied Arts",
         badge: "Margam & Concert Artistry",
-        milestone: "Milestone: Full Solo Bharatanatyam Arangetram Debut Recital",
+        milestone: "Milestone: Full Solo Bharathanatyam Arangetram Debut Recital",
         description:
           "Advanced mastery of the central varnam, javalis, ashtapadis, classical shastric texts and allied nattuvangam skills for complete stage autonomy.",
         modules: [
@@ -178,7 +178,7 @@ export const courses = [
         caption: "Annual Day Classical Group Performance",
       },
     ],
-    cta: "Explore Bharatanatyam",
+    cta: "Explore Bharathanatyam",
     highlights: [
       "Traditional Vazhuvoor Baani lineage and disciplined technique",
       "Rhythm (Talam), footwork (adavus) and expressive abhinaya",

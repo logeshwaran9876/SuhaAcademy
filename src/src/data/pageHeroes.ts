@@ -30,8 +30,8 @@ export const pageHeroes: Record<PageHeroKey, PageHeroData> = {
     eyebrow: "Heritage & Classical Lineage",
     title: "Suha Academy of Fine Arts",
     subtitle:
-      "School of Classical Dance and Carnatic Music.",
-    bulletPoints: ["Carnatic Music", "Bharatanatyam", "Mohiniyattam"],
+      "The School of Classical Dance and Carnatic Music.",
+    bulletPoints: ["Carnatic Music", "Bharathanatyam", "Mohiniyattam"],
     image: "/suha_media/Tabs/About.png",
     imagePosition: "object-[right_top] sm:object-[right_top] lg:object-[right_top]",
     badges: ["Estd. 2010", "160+ Disciples", "Chennai & Global"],
@@ -42,7 +42,7 @@ export const pageHeroes: Record<PageHeroKey, PageHeroData> = {
     eyebrow: "Disciplines & Structured Pedagogy",
     title: "Master the Classical Arts",
     subtitle:
-      "Immerse in structured pedagogical training for Bharatanatyam, Mohiniyattam and Carnatic music.",
+      "Immerse in structured pedagogical training for Bharathanatyam, Mohiniyattam and Carnatic music.",
     image: "/suha_media/Tabs/Courses.png",
     imagePosition: "object-[85%_top] sm:object-[86%_top] lg:object-[88%_top]",
     badges: ["Beginner to Advanced", "Graded Certification", "Flexible Batches"],

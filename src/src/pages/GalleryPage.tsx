@@ -108,7 +108,7 @@ export default function GalleryPage() {
           </Reveal>
           <Reveal delay={0.1}>
             <p className="text-cream-100/60 max-w-lg mx-auto mb-8">
-              Experience the grace, discipline and devotion of Bharatanatyam and Carnatic vocal.
+              Experience the grace, discipline and devotion of Bharathanatyam and Carnatic vocal.
             </p>
           </Reveal>
           <Reveal delay={0.15}>

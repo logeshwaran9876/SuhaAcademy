@@ -35,7 +35,7 @@ export const communityReviews: ReviewItem[] = [
   {
     id: "p1",
     name: "Harish Narayanan",
-    role: "Parent of Bharatanatyam Disciple",
+    role: "Parent of Bharathanatyam Disciple",
     category: "parents",
     categoryLabel: "Parents & Families",
     topic: "Character & Confidence",
@@ -72,7 +72,7 @@ export const communityReviews: ReviewItem[] = [
   {
     id: "p4",
     name: "Soumya Kamath",
-    role: "Parent of Carnatic & Bharatanatyam Disciple (3 Yrs)",
+    role: "Parent of Carnatic & Bharathanatyam Disciple (3 Yrs)",
     category: "parents",
     categoryLabel: "Parents & Families",
     topic: "Prizes & Navratri Performances",
@@ -115,12 +115,12 @@ export const communityReviews: ReviewItem[] = [
     rating: 5,
     badge: "Verified Academy Parent",
     quote:
-      "Suha academy follows an excellent methodical process to teach art forms - both Bharatanatyam and music. Students are encouraged when they find a particular step is difficult for them and special care is taken to make them feel at ease and do it with confidence . Discipline is a must to do for students in the academy .. students are encouraged to perform at various places in India and also places outside of the country.",
+      "Suha academy follows an excellent methodical process to teach art forms - both Bharathanatyam and music. Students are encouraged when they find a particular step is difficult for them and special care is taken to make them feel at ease and do it with confidence . Discipline is a must to do for students in the academy .. students are encouraged to perform at various places in India and also places outside of the country.",
   },
   {
     id: "p8",
     name: "Sudarson K",
-    role: "Parent of Bharatanatyam & Vocal Student",
+    role: "Parent of Bharathanatyam & Vocal Student",
     category: "parents",
     categoryLabel: "Parents & Families",
     topic: "Values & Cultural Richness",
@@ -132,7 +132,7 @@ export const communityReviews: ReviewItem[] = [
   {
     id: "p9",
     name: "Deepika Sivakumar",
-    role: "Parent of Bharatanatyam Student",
+    role: "Parent of Bharathanatyam Student",
     category: "parents",
     categoryLabel: "Parents & Families",
     topic: "Graceful Teacher & Vocal Purity",
@@ -268,14 +268,14 @@ export const communityReviews: ReviewItem[] = [
   {
     id: "e4",
     name: "Savitha",
-    role: "Parent of Bharatanatyam & Vocal Student",
+    role: "Parent of Bharathanatyam & Vocal Student",
     category: "events",
     categoryLabel: "Other Events & Recitals",
     topic: "17th Annual Day & Swaranjali Seva",
     rating: 5,
     badge: "17th Annual Day & Swaranjali",
     quote:
-      "My daughter joined Suha Academy about eight months ago and I have been truly impressed by her progress in both Bharatanatyam and Carnatic music. Under the guidance of Guru Smt. Ranjini Pradeep, she has developed not only in skill but also in discipline, confidence and stage presence. Every event is organized with exceptional dedication. The recently concluded 17th Annual Day was a spectacular celebration of art, reflecting months of sincere practice and meticulous planning. The opportunity given to every student to perform on stage was truly memorable. I also appreciate initiatives like Swarangali, where children perform for senior citizens, creating a meaningful experience for both generations. It beautifully reflects the values nurtured by the academy. Guru Smt. Ranjini Pradeep always encourages her students and parents to attend the prestigious programs she is associated with, providing invaluable exposure to the world of classical arts. It has been a privilege to witness and learn from eminent personalities such as Kalaimamani Smt. Nithyasree Mahadevan, Guru Shri Madurai R. Muralidharan, Smt. Chitra Muralidharan, Dr. Padma Subrahmanyam, Padma Shri P. Unnikrishnan and Shri Sai Vignesh and many more who have graced the academy’s events and inspired the students with their presence and encouragement. Guru Smt. Ranjini Pradeep pays attention to every detail—from choreography and orchestra to lighting, costumes, makeup and overall stage presentation. Regular music and dance examinations, along with small tokens of appreciation, keep the children motivated and eager to learn. Thank you, Ma’am, for your unwavering dedication and for inspiring every child to strive for excellence. Wishing you and all your students continued success as you take Indian classical arts and Carnatic music to even greater heights across the world.",
+      "My daughter joined Suha Academy about eight months ago and I have been truly impressed by her progress in both Bharathanatyam and Carnatic music. Under the guidance of Guru Smt. Ranjini Pradeep, she has developed not only in skill but also in discipline, confidence and stage presence. Every event is organized with exceptional dedication. The recently concluded 17th Annual Day was a spectacular celebration of art, reflecting months of sincere practice and meticulous planning. The opportunity given to every student to perform on stage was truly memorable. I also appreciate initiatives like Swarangali, where children perform for senior citizens, creating a meaningful experience for both generations. It beautifully reflects the values nurtured by the academy. Guru Smt. Ranjini Pradeep always encourages her students and parents to attend the prestigious programs she is associated with, providing invaluable exposure to the world of classical arts. It has been a privilege to witness and learn from eminent personalities such as Kalaimamani Smt. Nithyasree Mahadevan, Guru Shri Madurai R. Muralidharan, Smt. Chitra Muralidharan, Dr. Padma Subrahmanyam, Padma Shri P. Unnikrishnan and Shri Sai Vignesh and many more who have graced the academy’s events and inspired the students with their presence and encouragement. Guru Smt. Ranjini Pradeep pays attention to every detail—from choreography and orchestra to lighting, costumes, makeup and overall stage presentation. Regular music and dance examinations, along with small tokens of appreciation, keep the children motivated and eager to learn. Thank you, Ma’am, for your unwavering dedication and for inspiring every child to strive for excellence. Wishing you and all your students continued success as you take Indian classical arts and Carnatic music to even greater heights across the world.",
   },
   {
     id: "e5",
@@ -549,7 +549,7 @@ export default function Testimonials() {
           </Reveal>
           <Reveal delay={0.1}>
             <p className="text-cream-100/60 max-w-lg mx-auto mb-8 text-sm">
-              Experience the disciplined joy of Bharatanatyam, Mohiniyattam and Carnatic Vocal under Guru Smt. Ranjini Pradeep.
+              Experience the disciplined joy of Bharathanatyam, Mohiniyattam and Carnatic Vocal under Guru Smt. Ranjini Pradeep.
             </p>
           </Reveal>
           <Reveal delay={0.2}>

@@ -23,6 +23,11 @@ const eventHighlights: Record<string, { eventBadge: string; eventDesc: string; e
     eventDesc: "Students perform in grand thematic productions (Dasaavatharam), SOTA Singapore and solo Arangetrams.",
     eventLink: "/events/suha-annual-day",
   },
+  bharathanatyam: {
+    eventBadge: "Annual Day, Singapore Tour & Arangetram",
+    eventDesc: "Students perform in grand thematic productions (Dasaavatharam), SOTA Singapore and solo Arangetrams.",
+    eventLink: "/events/suha-annual-day",
+  },
   mohiniyattam: {
     eventBadge: "Margazhi Maha Utsav & Sabha Recitals",
     eventDesc: "Festive temple presentations, Sopana classical ensembles and prestigious sabha showcases.",
@@ -38,6 +43,9 @@ const eventHighlights: Record<string, { eventBadge: string; eventDesc: string; e
 // Precise image framing per course to prevent cut-off heads/faces
 const courseImageConfig: Record<string, { objectPosition: string }> = {
   bharatanatyam: {
+    objectPosition: "center 22%",
+  },
+  bharathanatyam: {
     objectPosition: "center 22%",
   },
   mohiniyattam: {

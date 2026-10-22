@@ -4,7 +4,7 @@ import { Reveal } from "./Reveal";
 import { academy } from "@/data/academy";
 
 const courseOptions = [
-  "Bharatanatyam",
+  "Bharathanatyam",
   "Carnatic Vocal",
   "Workshop",
   "Event / Competition",
