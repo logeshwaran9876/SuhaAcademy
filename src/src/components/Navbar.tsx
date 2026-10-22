@@ -177,10 +177,11 @@ export default function Navbar() {
           <div className="mt-6 flex flex-col gap-3 w-64">
             <Link
               to="/contact"
-              className="w-full inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-gold-500 text-navy-950 font-medium text-xs uppercase tracking-wider rounded-sm hover:bg-gold-400 transition-colors shadow-md font-semibold"
+              onClick={() => setMenuOpen(false)}
+              className="w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 bg-gradient-to-r from-gold-500 via-gold-400 to-amber-400 hover:from-gold-400 hover:to-amber-300 text-navy-950 font-semibold text-xs uppercase tracking-wider rounded-md transition-colors shadow-md"
             >
               <span>Join the Academy</span>
-              <ArrowRight className="w-4 h-4" />
+              <ArrowRight className="w-3.5 h-3.5" />
             </Link>
             <a
               href={`tel:${academy.phoneRaw}`}
