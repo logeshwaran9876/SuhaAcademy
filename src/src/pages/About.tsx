@@ -149,7 +149,7 @@ export default function About() {
         </div>
       </section>
 
-      
+
 
       {/* 4. Our Journey: From a Humble Beginning to a Growing Artistic Legacy */}
       <section className="relative py-24 md:py-32 bg-paper overflow-hidden">
@@ -227,7 +227,7 @@ export default function About() {
                   </p>
 
                   <div className="p-4 rounded-sm bg-cream-50 border-l-2 border-gold-500">
-                      <p className="text-xs text-navy-800 font-medium">
+                    <p className="text-xs text-navy-800 font-medium">
                       Competition should inspire growth, performance should build confidence, and
                       tradition should always remain at the heart of artistic expression.
                     </p>
@@ -258,7 +258,7 @@ export default function About() {
                 </p>
 
                 <div className="p-4 rounded-sm bg-cream-50 border-l-2 border-gold-500">
-                    <p className="text-xs text-navy-800 font-medium">
+                  <p className="text-xs text-navy-800 font-medium">
                     At Suha Academy, classical arts are regarded not merely as performing disciplines,
                     but as a means of cultivating discipline, humility, confidence, creativity, cultural
                     awareness and inner expression.
@@ -306,7 +306,7 @@ export default function About() {
           </div>
         </div>
       </section>
-{/* 3. Studio Experience & Academy Showcase Video */}
+      {/* 3. Studio Experience & Academy Showcase Video */}
       <section className="relative py-20 md:py-28 bg-[#0D080B] text-white overflow-hidden border-y border-gold-500/25">
         {/* Ambient Warm Glow */}
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[350px] bg-radial from-gold-500/10 via-amber-600/5 to-transparent blur-3xl pointer-events-none" />
@@ -314,11 +314,11 @@ export default function About() {
         <div className="container-wide section-padding relative z-10">
           <div className="max-w-4xl mx-auto text-center mb-10 sm:mb-14">
             <Reveal>
-              <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-gold-500/10 border border-gold-400/30 text-gold-300 text-xs uppercase tracking-wider font-semibold mb-3">
-                <Sparkles className="w-3.5 h-3.5 text-gold-400" />
-                <span>Experience Life at Suha Academy</span>
-              </div>
+
+              <span className="text-xs uppercase tracking-[0.25em] text-gold-300 font-semibold block mb-4">Experience Life at Suha Academy</span>
+
             </Reveal>
+            
 
             <Reveal delay={0.1}>
               <h2 className="text-display-sm sm:text-display-md font-display font-medium text-white tracking-tight">
@@ -326,12 +326,7 @@ export default function About() {
               </h2>
             </Reveal>
 
-            <Reveal delay={0.15}>
-              <p className="text-cream-100/75 text-sm sm:text-base font-light font-sans max-w-2xl mx-auto mt-3 leading-relaxed">
-                Step inside our vibrant classical sessions at Ixora Clubhouse, Perumbakkam — where disciples
-                learn under the direct guidance of Guru Smt. Ranjini Pradeep with dedicated practice and live accompaniment.
-              </p>
-            </Reveal>
+           
           </div>
 
           {/* Cinematic Video Player Container */}
@@ -350,28 +345,7 @@ export default function About() {
                 </video>
               </div>
 
-              {/* Bottom Feature Pill Bar inside the video card */}
-              <div className="bg-[#150D11] border-t border-gold-500/30 px-6 py-4 flex flex-wrap items-center justify-between gap-4">
-                <div className="flex flex-wrap items-center gap-3 text-xs sm:text-sm text-cream-100/90 font-medium">
-                  <span className="inline-flex items-center gap-1.5 text-gold-300">
-                    <MapPin className="w-4 h-4 text-gold-400" />
-                    <span>3rd Floor, Ixora Clubhouse, Perumbakkam</span>
-                  </span>
-                  <span className="text-gold-500/40 hidden sm:inline">&bull;</span>
-                  <span className="inline-flex items-center gap-1.5 text-cream-100/80">
-                    <Calendar className="w-4 h-4 text-gold-400" />
-                    <span>Weekday &amp; Weekend Batches</span>
-                  </span>
-                </div>
 
-                <Link
-                  to="/contact"
-                  className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-gold-500 to-amber-500 hover:from-gold-400 hover:to-amber-400 text-navy-950 font-bold text-xs uppercase tracking-wider rounded-sm transition-all shadow-md group-hover:scale-[1.02]"
-                >
-                  <span>Admission Enquiry</span>
-                  <ArrowRight className="w-3.5 h-3.5" />
-                </Link>
-              </div>
             </div>
           </Reveal>
         </div>
@@ -434,7 +408,7 @@ export default function About() {
         </div>
       </section>
 
-    
+
       {/* 7. Our Journey Continues (Closing & CTA) */}
       <section className="relative py-28 md:py-36 bg-navy-950 overflow-hidden text-center text-cream-100">
         <div className="absolute inset-0">
