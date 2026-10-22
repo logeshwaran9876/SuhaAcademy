@@ -26,7 +26,7 @@ export default function GalleryPage() {
             <div className="mt-16 text-center">
               <div className="bg-cream-100/60 border border-gold-500/20 rounded-sm p-6 max-w-2xl mx-auto">
                 <p className="text-sm text-navy-800/80">
-                  Photographs and posters presented above represent authentic stage recitals, choral performances, studio shoots, and festivals organised by Suha Academy of Fine Arts under Guru Smt. Ranjini Pradeep.
+                  Photographs and posters presented above represent authentic stage recitals, choral performances, studio shoots and festivals organised by Suha Academy of Fine Arts under Guru Smt. Ranjini Pradeep.
                 </p>
               </div>
             </div>
@@ -40,7 +40,7 @@ export default function GalleryPage() {
           <SectionHeader
             eyebrow="Live Recitals"
             title="Video Archive & YouTube Showcase"
-            subtitle="Watch classical dance Margam items, Carnatic vocal choirs, and Annual Day felicitations by Dr. Divyasena, Sri Sai Vignesh, and Sri Amit Bhargav."
+            subtitle="Watch classical dance Margam items, Carnatic vocal choirs and Annual Day felicitations by Dr. Divyasena, Sri Sai Vignesh and Sri Amit Bhargav."
           />
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-14">
@@ -108,7 +108,7 @@ export default function GalleryPage() {
           </Reveal>
           <Reveal delay={0.1}>
             <p className="text-cream-100/60 max-w-lg mx-auto mb-8">
-              Experience the grace, discipline, and devotion of Bharatanatyam and Carnatic vocal.
+              Experience the grace, discipline and devotion of Bharathanatyam and Carnatic vocal.
             </p>
           </Reveal>
           <Reveal delay={0.15}>

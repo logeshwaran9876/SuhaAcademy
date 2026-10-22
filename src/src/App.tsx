@@ -25,45 +25,51 @@ interface MetaConfig {
 const pageMetas: MetaConfig[] = [
   {
     path: "/",
-    title: "Suha Academy of Fine Arts | Bharatanatyam & Carnatic Music, Chennai",
+    title: "Suha Academy of Fine Arts | Bharathanatyam & Carnatic Music, Chennai",
     description:
-      "Suha Academy of Fine Arts is a Chennai-based classical arts academy offering Bharatanatyam dance and Carnatic music training. Established 2010 by Smt. Ranjini Pradeep.",
+      "Suha Academy of Fine Arts is a Chennai-based classical arts academy offering Bharathanatyam dance and Carnatic music training. Established 2010 by Smt. Ranjini Pradeep.",
   },
   {
     path: "/about",
     title: "About | Suha Academy of Fine Arts",
     description:
-      "Learn about Suha Academy of Fine Arts — a Chennai-based classical arts academy founded in 2010, dedicated to Bharatanatyam and Carnatic Music education.",
+      "Learn about Suha Academy of Fine Arts — a Chennai-based classical arts academy founded in 2010, dedicated to Bharathanatyam and Carnatic Music education.",
   },
   {
     path: "/faculty",
     title: "Eminent Faculty & Gurus | Suha Academy of Fine Arts",
     description:
-      "Meet the revered classical masters and faculty at Suha Academy of Fine Arts — Guru Smt. Ranjini Pradeep, Sri Thinagar Raj, and Smt. Swarna Sahasra.",
+      "Meet the revered classical masters and faculty at Suha Academy of Fine Arts — Guru Smt. Ranjini Pradeep, Sri Thinagar Raj and Smt. Swarna Sahasra.",
   },
   {
     path: "/faculties",
     title: "Eminent Faculty & Gurus | Suha Academy of Fine Arts",
     description:
-      "Meet the revered classical masters and faculty at Suha Academy of Fine Arts — Guru Smt. Ranjini Pradeep, Sri Thinagar Raj, and Smt. Swarna Sahasra.",
+      "Meet the revered classical masters and faculty at Suha Academy of Fine Arts — Guru Smt. Ranjini Pradeep, Sri Thinagar Raj and Smt. Swarna Sahasra.",
   },
   {
     path: "/courses",
     title: "Courses | Suha Academy of Fine Arts",
     description:
-      "Explore Bharatanatyam and Carnatic Vocal courses at Suha Academy. Structured classical arts training for all ages in Chennai.",
+      "Explore Bharathanatyam and Carnatic Vocal courses at Suha Academy. Structured classical arts training for all ages in Chennai.",
   },
   {
     path: "/courses/bharatanatyam",
-    title: "Bharatanatyam Classes in Chennai | Suha Academy",
+    title: "Bharathanatyam Classes in Chennai | Suha Academy",
     description:
-      "Learn Bharatanatyam at Suha Academy — from Pushpanjali to Thillana. Traditional classical dance training in Chennai for all ages.",
+      "Learn Bharathanatyam at Suha Academy — from Pushpanjali to Thillana. Traditional classical dance training in Chennai for all ages.",
+  },
+  {
+    path: "/courses/bharathanatyam",
+    title: "Bharathanatyam Classes in Chennai | Suha Academy",
+    description:
+      "Learn Bharathanatyam at Suha Academy — from Pushpanjali to Thillana. Traditional classical dance training in Chennai for all ages.",
   },
   {
     path: "/courses/mohiniyattam",
     title: "Mohiniyattam Classes in Chennai | Suha Academy",
     description:
-      "Learn Mohiniyattam at Suha Academy — graceful classical Kerala dance, basic adavus, chuzhippu, and traditional repertoire.",
+      "Learn Mohiniyattam at Suha Academy — graceful classical Kerala dance, basic adavus, chuzhippu and traditional repertoire.",
   },
   {
     path: "/courses/carnatic-music",
@@ -87,7 +93,7 @@ const pageMetas: MetaConfig[] = [
     path: "/gallery",
     title: "Gallery | Suha Academy of Fine Arts",
     description:
-      "Photos of Bharatanatyam performances, Carnatic music sessions, KKKV events and student achievements at Suha Academy.",
+      "Photos of Bharathanatyam performances, Carnatic music sessions, KKKV events and student achievements at Suha Academy.",
   },
   {
     path: "/testimonials",
@@ -99,9 +105,9 @@ const pageMetas: MetaConfig[] = [
     path: "/contact",
     title: "Contact | Suha Academy of Fine Arts",
     description:
-      "Contact Suha Academy of Fine Arts for Bharatanatyam and Carnatic Music classes in Medavakkam & Perumbakkam, Chennai. Call +91 99948 83303.",
+      "Contact Suha Academy of Fine Arts for Bharathanatyam and Carnatic Music classes in Medavakkam & Perumbakkam, Chennai. Call +91 99948 83303.",
   },
-  
+
 ];
 
 function usePageMeta() {
@@ -156,7 +162,7 @@ function useStructuredData() {
       "@type": "EducationalOrganization",
       name: "Suha Academy of Fine Arts",
       description:
-        "Chennai-based classical arts academy offering Bharatanatyam dance and Carnatic music training. Established 2010.",
+        "Chennai-based classical arts academy offering Bharathanatyam dance and Carnatic music training. Established 2010.",
       foundingDate: "2010",
       founder: {
         "@type": "Person",
@@ -174,7 +180,7 @@ function useStructuredData() {
         "https://www.instagram.com/suha_academy/",
         "https://www.facebook.com/suhaacademy/",
       ],
-      knowsAbout: ["Bharatanatyam", "Carnatic Music", "Classical Indian Dance"],
+      knowsAbout: ["Bharathanatyam", "Carnatic Music", "Classical Indian Dance"],
     };
 
     const script = document.createElement("script");
@@ -202,6 +208,10 @@ function App() {
           <Route path="/courses" element={<Courses />} />
           <Route
             path="/courses/bharatanatyam"
+            element={<CourseDetail slug="bharatanatyam" />}
+          />
+          <Route
+            path="/courses/bharathanatyam"
             element={<CourseDetail slug="bharatanatyam" />}
           />
           <Route

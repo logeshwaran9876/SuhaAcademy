@@ -52,7 +52,7 @@ export default function Home() {
           </div>
           <div className="hidden lg:flex items-center gap-5 text-[11px] text-cream-100/70">
             <span className="flex items-center gap-1.5">
-              <span className="text-gold-400">✦</span> Bharatanatyam
+              <span className="text-gold-400">✦</span> Bharathanatyam
             </span>
             <span className="flex items-center gap-1.5">
               <span className="text-gold-400">✦</span> Carnatic Vocal
@@ -126,7 +126,7 @@ export default function Home() {
                 <div className="space-y-4 text-navy-800/80 leading-relaxed">
                   <p>
                     Suha Academy of Fine Arts is a Chennai-based classical arts academy dedicated
-                    to Bharatanatyam and Carnatic Music training.
+                    to Bharathanatyam and Carnatic Music training.
                   </p>
                   <p>
                     Founded in {academy.established}, the academy provides students with
@@ -206,7 +206,7 @@ export default function Home() {
             number="02"
             eyebrow="What We Teach"
             title="Learn the Classical Arts"
-            subtitle="Structured training in Bharatanatyam and Carnatic Music, guided by tradition and designed for the stage."
+            subtitle="Structured training in Bharathanatyam and Carnatic Music, guided by tradition and designed for the stage."
           />
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-10 max-w-6xl mx-auto mt-14">
@@ -248,7 +248,7 @@ export default function Home() {
             number="02"
             eyebrow="Why Choose Suha Academy"
             title="Tradition, Discipline & Artistic Excellence"
-            subtitle="A nurturing classical arts ecosystem rooted in shastric depth, individual mentorship, and holistic stage confidence."
+            subtitle="A nurturing classical arts ecosystem rooted in shastric depth, individual mentorship and holistic stage confidence."
           />
 
           <div className="mt-14">
@@ -317,7 +317,7 @@ export default function Home() {
         <div className="absolute inset-0">
           <img
             src="/suha_media/shared/shared_media_asset_01.jpg"
-            alt="Suha Academy classical Bharatanatyam stage performance"
+            alt="Suha Academy classical Bharathanatyam stage performance"
             loading="lazy"
             className="w-full h-full object-cover opacity-25"
           />
@@ -347,7 +347,7 @@ export default function Home() {
               <Reveal delay={0.2}>
                 <p className="text-cream-100/70 leading-relaxed mb-8 max-w-lg">
                   Suha Academy's Kodai Kaala Kalai Vizha is a recurring classical arts competition
-                  and cultural event centred on Bharatanatyam and Carnatic Music.
+                  and cultural event centred on Bharathanatyam and Carnatic Music.
                 </p>
               </Reveal>
 
@@ -501,7 +501,7 @@ export default function Home() {
             number="07"
             eyebrow="Stage & Arangetram Highlights"
             title="Performances in Motion"
-            subtitle="Glimpses from Suha Academy's Annual Days, Arangetrams, and classical concerts on our official YouTube channel."
+            subtitle="Glimpses from Suha Academy's Annual Days, Arangetrams and classical concerts on our official YouTube channel."
           />
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-14">
@@ -662,7 +662,7 @@ export default function Home() {
 
           <Reveal delay={0.2}>
             <p className="text-base md:text-lg text-cream-100/70 max-w-xl mx-auto leading-relaxed mb-10">
-              Discover Bharatanatyam and Carnatic Music through structured learning, practice and
+              Discover Bharathanatyam and Carnatic Music through structured learning, practice and
               performance.
             </p>
           </Reveal>
@@ -694,7 +694,7 @@ export default function Home() {
             number="11"
             eyebrow="Get in Touch"
             title="Begin Your Artistic Journey"
-            subtitle="Interested in Bharatanatyam or Carnatic Music? Connect with Suha Academy of Fine Arts to learn more about classes, batches and upcoming programmes."
+            subtitle="Interested in Bharathanatyam or Carnatic Music? Connect with Suha Academy of Fine Arts to learn more about classes, batches and upcoming programmes."
           />
 
           <div className="grid lg:grid-cols-2 gap-12 mt-14">

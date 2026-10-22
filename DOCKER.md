@@ -1,6 +1,6 @@
 # Docker Guide - Suha Academy
 
-This guide details how to build, run, and manage **Suha Academy** using Docker and Docker Compose.
+This guide details how to build, run and manage **Suha Academy** using Docker and Docker Compose.
 
 ---
 
@@ -85,4 +85,4 @@ docker rm suha-academy-app
    - `no-cache` for `index.html` to guarantee instant delivery of updates upon deployment.
 4. **Security & Healthcheck**:
    - HTTP security headers (`X-Frame-Options`, `X-Content-Type-Options`, `Referrer-Policy`).
-   - Integrated healthcheck endpoint at `/healthz` compatible with Docker health monitoring, AWS ECS, GCP Cloud Run, and Kubernetes.
+   - Integrated healthcheck endpoint at `/healthz` compatible with Docker health monitoring, AWS ECS, GCP Cloud Run and Kubernetes.

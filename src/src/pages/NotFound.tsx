@@ -8,7 +8,7 @@ export default function NotFound() {
       <div className="absolute inset-0">
         <img
           src="/suha_media/shared/shared_media_asset_17.jpg"
-          alt="Bharatanatyam dancer at night"
+          alt="Bharathanatyam dancer at night"
           className="w-full h-full object-cover opacity-15"
         />
         <div className="absolute inset-0 bg-navy-950/80" />

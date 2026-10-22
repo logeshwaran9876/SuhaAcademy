@@ -61,9 +61,12 @@ export default function Gallery({
     return filteredImages.slice(0, displayCount);
   }, [filteredImages, displayCount, limit]);
 
-  const handleCardClick = (img: GalleryImage) => {
+  const handleCardClick = (img: GalleryImage, index: number) => {
     if (img.eventUrl) {
       navigate(img.eventUrl);
+    } else {
+      const fullIndex = filteredImages.findIndex((item) => item.src === img.src);
+      setLightboxIndex(fullIndex >= 0 ? fullIndex : index);
     }
   };
 
@@ -111,17 +114,17 @@ export default function Gallery({
             className="break-inside-avoid"
           >
             <div
-              onClick={() => handleCardClick(img)}
+              onClick={() => handleCardClick(img, i)}
               className="group relative block w-full overflow-hidden rounded-sm cursor-pointer bg-navy-950 border border-ivory-200 hover:border-gold-400 hover:shadow-xl transition-all duration-300"
               role="button"
               tabIndex={0}
               onKeyDown={(e) => {
                 if (e.key === "Enter" || e.key === " ") {
                   e.preventDefault();
-                  handleCardClick(img);
+                  handleCardClick(img, i);
                 }
               }}
-              aria-label={`View ${img.title} — Redirects to event`}
+              aria-label={`View ${img.title}${img.eventUrl ? " — Redirects to event" : ""}`}
             >
               <img
                 src={img.src}
@@ -133,13 +136,15 @@ export default function Gallery({
               {/* Gradient Backdrop on Hover */}
               <div className="absolute inset-0 bg-gradient-to-t from-navy-950/90 via-navy-950/30 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
 
-              {/* Redirect Chip on Hover (Top-Left) */}
-              <div className="absolute top-3 left-3 opacity-0 group-hover:opacity-100 transition-all duration-300 -translate-y-1 group-hover:translate-y-0">
-                <span className="inline-flex items-center gap-1 px-2.5 py-1 text-[10px] font-semibold tracking-wider uppercase rounded-full bg-gold-500 text-navy-950 shadow-md">
-                  <span>Go to Event</span>
-                  <ArrowUpRight className="w-3 h-3" />
-                </span>
-              </div>
+              {/* Redirect Chip on Hover (Top-Left) - only if event has a dedicated page */}
+              {img.eventUrl && (
+                <div className="absolute top-3 left-3 opacity-0 group-hover:opacity-100 transition-all duration-300 -translate-y-1 group-hover:translate-y-0">
+                  <span className="inline-flex items-center gap-1 px-2.5 py-1 text-[10px] font-semibold tracking-wider uppercase rounded-full bg-gold-500 text-navy-950 shadow-md">
+                    <span>Go to Event</span>
+                    <ArrowUpRight className="w-3 h-3" />
+                  </span>
+                </div>
+              )}
 
               {/* Fullscreen Lightbox Zoom Icon (Top-Right) */}
               <button

@@ -23,8 +23,8 @@ export default function About() {
     { name: "Smt. Mahathi", role: "Carnatic Vocalist & Playback Singer" },
     { name: "Anand Aravindakshan", role: "Playback Singer & Title Winner" },
     { name: "Sriram & Roshini", role: "Playback Singers" },
-    { name: "Smt. Divyasena", role: "Bharatanatyam Exponent & Guru" },
-    { name: "Smt. Srekala Bharath", role: "Kalaimamani Bharatanatyam Guru" },
+    { name: "Smt. Divyasena", role: "Bharathanatyam Exponent & Guru" },
+    { name: "Smt. Srekala Bharath", role: "Kalaimamani Bharathanatyam Guru" },
     { name: "Sri Narendra Kumar", role: "Classical Dancer & Choreographer" },
     { name: "Sri Shivakumar", role: "Classical Dancer" },
     { name: "Dr. Udaykumar", role: "Cultural Scholar & Dignitary" },
@@ -43,7 +43,7 @@ export default function About() {
     {
       year: "2012",
       title: "First Disciples Arangetram",
-      desc: "Two disciples presented their Bharatanatyam Arangetram in the esteemed presence of Ranjini’s Paramaguru, Smt. Chithra Muralidharan.",
+      desc: "Two disciples presented their Bharathanatyam Arangetram in the esteemed presence of Ranjini’s Paramaguru, Smt. Chithra Muralidharan.",
       badge: "Debut Milestone",
     },
     {
@@ -61,7 +61,7 @@ export default function About() {
     {
       year: "2020–2025",
       title: "Post-Pandemic Thriving Community",
-      desc: "Consolidated premier centres in Vengaivasal–Medavakkam and Bollineni Hills–Perumbakkam, expanding to 160+ active disciples, 25 Salanga Poojas, and 6 Arangetrams.",
+      desc: "Consolidated premier centres in Vengaivasal–Medavakkam and Bollineni Hills–Perumbakkam, expanding to 160+ active disciples, 25 Salanga Poojas and 6 Arangetrams.",
       badge: "160+ Disciples",
     },
     {
@@ -100,7 +100,7 @@ export default function About() {
                 </p>
                 <p>
                   Rooted in tradition and guided by artistic excellence, the Academy offers systematic
-                  training in <strong>Carnatic Music</strong>, <strong>Bharatanatyam</strong> and{" "}
+                  training in <strong>Carnatic Music</strong>, <strong>Bharathanatyam</strong> and{" "}
                   <strong>Mohiniyattam</strong> nurturing students to discover their artistic voice
                   while developing a deep appreciation for India’s cultural heritage.
                 </p>
@@ -162,7 +162,7 @@ export default function About() {
             number="01"
             eyebrow="Our Journey"
             title="From a Humble Beginning to a Growing Artistic Legacy"
-            subtitle="The inspiring evolution of Suha Academy of Fine Arts — founded in 2010 on devotion, family support, and artistic excellence."
+            subtitle="The inspiring evolution of Suha Academy of Fine Arts — founded in 2010 on devotion, family support and artistic excellence."
           />
 
           {/* Story Narrative: Inception & Naming */}
@@ -228,7 +228,7 @@ export default function About() {
 
                   <div className="p-4 rounded-sm bg-cream-50 border-l-2 border-gold-500">
                     <p className="text-xs text-navy-800 font-medium">
-                      Competition should inspire growth, performance should build confidence, and
+                      Competition should inspire growth, performance should build confidence and
                       tradition should always remain at the heart of artistic expression.
                     </p>
                   </div>
@@ -318,7 +318,7 @@ export default function About() {
               <span className="text-xs uppercase tracking-[0.25em] text-gold-300 font-semibold block mb-4">Experience Life at Suha Academy</span>
 
             </Reveal>
-            
+
 
             <Reveal delay={0.1}>
               <h2 className="text-display-sm sm:text-display-md font-display font-medium text-white tracking-tight">
@@ -326,7 +326,7 @@ export default function About() {
               </h2>
             </Reveal>
 
-           
+
           </div>
 
           {/* Cinematic Video Player Container */}
@@ -384,7 +384,7 @@ export default function About() {
                 from the worlds of music, dance and cinema, including playback singer Anand Aravindakshan,
                 singers Sriram and Roshini, Smt. Mahathi, Dr. Nithyashree Mahadevan, Dr. Udaykumar,
                 dancers Sri Narendra Kumar, Smt. Divyasena, Smt. Srekala Bharath and Sri Shivakumar,
-                actor Amit Bhargav, actress MGR Latha, and Sadhagaparavaigal Sankar and Bharanidaran,
+                actor Amit Bhargav, actress MGR Latha and Sadhagaparavaigal Sankar and Bharanidaran,
                 among many other eminent guests and artists.
               </p>
             </Reveal>

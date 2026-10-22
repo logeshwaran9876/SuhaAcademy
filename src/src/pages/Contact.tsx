@@ -52,7 +52,7 @@ const branches = [
 
 
 const directWhatsAppLink =
-  "https://wa.me/919994883303?text=Hi%20Suha%20Academy%2C%20I%20would%20like%20to%20enroll%20%2F%20inquire%20about%20Bharatanatyam%20for%20Child%20(4%E2%80%9312%20yrs).%20Please%20share%20batch%20timings%20and%20admission%20details.";
+  "https://wa.me/919994883303?text=Hi%20Suha%20Academy%2C%20I%20would%20like%20to%20enroll%20%2F%20inquire%20about%20Bharathanatyam%20for%20Child%20(4%E2%80%9312%20yrs).%20Please%20share%20batch%20timings%20and%20admission%20details.";
 
 export default function Contact() {
   return (
@@ -88,9 +88,7 @@ export default function Contact() {
                       Admission Enquiries
                     </p>
                     <p className="text-base text-navy-900 font-semibold">{academy.phone}</p>
-                    <p className="text-xs text-navy-600/70 mt-0.5">
-                      Guidance &amp; Batch Placement
-                    </p>
+                    
                   </div>
                 </a>
 
@@ -108,7 +106,7 @@ export default function Contact() {
                     </p>
                     <p className="text-base text-navy-900 font-semibold">{academy.phoneAlt}</p>
                     <p className="text-xs text-navy-600/70 mt-0.5">
-                      KKKV 2026, Temple Recitals, Arangetram & Cultural Bookings
+                      KKKV, Temple Recitals, Arangetram & Cultural Bookings
                     </p>
                   </div>
                 </a>
@@ -148,9 +146,7 @@ export default function Contact() {
                       Official Academy Email
                     </p>
                     <p className="text-sm text-navy-900 font-medium break-all">{academy.email}</p>
-                    <p className="text-xs text-navy-600/70 mt-0.5">
-                      For formal correspondence, syllabus & certification queries
-                    </p>
+                
                   </div>
                 </a>
               </div>

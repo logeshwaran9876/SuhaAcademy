@@ -99,11 +99,10 @@ export default function Faculty() {
                 key={tab.id}
                 href={`#${tab.id}`}
                 onClick={(e) => scrollToSection(e, tab.id)}
-                className={`px-4 py-1.5 text-xs uppercase tracking-wider font-semibold rounded-full transition-all duration-200 whitespace-nowrap cursor-pointer border ${
-                  isActive
+                className={`px-4 py-1.5 text-xs uppercase tracking-wider font-semibold rounded-full transition-all duration-200 whitespace-nowrap cursor-pointer border ${isActive
                     ? "bg-navy-950 text-gold-300 border-navy-950 shadow-sm"
                     : "bg-cream-100/80 text-navy-900 border-gold-400/30 hover:bg-gold-50 hover:text-gold-800"
-                }`}
+                  }`}
               >
                 ✦ {tab.label}
               </a>
@@ -149,9 +148,9 @@ export default function Faculty() {
                   className="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-navy-950/80 via-transparent to-transparent pointer-events-none" />
-               
+
                 {/* Floating Award Pill */}
-             
+
               </div>
 
               {/* Name & Designation */}
@@ -190,7 +189,7 @@ export default function Faculty() {
             number="02"
             eyebrow="Classical Gurus & Mentors"
             title="Classical Instructors"
-            subtitle="Distinguished performing artists and dedicated educators carrying forward unbroken lineages in Mohiniyattam, Bharatanatyam, and Carnatic music."
+            subtitle="Distinguished performing artists and dedicated educators carrying forward unbroken lineages in Mohiniyattam, Bharathanatyam and Carnatic music."
           />
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto mt-10">
@@ -211,9 +210,9 @@ export default function Faculty() {
                     <div className="absolute inset-0 bg-gradient-to-t from-navy-950/80 via-transparent to-transparent pointer-events-none" />
                     <GoldFrame />
 
-                    
 
-            
+
+
                   </div>
 
                   {/* Name & Designation */}
@@ -226,7 +225,7 @@ export default function Faculty() {
                         {instructor.name}
                       </h3>
                       <p className="text-xs font-serif italic text-gold-800 font-medium mt-1 mb-4">
-                        {instructor.title}
+
                       </p>
                     </div>
 
@@ -256,7 +255,7 @@ export default function Faculty() {
             number="03"
             eyebrow="Administration & Student Care"
             title="Academy Co-ordinators"
-            subtitle="Professional coordinators providing dedicated support across student admissions, parent liaison, operations, and dynamic media communications."
+            subtitle="Professional coordinators providing dedicated support across student admissions, parent liaison, operations and dynamic media communications."
           />
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto mt-10">
@@ -277,9 +276,9 @@ export default function Faculty() {
                     <div className="absolute inset-0 bg-gradient-to-t from-navy-950/80 via-transparent to-transparent pointer-events-none" />
                     <GoldFrame />
 
-                   
+
                     {/* Experience / Tenure */}
-                    
+
                   </div>
 
                   {/* Name & Designation */}
@@ -352,7 +351,7 @@ export default function Faculty() {
             <p className="text-sm md:text-base text-cream-100/75 leading-relaxed mb-8">
               Whether you are a beginner stepping into classical arts for the first time or an advanced
               student seeking rigorous Margam or concert choir preparation, our faculty provides
-              authentic, patient, and personalized training across Medavakkam, Perumbakkam.
+              authentic, patient and personalized training across Medavakkam, Perumbakkam.
             </p>
           </Reveal>
 

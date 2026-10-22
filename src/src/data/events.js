@@ -1,7 +1,7 @@
 import manifest from './events_media_manifest.json';
 
 export const eventsIntro =
-  "At Suha Academy of Fine Arts, every event is a celebration of artistic excellence, cultural heritage, and the evolving journey of our students. From grand annual celebrations and vibrant festivals to soulful musical offerings and prestigious national and international recitals, each occasion provides a platform to honour tradition, nurture talent, and showcase the dedication of our gurus and disciples. Explore the memorable milestones and artistic experiences that define the spirit of Suha Academy.";
+  "At Suha Academy of Fine Arts, every event is a celebration of artistic excellence, cultural heritage and the evolving journey of our students. From grand annual celebrations and vibrant festivals to soulful musical offerings and prestigious national and international recitals, each occasion provides a platform to honour tradition, nurture talent and showcase the dedication of our gurus and disciples. Explore the memorable milestones and artistic experiences that define the spirit of Suha Academy.";
 
 export const eventPillars = [
   {
@@ -9,7 +9,7 @@ export const eventPillars = [
     title: "Suha’s Annual Day",
     subtitle: "Celebration of Dedication, Growth & Thematic Excellence",
     description:
-      "Suha’s Annual Day is a celebration of the dedication, growth, and artistic achievements of our students. Beyond captivating performances in Indian classical arts, it nurtures meaningful senior-junior relationships, encourages mutual support, and provides every student with a grand stage to explore their potential and gain valuable performance experience.\n\nA distinctive highlight of the celebrations is Suha’s thematic dance presentations, bringing stories, devotion and culture to life through the creative choreography of Guru Smt. Ranjini Pradeep. Recent productions, such as Dasaavatharam and Geetham Paada – Kingini Aada, reflect the Academy’s commitment to artistic innovation while remaining rooted in tradition.\n\nThe occasion is further enriched by the presence of eminent celebrity guests who grace the celebrations and honour the winners of Kodai Kaala Kalai Vizha (KKKV) by presenting their prizes. Through these enriching experiences, Suha’s Annual Day fosters camaraderie, celebrates excellence, preserves heritage and inspires the next generation of artists, making it a cherished milestone in every student’s artistic journey.",
+      "Suha’s Annual Day is a celebration of the dedication, growth and artistic achievements of our students. Beyond captivating performances in Indian classical arts, it nurtures meaningful senior-junior relationships, encourages mutual support and provides every student with a grand stage to explore their potential and gain valuable performance experience.\n\nA distinctive highlight of the celebrations is Suha’s thematic dance presentations, bringing stories, devotion and culture to life through the creative choreography of Guru Smt. Ranjini Pradeep. Recent productions, such as Dasaavatharam and Geetham Paada – Kingini Aada, reflect the Academy’s commitment to artistic innovation while remaining rooted in tradition.\n\nThe occasion is further enriched by the presence of eminent celebrity guests who grace the celebrations and honour the winners of Kodai Kaala Kalai Vizha (KKKV) by presenting their prizes. Through these enriching experiences, Suha’s Annual Day fosters camaraderie, celebrates excellence, preserves heritage and inspires the next generation of artists, making it a cherished milestone in every student’s artistic journey.",
     image: "/suha_media/events/events_intro/event_intro_annual_day.jpg",
     slug: "suha-annual-day",
   },
@@ -18,7 +18,7 @@ export const eventPillars = [
     title: "Kodai Kaala Kalai Vizha (KKKV)",
     subtitle: "State-Level Classical Music & Dance Festival & Talent Competitions",
     description:
-      "Kodai Kaala Kalai Vizha (KKKV) is Suha Academy’s prestigious annual state-level classical arts competition and festival. Founded to provide young artists with a vibrant stage for healthy competition and artistic growth, KKKV features solo classical vocal, Bharatanatyam Margam presentations, instrumentals, and group recitals judged by distinguished vidwans and celebrity guests.",
+      "Kodai Kaala Kalai Vizha (KKKV) is Suha Academy’s prestigious annual state-level classical arts competition and festival. Founded to provide young artists with a vibrant stage for healthy competition and artistic growth, KKKV features solo classical vocal, Bharathanatyam Margam presentations, instrumentals and group recitals judged by distinguished vidwans and celebrity guests.",
     image: "/suha_media/events/events_intro/event_intro_kkkv.jpg",
     slug: "kkkv",
   },
@@ -27,7 +27,7 @@ export const eventPillars = [
     title: "Suha’s Utsavams",
     subtitle: "Devotional Celebrations & Cultural Festivities",
     description:
-      "Suha’s Utsavams celebrate the vibrant traditions of Indian classical arts through devotional performances, cultural festivities, and artistic expression. The Academy has conducted several enriching celebrations, including Margazhi Maha Utsav, Thyagaraja Aradhana and Navratri Utsav among others. These occasions provide students with meaningful opportunities to showcase their talents in a devotional setting while deepening their connection with our cultural and spiritual heritage. By bringing together students, families, and the community, Suha’s Utsavams uphold the timeless traditions of Indian classical arts and foster a shared spirit of devotion and celebration.",
+      "Suha’s Utsavams celebrate the vibrant traditions of Indian classical arts through devotional performances, cultural festivities and artistic expression. The Academy has conducted several enriching celebrations, including Margazhi Maha Utsav, Thyagaraja Aradhana and Navratri Utsav among others. These occasions provide students with meaningful opportunities to showcase their talents in a devotional setting while deepening their connection with our cultural and spiritual heritage. By bringing together students, families and the community, Suha’s Utsavams uphold the timeless traditions of Indian classical arts and foster a shared spirit of devotion and celebration.",
     image: "/suha_media/events/events_intro/event_intro_utsavams.jpg",
     slug: "suha-utsavam",
   },
@@ -72,7 +72,7 @@ export const eventPillars = [
     title: "Memorable Encounters",
     subtitle: "Blessings from Eminent Gurus, Maestros & Cultural Luminaries",
     description:
-      "Cherished moments and sacred blessings shared with revered classical gurus, maestros, celebrity artists, and cultural luminaries who have graced Suha Academy of Fine Arts. From stage felicitations, guest addresses, and excellence award presentations to traditional ponnadai honours, these encounters inspire artistic devotion and mentorship across generations.",
+      "Cherished moments and sacred blessings shared with revered classical gurus, maestros, celebrity artists and cultural luminaries who have graced Suha Academy of Fine Arts. From stage felicitations, guest addresses and excellence award presentations to traditional ponnadai honours, these encounters inspire artistic devotion and mentorship across generations.",
     image: "/suha_media/events/events_intro/event_intro_memorable_encounters.jpg",
     slug: "memorable-encounters",
   },
@@ -111,12 +111,12 @@ const memorableEncountersGallery = [
   { src: "/suha_media/gallery/memorable_encounters/gallery_encounter_019.jpg", title: "Presentation of Mementos to Honoured Dignitaries", subtitle: "Traditional ponnadai and memento presentation" },
   { src: "/suha_media/gallery/memorable_encounters/gallery_encounter_020.jpg", title: "Grand Sabha Stage Celebration Ceremony #1", subtitle: "Sharing joyous milestone celebrations on stage" },
   { src: "/suha_media/gallery/memorable_encounters/gallery_encounter_021.jpg", title: "Special Accolades & Trophies Presentation", subtitle: "Recognizing outstanding dedication to Natyam and Sangeetham" },
-  { src: "/suha_media/gallery/memorable_encounters/gallery_encounter_022.jpg", title: "Grand Sabha Stage Celebration Ceremony #2", subtitle: "Guru, faculty, families, and guests celebrating milestones" },
+  { src: "/suha_media/gallery/memorable_encounters/gallery_encounter_022.jpg", title: "Grand Sabha Stage Celebration Ceremony #2", subtitle: "Guru, faculty, families and guests celebrating milestones" },
   { src: "/suha_media/gallery/memorable_encounters/gallery_encounter_023.jpg", title: "Eminent Guests Blessing Student Performers", subtitle: "Encouraging young artistes to pursue classical excellence" },
   { src: "/suha_media/gallery/memorable_encounters/gallery_encounter_024.jpg", title: "Distinguished Arts Patrons Stage Presentation", subtitle: "Fostering community support for traditional arts" },
   { src: "/suha_media/gallery/memorable_encounters/gallery_encounter_025.jpg", title: "Souvenir & Award Presentation with Cultural Gurus", subtitle: "Commemorating cultural milestones and talent" },
   { src: "/suha_media/gallery/memorable_encounters/gallery_encounter_026.jpg", title: "Celebration of Classical Art Milestones with Guests", subtitle: "Special tributes and felicitations on stage" },
-  { src: "/suha_media/gallery/memorable_encounters/gallery_encounter_027.jpg", title: "Grand Auditorium Stage Gathering with Faculty & Dignitaries", subtitle: "Distinguished gathering of gurus, artists, and faculty" },
+  { src: "/suha_media/gallery/memorable_encounters/gallery_encounter_027.jpg", title: "Grand Auditorium Stage Gathering with Faculty & Dignitaries", subtitle: "Distinguished gathering of gurus, artists and faculty" },
   { src: "/suha_media/gallery/memorable_encounters/gallery_encounter_028.jpg", title: "Excellence Certificate Presentation with Eminent Maestros", subtitle: "Dancers receiving honours for outstanding stage Margam" },
   { src: "/suha_media/gallery/memorable_encounters/gallery_encounter_029.jpg", title: "Honouring Guest of Honour with Traditional Accolades", subtitle: "Revering wisdom and mentorship in classical fine arts" },
   { src: "/suha_media/gallery/memorable_encounters/gallery_encounter_030.jpg", title: "Cultural Exchange & Warm Interactions with Stalwarts", subtitle: "Sri Sai Vignesh and dignitaries with Guru Smt. Ranjini Pradeep" },
@@ -141,7 +141,7 @@ export const events = [
     status: "past",
     category: "annual-day",
     description:
-      "Suha’s Annual Day is a celebration of the dedication, growth, and artistic achievements of our students. Beyond captivating performances in Indian classical arts, it nurtures meaningful senior-junior relationships, encourages mutual support, and provides every student with a grand stage to explore their potential and gain valuable performance experience.\n\nA distinctive highlight of the celebrations is Suha’s thematic dance presentations, bringing stories, devotion and culture to life through the creative choreography of Guru Smt. Ranjini Pradeep. Recent productions, such as Dasaavatharam and Geetham Paada – Kingini Aada, reflect the Academy’s commitment to artistic innovation while remaining rooted in tradition.\n\nThe occasion is further enriched by the presence of eminent celebrity guests who grace the celebrations and honour the winners of Kodai Kaala Kalai Vizha (KKKV) by presenting their prizes. Through these enriching experiences, Suha’s Annual Day fosters camaraderie, celebrates excellence, preserves heritage and inspires the next generation of artists, making it a cherished milestone in every student’s artistic journey.",
+      "Suha’s Annual Day is a celebration of the dedication, growth and artistic achievements of our students. Beyond captivating performances in Indian classical arts, it nurtures meaningful senior-junior relationships, encourages mutual support and provides every student with a grand stage to explore their potential and gain valuable performance experience.\n\nA distinctive highlight of the celebrations is Suha’s thematic dance presentations, bringing stories, devotion and culture to life through the creative choreography of Guru Smt. Ranjini Pradeep. Recent productions, such as Dasaavatharam and Geetham Paada – Kingini Aada, reflect the Academy’s commitment to artistic innovation while remaining rooted in tradition.\n\nThe occasion is further enriched by the presence of eminent celebrity guests who grace the celebrations and honour the winners of Kodai Kaala Kalai Vizha (KKKV) by presenting their prizes. Through these enriching experiences, Suha’s Annual Day fosters camaraderie, celebrates excellence, preserves heritage and inspires the next generation of artists, making it a cherished milestone in every student’s artistic journey.",
     categories: [
       "Thematic Productions: Dasaavatharam",
       "Geetham Paada – Kingini Aada",
@@ -179,7 +179,7 @@ export const events = [
     status: "past",
     category: "utsavam",
     description:
-      "Suha’s Utsavams celebrate the vibrant traditions of Indian classical arts through devotional performances, cultural festivities, and artistic expression. The Academy has conducted several enriching celebrations, including Margazhi Maha Utsav, Thyagaraja Aradhana and Navratri Utsav among others. These occasions provide students with meaningful opportunities to showcase their talents in a devotional setting while deepening their connection with our cultural and spiritual heritage. By bringing together students, families, and the community, Suha’s Utsavams uphold the timeless traditions of Indian classical arts and foster a shared spirit of devotion and celebration.",
+      "Suha’s Utsavams celebrate the vibrant traditions of Indian classical arts through devotional performances, cultural festivities and artistic expression. The Academy has conducted several enriching celebrations, including Margazhi Maha Utsav, Thyagaraja Aradhana and Navratri Utsav among others. These occasions provide students with meaningful opportunities to showcase their talents in a devotional setting while deepening their connection with our cultural and spiritual heritage. By bringing together students, families and the community, Suha’s Utsavams uphold the timeless traditions of Indian classical arts and foster a shared spirit of devotion and celebration.",
     categories: [
       "Margazhi Maha Utsav Recitals",
       "Thyagaraja Aradhana Pancharatna Homage",
@@ -235,7 +235,7 @@ export const events = [
       "Intergenerational Classical Art Seva",
       "Warmth & Blessings from Elders",
       "Compassionate Youth Platform",
-      "Bharatanatyam & Vocal Offerings",
+      "Bharathanatyam & Vocal Offerings",
     ],
     poster: "/suha_media/events/events_intro/event_intro_vasantha_swaranjali.jpg",
     gallery: [
@@ -247,7 +247,7 @@ export const events = [
       {
         src: "/suha_media/shared/shared_media_asset_09.jpg",
         title: "Vocal Seva for Senior Residents",
-        subtitle: "Spreading warmth, peace, and spiritual joy through classical melodies",
+        subtitle: "Spreading warmth, peace and spiritual joy through classical melodies",
       },
       {
         src: "/suha_media/shared/shared_media_asset_08.jpg",
@@ -496,7 +496,7 @@ export const events = [
       "Temple Rituals & Guru Anugraham",
       "Maiden Solo Arangetram Recitals",
       "Live Carnatic Orchestra Accompaniment",
-      "Full Bharatanatyam Margam Presentation",
+      "Full Bharathanatyam Margam Presentation",
     ],
     poster: "/suha_media/events/events_intro/event_intro_salangai_pooja.jpg",
     gallery: makeGallery(
@@ -523,7 +523,7 @@ export const events = [
     status: "past",
     category: "memorable-encounters",
     description:
-      "Cherished moments and sacred blessings shared with revered classical gurus, maestros, celebrity artists, and cultural luminaries who have graced Suha Academy of Fine Arts. From stage felicitations, guest addresses, and excellence award presentations to traditional ponnadai honours, these encounters inspire artistic devotion and mentorship across generations.",
+      "Cherished moments and sacred blessings shared with revered classical gurus, maestros, celebrity artists and cultural luminaries who have graced Suha Academy of Fine Arts. From stage felicitations, guest addresses and excellence award presentations to traditional ponnadai honours, these encounters inspire artistic devotion and mentorship across generations.",
     categories: [
       "Blessings from Eminent Classical Gurus & Vidwans",
       "Celebrity Guest Felicitations & Stage Accolades",
@@ -552,9 +552,9 @@ export const events = [
     status: "past",
     category: "kkkv",
     description:
-      "Kodai Kaala Kalai Vizha (KKKV) is Suha Academy’s flagship state-level classical festival and competition platform. Bringing together hundreds of aspiring classical dancers and Carnatic vocalists across Tamil Nadu, KKKV provides an enriching stage to showcase dedication, receive constructive adjudication from veteran masters, and celebrate artistic excellence.",
+      "Kodai Kaala Kalai Vizha (KKKV) is Suha Academy’s flagship state-level classical festival and competition platform. Bringing together hundreds of aspiring classical dancers and Carnatic vocalists across Tamil Nadu, KKKV provides an enriching stage to showcase dedication, receive constructive adjudication from veteran masters and celebrate artistic excellence.",
     categories: [
-      "State-Level Classical Bharatanatyam Competitions",
+      "State-Level Classical Bharathanatyam Competitions",
       "Carnatic Vocal & Instrumental Music Showcases",
       "Constructive Feedback from Renowned Judges",
       "Celebrity Guest Felicitation & Grand Trophies",
@@ -588,9 +588,9 @@ export const kkkvEvents = [
     status: "past",
     category: "kkkv",
     description:
-      "Kodai Kaala Kalai Vizha (KKKV) 2026 brings together hundreds of classical dancers and Carnatic vocalists competing across junior, sub-junior, and senior categories with grand trophies and felicitation by cultural stalwarts.",
+      "Kodai Kaala Kalai Vizha (KKKV) 2026 brings together hundreds of classical dancers and Carnatic vocalists competing across junior, sub-junior and senior categories with grand trophies and felicitation by cultural stalwarts.",
     categories: [
-      "State-Level Classical Bharatanatyam Faceoff",
+      "State-Level Classical Bharathanatyam Faceoff",
       "Carnatic Vocal & Classical Instrumental Competitions",
       "Constructive Adjudication by Senior Gurus",
       "Grand Trophies & Excellence Certificates",
@@ -620,7 +620,7 @@ export const workshopArchive = {
   ageGroup: "7+",
   conductor: "Mrs. Vallikkannu Krishnan",
   description:
-    "A creative online workshop introducing students to the art of Mandala design, fundamentals, symmetry, and practical illustrations, organised by Suha Academy of Fine Arts.",
+    "A creative online workshop introducing students to the art of Mandala design, fundamentals, symmetry and practical illustrations, organised by Suha Academy of Fine Arts.",
   status: "Past Workshop",
   source: "https://kidscontests.in/2021/09/mandala-art-workshop-organised-by-suha-academy/",
   sourceLabel: "KidsContests / Suha Academy Official",

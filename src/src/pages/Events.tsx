@@ -80,7 +80,7 @@ export default function Events() {
             number="01"
             eyebrow="Tradition · Stage Excellence · Cultural Heritage"
             title="Artistic Journey & Stage Ethos"
-            subtitle="At Suha Academy of Fine Arts, every event is a celebration of artistic excellence, cultural heritage, and the evolving journey of our students. From grand annual celebrations and vibrant festivals to soulful musical offerings and prestigious national and international recitals, each occasion provides a platform to honour tradition, nurture talent, and showcase the dedication of our gurus and disciples."
+            subtitle="At Suha Academy of Fine Arts, every event is a celebration of artistic excellence, cultural heritage and the evolving journey of our students. From grand annual celebrations and vibrant festivals to soulful musical offerings and prestigious national and international recitals, each occasion provides a platform to honour tradition, nurture talent and showcase the dedication of our gurus and disciples."
           />
 
           {/* Concluding Milestone Accent */}
@@ -113,8 +113,8 @@ export default function Events() {
                 key={tab.id}
                 onClick={() => setActiveFilter(tab.id as EventFilter)}
                 className={`px-4 py-2 text-xs uppercase tracking-wider font-semibold rounded-full transition-all duration-300 cursor-pointer border ${activeFilter === tab.id
-                    ? "bg-navy-950 text-gold-300 border-navy-950 shadow-sm"
-                    : "bg-white text-navy-800 border-ivory-200 hover:bg-gold-50 hover:text-gold-700 hover:border-gold-300"
+                  ? "bg-navy-950 text-gold-300 border-navy-950 shadow-sm"
+                  : "bg-white text-navy-800 border-ivory-200 hover:bg-gold-50 hover:text-gold-700 hover:border-gold-300"
                   }`}
               >
                 {tab.label}

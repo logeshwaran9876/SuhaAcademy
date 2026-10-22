@@ -3,7 +3,7 @@ export const timeline = [
     year: "2010",
     title: "Academy Establishment",
     description:
-      "Suha Academy of Fine Arts is founded by Smt. Ranjini Pradeep in Chennai, dedicated to classical Bharatanatyam dance and Carnatic vocal music training.",
+      "Suha Academy of Fine Arts is founded by Smt. Ranjini Pradeep in Chennai, dedicated to classical Bharathanatyam dance and Carnatic vocal music training.",
     image: "/suha_media/shared/shared_media_asset_02.jpg",
     isPoster: false,
     badge: "Foundational Recital",
@@ -30,7 +30,7 @@ export const timeline = [
     year: "2022",
     title: "Expanded Classical Categories",
     description:
-      "KKKV 2022 features an expanded curriculum of competitions across Carnatic vocal (Pancharathnam, Aalap, Neraval, Swaras) and Bharatanatyam dance.",
+      "KKKV 2022 features an expanded curriculum of competitions across Carnatic vocal (Pancharathnam, Aalap, Neraval, Swaras) and Bharathanatyam dance.",
     image: "/suha_media/shared/shared_event_poster_kkkv_2022.jpg",
     isPoster: true,
     badge: "Official Competition Poster",
@@ -39,7 +39,7 @@ export const timeline = [
     year: "2023",
     title: "Solo Arangetram Milestones",
     description:
-      "Students achieve full solo Bharatanatyam Margam debuts (Arangetram) under Guru Smt. Ranjini Pradeep's intensive guidance, performing demanding items like Lathangi Varnam and Thillanas.",
+      "Students achieve full solo Bharathanatyam Margam debuts (Arangetram) under Guru Smt. Ranjini Pradeep's intensive guidance, performing demanding items like Lathangi Varnam and Thillanas.",
     image: "/suha_media/shared/shared_video_thumbnail_02.jpg",
     isPoster: false,
     badge: "Arangetram Debut",
@@ -66,7 +66,7 @@ export const timeline = [
     year: "2026",
     title: "The Classical Faceoff & Annual Day '26",
     description:
-      "KKKV returns as The Classical Faceoff at Ixora BHS Recreational Club, Perumbakkam. Annual Day 2026 at Karnataka Sangha Hall welcomes luminaries Dr. Divyasena, Sri Sai Vignesh, and Sri Amit Bhargav.",
+      "KKKV returns as The Classical Faceoff at Ixora BHS Recreational Club, Perumbakkam. Annual Day 2026 at Karnataka Sangha Hall welcomes luminaries Dr. Divyasena, Sri Sai Vignesh and Sri Amit Bhargav.",
     image: "/suha_media/shared/shared_event_poster_kkkv_2026.jpg",
     isPoster: true,
     badge: "Flagship 2026 Poster",
@@ -91,7 +91,7 @@ export const achievements = [
   },
   {
     label: "Core Disciplines",
-    value: "Bharatanatyam + Carnatic Vocal",
+    value: "Bharathanatyam + Carnatic Vocal",
     icon: "Music",
   },
 ];

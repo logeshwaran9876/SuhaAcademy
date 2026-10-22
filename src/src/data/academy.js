@@ -34,14 +34,14 @@ export const academy = {
     {
       name: "Perumbakkam Center (Main Campus)",
       area: "3rd Floor, Ixora Club House, BSCPL BOLLINENI HILLSIDE, Bollineni Hillside Road, Perumbakkam, Chennai – 600131",
-      description: "Main classical dance & vocal music studios, rehearsals, and academy headquarters."
+      description: "Main classical dance & vocal music studios, rehearsals and academy headquarters."
     },
     {
       name: "Medavakkam Center",
       area: "Clubhouse, Navins Starwood Towers, Medavakkam, Chennai",
       description: "Classical dance, vocal music batches & rehearsal venue."
     },
-   
+
   ],
   logo: "/suha_media/shared/shared_logo_suha_academy.png",
   msmeLogo: "/suha_media/shared/shared_logo_msme.png",
@@ -53,16 +53,16 @@ export const academy = {
   instagram: "https://www.instagram.com/suha_academy/",
   facebook: "https://www.facebook.com/suhaacademy/",
   whatsappMessage:
-    "Hello Suha Academy of Fine Arts, I would like to know more about Bharatanatyam / Carnatic Music / Mohiniyattam classes and events.",
+    "Hello Suha Academy of Fine Arts, I would like to know more about Bharathanatyam / Carnatic Music / Mohiniyattam classes and events.",
 };
 
 export const faculty = [
   {
     name: "Guru Smt. Ranjini Pradeep",
     title: "Founder & Artistic Director",
-    discipline: "Bharatanatyam & Saraswathi Veena",
+    discipline: "Bharathanatyam & Saraswathi Veena",
     image: "/suha_media/shared/shared_faculty_ranjini_pradeep.png",
-    bio: "Visionary Bharatanatyam guru, choreographer, and founder of Suha Academy of Fine Arts and Kodai Kaala Kalai Vizha (KKKV). Disciple of Paramaguru Smt. Chithra Muralidharan, shaping over 160+ classical disciples across Chennai and international stages.",
+    bio: "Visionary Bharathanatyam guru, choreographer and founder of Suha Academy of Fine Arts and Kodai Kaala Kalai Vizha (KKKV). Disciple of Paramaguru Smt. Chithra Muralidharan, shaping over 160+ classical disciples across Chennai and international stages.",
     credentials: "B.A. & M.A. in Classical Dance & Music · 15+ Years Pedagogy",
   },
   {
@@ -70,7 +70,7 @@ export const faculty = [
     title: "Faculty & Vocal / Tala Guru",
     discipline: "Carnatic Music & Percussion",
     image: "/suha_media/shared/shared_faculty_thinagar_raj.png",
-    bio: "Accomplished Carnatic music mentor and exponent cultivating voice culture, shruti shuddham, traditional compositions, and choral stage recitals with shastric discipline.",
+    bio: "Accomplished Carnatic music mentor and exponent cultivating voice culture, shruti shuddham, traditional compositions and choral stage recitals with shastric discipline.",
     credentials: "Carnatic Vocal & Rhythmic Guidance",
   },
   {
@@ -78,7 +78,7 @@ export const faculty = [
     title: "Faculty & Exponent",
     discipline: "Mohiniyattam",
     image: "/suha_media/shared/shared_faculty_swarna_sahasra_01.jpg",
-    bio: "Dedicated Mohiniyattam exponent guiding disciples in the lyrical Lasya tradition, delicate mudras, rhythmic footwork, and traditional Kerala classical dance repertoire.",
+    bio: "Dedicated Mohiniyattam exponent guiding disciples in the lyrical Lasya tradition, delicate mudras, rhythmic footwork and traditional Kerala classical dance repertoire.",
     credentials: "Mohiniyattam Repertoire Specialist",
   },
 ];
