@@ -3,12 +3,9 @@ import {
   ChevronLeft,
   ChevronRight,
   ArrowRight,
-  Sparkles,
   Award,
-  MessageCircle,
 } from "lucide-react";
 import { GoldFrame } from "@/components/Decorations";
-import { academy } from "@/data/academy";
 
 export interface CourseSlidePhoto {
   src: string;
@@ -22,28 +19,20 @@ export interface CourseShowcaseData {
   slug: string;
   title: string;
   eyebrow: string;
-  shortDescription: string;
-  longDescription?: string;
-  curriculum?: string[];
-  cta?: string;
-  eventBadge?: string;
-  eventDesc?: string;
-  eventLink?: string;
-  features?: string[];
+  introHeading?: string;
+  introParagraphs: string[];
   photos: CourseSlidePhoto[];
 }
 
 interface CourseShowcaseCardProps {
   course: CourseShowcaseData;
   index: number;
-  onExplore: (slug: string) => void;
   onRoadmap: (slug: string) => void;
 }
 
 export default function CourseShowcaseCard({
   course,
   index,
-  onExplore,
   onRoadmap,
 }: CourseShowcaseCardProps) {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -88,15 +77,14 @@ export default function CourseShowcaseCard({
   return (
     <div
       id={`course-section-${course.slug}`}
-      className="bg-white border-2 border-gold-400/40 rounded-sm overflow-hidden shadow-xl hover:border-gold-500 transition-all duration-500 max-w-lg mx-auto"
+      className="bg-white border-2 border-gold-400/40 rounded-sm overflow-hidden shadow-xl hover:border-gold-500 transition-all duration-500 max-w-xl mx-auto"
     >
       {/* Top Gold Filigree Hairline */}
       <div className="h-1 bg-gradient-to-r from-gold-600 via-gold-400 to-gold-700 w-full" />
 
       {/* Main Slider Section (Preserved Original 4:5 Portrait Size) */}
       <div
-        className="relative bg-navy-950 flex flex-col overflow-hidden group select-none cursor-pointer"
-        onClick={() => onExplore(course.slug)}
+        className="relative bg-navy-950 flex flex-col overflow-hidden group select-none"
         onMouseEnter={() => setIsPaused(true)}
         onMouseLeave={() => setIsPaused(false)}
         onTouchStart={handleTouchStart}
@@ -176,44 +164,53 @@ export default function CourseShowcaseCard({
         </div>
       </div>
 
-      {/* Slider Bottom: Minimal Content (Title, Short Lines & Modal Triggers) */}
-      <div className="p-6 sm:p-7 bg-[#FDFBF7] border-t border-gold-400/30">
+      {/* Slider Bottom: Content (Title, Intro Header, Paragraphs & Roadmap Trigger) */}
+      <div className="p-6 sm:p-8 bg-[#FDFBF7] border-t border-gold-400/30 text-left">
         <div>
-
-
+          <span className="text-[11px] font-mono uppercase tracking-[0.24em] text-gold-700 font-bold block mb-1">
+            {course.eyebrow}
+          </span>
           <h3 className="text-2xl sm:text-3xl font-display font-bold text-navy-950">
             {course.title}
           </h3>
 
-          <p className="text-xs sm:text-sm text-navy-800/85 leading-relaxed font-normal mt-2">
-            {course.shortDescription}
-          </p>
+          <div className="mt-5 pt-4 border-t border-gold-400/25">
+            
+
+            <div className="space-y-3.5 text-xs sm:text-sm text-navy-800/90 leading-relaxed font-normal">
+              {course.introParagraphs.map((para, pIdx) => (
+                <p key={pIdx}>
+                  {para.includes("**") ? (
+                    para.split(/(\*\*.*?\*\*)/g).map((chunk, cIdx) =>
+                      chunk.startsWith("**") && chunk.endsWith("**") ? (
+                        <strong key={cIdx} className="font-semibold text-navy-950">
+                          {chunk.slice(2, -2)}
+                        </strong>
+                      ) : (
+                        chunk
+                      )
+                    )
+                  ) : (
+                    para
+                  )}
+                </p>
+              ))}
+            </div>
+          </div>
         </div>
 
-        {/* Action Triggers */}
-        <div className="mt-5 pt-4 border-t border-ivory-200/80 flex flex-col sm:flex-row items-stretch sm:items-center gap-2.5">
-          <button
-            type="button"
-            onClick={() => onExplore(course.slug)}
-            className="flex-1 inline-flex items-center justify-center gap-2 px-4 py-2.5 bg-navy-950 text-gold-300 font-bold text-xs uppercase tracking-wider rounded-sm hover:bg-gold-500 hover:text-navy-950 transition-all duration-300 shadow-sm cursor-pointer group"
-          >
-            <Sparkles className="w-3.5 h-3.5 text-gold-400 group-hover:text-navy-950" />
-            <span>Explore Course</span>
-            <ArrowRight className="w-3.5 h-3.5 transition-transform group-hover:translate-x-1" />
-          </button>
-
+        {/* Action Trigger - 3-Level Roadmap */}
+        <div className="mt-6 pt-5 border-t border-ivory-200/80">
           <button
             type="button"
             onClick={() => onRoadmap(course.slug)}
-            className="flex-1 inline-flex items-center justify-center gap-2 px-4 py-2.5 border-2 border-gold-500/50 bg-white text-navy-950 hover:bg-gold-500/10 hover:border-gold-600 font-bold text-xs uppercase tracking-wider rounded-sm transition-all duration-300 shadow-2xs cursor-pointer group"
+            className="w-full inline-flex items-center justify-center gap-2.5 px-6 py-3.5 bg-gradient-to-r from-navy-950 via-navy-900 to-navy-950 text-gold-300 hover:from-gold-500 hover:to-gold-600 hover:text-navy-950 font-bold text-xs uppercase tracking-wider rounded-sm transition-all duration-300 shadow-md hover:shadow-gold-500/20 cursor-pointer group border border-gold-500/40"
           >
-            <Award className="w-3.5 h-3.5 text-gold-600" />
-            <span>3-Level Roadmap</span>
+            <Award className="w-4 h-4 text-gold-400 group-hover:text-navy-950 transition-colors" />
+            <span>View 3-Level Learning Roadmap</span>
+            <ArrowRight className="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" />
           </button>
         </div>
-
-        {/* WhatsApp Sub-bar */}
-
       </div>
     </div>
   );

@@ -76,10 +76,7 @@ export default function FacultyModal({ faculty, onClose }: FacultyModalProps) {
         {/* Modal Header */}
         <div className="flex items-center justify-between px-6 sm:px-8 py-4 bg-[#F4EDE0]/95 backdrop-blur-md border-b border-gold-400/30 shrink-0 z-10">
           <div className="flex items-center gap-3">
-            <span className="px-3 py-1 text-[11px] uppercase font-mono tracking-wider bg-gold-500 text-navy-950 font-bold rounded-full shadow-xs flex items-center gap-1.5">
-
-              ✦ {faculty.shortRole}
-            </span>
+          
           </div>
 
           <button

@@ -14,7 +14,7 @@ import { academy } from "@/data/academy";
 interface CourseRoadmapModalProps {
   courseSlug: string | null;
   onClose: () => void;
-  onOpenCourseModal: (slug: string) => void;
+  onOpenCourseModal?: (slug: string) => void;
 }
 
 export default function CourseRoadmapModal({
@@ -228,14 +228,20 @@ export default function CourseRoadmapModal({
 
         {/* Modal Footer */}
         <div className="px-6 sm:px-8 py-4 bg-[#F4EDE0]/95 border-t border-gold-400/30 flex flex-wrap items-center justify-between gap-3 shrink-0">
-          <button
-            type="button"
-            onClick={() => onOpenCourseModal(course.slug)}
-            className="inline-flex items-center gap-2 px-5 py-2.5 bg-navy-950 text-gold-300 font-semibold text-xs rounded-sm hover:bg-navy-900 transition-all cursor-pointer shadow-sm"
-          >
-            <Sparkles className="w-4 h-4 text-gold-400" />
-            <span>Course Overview</span>
-          </button>
+          {onOpenCourseModal ? (
+            <button
+              type="button"
+              onClick={() => onOpenCourseModal(course.slug)}
+              className="inline-flex items-center gap-2 px-5 py-2.5 bg-navy-950 text-gold-300 font-semibold text-xs rounded-sm hover:bg-navy-900 transition-all cursor-pointer shadow-sm"
+            >
+              <Sparkles className="w-4 h-4 text-gold-400" />
+              <span>Course Overview</span>
+            </button>
+          ) : (
+            <div className="text-xs text-gold-800 font-serif italic">
+              Level {activeLevelIdx + 1} of {levels.length} &middot; {levels[activeLevelIdx]?.badge}
+            </div>
+          )}
 
           <div className="flex items-center gap-3">
           
