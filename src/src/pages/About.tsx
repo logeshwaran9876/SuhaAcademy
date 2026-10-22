@@ -149,6 +149,8 @@ export default function About() {
         </div>
       </section>
 
+      
+
       {/* 4. Our Journey: From a Humble Beginning to a Growing Artistic Legacy */}
       <section className="relative py-24 md:py-32 bg-paper overflow-hidden">
         <div className="absolute right-0 top-1/4 w-96 h-96 text-gold-500/[0.03] pointer-events-none">
@@ -304,7 +306,76 @@ export default function About() {
           </div>
         </div>
       </section>
+{/* 3. Studio Experience & Academy Showcase Video */}
+      <section className="relative py-20 md:py-28 bg-[#0D080B] text-white overflow-hidden border-y border-gold-500/25">
+        {/* Ambient Warm Glow */}
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[700px] h-[350px] bg-radial from-gold-500/10 via-amber-600/5 to-transparent blur-3xl pointer-events-none" />
 
+        <div className="container-wide section-padding relative z-10">
+          <div className="max-w-4xl mx-auto text-center mb-10 sm:mb-14">
+            <Reveal>
+              <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-gold-500/10 border border-gold-400/30 text-gold-300 text-xs uppercase tracking-wider font-semibold mb-3">
+                <Sparkles className="w-3.5 h-3.5 text-gold-400" />
+                <span>Experience Life at Suha Academy</span>
+              </div>
+            </Reveal>
+
+            <Reveal delay={0.1}>
+              <h2 className="text-display-sm sm:text-display-md font-display font-medium text-white tracking-tight">
+                Studio Experience &amp; Training Atmosphere
+              </h2>
+            </Reveal>
+
+            <Reveal delay={0.15}>
+              <p className="text-cream-100/75 text-sm sm:text-base font-light font-sans max-w-2xl mx-auto mt-3 leading-relaxed">
+                Step inside our vibrant classical sessions at Ixora Clubhouse, Perumbakkam — where disciples
+                learn under the direct guidance of Guru Smt. Ranjini Pradeep with dedicated practice and live accompaniment.
+              </p>
+            </Reveal>
+          </div>
+
+          {/* Cinematic Video Player Container */}
+          <Reveal delay={0.2}>
+            <div className="max-w-4xl mx-auto relative rounded-md overflow-hidden bg-navy-950 shadow-2xl border-2 border-gold-500/40 group">
+              <div className="relative aspect-video w-full overflow-hidden bg-black">
+                <video
+                  controls
+                  playsInline
+                  preload="metadata"
+                  poster="/suha_media/about/about_video_poster.jpg"
+                  className="w-full h-full object-cover"
+                >
+                  <source src="/suha_media/about/About-Video.mp4" type="video/mp4" />
+                  Your browser does not support HTML5 video.
+                </video>
+              </div>
+
+              {/* Bottom Feature Pill Bar inside the video card */}
+              <div className="bg-[#150D11] border-t border-gold-500/30 px-6 py-4 flex flex-wrap items-center justify-between gap-4">
+                <div className="flex flex-wrap items-center gap-3 text-xs sm:text-sm text-cream-100/90 font-medium">
+                  <span className="inline-flex items-center gap-1.5 text-gold-300">
+                    <MapPin className="w-4 h-4 text-gold-400" />
+                    <span>3rd Floor, Ixora Clubhouse, Perumbakkam</span>
+                  </span>
+                  <span className="text-gold-500/40 hidden sm:inline">&bull;</span>
+                  <span className="inline-flex items-center gap-1.5 text-cream-100/80">
+                    <Calendar className="w-4 h-4 text-gold-400" />
+                    <span>Weekday &amp; Weekend Batches</span>
+                  </span>
+                </div>
+
+                <Link
+                  to="/contact"
+                  className="inline-flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-gold-500 to-amber-500 hover:from-gold-400 hover:to-amber-400 text-navy-950 font-bold text-xs uppercase tracking-wider rounded-sm transition-all shadow-md group-hover:scale-[1.02]"
+                >
+                  <span>Admission Enquiry</span>
+                  <ArrowRight className="w-3.5 h-3.5" />
+                </Link>
+              </div>
+            </div>
+          </Reveal>
+        </div>
+      </section>
       {/* 5. A Platform for Art and Artists (Dignitaries, Sabhas & Global Outreach) */}
       <section className="relative py-24 md:py-32 bg-cream-50 overflow-hidden text-navy-900 border-t border-ivory-200">
         <div className="container-wide section-padding relative z-10">
