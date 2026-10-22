@@ -1,0 +1,89 @@
+name: Deploy SUHA Frontend
+
+on:
+  push:
+    branches:
+      - main
+
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: suha-production-deployment
+  cancel-in-progress: false
+
+env:
+  NAMESPACE: suha
+  DEPLOYMENT: suha-frontend
+  CONTAINER: suha-frontend
+  IMAGE_NAME: suha-frontend
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Checkout source code
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      # 2. Create a unique image tag
+      - name: Set Image Tag
+        run: echo "IMAGE_TAG=${GITHUB_SHA::12}" >> "$GITHUB_ENV"
+
+      # 3. Log in to the container registry
+      - name: Login to Container Registry
+        uses: docker/login-action@v3
+        with:
+          registry: ${{ vars.REGISTRY_URL }}
+          username: ${{ secrets.REGISTRY_USERNAME }}
+          password: ${{ secrets.REGISTRY_PASSWORD }}
+
+      # 4. Build and push Docker image
+      - name: Build and Push Image
+        uses: docker/build-push-action@v6
+        with:
+          context: ./src
+          file: ./src/Dockerfile
+          push: true
+          tags: ${{ vars.REGISTRY_URL }}/${{ env.IMAGE_NAME }}:${{ env.IMAGE_TAG }}
+
+      # 5. Configure kubectl
+      - name: Configure Kubernetes
+        env:
+          DO_KUBE_CONFIG: ${{ secrets.DO_KUBE_CONFIG }}
+        run: |
+          mkdir -p "$HOME/.kube"
+          printf '%s' "$DO_KUBE_CONFIG" | base64 -d > "$HOME/.kube/config"
+          chmod 600 "$HOME/.kube/config"
+          kubectl config current-context
+          kubectl cluster-info
+
+      # 6. Create namespace if needed
+      - name: Create Namespace
+        run: |
+          kubectl create namespace "$NAMESPACE" \
+            --dry-run=client -o yaml | kubectl apply -f -
+
+      # 7. Apply Kubernetes resources
+      - name: Apply Kubernetes Manifests
+        run: |
+          kubectl apply -f k8s/02-deployment.yaml
+          kubectl apply -f k8s/03-service.yaml
+          kubectl apply -f k8s/04-ingress.yaml
+
+      # 8. Deploy the newly built image
+      - name: Update Deployment Image
+        run: |
+          kubectl set image deployment/"$DEPLOYMENT" \
+            "$CONTAINER"="${{ vars.REGISTRY_URL }}/${{ env.IMAGE_NAME }}:${{ env.IMAGE_TAG }}" \
+            -n "$NAMESPACE"
+
+      # 9. Wait for the rollout
+      - name: Verify Deployment
+        run: |
+          kubectl rollout status deployment/"$DEPLOYMENT" \
+            -n "$NAMESPACE" \
+            --timeout=180s

@@ -30,11 +30,13 @@ import { academy } from "@/data/academy";
 type EventFilter =
   | "all"
   | "annual-day"
+  | "kkkv"
   | "utsavam"
   | "vasantha-swaranjali"
   | "national-recitals"
   | "international-recitals"
-  | "salangai-pooja";
+  | "salangai-pooja"
+  | "memorable-encounters";
 
 export default function Events() {
   const [activeFilter, setActiveFilter] = useState<EventFilter>("all");
@@ -43,6 +45,8 @@ export default function Events() {
     if (activeFilter === "all") return events;
     if (activeFilter === "annual-day")
       return events.filter((e) => e.slug === "suha-annual-day");
+    if (activeFilter === "kkkv")
+      return events.filter((e) => e.slug === "kkkv" || e.slug === "kkkv-2026");
     if (activeFilter === "utsavam")
       return events.filter((e) => e.slug === "suha-utsavam");
     if (activeFilter === "vasantha-swaranjali")
@@ -53,6 +57,8 @@ export default function Events() {
       return events.filter((e) => e.slug === "international-recitals");
     if (activeFilter === "salangai-pooja")
       return events.filter((e) => e.slug === "salangai-pooja-arangetram");
+    if (activeFilter === "memorable-encounters")
+      return events.filter((e) => e.slug === "memorable-encounters");
     return events;
   }, [activeFilter]);
 
@@ -95,11 +101,13 @@ export default function Events() {
             {[
               { id: "all", label: "All Events" },
               { id: "annual-day", label: "Annual Day" },
+              { id: "kkkv", label: "KKKV Festivals" },
               { id: "utsavam", label: "Suha's Utsavams" },
               { id: "vasantha-swaranjali", label: "Vasantha Swaranjali" },
               { id: "national-recitals", label: "National Recitals" },
               { id: "international-recitals", label: "International Recitals" },
               { id: "salangai-pooja", label: "Salangai Pooja & Arangetram" },
+              { id: "memorable-encounters", label: "Memorable Encounters" },
             ].map((tab) => (
               <button
                 key={tab.id}

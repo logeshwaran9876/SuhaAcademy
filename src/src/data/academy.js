@@ -41,11 +41,7 @@ export const academy = {
       area: "Clubhouse, Navins Starwood Towers, Medavakkam, Chennai",
       description: "Classical dance, vocal music batches & rehearsal venue."
     },
-    {
-      name: "Global Online Academy",
-      area: "Worldwide Live Video Studios",
-      description: "Dedicated digital studio for live 1-on-1 and small batches across USA, UK, Singapore & UAE."
-    }
+   
   ],
   logo: "/suha_media/shared/shared_logo_suha_academy.png",
   msmeLogo: "/suha_media/shared/shared_logo_msme.png",

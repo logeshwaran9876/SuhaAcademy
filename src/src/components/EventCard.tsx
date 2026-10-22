@@ -48,82 +48,54 @@ export default function EventCard({
         to={`/events/${event.slug}`}
         className="group h-full flex flex-col bg-white border border-ivory-200 rounded-sm overflow-hidden transition-all duration-500 hover:shadow-2xl hover:shadow-navy-900/10 hover:border-gold-300 block cursor-pointer"
       >
-        {/* Poster */}
-        <div className="relative h-56 overflow-hidden">
+        {/* Poster — 16:9 aspect ratio matching event intro banners */}
+        <div className="relative aspect-[16/9] overflow-hidden bg-navy-950">
           <img
             src={event.poster}
             alt={`${event.title} — ${event.year}`}
             loading="lazy"
-            className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+            className="w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-105"
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-navy-950/70 to-transparent" />
+          {/* Gentle hover tint to preserve 100% artwork visibility */}
+          <div className="absolute inset-0 bg-navy-950/0 group-hover:bg-navy-950/10 transition-colors duration-300" />
           <GoldFrame />
 
           {/* Badges */}
-          <div className="absolute top-4 left-4 right-4 flex items-center justify-between pointer-events-none">
+          <div className="absolute top-3.5 left-3.5 right-3.5 flex items-center justify-between pointer-events-none">
             <span
-              className={`px-3 py-1 text-xs uppercase tracking-wider font-medium rounded-sm ${
+              className={`px-3 py-1 text-xs uppercase tracking-wider font-semibold rounded-sm shadow-xs ${
                 isUpcoming
                   ? "bg-gold-500 text-navy-950"
-                  : "bg-navy-950/70 text-cream-100 backdrop-blur-sm border border-gold-400/20"
+                  : "bg-navy-950/80 text-cream-100 backdrop-blur-md border border-gold-400/20"
               }`}
             >
               {isUpcoming ? "Upcoming" : event.year}
             </span>
 
             {event.gallery && event.gallery.length > 0 && (
-              <span className="px-2.5 py-1 text-[11px] font-medium rounded-sm bg-navy-950/80 text-gold-300 backdrop-blur-sm border border-gold-400/20">
+              <span className="px-2.5 py-1 text-[11px] font-semibold rounded-sm bg-navy-950/85 text-gold-300 backdrop-blur-md border border-gold-400/20 shadow-xs">
                 ✦ {event.gallery.length} Photos
               </span>
             )}
           </div>
-
-          <div className="absolute bottom-0 left-0 right-0 p-5">
-            <h3 className="text-xl font-display text-cream-50 mb-0.5">
-              {event.title}
-            </h3>
-            <p className="text-xs text-gold-300 uppercase tracking-wider">
-              {event.subtitle}
-            </p>
-          </div>
         </div>
 
         {/* Content */}
-        <div className="flex flex-col flex-1 p-6">
-          {/* Meta */}
-          <div className="flex flex-col gap-2 mb-4">
-            <div className="flex items-center gap-2 text-xs text-navy-700/70">
-              <Calendar className="w-3.5 h-3.5 text-gold-500 flex-shrink-0" />
-              {event.date}
-            </div>
-            <div className="flex items-start gap-2 text-xs text-navy-700/70">
-              <MapPin className="w-3.5 h-3.5 text-gold-500 flex-shrink-0 mt-0.5" />
-              {event.venueShort}
-            </div>
+        <div className="flex flex-col flex-1 p-6 text-left">
+          <div className="mb-3">
+            <p className="text-xs font-semibold text-gold-700 uppercase tracking-wider mb-1 line-clamp-1">
+              {event.subtitle}
+            </p>
+            <h3 className="text-xl font-display font-medium text-navy-950 group-hover:text-gold-600 transition-colors duration-300 line-clamp-2">
+              {event.title}
+            </h3>
           </div>
+
+          
 
           <p className="text-sm text-navy-700/70 leading-relaxed mb-4 line-clamp-3">
             {event.description}
           </p>
-
-          {/* Categories preview */}
-          {event.categories.length > 0 && (
-            <div className="flex flex-wrap gap-1.5 mb-5">
-              {event.categories.slice(0, 4).map((cat) => (
-                <span
-                  key={cat}
-                  className="px-2.5 py-1 text-[10px] uppercase tracking-wider bg-cream-100/70 text-navy-700/60 rounded-sm border border-ivory-200"
-                >
-                  {cat}
-                </span>
-              ))}
-              {event.categories.length > 4 && (
-                <span className="px-2.5 py-1 text-[10px] text-navy-600/40">
-                  +{event.categories.length - 4} more
-                </span>
-              )}
-            </div>
-          )}
 
           <div className="mt-auto pt-4 border-t border-ivory-100 flex items-center justify-between">
             <span className="inline-flex items-center gap-2 text-sm font-semibold text-navy-950 group-hover:text-gold-600 transition-colors duration-300 whitespace-nowrap">

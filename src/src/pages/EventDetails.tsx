@@ -90,46 +90,74 @@ export default function EventDetails() {
 
   return (
     <>
-      {/* Theatrical Page Hero */}
-      <section className="relative min-h-[50vh] flex items-end overflow-hidden bg-navy-950">
-        <div className="absolute inset-0">
+      {/* Theatrical Page Hero — styled like PageHero reference to show the complete image with object-top */}
+      <section className="relative min-h-[64vh] sm:min-h-[72vh] lg:min-h-[78vh] xl:min-h-[82vh] flex items-center overflow-hidden bg-[#0A0507] text-left">
+        {/* Background theatrical stage with event intro poster */}
+        <div className="absolute inset-0 pointer-events-none select-none overflow-hidden">
           <img
             src={event.poster || "/suha_media/shared/shared_hero_theatre_banner.jpg"}
             alt={`${event.title} Banner`}
-            className="w-full h-full object-cover object-center opacity-40 blur-xs scale-105"
+            className="w-full h-full object-cover object-top scale-100 transition-transform duration-1000"
             {...{ fetchpriority: "high" }}
           />
-          <div className="absolute inset-0 bg-gradient-to-t from-navy-950 via-navy-950/80 to-navy-950/50" />
+
+          {/* Desktop: Gentle left dark shadow for editorial copy, completely clear stage on right */}
+          <div className="hidden lg:block absolute inset-0 bg-gradient-to-r from-[#0A0507] via-[#0A0507]/85 via-50% to-transparent w-[68%]" />
+
+          {/* Mobile / Tablet: Smooth top-to-bottom dark gradient */}
+          <div className="lg:hidden absolute inset-0 bg-gradient-to-b from-[#0A0507]/90 via-[#0A0507]/60 to-[#0A0507]/92" />
+
+          {/* Subtle bottom edge blend */}
+          <div className="absolute inset-0 bg-gradient-to-t from-[#0A0507]/90 via-transparent to-transparent pointer-events-none" />
+
+          {/* Subtle navbar top protection */}
+          <div className="absolute top-0 inset-x-0 h-28 bg-gradient-to-b from-[#0A0507]/60 to-transparent pointer-events-none" />
+
+          {/* Traditional hanging brass deepam chain on left with gentle float animation */}
+          <div className="absolute top-0 left-6 lg:left-12 flex flex-col items-center opacity-40 pointer-events-none animate-float hidden md:flex">
+            <div className="w-px h-32 bg-gradient-to-b from-transparent via-gold-400 to-amber-300" />
+            <div className="w-3.5 h-3.5 border border-gold-400 rotate-45" />
+            <div className="w-1.5 h-1.5 bg-amber-400 rounded-full mt-1 animate-pulse shadow-sm shadow-amber-400/80" />
+          </div>
         </div>
 
-        <div className="relative z-10 container-wide section-padding pb-16 pt-32">
-          <Link
-            to="/events"
-            className="inline-flex items-center gap-2 text-xs uppercase tracking-wider text-cream-100/70 hover:text-gold-300 transition-colors mb-6 font-semibold"
-          >
-            <ArrowLeft className="w-3.5 h-3.5" /> Back to All Events Archive
-          </Link>
-
-          <Reveal>
-            <span
-              className={`inline-block px-3.5 py-1 text-xs uppercase tracking-wider font-semibold rounded-sm mb-4 ${isUpcoming
-                  ? "bg-gold-500 text-navy-950"
-                  : "bg-navy-950/90 text-gold-300 backdrop-blur-sm border border-gold-400/30"
-                }`}
+        {/* Editorial Content Container */}
+        <div className="relative z-10 container-wide section-padding py-14 sm:py-18 lg:py-22 flex flex-col justify-center w-full">
+          <div className="max-w-3xl text-left flex flex-col items-start">
+            <Link
+              to="/events"
+              className="inline-flex items-center gap-2 text-xs uppercase tracking-wider text-cream-100/75 hover:text-gold-300 transition-colors mb-4 font-semibold text-left self-start drop-shadow-sm"
             >
-              {isUpcoming ? "✦ Upcoming Signature Event" : `Artistic Milestone · ${event.year || "Academy Archive"}`}
-            </span>
-          </Reveal>
+              <ArrowLeft className="w-3.5 h-3.5" /> Back to All Events Archive
+            </Link>
 
-          <Reveal delay={0.1}>
-            <h1 className="text-display-md sm:text-display-lg font-display font-medium text-cream-50 mb-2">
-              {event.title}
-            </h1>
-            <p className="font-serif text-xl sm:text-2xl text-gold-300 italic">
-              {event.subtitle}
-            </p>
-          </Reveal>
+            <Reveal className="text-left w-full">
+              <div className="flex items-center gap-2 mb-3 sm:mb-4">
+                <span className="w-2 h-2 rounded-full bg-gold-400 shadow-sm shadow-gold-400/60 animate-pulse" />
+                <span
+                  className={`inline-block px-3.5 py-1 text-[11px] sm:text-xs uppercase tracking-wider font-semibold rounded-full text-left self-start shadow-sm ${isUpcoming
+                      ? "bg-gold-500 text-navy-950 font-bold"
+                      : "bg-navy-950/85 text-gold-300 backdrop-blur-md border border-gold-400/40"
+                    }`}
+                >
+                  {isUpcoming ? "✦ Upcoming Signature Event" : `Artistic Milestone · ${event.year || "Academy Archive"}`}
+                </span>
+              </div>
+            </Reveal>
+
+            <Reveal delay={0.1} className="text-left w-full">
+              <h1 className="text-3xl sm:text-5xl md:text-5xl lg:text-6xl font-display font-medium text-white tracking-tight leading-[1.12] sm:leading-[1.08] mb-3 sm:mb-5 drop-shadow-xl text-left">
+                {event.title}
+              </h1>
+              <p className="font-serif text-xl sm:text-2xl text-gold-300 italic text-left drop-shadow-sm">
+                {event.subtitle}
+              </p>
+            </Reveal>
+          </div>
         </div>
+
+        {/* Crisp Golden Architectural Divider line at bottom */}
+        <div className="absolute bottom-0 inset-x-0 h-px bg-gradient-to-r from-transparent via-gold-500/50 to-transparent z-20 pointer-events-none" />
       </section>
 
       {/* Details Section */}
@@ -192,28 +220,7 @@ export default function EventDetails() {
               </Reveal>
             )}
 
-            {/* Categories & Repertoire */}
-            {event.categories && event.categories.length > 0 && (
-              <Reveal delay={0.2}>
-                <div className="mb-8 p-6 bg-white border border-ivory-200 rounded-sm shadow-xs">
-                  <h3 className="font-display text-lg text-navy-900 mb-4 flex items-center gap-2">
-                    <Trophy className="w-4 h-4 text-gold-600" />
-                    <span>Featured Segments & Categories</span>
-                  </h3>
-                  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2.5">
-                    {event.categories.map((cat) => (
-                      <div
-                        key={cat}
-                        className="flex items-center gap-2.5 p-3 bg-paper border border-ivory-200 rounded-sm"
-                      >
-                        <span className="w-1.5 h-1.5 rounded-full bg-gold-500 shrink-0" />
-                        <span className="text-xs text-navy-900 font-medium">{cat}</span>
-                      </div>
-                    ))}
-                  </div>
-                </div>
-              </Reveal>
-            )}
+           
 
             {/* Source Badge if present */}
             {event.source && (
@@ -230,125 +237,7 @@ export default function EventDetails() {
             )}
           </div>
 
-          {/* Key Event Information: Archival Spotlight (left) + Schedule & Venue (right) */}
-          <div className="grid lg:grid-cols-12 gap-8 items-stretch mb-16 pt-10 border-t border-ivory-200">
-            {/* Left Card: Official Archival Feature */}
-            {event.poster ? (
-              <div className="lg:col-span-6 flex flex-col">
-                <Reveal delay={0.15} className="h-full flex flex-col">
-                  <div className="bg-white border border-ivory-200 rounded-sm p-5 sm:p-6 shadow-xs flex-1 flex flex-col justify-between">
-                    <div>
-                      <div className="flex items-center justify-between mb-4 pb-2 border-b border-ivory-100">
-                        <span className="text-xs uppercase tracking-wider text-gold-600 font-semibold flex items-center gap-1.5">
-                          <Sparkles className="w-3.5 h-3.5" />
-                          Official Event Archive Feature
-                        </span>
-                        <span className="text-[11px] text-navy-500 font-medium">Click to enlarge</span>
-                      </div>
-                      <div
-                        className="relative overflow-hidden rounded-sm bg-navy-950 cursor-pointer shadow-md group aspect-[4/3] flex items-center justify-center"
-                        onClick={() => setLightboxIdx(0)}
-                      >
-                        <img
-                          src={event.poster}
-                          alt={`${event.title} Official Poster`}
-                          className="w-full h-full object-contain mx-auto transition-transform duration-500 group-hover:scale-102"
-                        />
-                        <div className="absolute inset-0 bg-navy-950/20 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
-                          <span className="px-4 py-2 bg-navy-950/90 text-gold-300 text-xs font-medium rounded-sm border border-gold-400/40 flex items-center gap-2 shadow-lg">
-                            <Maximize2 className="w-3.5 h-3.5" /> Click to Enlarge
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                    <p className="text-xs text-navy-600/70 text-center mt-4 font-medium">
-                      {event.title} • Official Academy Documentation
-                    </p>
-                  </div>
-                </Reveal>
-              </div>
-            ) : null}
-
-            {/* Right Card: Event Schedule & Venue */}
-            <div className={`${event.poster ? "lg:col-span-6" : "lg:col-span-12 max-w-2xl mx-auto w-full"} flex flex-col`}>
-              <Reveal delay={0.2} className="h-full flex flex-col">
-                <div className="bg-white border border-ivory-200 rounded-sm p-6 sm:p-7 shadow-xs flex-1 flex flex-col justify-between">
-                  <div>
-                    <h3 className="text-xs uppercase tracking-[0.2em] text-gold-600 font-semibold mb-5 pb-2 border-b border-ivory-100">
-                      Schedule & Venue Information
-                    </h3>
-
-                    <div className="space-y-4">
-                      <div className="flex items-start gap-3">
-                        <Calendar className="w-5 h-5 text-gold-600 shrink-0 mt-0.5" />
-                        <div>
-                          <p className="text-[11px] uppercase tracking-wider text-navy-600/60 font-semibold mb-0.5">
-                            Timing & Schedule
-                          </p>
-                          <p className="text-sm text-navy-900 font-medium">{event.date}</p>
-                        </div>
-                      </div>
-
-                      <div className="flex items-start gap-3">
-                        <MapPin className="w-5 h-5 text-gold-600 shrink-0 mt-0.5" />
-                        <div>
-                          <p className="text-[11px] uppercase tracking-wider text-navy-600/60 font-semibold mb-0.5">
-                            Venue Location
-                          </p>
-                          <p className="text-sm text-navy-900 font-medium">{event.venue}</p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div className="mt-6 pt-5 border-t border-ivory-200 space-y-2.5">
-                    <a
-                      href={`https://wa.me/${academy.phoneRaw}?text=${encodeURIComponent(`Hi Suha Academy, I would like to enquire about ${event.title} - ${event.subtitle}.`)}`}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="w-full inline-flex items-center justify-center gap-2 px-6 py-3 bg-gold-500 text-navy-950 font-medium text-sm rounded-sm hover:bg-gold-400 transition-colors shadow-sm"
-                    >
-                      <MessageCircle className="w-4 h-4" />
-                      <span>Enquire on WhatsApp</span>
-                    </a>
-                    <a
-                      href={`tel:${academy.phoneRaw}`}
-                      className="w-full inline-flex items-center justify-center gap-2 px-6 py-2.5 border border-ivory-300 text-navy-900 font-medium text-xs rounded-sm hover:border-gold-500 transition-colors"
-                    >
-                      <Phone className="w-3.5 h-3.5" />
-                      <span>Call Coordinator: {academy.phone}</span>
-                    </a>
-                    <Link
-                      to="/events"
-                      className="w-full inline-flex items-center justify-center gap-2 px-6 py-2 border border-gold-500/50 text-navy-900 font-medium text-xs rounded-sm hover:border-gold-500 transition-colors"
-                    >
-                      Explore All Events
-                    </Link>
-
-                    {/* Other signature pillars quick links */}
-                    {otherPillars.length > 0 && (
-                      <div className="mt-4 pt-4 border-t border-ivory-100">
-                        <p className="text-[10px] uppercase tracking-wider font-semibold text-navy-500 mb-2">
-                          Other Signature Pillars:
-                        </p>
-                        <div className="grid grid-cols-2 gap-x-2 gap-y-1">
-                          {otherPillars.slice(0, 4).map((p) => (
-                            <Link
-                              key={p.id}
-                              to={`/events/${p.slug}`}
-                              className="text-[11px] font-medium text-navy-800 hover:text-gold-700 hover:translate-x-0.5 transition-all truncate"
-                            >
-                              → {p.title}
-                            </Link>
-                          ))}
-                        </div>
-                      </div>
-                    )}
-                  </div>
-                </div>
-              </Reveal>
-            </div>
-          </div>
+          
 
           {/* Authentic Event Photo Gallery - Full Width */}
           {event.gallery && event.gallery.length > 0 && (

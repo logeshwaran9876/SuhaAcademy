@@ -10,8 +10,17 @@ export const eventPillars = [
     subtitle: "Celebration of Dedication, Growth & Thematic Excellence",
     description:
       "Suha’s Annual Day is a celebration of the dedication, growth, and artistic achievements of our students. Beyond captivating performances in Indian classical arts, it nurtures meaningful senior-junior relationships, encourages mutual support, and provides every student with a grand stage to explore their potential and gain valuable performance experience.\n\nA distinctive highlight of the celebrations is Suha’s thematic dance presentations, bringing stories, devotion and culture to life through the creative choreography of Guru Smt. Ranjini Pradeep. Recent productions, such as Dasaavatharam and Geetham Paada – Kingini Aada, reflect the Academy’s commitment to artistic innovation while remaining rooted in tradition.\n\nThe occasion is further enriched by the presence of eminent celebrity guests who grace the celebrations and honour the winners of Kodai Kaala Kalai Vizha (KKKV) by presenting their prizes. Through these enriching experiences, Suha’s Annual Day fosters camaraderie, celebrates excellence, preserves heritage and inspires the next generation of artists, making it a cherished milestone in every student’s artistic journey.",
-    image: "/suha_media/events/annual_day/annual_day_01.jpg",
+    image: "/suha_media/events/events_intro/event_intro_annual_day.jpg",
     slug: "suha-annual-day",
+  },
+  {
+    id: "kkkv",
+    title: "Kodai Kaala Kalai Vizha (KKKV)",
+    subtitle: "State-Level Classical Music & Dance Festival & Talent Competitions",
+    description:
+      "Kodai Kaala Kalai Vizha (KKKV) is Suha Academy’s prestigious annual state-level classical arts competition and festival. Founded to provide young artists with a vibrant stage for healthy competition and artistic growth, KKKV features solo classical vocal, Bharatanatyam Margam presentations, instrumentals, and group recitals judged by distinguished vidwans and celebrity guests.",
+    image: "/suha_media/events/events_intro/event_intro_kkkv.jpg",
+    slug: "kkkv",
   },
   {
     id: "utsavam",
@@ -19,7 +28,7 @@ export const eventPillars = [
     subtitle: "Devotional Celebrations & Cultural Festivities",
     description:
       "Suha’s Utsavams celebrate the vibrant traditions of Indian classical arts through devotional performances, cultural festivities, and artistic expression. The Academy has conducted several enriching celebrations, including Margazhi Maha Utsav, Thyagaraja Aradhana and Navratri Utsav among others. These occasions provide students with meaningful opportunities to showcase their talents in a devotional setting while deepening their connection with our cultural and spiritual heritage. By bringing together students, families, and the community, Suha’s Utsavams uphold the timeless traditions of Indian classical arts and foster a shared spirit of devotion and celebration.",
-    image: "/suha_media/events/utsavams/utsavam_01.jpg",
+    image: "/suha_media/events/events_intro/event_intro_utsavams.jpg",
     slug: "suha-utsavam",
   },
   {
@@ -28,7 +37,7 @@ export const eventPillars = [
     subtitle: "Art with Compassion — Intergenerational Bonding at Vasantham Homes",
     description:
       "Vasantha Swaranjali is a heartfelt initiative by Suha Academy of Fine Arts that brings the joy of Indian classical arts to the elderly residents of Vasantham homes. Providing young students with a meaningful platform to share their artistic talents, the initiative transforms performances into moments of happiness, warmth and connection. Through the beauty of music and dance, Suha seeks to offer the elderly a delightful artistic experience, bring smiles to their faces and receive their invaluable blessings. More than a cultural presentation, Vasantha Swaranjali is a celebration of compassion, tradition and the beautiful bond between generations.",
-    image: "/suha_media/shared/shared_curated_vasantha_swaranjali.jpg",
+    image: "/suha_media/events/events_intro/event_intro_vasantha_swaranjali.jpg",
     slug: "vasantha-swaranjali",
   },
   {
@@ -37,7 +46,7 @@ export const eventPillars = [
     subtitle: "Temple Offerings & Prestigious Cultural Venues",
     description:
       "Suha’s National Recitals provide senior disciples with valuable opportunities to explore diverse stages and showcase their artistic excellence across Chennai and various parts of Tamil Nadu. Through solo and group performances at renowned temples and cultural venues, students gain enriching stage experience, strengthen their individual artistry, develop ensemble coordination and deepen their connection with India’s rich spiritual and cultural heritage. These opportunities nurture confidence, artistic maturity and a deeper appreciation for the timeless traditions of Indian classical arts.",
-    image: "/suha_media/events/national_recitals/national_recital_01.jpg",
+    image: "/suha_media/events/events_intro/event_intro_national_recitals.jpg",
     slug: "national-recitals",
   },
   {
@@ -46,7 +55,7 @@ export const eventPillars = [
     subtitle: "Global Stages in Singapore & Malaysia",
     description:
       "Suha’s International Recitals take Indian classical arts beyond borders, offering students opportunities to perform on global platforms and share India’s rich cultural heritage with diverse audiences. Beyond the performances, these international journeys create cherished memories, strengthen the bond between Guru and disciples and foster lasting friendships among students. Exploring new places, experiencing different cultures and travelling together enrich their artistic journey while nurturing a sense of unity, belonging and mutual respect. These experiences celebrate the universality of art while creating treasured moments that remain close to every student’s heart.",
-    image: "/suha_media/events/international_recitals/international_recital_01.jpg",
+    image: "/suha_media/events/events_intro/event_intro_international_recitals.jpg",
     slug: "international-recitals",
   },
   {
@@ -55,8 +64,17 @@ export const eventPillars = [
     subtitle: "Sacred Dancing Bells Consecration & Maiden Solo Stage Debuts",
     description:
       "The Salangai Pooja and Arangetram represent sacred milestones in a classical dancer’s spiritual and technical journey. During the Salangai Pooja, disciples receive their consecrated ankle bells (Salangai) after rigorous foundational sadhana, symbolizing initiation into professional performance. The Arangetram marks the disciple's maiden solo stage debut, presenting a full Margam with live musical orchestra under Guru Smt. Ranjini Pradeep’s watchful guidance.",
-    image: "/suha_media/events/salangai_pooja_arangetram/salangai_pooja_01.jpg",
+    image: "/suha_media/events/events_intro/event_intro_salangai_pooja.jpg",
     slug: "salangai-pooja-arangetram",
+  },
+  {
+    id: "memorable-encounters",
+    title: "Memorable Encounters",
+    subtitle: "Blessings from Eminent Gurus, Maestros & Cultural Luminaries",
+    description:
+      "Cherished moments and sacred blessings shared with revered classical gurus, maestros, celebrity artists, and cultural luminaries who have graced Suha Academy of Fine Arts. From stage felicitations, guest addresses, and excellence award presentations to traditional ponnadai honours, these encounters inspire artistic devotion and mentorship across generations.",
+    image: "/suha_media/events/events_intro/event_intro_memorable_encounters.jpg",
+    slug: "memorable-encounters",
   },
 ];
 
@@ -70,6 +88,46 @@ function makeGallery(slug, defaultTitle, defaultSubtitle) {
     subtitle: defaultSubtitle,
   }));
 }
+
+const memorableEncountersGallery = [
+  { src: "/suha_media/gallery/memorable_encounters/gallery_encounter_001.jpg", title: "Interaction with Renowned Classical Gurus", subtitle: "Eminent cultural stalwarts blessing academy disciples" },
+  { src: "/suha_media/gallery/memorable_encounters/gallery_encounter_002.jpg", title: "Memorable Encounter with Cultural Patrons", subtitle: "Traditional sabha felicitations and warm blessings" },
+  { src: "/suha_media/gallery/memorable_encounters/gallery_encounter_003.jpg", title: "Guest Felicitations & Warm Accolades", subtitle: "Honouring esteemed masters of music and dance" },
+  { src: "/suha_media/gallery/memorable_encounters/gallery_encounter_004.jpg", title: "Celebrated Cultural Encounters", subtitle: "Dignitaries sharing inspiring words of wisdom" },
+  { src: "/suha_media/gallery/memorable_encounters/gallery_encounter_005.jpg", title: "Honouring Masters of Music & Dance", subtitle: "Cultural stalwarts and gurus felicitated on stage" },
+  { src: "/suha_media/gallery/memorable_encounters/gallery_encounter_006.jpg", title: "Annual Day Souvenir Presentation by Guru Smt. Ranjini Pradeep", subtitle: "Unveiling academy publication with distinguished guests" },
+  { src: "/suha_media/gallery/memorable_encounters/gallery_encounter_007.jpg", title: "Honouring Cultural Patrons & Distinguished Guests #1", subtitle: "Stage honors and appreciation for classical art champions" },
+  { src: "/suha_media/gallery/memorable_encounters/gallery_encounter_008.jpg", title: "Honouring Cultural Patrons & Distinguished Guests #2", subtitle: "Warm felicitations during annual celebrations" },
+  { src: "/suha_media/gallery/memorable_encounters/gallery_encounter_009.jpg", title: "Eminent Dignitaries Felicitation on Stage #3", subtitle: "Preserving cultural heritage through shared celebration" },
+  { src: "/suha_media/gallery/memorable_encounters/gallery_encounter_010.jpg", title: "Stage Accolades with Renowned Cultural Guests", subtitle: "Celebrating student milestones with luminaries" },
+  { src: "/suha_media/gallery/memorable_encounters/gallery_encounter_011.jpg", title: "Actor Sri Amit Bhargav Felicitating Student Disciples", subtitle: "Presenting trophies and certificates of achievement" },
+  { src: "/suha_media/gallery/memorable_encounters/gallery_encounter_012.jpg", title: "Dr. Divyasena & Distinguished Guests Felicitation", subtitle: "Revered dance exponent gracing Suha Academy stage" },
+  { src: "/suha_media/gallery/memorable_encounters/gallery_encounter_013.jpg", title: "Felicitation Ceremony with Classical Gurus & Luminaries", subtitle: "Joyous recognition of artistic dedication" },
+  { src: "/suha_media/gallery/memorable_encounters/gallery_encounter_014.jpg", title: "Dignitary Blessings and Award Presentation", subtitle: "Honouring outstanding young classical performers" },
+  { src: "/suha_media/gallery/memorable_encounters/gallery_encounter_015.jpg", title: "Ceremonial Lamp Lighting & Guest Accolades #1", subtitle: "Auspicious inauguration of annual festivities" },
+  { src: "/suha_media/gallery/memorable_encounters/gallery_encounter_016.jpg", title: "Ceremonial Lamp Lighting & Guest Accolades #2", subtitle: "Traditional deepam invocation with revered dignitaries" },
+  { src: "/suha_media/gallery/memorable_encounters/gallery_encounter_017.jpg", title: "Cultural Dignitaries on Stage at Suha Academy", subtitle: "Distinguished guests honouring classical heritage" },
+  { src: "/suha_media/gallery/memorable_encounters/gallery_encounter_018.jpg", title: "Blessings from Classical Maestros to Academy Students", subtitle: "Inspiring words and encouragement for upcoming recitals" },
+  { src: "/suha_media/gallery/memorable_encounters/gallery_encounter_019.jpg", title: "Presentation of Mementos to Honoured Dignitaries", subtitle: "Traditional ponnadai and memento presentation" },
+  { src: "/suha_media/gallery/memorable_encounters/gallery_encounter_020.jpg", title: "Grand Sabha Stage Celebration Ceremony #1", subtitle: "Sharing joyous milestone celebrations on stage" },
+  { src: "/suha_media/gallery/memorable_encounters/gallery_encounter_021.jpg", title: "Special Accolades & Trophies Presentation", subtitle: "Recognizing outstanding dedication to Natyam and Sangeetham" },
+  { src: "/suha_media/gallery/memorable_encounters/gallery_encounter_022.jpg", title: "Grand Sabha Stage Celebration Ceremony #2", subtitle: "Guru, faculty, families, and guests celebrating milestones" },
+  { src: "/suha_media/gallery/memorable_encounters/gallery_encounter_023.jpg", title: "Eminent Guests Blessing Student Performers", subtitle: "Encouraging young artistes to pursue classical excellence" },
+  { src: "/suha_media/gallery/memorable_encounters/gallery_encounter_024.jpg", title: "Distinguished Arts Patrons Stage Presentation", subtitle: "Fostering community support for traditional arts" },
+  { src: "/suha_media/gallery/memorable_encounters/gallery_encounter_025.jpg", title: "Souvenir & Award Presentation with Cultural Gurus", subtitle: "Commemorating cultural milestones and talent" },
+  { src: "/suha_media/gallery/memorable_encounters/gallery_encounter_026.jpg", title: "Celebration of Classical Art Milestones with Guests", subtitle: "Special tributes and felicitations on stage" },
+  { src: "/suha_media/gallery/memorable_encounters/gallery_encounter_027.jpg", title: "Grand Auditorium Stage Gathering with Faculty & Dignitaries", subtitle: "Distinguished gathering of gurus, artists, and faculty" },
+  { src: "/suha_media/gallery/memorable_encounters/gallery_encounter_028.jpg", title: "Excellence Certificate Presentation with Eminent Maestros", subtitle: "Dancers receiving honours for outstanding stage Margam" },
+  { src: "/suha_media/gallery/memorable_encounters/gallery_encounter_029.jpg", title: "Honouring Guest of Honour with Traditional Accolades", subtitle: "Revering wisdom and mentorship in classical fine arts" },
+  { src: "/suha_media/gallery/memorable_encounters/gallery_encounter_030.jpg", title: "Cultural Exchange & Warm Interactions with Stalwarts", subtitle: "Sri Sai Vignesh and dignitaries with Guru Smt. Ranjini Pradeep" },
+  { src: "/suha_media/gallery/memorable_encounters/gallery_encounter_031.jpg", title: "Blessings and Stage Felicitations for Young Artistes", subtitle: "Fostering the next generation of classical performers" },
+  { src: "/suha_media/gallery/memorable_encounters/gallery_encounter_032.jpg", title: "Moments of Joy & Felicitations with Esteemed Guests", subtitle: "Warm bonding and celebrations across artistic lineages" },
+  { src: "/suha_media/gallery/memorable_encounters/gallery_encounter_033.jpg", title: "Annual Day Felicitations & Memento Presentation #1", subtitle: "Cherishing guidance and patronage from cultural leaders" },
+  { src: "/suha_media/gallery/memorable_encounters/gallery_encounter_034.jpg", title: "Annual Day Felicitations & Memento Presentation #2", subtitle: "Traditional honors and blessings for student growth" },
+  { src: "/suha_media/gallery/memorable_encounters/gallery_encounter_035.jpg", title: "Sacred Temple Recital Felicitations with Guests", subtitle: "Honouring dignitaries at sacred temple sabhas" },
+  { src: "/suha_media/gallery/memorable_encounters/gallery_encounter_036.jpg", title: "Guru Smt. Ranjini Pradeep with Cultural Dignitaries", subtitle: "Guiding the academy with revered masters of the art" },
+  { src: "/suha_media/gallery/memorable_encounters/gallery_encounter_037.jpg", title: "Ceremonial Silk Ponnadai Offering to Eminent Vidwan", subtitle: "Traditional reverence and blessings before deity sanctum" },
+];
 
 export const events = [
   {
@@ -91,7 +149,7 @@ export const events = [
       "KKKV Prize Distribution",
       "Ensemble Choreography by Smt. Ranjini Pradeep",
     ],
-    poster: "/suha_media/events/annual_day/annual_day_01.jpg",
+    poster: "/suha_media/events/events_intro/event_intro_annual_day.jpg",
     gallery: makeGallery(
       'suha-annual-day',
       "Suha's Annual Day Stage",
@@ -128,7 +186,7 @@ export const events = [
       "Navratri Utsav Sangeetha Seva",
       "Community & Family Celebrations",
     ],
-    poster: "/suha_media/events/utsavams/utsavam_01.jpg",
+    poster: "/suha_media/events/events_intro/event_intro_utsavams.jpg",
     gallery: makeGallery(
       'suha-utsavam',
       "Suha's Utsavam Sacred Moments",
@@ -179,7 +237,7 @@ export const events = [
       "Compassionate Youth Platform",
       "Bharatanatyam & Vocal Offerings",
     ],
-    poster: "/suha_media/shared/shared_curated_vasantha_swaranjali.jpg",
+    poster: "/suha_media/events/events_intro/event_intro_vasantha_swaranjali.jpg",
     gallery: [
       {
         src: "/suha_media/shared/shared_curated_vasantha_swaranjali.jpg",
@@ -269,7 +327,7 @@ export const events = [
       "Official World Record Classical Event",
       "Kandasashti Utsav Presentations",
     ],
-    poster: "/suha_media/events/national_recitals/national_recital_01.jpg",
+    poster: "/suha_media/events/events_intro/event_intro_national_recitals.jpg",
     gallery: makeGallery(
       'national-recitals',
       "National Temple & Stage Presentation",
@@ -392,7 +450,7 @@ export const events = [
       "Global Repertoire & Cultural Exchange",
       "International Disciples Travel Diaries",
     ],
-    poster: "/suha_media/events/international_recitals/international_recital_01.jpg",
+    poster: "/suha_media/events/events_intro/event_intro_international_recitals.jpg",
     gallery: makeGallery(
       'international-recitals',
       "International Classical Recitals",
@@ -440,7 +498,7 @@ export const events = [
       "Live Carnatic Orchestra Accompaniment",
       "Full Bharatanatyam Margam Presentation",
     ],
-    poster: "/suha_media/events/salangai_pooja_arangetram/salangai_pooja_01.jpg",
+    poster: "/suha_media/events/events_intro/event_intro_salangai_pooja.jpg",
     gallery: makeGallery(
       'salangai-pooja-arangetram',
       "Salangai Pooja & Arangetram Moments",
@@ -454,9 +512,104 @@ export const events = [
       },
     ],
   },
+  {
+    slug: "memorable-encounters",
+    year: 2026,
+    title: "Memorable Encounters",
+    subtitle: "Blessings from Eminent Classical Gurus & Cultural Luminaries",
+    date: "Distinguished Guest Milestones & Felicitations",
+    venue: "Premier Auditoriums, Sabhas & Academy Stages, Chennai",
+    venueShort: "Chennai",
+    status: "past",
+    category: "memorable-encounters",
+    description:
+      "Cherished moments and sacred blessings shared with revered classical gurus, maestros, celebrity artists, and cultural luminaries who have graced Suha Academy of Fine Arts. From stage felicitations, guest addresses, and excellence award presentations to traditional ponnadai honours, these encounters inspire artistic devotion and mentorship across generations.",
+    categories: [
+      "Blessings from Eminent Classical Gurus & Vidwans",
+      "Celebrity Guest Felicitations & Stage Accolades",
+      "Student Excellence Certificates & Awards",
+      "Ceremonial Lamp Lighting & Traditional Ponnadai",
+      "Cultural Exchanges & Inspiring Mentorship",
+    ],
+    poster: "/suha_media/events/events_intro/event_intro_memorable_encounters.jpg",
+    gallery: memorableEncountersGallery,
+    mediaLinks: [
+      {
+        title: "Felicitation | Dr. Divyasena | Sri. Sai Vignesh | Sri. Amit Bhargav | Annual Day '26",
+        url: "https://www.youtube.com/watch?v=kAhSLsi6SGM",
+        type: "youtube",
+      },
+    ],
+  },
+  {
+    slug: "kkkv",
+    year: 2026,
+    title: "Kodai Kaala Kalai Vizha (KKKV)",
+    subtitle: "The Classical Faceoff — State-Level Classical Music & Dance Festival",
+    date: "Annual State-Level Classical Festival & Competitions",
+    venue: "Karnataka Sangha Hall / Premier Sabhas, Chennai",
+    venueShort: "Chennai",
+    status: "past",
+    category: "kkkv",
+    description:
+      "Kodai Kaala Kalai Vizha (KKKV) is Suha Academy’s flagship state-level classical festival and competition platform. Bringing together hundreds of aspiring classical dancers and Carnatic vocalists across Tamil Nadu, KKKV provides an enriching stage to showcase dedication, receive constructive adjudication from veteran masters, and celebrate artistic excellence.",
+    categories: [
+      "State-Level Classical Bharatanatyam Competitions",
+      "Carnatic Vocal & Instrumental Music Showcases",
+      "Constructive Feedback from Renowned Judges",
+      "Celebrity Guest Felicitation & Grand Trophies",
+      "Platform for Building Stage Confidence & Artistry",
+    ],
+    poster: "/suha_media/events/events_intro/event_intro_kkkv.jpg",
+    gallery: makeGallery(
+      'kkkv',
+      "KKKV Stage Moments",
+      "Kodai Kaala Kalai Vizha state-level performances & prize distribution"
+    ),
+    mediaLinks: [
+      {
+        title: "KKKV Highlights & Prize Distribution on YouTube",
+        url: "https://www.youtube.com/watch?v=kAhSLsi6SGM",
+        type: "youtube",
+      },
+    ],
+  },
 ];
 
-export const kkkvEvents = [];
+export const kkkvEvents = [
+  {
+    slug: "kkkv-2026",
+    year: 2026,
+    title: "KKKV 2026 — The Classical Faceoff",
+    subtitle: "State-Level Classical Music & Dance Competition & Festival",
+    date: "State-Level Classical Faceoff Edition",
+    venue: "Premier Auditoriums & Sabhas, Chennai",
+    venueShort: "Chennai",
+    status: "past",
+    category: "kkkv",
+    description:
+      "Kodai Kaala Kalai Vizha (KKKV) 2026 brings together hundreds of classical dancers and Carnatic vocalists competing across junior, sub-junior, and senior categories with grand trophies and felicitation by cultural stalwarts.",
+    categories: [
+      "State-Level Classical Bharatanatyam Faceoff",
+      "Carnatic Vocal & Classical Instrumental Competitions",
+      "Constructive Adjudication by Senior Gurus",
+      "Grand Trophies & Excellence Certificates",
+    ],
+    poster: "/suha_media/events/events_intro/event_intro_kkkv.jpg",
+    gallery: makeGallery(
+      'kkkv',
+      "KKKV 2026 Highlights",
+      "The Classical Faceoff stage recitals & awards"
+    ),
+    mediaLinks: [
+      {
+        title: "KKKV Highlights on YouTube",
+        url: "https://www.youtube.com/watch?v=kAhSLsi6SGM",
+        type: "youtube",
+      },
+    ],
+  },
+];
 
 export const annualDay2024 = null;
 

@@ -74,71 +74,7 @@ export default function FounderSection() {
           </Reveal>
 
           {/* Content */}
-          <div>
-            <Reveal>
-              <div className="flex items-center gap-3 mb-4">
-                <div className="h-px w-8 bg-gold-500/40" />
-                <span className="eyebrow">Artistic Leadership</span>
-              </div>
-            </Reveal>
-
-            <Reveal delay={0.1}>
-              <h2 className="text-display-md md:text-display-lg font-display font-medium text-navy-900 mb-3">
-                Guru Smt. Ranjini Pradeep
-              </h2>
-            </Reveal>
-
-            <Reveal delay={0.15}>
-              <p className="font-serif text-xl text-gold-700 italic mb-2">
-                Visionary Guru, Choreographer & Artistic Director
-              </p>
-              <p className="text-xs uppercase tracking-[0.2em] text-navy-600/70 mb-6 font-medium">
-                Founder of Suha Academy of Fine Arts & Kodai Kaala Kalai Vizha (KKKV)
-              </p>
-            </Reveal>
-
-            <Reveal delay={0.2}>
-              <div className="space-y-4 text-navy-800/85 leading-relaxed">
-                <p>
-                  Smt. Ranjini Pradeep established Suha Academy of Fine Arts in 2010 with a singular mission: to impart the timeless discipline, spiritual essence, and aesthetic purity of Bharatanatyam dance and Carnatic vocal music to aspiring students.
-                </p>
-                <p>
-                  Over more than a decade and a half of dedicated artistic mentorship, Guru Smt. Ranjini Pradeep has trained students across Chennai, guiding them through rigorous traditional curricula and grooming disciples for their prestigious solo debut stage recitals (Arangetrams) with complex Margam repertoires.
-                </p>
-                <p>
-                  As the architect of <em>Kodai Kaala Kalai Vizha (KKKV)</em>, she created a vital developmental and competitive platform where hundreds of young vocalists and dancers discover their stage confidence, celebrate classical heritage, and receive recognition from eminent maestros and cultural dignitaries.
-                </p>
-              </div>
-
-              {/* Highlights cards */}
-              <div className="grid grid-cols-2 gap-3 my-6">
-                <div className="p-3.5 bg-cream-100/60 border border-gold-500/15 rounded-sm">
-                  <div className="flex items-center gap-2 text-gold-700 font-medium text-xs mb-1">
-                    <Award className="w-3.5 h-3.5 text-gold-600" />
-                    <span>Arangetram Mentorship</span>
-                  </div>
-                  <p className="text-xs text-navy-800/70">
-                    Solo Margam debut training for accomplished disciples.
-                  </p>
-                </div>
-                <div className="p-3.5 bg-cream-100/60 border border-gold-500/15 rounded-sm">
-                  <div className="flex items-center gap-2 text-gold-700 font-medium text-xs mb-1">
-                    <Music className="w-3.5 h-3.5 text-gold-600" />
-                    <span>Dual Mastery</span>
-                  </div>
-                  <p className="text-xs text-navy-800/70">
-                    Holistic synergy of Bharatanatyam and Carnatic Vocal pedagogy.
-                  </p>
-                </div>
-              </div>
-            </Reveal>
-
-            <Reveal delay={0.3}>
-              <OrnamentDivider className="my-6 justify-start" />
-            </Reveal>
-
-          
-          </div>
+     
         </div>
       </div>
     </section>

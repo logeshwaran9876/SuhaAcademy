@@ -121,7 +121,7 @@ export default function Hero() {
             {/* Subtitle: Minimal, Clear & Authentic */}
             <Reveal delay={0.2}>
               <p className="text-xs sm:text-base lg:text-lg text-cream-100/85 font-light font-sans leading-relaxed mb-5 sm:mb-8 max-w-sm sm:max-w-xl">
-                Traditional Bharatanatyam, Carnatic Music and Mohiniyattam - refined through excellence under the guidance of Founder &amp; Artistic Director Smt. Ranjini Pradeep.
+                Traditional Carnatic Music, Bharatanatyam and Mohiniyattam - refined through excellence under the guidance of Founder &amp; Artistic Director Smt. Ranjini Pradeep.
               </p>
             </Reveal>
 
@@ -143,7 +143,7 @@ export default function Hero() {
                   className="flex-1 sm:flex-none inline-flex justify-center items-center gap-2 sm:gap-2.5 px-5 sm:px-7 py-3.5 sm:py-4 border border-gold-400/40 hover:border-gold-300 text-cream-100 hover:text-white font-medium text-xs sm:text-sm tracking-wide rounded-md transition-all duration-300 backdrop-blur-md hover:bg-gold-500/10 shadow-lg shadow-black/20 group hover:translate-y-[-1px] active:scale-[0.99] whitespace-nowrap"
                 >
                   <Sparkles className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-gold-400 group-hover:scale-110 transition-transform shrink-0" />
-                  <span>Upcoming Events</span>
+                  <span>Events</span>
                 </Link>
               </div>
             </Reveal>
