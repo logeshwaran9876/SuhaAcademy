@@ -30,9 +30,7 @@ export default function Hero() {
         <div
           className={`absolute inset-0 bg-cover bg-center bg-no-repeat transition-opacity duration-1000 ${videoLoaded ? "opacity-25" : "opacity-75"
             }`}
-          style={{
-            backgroundImage: `url('/suha_media/shared/shared_hero_theatre_banner.jpg')`,
-          }}
+
         />
 
         {/* Ambient HD Background Video (Universal H.264 1080p FastStart) */}
@@ -42,7 +40,6 @@ export default function Hero() {
           loop
           muted
           playsInline
-          poster="/suha_media/shared/shared_hero_theatre_banner.jpg"
           onLoadedData={() => setVideoLoaded(true)}
           className="absolute inset-0 w-full h-full object-cover object-[55%_top] lg:object-[48%_top] filter brightness-[1.14] contrast-[1.04] saturate-[1.10] transition-opacity duration-1000"
         >
