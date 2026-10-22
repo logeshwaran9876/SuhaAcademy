@@ -139,14 +139,7 @@ export default function FacultyModal({ faculty, onClose }: FacultyModalProps) {
         {/* Modal Footer Actions */}
         <div className="px-6 sm:px-8 py-4 bg-[#F4EDE0]/95 backdrop-blur-md border-t border-gold-400/30 flex flex-wrap items-center justify-between gap-3 shrink-0 z-10">
           <div className="flex flex-wrap items-center gap-3">
-            <Link
-              to={faculty.courseLink}
-              onClick={onClose}
-              className="inline-flex items-center gap-2 px-5 py-2.5 bg-navy-950 text-gold-300 font-semibold text-xs uppercase tracking-wider rounded-sm hover:bg-gold-500 hover:text-navy-950 transition-all duration-300 shadow-md group"
-            >
-              <span>{faculty.courseLabel}</span>
-              <ArrowRight className="w-3.5 h-3.5 transition-transform duration-300 group-hover:translate-x-1" />
-            </Link>
+           
 
             <Link
               to="/contact"
