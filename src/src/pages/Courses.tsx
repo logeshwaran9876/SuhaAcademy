@@ -15,6 +15,48 @@ import { academy } from "@/data/academy";
 
 const courseShowcases: CourseShowcaseData[] = [
   {
+    slug: "carnatic-music",
+    title: "Carnatic Music",
+    eyebrow: "Carnatic Sangeetham · Sacred Vocal Pedagogy",
+    introHeading: "Intro",
+    introParagraphs: [
+      "The classical music of South India is Carnatic Music which comprises of basic elements such as Raga, Tala, Shruthi and Swaras. It is one of the two main genres of classical music ( other being Hindustani ) and has evolved from the ancient Hindu texts and traditions with most of the songs being composed in Telugu, Tamil and Sanskrit. It is important for an aspiring singer to learn Carnatic music in order to understand the fundamentals of Ragas and Talas.",
+      "Although improvisation plays an important role, Carnatic music is mainly sung through compositions, especially the kritis (or kirtanams) – a form developed between the 14th and 20th centuries by composers such as Purandara Dasa, and the Trinity of Carnatic music.",
+      "Carnatic music is also usually taught and learned through compositions. Telugu language predominates in the evolution of Carnatic music.",
+    ],
+    photos: [
+      {
+        src: "/suha_media/courses/course_carnatic_slider_01.jpg",
+        alt: "Shruti Discipline & Sacred Pedagogy with Tambura",
+        title: "Shruti Discipline & Sacred Pedagogy",
+        subtitle: "Pristine acoustic vocal training with tambura accompaniment",
+        objectPosition: "center center",
+      },
+      {
+        src: "/suha_media/courses/course_carnatic_slider_02.jpg",
+        alt: "Bhava-Rich Classical Sahitya Rendition",
+        title: "Bhava-Rich Sahitya Rendition",
+        subtitle: "Mastering Gamakas, breath regulation and devotional diction",
+        objectPosition: "center center",
+      },
+      {
+        src: "/suha_media/courses/course_carnatic_slider_03.jpg",
+        alt: "Senior Disciple Vocal Recital with Tanpura",
+        title: "Senior Disciple Vocal Recital",
+        subtitle: "Intricate raga alapana, swara kalpana and Trinity keerthanams",
+        objectPosition: "center center",
+      },
+      {
+        src: "/suha_media/courses/course_carnatic_slider_07.jpg",
+        alt: "Suha Youth Choral Presentation",
+        title: "Suha Youth Choral Presentation",
+        subtitle: "Ensemble choir singing classical geethams and bhajans at annual celebrations",
+        objectPosition: "center center",
+      },
+    ],
+  },
+
+  {
     slug: "bharatanatyam",
     title: "Bharathanatyam",
     eyebrow: "Classical Dance · Vazhuvoor Baani",
@@ -123,47 +165,7 @@ const courseShowcases: CourseShowcaseData[] = [
       },
     ],
   },
-  {
-    slug: "carnatic-music",
-    title: "Carnatic Music",
-    eyebrow: "Carnatic Sangeetham · Sacred Vocal Pedagogy",
-    introHeading: "Intro",
-    introParagraphs: [
-      "The classical music of South India is Carnatic Music which comprises of basic elements such as Raga, Tala, Shruthi and Swaras. It is one of the two main genres of classical music ( other being Hindustani ) and has evolved from the ancient Hindu texts and traditions with most of the songs being composed in Telugu, Tamil and Sanskrit. It is important for an aspiring singer to learn Carnatic music in order to understand the fundamentals of Ragas and Talas.",
-      "Although improvisation plays an important role, Carnatic music is mainly sung through compositions, especially the kritis (or kirtanams) – a form developed between the 14th and 20th centuries by composers such as Purandara Dasa, and the Trinity of Carnatic music.",
-      "Carnatic music is also usually taught and learned through compositions. Telugu language predominates in the evolution of Carnatic music.",
-    ],
-    photos: [
-      {
-        src: "/suha_media/courses/course_carnatic_slider_01.jpg",
-        alt: "Shruti Discipline & Sacred Pedagogy with Tambura",
-        title: "Shruti Discipline & Sacred Pedagogy",
-        subtitle: "Pristine acoustic vocal training with tambura accompaniment",
-        objectPosition: "center center",
-      },
-      {
-        src: "/suha_media/courses/course_carnatic_slider_02.jpg",
-        alt: "Bhava-Rich Classical Sahitya Rendition",
-        title: "Bhava-Rich Sahitya Rendition",
-        subtitle: "Mastering Gamakas, breath regulation and devotional diction",
-        objectPosition: "center center",
-      },
-      {
-        src: "/suha_media/courses/course_carnatic_slider_03.jpg",
-        alt: "Senior Disciple Vocal Recital with Tanpura",
-        title: "Senior Disciple Vocal Recital",
-        subtitle: "Intricate raga alapana, swara kalpana and Trinity keerthanams",
-        objectPosition: "center center",
-      },
-      {
-        src: "/suha_media/courses/course_carnatic_slider_07.jpg",
-        alt: "Suha Youth Choral Presentation",
-        title: "Suha Youth Choral Presentation",
-        subtitle: "Ensemble choir singing classical geethams and bhajans at annual celebrations",
-        objectPosition: "center center",
-      },
-    ],
-  },
+
 ];
 
 export default function Courses() {
@@ -205,37 +207,37 @@ export default function Courses() {
         </div>
       </section>
 
-  
 
-     {/* CTA Section */}
-<section className="relative py-24 md:py-32 bg-navy-950 text-center">
-  <div className="container-wide section-padding">
-    <Reveal>
-      <OrnamentDivider light className="mb-8" />
-    </Reveal>
-    <Reveal delay={0.1}>
-      <h2 className="text-display-md font-display text-cream-50 mb-4">
-        Admissions Open for 2026–2027
-      </h2>
-    </Reveal>
-    <Reveal delay={0.2}>
-      <p className="text-cream-100/60 max-w-lg mx-auto mb-8 text-sm">
-        Enquire about classes and upcoming batches. Reach out to us and our team will guide you through the next steps.
-      </p>
-    </Reveal>
-    <Reveal delay={0.3}>
-      <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-        <Link
-          to="/contact"
-          className="inline-flex items-center gap-2 px-8 py-4 bg-gold-500 text-navy-950 font-medium text-sm rounded-sm hover:bg-gold-400 transition-all duration-300 group shadow-md"
-        >
-          <span>Enquire About Classes</span>
-          <ArrowRight className="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" />
-        </Link>
-      </div>
-    </Reveal>
-  </div>
-</section>
+
+      {/* CTA Section */}
+      <section className="relative py-24 md:py-32 bg-navy-950 text-center">
+        <div className="container-wide section-padding">
+          <Reveal>
+            <OrnamentDivider light className="mb-8" />
+          </Reveal>
+          <Reveal delay={0.1}>
+            <h2 className="text-display-md font-display text-cream-50 mb-4">
+              Admissions Open for 2026–2027
+            </h2>
+          </Reveal>
+          <Reveal delay={0.2}>
+            <p className="text-cream-100/60 max-w-lg mx-auto mb-8 text-sm">
+              Enquire about classes and upcoming batches. Reach out to us and our team will guide you through the next steps.
+            </p>
+          </Reveal>
+          <Reveal delay={0.3}>
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+              <Link
+                to="/contact"
+                className="inline-flex items-center gap-2 px-8 py-4 bg-gold-500 text-navy-950 font-medium text-sm rounded-sm hover:bg-gold-400 transition-all duration-300 group shadow-md"
+              >
+                <span>Enquire About Classes</span>
+                <ArrowRight className="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" />
+              </Link>
+            </div>
+          </Reveal>
+        </div>
+      </section>
       {/* 3-Level Roadmap Modal */}
       <CourseRoadmapModal
         courseSlug={selectedRoadmapSlug}
