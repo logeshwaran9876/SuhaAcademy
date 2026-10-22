@@ -641,7 +641,7 @@ export default function Home() {
       */}
 
       {/* 13. Final Call to Action */}
-      <section className="relative py-32 md:py-10 overflow-hidden bg-navy-950">
+      <section className="relative py-16 md:py-24 overflow-hidden bg-navy-950">
         <div className="absolute inset-0">
 
           <div className="absolute inset-0 bg-gradient-to-b from-navy-950/85 via-navy-950/75 to-navy-950/95" />
@@ -661,26 +661,26 @@ export default function Home() {
           </Reveal>
 
           <Reveal delay={0.2}>
-            <p className="text-base md:text-lg text-cream-100/70 max-w-xl mx-auto leading-relaxed mb-10">
+            <p className="text-base md:text-lg text-cream-100/70 max-w-xl mx-auto leading-relaxed mb-8 sm:mb-10">
               Discover Bharathanatyam and Carnatic Music through structured learning, practice and
               performance.
             </p>
           </Reveal>
 
           <Reveal delay={0.3}>
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+            <div className="flex flex-wrap items-center justify-center gap-2.5 sm:gap-4">
               <Link
                 to="/contact"
-                className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-gold-500 text-navy-950 font-medium text-sm tracking-wide rounded-sm transition-all duration-300 hover:bg-gold-400 hover:shadow-xl hover:shadow-gold-500/30 active:scale-[0.98] group"
+                className="inline-flex items-center justify-center gap-1.5 sm:gap-2 px-4 py-2 sm:px-7 sm:py-3.5 bg-gradient-to-r from-gold-500 via-gold-400 to-amber-400 hover:from-gold-400 hover:to-amber-300 text-navy-950 font-semibold text-xs sm:text-sm tracking-wide rounded-md shadow-lg shadow-gold-500/25 transition-all duration-300 group hover:translate-y-[-1px] active:scale-[0.99] whitespace-nowrap"
               >
-                Join the Academy
-                <ArrowRight className="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" />
+                <span>Join the Academy</span>
+                <ArrowRight className="w-3.5 h-3.5 sm:w-4 sm:h-4 transition-transform duration-300 group-hover:translate-x-1 text-navy-950" />
               </Link>
               <Link
                 to="/contact"
-                className="inline-flex items-center justify-center gap-2 px-8 py-4 border border-cream-100/30 text-cream-50 font-medium text-sm tracking-wide rounded-sm transition-all duration-300 hover:border-gold-400 hover:text-gold-300"
+                className="inline-flex items-center justify-center gap-1.5 sm:gap-2 px-4 py-2 sm:px-7 sm:py-3.5 border border-gold-400/40 hover:border-gold-300 text-cream-100 hover:text-white font-medium text-xs sm:text-sm tracking-wide rounded-md transition-all duration-300 backdrop-blur-md bg-gold-500/5 hover:bg-gold-500/15 shadow-lg shadow-black/20 group hover:translate-y-[-1px] active:scale-[0.99] whitespace-nowrap"
               >
-                Contact Us
+                <span>Contact Us</span>
               </Link>
             </div>
           </Reveal>

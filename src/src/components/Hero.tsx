@@ -123,11 +123,11 @@ export default function Hero() {
 
             {/* Actions: Primary CTA & Secondary Action */}
             <Reveal delay={0.25}>
-              <div className="flex flex-wrap items-center gap-3 sm:gap-4 w-full sm:w-auto">
+              <div className="flex flex-wrap items-center gap-2.5 sm:gap-4 w-full sm:w-auto">
                 {/* Primary button */}
                 <Link
                   to="/courses"
-                  className="flex-1 sm:flex-none inline-flex justify-center items-center gap-2 sm:gap-2.5 px-5 sm:px-8 py-3.5 sm:py-4 bg-gradient-to-r from-gold-500 via-gold-400 to-amber-400 hover:from-gold-400 hover:to-amber-300 text-navy-950 font-semibold text-xs sm:text-sm tracking-wide rounded-md shadow-lg shadow-gold-500/25 transition-all duration-300 group hover:translate-y-[-1px] active:scale-[0.99] whitespace-nowrap"
+                  className="flex-1 sm:flex-none inline-flex justify-center items-center gap-1.5 sm:gap-2.5 px-4 py-2 sm:px-8 sm:py-4 bg-gradient-to-r from-gold-500 via-gold-400 to-amber-400 hover:from-gold-400 hover:to-amber-300 text-navy-950 font-semibold text-xs sm:text-sm tracking-wide rounded-md shadow-lg shadow-gold-500/25 transition-all duration-300 group hover:translate-y-[-1px] active:scale-[0.99] whitespace-nowrap"
                 >
                   <span>Explore Courses</span>
                   <ArrowRight className="w-3.5 h-3.5 sm:w-4 sm:h-4 transition-transform duration-300 group-hover:translate-x-1 text-navy-950" />
@@ -136,9 +136,8 @@ export default function Hero() {
                 {/* Secondary Action button */}
                 <Link
                   to="/events"
-                  className="flex-1 sm:flex-none inline-flex justify-center items-center gap-2 sm:gap-2.5 px-5 sm:px-7 py-3.5 sm:py-4 border border-gold-400/40 hover:border-gold-300 text-cream-100 hover:text-white font-medium text-xs sm:text-sm tracking-wide rounded-md transition-all duration-300 backdrop-blur-md hover:bg-gold-500/10 shadow-lg shadow-black/20 group hover:translate-y-[-1px] active:scale-[0.99] whitespace-nowrap"
+                  className="flex-1 sm:flex-none inline-flex justify-center items-center gap-1.5 sm:gap-2.5 px-4 py-2 sm:px-7 sm:py-4 border border-gold-400/40 hover:border-gold-300 text-cream-100 hover:text-white font-medium text-xs sm:text-sm tracking-wide rounded-md transition-all duration-300 backdrop-blur-md bg-gold-500/5 hover:bg-gold-500/10 shadow-lg shadow-black/20 group hover:translate-y-[-1px] active:scale-[0.99] whitespace-nowrap"
                 >
-                  <Sparkles className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-gold-400 group-hover:scale-110 transition-transform shrink-0" />
                   <span>Events</span>
                 </Link>
               </div>

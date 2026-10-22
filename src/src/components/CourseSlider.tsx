@@ -268,7 +268,7 @@ export default function CourseSlider({ activeSlug, onSelectCourse }: CourseSlide
             <div className="pt-4 border-t border-ivory-100 flex flex-wrap items-center justify-between gap-4">
               <Link
                 to={`/courses/${currentCourse.slug}`}
-                className="inline-flex items-center gap-2 px-6 py-3 bg-navy-950 text-gold-300 font-semibold text-xs sm:text-sm rounded-sm hover:bg-navy-900 transition-all duration-300 group shadow-sm"
+                className="inline-flex items-center gap-2 px-4 py-2 sm:px-6 sm:py-3 bg-navy-950 text-gold-300 font-semibold text-xs sm:text-sm rounded-md hover:bg-navy-900 transition-all duration-300 group shadow-sm"
               >
                 <span>{currentCourse.cta}</span>
                 <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
