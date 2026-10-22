@@ -20,7 +20,7 @@ const courseShowcases: CourseShowcaseData[] = [
     title: "Carnatic Music",
     eyebrow: "Carnatic Sangeetham · Sacred Vocal Pedagogy",
     shortDescription:
-      "Cultivate pristine Shruti, Tala discipline, Gamaka modulation, and devotion through an authentic, step-by-step classical syllabus — from foundational Sarali Varisais and Geethams to elaborate Krithis and Manodharma improvisation.",
+      "Cultivate pristine Shruti, Tala discipline, Gamaka modulation and devotion through an authentic, step-by-step classical syllabus — from foundational Sarali Varisais and Geethams to elaborate Krithis and Manodharma improvisation.",
     photos: [
       {
         src: "/suha_media/courses/course_carnatic_slider_01.jpg",
@@ -33,17 +33,17 @@ const courseShowcases: CourseShowcaseData[] = [
         src: "/suha_media/courses/course_carnatic_slider_02.jpg",
         alt: "Bhava-Rich Classical Sahitya Rendition",
         title: "Bhava-Rich Sahitya Rendition",
-        subtitle: "Mastering Gamakas, breath regulation, and devotional diction",
+        subtitle: "Mastering Gamakas, breath regulation and devotional diction",
         objectPosition: "center center",
       },
       {
         src: "/suha_media/courses/course_carnatic_slider_03.jpg",
         alt: "Senior Disciple Vocal Recital with Tanpura",
         title: "Senior Disciple Vocal Recital",
-        subtitle: "Intricate raga alapana, swara kalpana, and Trinity keerthanams",
+        subtitle: "Intricate raga alapana, swara kalpana and Trinity keerthanams",
         objectPosition: "center center",
       },
-     
+
       {
         src: "/suha_media/courses/course_carnatic_slider_07.jpg",
         alt: "Suha Youth Choral Presentation",
@@ -58,7 +58,7 @@ const courseShowcases: CourseShowcaseData[] = [
     title: "Bharatanatyam",
     eyebrow: "Classical Dance · Vazhuvoor Baani",
     shortDescription:
-      "Explore the structure, rhythm, expression, and storytelling of one of India's most revered classical dance traditions. From foundational adavus to full margam repertoire and solo Arangetrams.",
+      "Explore the structure, rhythm, expression and storytelling of one of India's most revered classical dance traditions. From foundational adavus to full margam repertoire and solo Arangetrams.",
     photos: [
       {
         src: "/suha_media/courses/course_bharatanatyam_slider_01.jpg",
@@ -71,21 +71,21 @@ const courseShowcases: CourseShowcaseData[] = [
         src: "/suha_media/courses/course_bharatanatyam_slider_02.jpg",
         alt: "Margam Repertoire & Solo Precision under Spotlight",
         title: "Margam Repertoire & Solo Precision",
-        subtitle: "Vazhuvoor Baani posture alignment, aramandi, and radiant aharya",
+        subtitle: "Vazhuvoor Baani posture alignment, aramandi and radiant aharya",
         objectPosition: "center center",
       },
       {
         src: "/suha_media/courses/course_bharatanatyam_slider_03.jpg",
         alt: "Expressive Abhinaya & Fluid Grace",
         title: "Expressive Abhinaya & Fluid Grace",
-        subtitle: "Nuanced emotional depth, graceful body lines, and rhythmic coordination",
+        subtitle: "Nuanced emotional depth, graceful body lines and rhythmic coordination",
         objectPosition: "center center",
       },
       {
         src: "/suha_media/courses/course_bharatanatyam_slider_04.jpg",
         alt: "Synchronized Ensemble Flower Shower Presentation",
         title: "Synchronized Ensemble Flower Shower",
-        subtitle: "Group formations, floral pushpanjali, and celebratory stage presentation",
+        subtitle: "Group formations, floral pushpanjali and celebratory stage presentation",
         objectPosition: "center center",
       },
       {
@@ -109,7 +109,7 @@ const courseShowcases: CourseShowcaseData[] = [
     title: "Mohiniyattam",
     eyebrow: "The Dance of the Enchantress · Kerala Tradition",
     shortDescription:
-      "Embrace the grace, gentle swaying movements, and lyrical abhinaya of Kerala's classical dance tradition. Structured into three progressive levels — Basic, Intermediate, and Advanced — emphasizing Lasya, balance, and fluid wave-like rhythm.",
+      "Embrace the grace, gentle swaying movements and lyrical abhinaya of Kerala's classical dance tradition. Structured into three progressive levels — Basic, Intermediate and Advanced — emphasizing Lasya, balance and fluid wave-like rhythm.",
     photos: [
       {
         src: "/suha_media/courses/course_mohiniyattam_slider_01.jpg",
@@ -323,7 +323,7 @@ export default function Courses() {
                 <span>Enquire About Admissions</span>
                 <ArrowRight className="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" />
               </Link>
-             
+
             </div>
           </Reveal>
         </div>

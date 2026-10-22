@@ -3,7 +3,7 @@ export const testimonials = [
     name: "Harish Narayanan",
     role: "Parent of Bharatanatyam Student",
     quote:
-      "As a parent, I am delighted with the growth my daughter has experienced at Suha Academy. Under the guidance of Ranjani Mam, my daughter has blossomed into a confident and graceful dancer. The academy not only teaches dance but also shapes character, camaraderie with seniors, and confidence.",
+      "As a parent, I am delighted with the growth my daughter has experienced at Suha Academy. Under the guidance of Ranjani Mam, my daughter has blossomed into a confident and graceful dancer. The academy not only teaches dance but also shapes character, camaraderie with seniors and confidence.",
     image: "",
     source: "Google Review",
     sourceUrl: "https://www.google.com/maps/contrib/106087498821330410605/reviews?hl=en-IN",
@@ -12,7 +12,7 @@ export const testimonials = [
     name: "Savitha",
     role: "Parent of Bharatanatyam & Carnatic Student",
     quote:
-      "Guru Smt. Ranjini Pradeep pays attention to every detail—from choreography and orchestra to lighting, costumes, and overall stage presentation. Initiatives like Swaranjali for senior citizens reflect the deep values nurtured by the academy.",
+      "Guru Smt. Ranjini Pradeep pays attention to every detail—from choreography and orchestra to lighting, costumes and overall stage presentation. Initiatives like Swaranjali for senior citizens reflect the deep values nurtured by the academy.",
     image: "",
     source: "17th Annual Day Review",
   },
@@ -20,7 +20,7 @@ export const testimonials = [
     name: "Lalitha Rathinam",
     role: "Parent of Student (2 Yrs · Madurai Meenakshi Temple Performer)",
     quote:
-      "My daughter got an opportunity to perform dance in the sacred Madurai Meenakshi Amman Temple for Navarathri'25. Providing such prestigious platforms helps children build immense confidence, discipline, and passion for classical arts.",
+      "My daughter got an opportunity to perform dance in the sacred Madurai Meenakshi Amman Temple for Navarathri'25. Providing such prestigious platforms helps children build immense confidence, discipline and passion for classical arts.",
     image: "",
     source: "Parent Review",
   },
@@ -28,7 +28,7 @@ export const testimonials = [
     name: "Ranjani Karthik",
     role: "Parent of KKKV Music Contestants",
     quote:
-      "Hats off to the entire team at SUHA Academy for orchestrating an outstanding music competition every year! The planning, coordination, and execution of Kodai Kaala Kalai Vizha were exemplary.",
+      "Hats off to the entire team at SUHA Academy for orchestrating an outstanding music competition every year! The planning, coordination and execution of Kodai Kaala Kalai Vizha were exemplary.",
     image: "",
     source: "KKKV Festival Participant",
   },
@@ -44,7 +44,7 @@ export const testimonials = [
     name: "Annalakshmi Srivatsan",
     role: "Parent of Disciple (17th Annual Day)",
     quote:
-      "What a blissful evening witnessing the 17th Annual Day celebration of Suha Academy. Every performance reflected immense dedication, patience, and hard work put by Ranjini Mam in nurturing each student.",
+      "What a blissful evening witnessing the 17th Annual Day celebration of Suha Academy. Every performance reflected immense dedication, patience and hard work put by Ranjini Mam in nurturing each student.",
     image: "",
     source: "Annual Day Review",
   },

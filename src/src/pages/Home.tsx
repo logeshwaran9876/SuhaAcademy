@@ -248,7 +248,7 @@ export default function Home() {
             number="02"
             eyebrow="Why Choose Suha Academy"
             title="Tradition, Discipline & Artistic Excellence"
-            subtitle="A nurturing classical arts ecosystem rooted in shastric depth, individual mentorship, and holistic stage confidence."
+            subtitle="A nurturing classical arts ecosystem rooted in shastric depth, individual mentorship and holistic stage confidence."
           />
 
           <div className="mt-14">
@@ -501,7 +501,7 @@ export default function Home() {
             number="07"
             eyebrow="Stage & Arangetram Highlights"
             title="Performances in Motion"
-            subtitle="Glimpses from Suha Academy's Annual Days, Arangetrams, and classical concerts on our official YouTube channel."
+            subtitle="Glimpses from Suha Academy's Annual Days, Arangetrams and classical concerts on our official YouTube channel."
           />
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-14">

@@ -105,7 +105,7 @@ export const eventSlidesData: EventSlide[] = [
     venue: "Vasantham Homes, Chennai",
     date: "Ongoing Compassionate Outreach",
     description:
-      "A heartfelt initiative bringing the joy of classical music and dance to senior residents. Disciples share their talent, spread smiles, and receive cherished blessings from elderly generations.",
+      "A heartfelt initiative bringing the joy of classical music and dance to senior residents. Disciples share their talent, spread smiles and receive cherished blessings from elderly generations.",
     image: "/suha_media/events/event_vasantha_swaranjali_flyer.jpg",
     imagePosition: "center center",
     mediaCount: 9,
@@ -203,7 +203,7 @@ export default function EventSlider() {
               Explore Our Signature Stages & Festivals
             </h2>
             <p className="text-sm sm:text-base text-navy-700/75 mt-2 max-w-2xl font-light">
-              Slide through our flagship annual productions, international concert tours, sacred temple recitals, and classical music competitions.
+              Slide through our flagship annual productions, international concert tours, sacred temple recitals and classical music competitions.
             </p>
           </div>
 
@@ -362,11 +362,10 @@ export default function EventSlider() {
                 type="button"
                 onClick={() => setCurrentIndex(idx)}
                 aria-label={`Go to slide group ${idx + 1}`}
-                className={`transition-all duration-300 cursor-pointer rounded-full ${
-                  isActive
+                className={`transition-all duration-300 cursor-pointer rounded-full ${isActive
                     ? "w-8 h-2.5 bg-gold-600 shadow-xs"
                     : "w-2.5 h-2.5 bg-ivory-300 hover:bg-gold-400"
-                }`}
+                  }`}
               />
             );
           })}

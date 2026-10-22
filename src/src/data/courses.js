@@ -16,13 +16,13 @@ export const courses = [
     shortDescription:
       "Structured classical dance training in the fluid, expressive Vazhuvoor Baani — from foundational adavus to full Margam and solo Arangetram debut.",
     longDescription:
-      "Bharatanatyam is one of the oldest and most revered classical dance forms of India, originating in Tamil Nadu. At Suha Academy of Fine Arts under the direct guidance of Founder & Artistic Director Smt. Ranjini Pradeep, students learn this tradition through a rigorous, progressive curriculum — from foundational adavus, mudras and basic postures to complete margam repertoire items that combine pure rhythmic dance (nritta) with expressive storytelling (abhinaya). Students are groomed for stage recitals, annual days, and full solo Arangetrams.",
+      "Bharatanatyam is one of the oldest and most revered classical dance forms of India, originating in Tamil Nadu. At Suha Academy of Fine Arts under the direct guidance of Founder & Artistic Director Smt. Ranjini Pradeep, students learn this tradition through a rigorous, progressive curriculum — from foundational adavus, mudras and basic postures to complete margam repertoire items that combine pure rhythmic dance (nritta) with expressive storytelling (abhinaya). Students are groomed for stage recitals, annual days and full solo Arangetrams.",
     intro:
-      "Bharathanatyam training at Suha Academy follows a systematic learning approach across three stages — Basic, Intermediate, and Advanced — nurturing students into confident dancers with strong technique, rhythmic precision, expressive depth, and a sound understanding of the art form.\n\nThe academy follows the Vazhuvoor Baani, celebrated for its fluid movements, graceful body lines, expressive facial expressions, and vibrant stage presentation.\n\nAs students advance through each stage, they explore foundational adavus, hand gestures, rhythmic coordination, and body control, gradually progressing to complex dance compositions, nuanced abhinaya, traditional repertoire, and choreographic creativity.",
+      "Bharathanatyam training at Suha Academy follows a systematic learning approach across three stages — Basic, Intermediate and Advanced — nurturing students into confident dancers with strong technique, rhythmic precision, expressive depth and a sound understanding of the art form.\n\nThe academy follows the Vazhuvoor Baani, celebrated for its fluid movements, graceful body lines, expressive facial expressions and vibrant stage presentation.\n\nAs students advance through each stage, they explore foundational adavus, hand gestures, rhythmic coordination and body control, gradually progressing to complex dance compositions, nuanced abhinaya, traditional repertoire and choreographic creativity.",
     keyFeatures: [
       {
         title: "Vazhuvoor Baani Lineage",
-        desc: "Celebrated for fluid movements, graceful body lines, brisk adavus, and evocative abhinaya.",
+        desc: "Celebrated for fluid movements, graceful body lines, brisk adavus and evocative abhinaya.",
       },
       {
         title: "Salanga Pooja & Arangetram",
@@ -30,11 +30,11 @@ export const courses = [
       },
       {
         title: "Sacred Guru-Shishya Ethos",
-        desc: "Individualized attention respecting each child's natural pace, flexibility, and musicality.",
+        desc: "Individualized attention respecting each child's natural pace, flexibility and musicality.",
       },
       {
         title: "National & Global Stages",
-        desc: "Performances at SIFAS Singapore, Malaysia Batu Caves, and Chennai temple sabhas.",
+        desc: "Performances at SIFAS Singapore, Malaysia Batu Caves and Chennai temple sabhas.",
       },
     ],
     curriculum: [
@@ -56,16 +56,16 @@ export const courses = [
         badge: "Foundation Stage",
         milestone: "Milestone: Salanga Pooja (Auspicious Ankle Bells Blessing Ceremony)",
         description:
-          "Focuses on building discipline, strength, balance, and basic posture alignment alongside initial prayers, shlokas, and foundational hand gestures.",
+          "Focuses on building discipline, strength, balance and basic posture alignment alongside initial prayers, shlokas and foundational hand gestures.",
         modules: [
           {
             title: "Namaskaram",
-            description: "Salutation to mother earth, guru, and deities before and after dance practice.",
+            description: "Salutation to mother earth, guru and deities before and after dance practice.",
           },
           {
             title: "Warm-ups & Body Conditioning",
             description:
-              "Improving flexibility, core balance, and stamina while reducing the risk of muscle strain and injury.",
+              "Improving flexibility, core balance and stamina while reducing the risk of muscle strain and injury.",
           },
           {
             title: "Basic Body Postures",
@@ -75,7 +75,7 @@ export const courses = [
           {
             title: "Adavus (Fundamental Steps)",
             description:
-              "Fundamental dance steps combining footwork (talam), body posture, and hand movements (hasta), including Thattu adavu, Natta adavu, Villadavu, Maridhita adavu, Paraval adavu, Kudittamettu adavu, Korvai adavu, Sarukkal adavu, Kuthadavu, Paichal adavu, Suttral adavu, Theermanam adavu, Mandi adavu, and Panchanadai.",
+              "Fundamental dance steps combining footwork (talam), body posture and hand movements (hasta), including Thattu adavu, Natta adavu, Villadavu, Maridhita adavu, Paraval adavu, Kudittamettu adavu, Korvai adavu, Sarukkal adavu, Kuthadavu, Paichal adavu, Suttral adavu, Theermanam adavu, Mandi adavu and Panchanadai.",
           },
           {
             title: "Shlokas & Hand Gestures (Hastas)",
@@ -91,7 +91,7 @@ export const courses = [
         badge: "Repertoire & Expressions",
         milestone: "Milestone: Sabha Debuts, Temple Utsavams & Ensemble Productions",
         description:
-          "Introduces introductory performance items of the classical Margam, intricate rhythmic calculations (laya), and evocative facial expressions.",
+          "Introduces introductory performance items of the classical Margam, intricate rhythmic calculations (laya) and evocative facial expressions.",
         modules: [
           {
             title: "Item Progressions",
@@ -101,22 +101,22 @@ export const courses = [
           {
             title: "Rhythmic Variations & Footwork",
             description:
-              "Practising Jatiswaram, Kavithuvam, and Thillana, focusing on intricate rhythmic patterns, melodic sequences, and synchronization with mridangam percussion.",
+              "Practising Jatiswaram, Kavithuvam and Thillana, focusing on intricate rhythmic patterns, melodic sequences and synchronization with mridangam percussion.",
           },
           {
             title: "Abhinaya Exploration",
             description:
-              "Studying Padam and Shabdam, developing expressive skills through facial expressions, hand gestures, and the sensitive interpretation of devotional lyrics and emotions.",
+              "Studying Padam and Shabdam, developing expressive skills through facial expressions, hand gestures and the sensitive interpretation of devotional lyrics and emotions.",
           },
           {
             title: "Tala (Rhythm) Knowledge",
             description:
-              "Studying classical talas (rhythmic cycles) including Adi, Roopaka, and Chapu talas, counting beats using hand claps, finger counts, and reciting solkattus.",
+              "Studying classical talas (rhythmic cycles) including Adi, Roopaka and Chapu talas, counting beats using hand claps, finger counts and reciting solkattus.",
           },
           {
             title: "Head, Neck and Eye Movements (Bhedas)",
             description:
-              "Mastering Shiro bheda (head movements), Drishti bheda (eye glances), and Greeva bheda (neck movements) as codified in the Abhinaya Darpana.",
+              "Mastering Shiro bheda (head movements), Drishti bheda (eye glances) and Greeva bheda (neck movements) as codified in the Abhinaya Darpana.",
           },
         ],
       },
@@ -127,12 +127,12 @@ export const courses = [
         badge: "Margam & Concert Artistry",
         milestone: "Milestone: Full Solo Bharatanatyam Arangetram Debut Recital",
         description:
-          "Advanced mastery of the central varnam, javalis, ashtapadis, classical shastric texts, and allied nattuvangam skills for complete stage autonomy.",
+          "Advanced mastery of the central varnam, javalis, ashtapadis, classical shastric texts and allied nattuvangam skills for complete stage autonomy.",
         modules: [
           {
             title: "Repertoire Expansion (Varnam & Padams)",
             description:
-              "Mastering advanced compositions such as Varnam, Javali, and Keerthanam, integrating intricate footwork korvais, musicality, and evocative multi-layered storytelling.",
+              "Mastering advanced compositions such as Varnam, Javali and Keerthanam, integrating intricate footwork korvais, musicality and evocative multi-layered storytelling.",
           },
           {
             title: "Advanced Repertoire",
@@ -142,12 +142,12 @@ export const courses = [
           {
             title: "Theory & Dance History",
             description:
-              "Studying classical treatises including the Natya Shastra and Abhinaya Darpana, the contributions of the Tanjore Quartet, and the nine fundamental human emotions of Navarasa.",
+              "Studying classical treatises including the Natya Shastra and Abhinaya Darpana, the contributions of the Tanjore Quartet and the nine fundamental human emotions of Navarasa.",
           },
           {
             title: "Allied Arts & Nattuvangam",
             description:
-              "Developing foundational knowledge of Carnatic music, rhythmic structures, and Nattuvangam, including solkattu recitation and bronze cymbal accompaniment.",
+              "Developing foundational knowledge of Carnatic music, rhythmic structures and Nattuvangam, including solkattu recitation and bronze cymbal accompaniment.",
           },
         ],
       },
@@ -182,7 +182,7 @@ export const courses = [
     highlights: [
       "Traditional Vazhuvoor Baani lineage and disciplined technique",
       "Rhythm (Talam), footwork (adavus) and expressive abhinaya",
-      "Stage performance, Salanga Pooja, and annual day recitals",
+      "Stage performance, Salanga Pooja and annual day recitals",
       "Full solo Arangetram preparation with live classical orchestra",
       "Batches across Medavakkam, Perumbakkam",
     ],
@@ -202,11 +202,11 @@ export const courses = [
     secondaryImage: "/suha_media/courses/course_mohiniyattam_slider_01.jpg",
     icon: "Heart",
     shortDescription:
-      "Embrace the grace, gentle swaying movements (chuzhippu), and lyrical abhinaya of Kerala's classical dance tradition.",
+      "Embrace the grace, gentle swaying movements (chuzhippu) and lyrical abhinaya of Kerala's classical dance tradition.",
     longDescription:
-      "Mohiniyattam, the 'dance of the enchantress', is renowned for its graceful, feminine movements, delicate footwork, and subtle facial expressions (abhinaya). At Suha Academy of Fine Arts, students learn this lyrical art form under disciplined classical pedagogy, focusing on Lasya (grace), circular body movements (chuzhippu), eye expressions, and traditional Kerala rhythmic meters.",
+      "Mohiniyattam, the 'dance of the enchantress', is renowned for its graceful, feminine movements, delicate footwork and subtle facial expressions (abhinaya). At Suha Academy of Fine Arts, students learn this lyrical art form under disciplined classical pedagogy, focusing on Lasya (grace), circular body movements (chuzhippu), eye expressions and traditional Kerala rhythmic meters.",
     intro:
-      "The Mohiniyattam curriculum is structured into three progressive levels — Basic, Intermediate, and Advanced — designed to develop students’ technical proficiency, expressive abilities, theoretical knowledge, and artistic understanding of this graceful classical dance form of Kerala.\n\nEach level builds upon the foundations of the previous one, enabling students to progress from fundamental movements and gestures to elaborate repertoire, expressive interpretation, and independent choreography.",
+      "The Mohiniyattam curriculum is structured into three progressive levels — Basic, Intermediate and Advanced — designed to develop students’ technical proficiency, expressive abilities, theoretical knowledge and artistic understanding of this graceful classical dance form of Kerala.\n\nEach level builds upon the foundations of the previous one, enabling students to progress from fundamental movements and gestures to elaborate repertoire, expressive interpretation and independent choreography.",
     keyFeatures: [
       {
         title: "Lasya & Chuzhippu Flow",
@@ -214,15 +214,15 @@ export const courses = [
       },
       {
         title: "Kasavu Costume Elegance",
-        desc: "Traditional off-white Kerala kasavu silk attire, gold ornaments, and jasmine flowers.",
+        desc: "Traditional off-white Kerala kasavu silk attire, gold ornaments and jasmine flowers.",
       },
       {
         title: "Sopana Sangeetham Rhythm",
-        desc: "Rhythms set to soulful Malayalam and Sanskrit padams, kritis, and Swati Tirunal compositions.",
+        desc: "Rhythms set to soulful Malayalam and Sanskrit padams, kritis and Swati Tirunal compositions.",
       },
       {
         title: "Creative Choreography",
-        desc: "Guidance in solo recital building, thematic storytelling, and stage presentations.",
+        desc: "Guidance in solo recital building, thematic storytelling and stage presentations.",
       },
     ],
     curriculum: [
@@ -241,22 +241,22 @@ export const courses = [
         badge: "Foundation Stage",
         milestone: "Milestone: Foundational Cholkettu & Invocatory Recital",
         description:
-          "The Basic Level introduces students to the fundamental techniques, body movements, and theoretical aspects of Mohiniyattam. Emphasis is placed on developing a strong foundation in posture, rhythm, coordination, and facial expressions.",
+          "The Basic Level introduces students to the fundamental techniques, body movements and theoretical aspects of Mohiniyattam. Emphasis is placed on developing a strong foundation in posture, rhythm, coordination and facial expressions.",
         modules: [
           {
             title: "Adavus & Postures",
             description:
-              "Practical training in Namaskaram, Samapadham, Aramandalam, and Thaganam adavus with circular torso flow.",
+              "Practical training in Namaskaram, Samapadham, Aramandalam and Thaganam adavus with circular torso flow.",
           },
           {
             title: "Basic Body Movements",
             description:
-              "Introduction to gentle body sway (chuzhippu), hand gestures, footwork patterns, and natural breathing coordination.",
+              "Introduction to gentle body sway (chuzhippu), hand gestures, footwork patterns and natural breathing coordination.",
           },
           {
             title: "Grace & Balance Practice",
             description:
-              "Practice of foundational movements with an emphasis on effortless grace, core balance, and poise.",
+              "Practice of foundational movements with an emphasis on effortless grace, core balance and poise.",
           },
           {
             title: "Theory & Historical Roots",
@@ -277,7 +277,7 @@ export const courses = [
         badge: "Repertoire & Expressions",
         milestone: "Milestone: Repertoire Items (Cholkettu, Jatiswaram & Padams)",
         description:
-          "The Intermediate Level focuses on refining technique, expanding the dance repertoire, and developing expressive depth. Students explore more complex movement patterns while gaining a deeper understanding of rhythm, gesture, and emotional interpretation.",
+          "The Intermediate Level focuses on refining technique, expanding the dance repertoire and developing expressive depth. Students explore more complex movement patterns while gaining a deeper understanding of rhythm, gesture and emotional interpretation.",
         modules: [
           {
             title: "Intermediate Adavus",
@@ -287,12 +287,12 @@ export const courses = [
           {
             title: "Classical Repertoire Pieces",
             description:
-              "Learning core performance compositions including Cholkettu, Jathiswaram, and lyrical Padams.",
+              "Learning core performance compositions including Cholkettu, Jathiswaram and lyrical Padams.",
           },
           {
             title: "Rhythmic Accuracy & Fluidity",
             description:
-              "Development of rhythmic accuracy, fluidity of movement, and subtle synchronization with classical vocal music.",
+              "Development of rhythmic accuracy, fluidity of movement and subtle synchronization with classical vocal music.",
           },
           {
             title: "Navarasas & Emotional Depth",
@@ -313,38 +313,38 @@ export const courses = [
         badge: "Concert & Choreography",
         milestone: "Milestone: Complete Margam Solo Recital & Original Choreography",
         description:
-          "The Advanced Level aims to nurture mature performers with strong technical command, expressive sophistication, and an in-depth understanding of the Mohiniyattam repertoire. Students develop the ability to interpret complex compositions and explore the creative aspects of dance.",
+          "The Advanced Level aims to nurture mature performers with strong technical command, expressive sophistication and an in-depth understanding of the Mohiniyattam repertoire. Students develop the ability to interpret complex compositions and explore the creative aspects of dance.",
         modules: [
           {
             title: "Advanced Repertoire Items",
             description:
-              "Mastering intricate concert compositions including Varnam, Kritis, poetic Padams, and energetic Thillana.",
+              "Mastering intricate concert compositions including Varnam, Kritis, poetic Padams and energetic Thillana.",
           },
           {
             title: "Refinement of Stage Presence",
             description:
-              "Refinement of technique, rhythm, feminine grace, subtle eye movements (drishti bheda), and confident stage presence.",
+              "Refinement of technique, rhythm, feminine grace, subtle eye movements (drishti bheda) and confident stage presence.",
           },
           {
             title: "Nuanced Abhinaya & Characterisation",
             description:
-              "Advanced abhinaya exploring complex nayika bhava, spiritual surrender (bhakti), and poetic characterisation.",
+              "Advanced abhinaya exploring complex nayika bhava, spiritual surrender (bhakti) and poetic characterisation.",
           },
           {
             title: "Choreography & Creative Development",
             description:
-              "Introduction to the principles of choreography, structuring dance sequences, musical interpretation, and original composition creation.",
+              "Introduction to the principles of choreography, structuring dance sequences, musical interpretation and original composition creation.",
           },
           {
             title: "Independent Artistic Expression",
             description:
-              "Encouraging individual creativity, critical thinking, and distinctive artistic maturity steeped in Kerala tradition.",
+              "Encouraging individual creativity, critical thinking and distinctive artistic maturity steeped in Kerala tradition.",
           },
         ],
       },
     ],
     closingNote:
-      "Through this structured curriculum, students are guided towards a comprehensive understanding of Mohiniyattam, fostering technical excellence, expressive maturity, and a lasting appreciation for its rich artistic and cultural heritage.",
+      "Through this structured curriculum, students are guided towards a comprehensive understanding of Mohiniyattam, fostering technical excellence, expressive maturity and a lasting appreciation for its rich artistic and cultural heritage.",
     galleryImages: [
       {
         src: "/suha_media/shared/shared_faculty_swarna_sahasra_01.jpg",
@@ -374,7 +374,7 @@ export const courses = [
     cta: "Explore Mohiniyattam",
     highlights: [
       "Lyrical movements emphasizing Lasya aesthetics and circular flow",
-      "Disciplined eye movements, mudras, and gentle footwork",
+      "Disciplined eye movements, mudras and gentle footwork",
       "Traditional Kerala classical musical compositions and padams",
       "Stage performance opportunities in temple festivals and sabhas",
       "Mentored by revered exponent Smt. Swarna Sahasra",
@@ -395,11 +395,11 @@ export const courses = [
     secondaryImage: "/suha_media/Website/Carnatic music intro pic/_DSC2246.JPG",
     icon: "Music",
     shortDescription:
-      "Build deep musical foundations through melody (raga), rhythm (tala), sacred Trinity kritis, and classical concert improvisation (manodharmam).",
+      "Build deep musical foundations through melody (raga), rhythm (tala), sacred Trinity kritis and classical concert improvisation (manodharmam).",
     longDescription:
-      "Carnatic music is South India's classical music heritage, deeply rooted in bhakti, raga aesthetics, and intricate rhythmic patterns. Students at Suha Academy develop voice culture, breath control, pitch accuracy (shruti shuddham) and rhythmic command (laya). The curriculum spans sacred slokas, bhajans, classical varnams, keerthanams by Trinity composers, and advanced manodharma forms like Aalapanai, Neraval, and Karpanai Swaras.",
+      "Carnatic music is South India's classical music heritage, deeply rooted in bhakti, raga aesthetics and intricate rhythmic patterns. Students at Suha Academy develop voice culture, breath control, pitch accuracy (shruti shuddham) and rhythmic command (laya). The curriculum spans sacred slokas, bhajans, classical varnams, keerthanams by Trinity composers and advanced manodharma forms like Aalapanai, Neraval and Karpanai Swaras.",
     intro:
-      "The classical music of South India is Carnatic Music which comprises of basic elements such as Raga, Tala, Shruthi and Swaras. It is one of the two main genres of classical music (other being Hindustani) and has evolved from the ancient Hindu texts and traditions with most of the songs being composed in Telugu, Tamil and Sanskrit.\n\nIt is important for an aspiring singer to learn Carnatic music in order to understand the fundamentals of Ragas and Talas. Although improvisation plays an important role, Carnatic music is mainly sung through compositions, especially the kritis (or kirtanams) – a form developed between the 14th and 20th centuries by composers such as Purandara Dasa, and the Trinity of Carnatic music.\n\nCarnatic music is also usually taught and learned through compositions. Telugu language predominates in the evolution of Carnatic music.",
+      "The classical music of South India is Carnatic Music which comprises of basic elements such as Raga, Tala, Shruthi and Swaras. It is one of the two main genres of classical music (other being Hindustani) and has evolved from the ancient Hindu texts and traditions with most of the songs being composed in Telugu, Tamil and Sanskrit.\n\nIt is important for an aspiring singer to learn Carnatic music in order to understand the fundamentals of Ragas and Talas. Although improvisation plays an important role, Carnatic music is mainly sung through compositions, especially the kritis (or kirtanams) – a form developed between the 14th and 20th centuries by composers such as Purandara Dasa and the Trinity of Carnatic music.\n\nCarnatic music is also usually taught and learned through compositions. Telugu language predominates in the evolution of Carnatic music.",
     keyFeatures: [
       {
         title: "Voice Culture & Shruti Shuddham",
@@ -407,15 +407,15 @@ export const courses = [
       },
       {
         title: "Sacred Trinity Kritis",
-        desc: "Mastery of compositions by Saint Tyagaraja, Muthuswami Dikshitar, and Syama Sastri.",
+        desc: "Mastery of compositions by Saint Tyagaraja, Muthuswami Dikshitar and Syama Sastri.",
       },
       {
         title: "Tala Shastra & Percussion Laya",
-        desc: "Command over 35 talas, gathis, kalas, and live coordination with Mridangam accompaniment.",
+        desc: "Command over 35 talas, gathis, kalas and live coordination with Mridangam accompaniment.",
       },
       {
         title: "Manodharma Creative Mastery",
-        desc: "Spontaneous improvisation across Raga Alapana, Neraval singing, and Kalpanaswaras.",
+        desc: "Spontaneous improvisation across Raga Alapana, Neraval singing and Kalpanaswaras.",
       },
     ],
     curriculum: [
@@ -437,12 +437,12 @@ export const courses = [
         badge: "Abhyasagaanam Stage",
         milestone: "Milestone: Geethams & Swarajathis Stage Presentation",
         description:
-          "Focuses on pitch accuracy (shruti shuddham), disciplined breath control, 7 basic swaras across multiple speeds, and foundational introductory geetams.",
+          "Focuses on pitch accuracy (shruti shuddham), disciplined breath control, 7 basic swaras across multiple speeds and foundational introductory geetams.",
         modules: [
           {
             title: "Voice & Pitch Training (Abhyasagaanam)",
             description:
-              "Foundational voice culture, akara sadhakam, and pitch calibration using Tanpura shruti.",
+              "Foundational voice culture, akara sadhakam and pitch calibration using Tanpura shruti.",
           },
           {
             title: "Sarali Varisai",
@@ -452,12 +452,12 @@ export const courses = [
           {
             title: "Jantai Varisai",
             description:
-              "Paired and doubled note patterns (SS RR GG MM) to develop vocal control, stability, and swara clarity.",
+              "Paired and doubled note patterns (SS RR GG MM) to develop vocal control, stability and swara clarity.",
           },
           {
             title: "Dhatu Varisai",
             description:
-              "Zig-zag melodic note movements designed to build agility, vocal flexibility, and rapid swara recognition.",
+              "Zig-zag melodic note movements designed to build agility, vocal flexibility and rapid swara recognition.",
           },
           {
             title: "Thaara Stayi Varisai",
@@ -472,7 +472,7 @@ export const courses = [
           {
             title: "Simple Compositions & Bhajans",
             description:
-              "Light devotional bhajans, sacred slokas, Divyanama kirtanas, and simple Tamil/Telugu compositions.",
+              "Light devotional bhajans, sacred slokas, Divyanama kirtanas and simple Tamil/Telugu compositions.",
           },
           {
             title: "Geetams",
@@ -498,12 +498,12 @@ export const courses = [
         badge: "Sabha Ganam Stage",
         milestone: "Milestone: Sabha Recital Debut & Margazhi Temple Choir",
         description:
-          "Expands classical concert repertoire through foundational Adi & Ata Tala Varnams, classic Trinity kritis, and 72 Melakarta raga theory.",
+          "Expands classical concert repertoire through foundational Adi & Ata Tala Varnams, classic Trinity kritis and 72 Melakarta raga theory.",
         modules: [
           {
             title: "Adi Tala Varnams",
             description:
-              "Foundation concert opening pieces practiced in multiple speeds (Kalas) across ragas like Mohanam, Abhogi, Hamsadhwani, and Kalyani.",
+              "Foundation concert opening pieces practiced in multiple speeds (Kalas) across ragas like Mohanam, Abhogi, Hamsadhwani and Kalyani.",
           },
           {
             title: "Ata Tala Varnams",
@@ -529,17 +529,17 @@ export const courses = [
         badge: "Manodharma Stage",
         milestone: "Milestone: Full Solo Classical Kutchery (Concert) Debut",
         description:
-          "Develops mature concert vocalists capable of spontaneous creative improvisation, intricate rhythmic laya, and compelling stage presentations.",
+          "Develops mature concert vocalists capable of spontaneous creative improvisation, intricate rhythmic laya and compelling stage presentations.",
         modules: [
           {
             title: "Special Compositions (Pancharatna Kritis)",
             description:
-              "Mastering the monumental Ghanaraga Pancharatna Kritis of Saint Tyagaraja in Nattai, Gowla, Arabhi, Varali, and Sri ragas.",
+              "Mastering the monumental Ghanaraga Pancharatna Kritis of Saint Tyagaraja in Nattai, Gowla, Arabhi, Varali and Sri ragas.",
           },
           {
             title: "Other Classical Forms",
             description:
-              "Padams, Javalis, energetic Thillanas, and devotional Ragamalikas exploring intricate emotional and rhythmic dimensions.",
+              "Padams, Javalis, energetic Thillanas and devotional Ragamalikas exploring intricate emotional and rhythmic dimensions.",
           },
           {
             title: "Raga Alapana (Unmetered Improvisation)",
@@ -559,12 +559,12 @@ export const courses = [
           {
             title: "Advanced Repertoire & Concert Planning",
             description:
-              "Complex Vilambakala (slow tempo) kritis, heavy Ata Tala varnams, rare vivadi ragas, and full concert planning (Kutchery Paddhati).",
+              "Complex Vilambakala (slow tempo) kritis, heavy Ata Tala varnams, rare vivadi ragas and full concert planning (Kutchery Paddhati).",
           },
           {
             title: "Advanced Music Theory",
             description:
-              "Detailed raga lakshanas (rules, graha/nyasa/amsha swaras), acoustic properties of sound, and the 22 sruthis framework.",
+              "Detailed raga lakshanas (rules, graha/nyasa/amsha swaras), acoustic properties of sound and the 22 sruthis framework.",
           },
         ],
       },
@@ -597,8 +597,8 @@ export const courses = [
     ],
     cta: "Explore Carnatic Music",
     highlights: [
-      "Rigorous vocal training, shruti shuddham, and breath control",
-      "Traditional Trinity kritis, bhajans, and Pancharatnas",
+      "Rigorous vocal training, shruti shuddham and breath control",
+      "Traditional Trinity kritis, bhajans and Pancharatnas",
       "Choral performance and solo stage kutchery experience",
       "Improvisational forms — Raga Alapana, Neraval, Kalpana Swaras",
       "Guidance for music board examinations and state-level KKKV competitions",
@@ -610,25 +610,25 @@ export const studentGroups = [
   {
     title: "Young Learners",
     description:
-      "An early introduction to rhythm, movement, and basic slokas in a nurturing, encouraging environment.",
+      "An early introduction to rhythm, movement and basic slokas in a nurturing, encouraging environment.",
     icon: "Flower2",
   },
   {
     title: "School Students",
     description:
-      "Structured classical learning that complements school education with discipline, cultural depth, and focus.",
+      "Structured classical learning that complements school education with discipline, cultural depth and focus.",
     icon: "BookOpen",
   },
   {
     title: "Teenagers",
     description:
-      "Developing advanced technique, stamina, stage presence, and preparation for Salanga Poojas and debut recitals.",
+      "Developing advanced technique, stamina, stage presence and preparation for Salanga Poojas and debut recitals.",
     icon: "Star",
   },
   {
     title: "College Students",
     description:
-      "Continuing classical training alongside higher education, masterclasses, and competitive festival platforms.",
+      "Continuing classical training alongside higher education, masterclasses and competitive festival platforms.",
     icon: "GraduationCap",
   },
   {

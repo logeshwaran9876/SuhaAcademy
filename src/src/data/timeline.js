@@ -66,7 +66,7 @@ export const timeline = [
     year: "2026",
     title: "The Classical Faceoff & Annual Day '26",
     description:
-      "KKKV returns as The Classical Faceoff at Ixora BHS Recreational Club, Perumbakkam. Annual Day 2026 at Karnataka Sangha Hall welcomes luminaries Dr. Divyasena, Sri Sai Vignesh, and Sri Amit Bhargav.",
+      "KKKV returns as The Classical Faceoff at Ixora BHS Recreational Club, Perumbakkam. Annual Day 2026 at Karnataka Sangha Hall welcomes luminaries Dr. Divyasena, Sri Sai Vignesh and Sri Amit Bhargav.",
     image: "/suha_media/shared/shared_event_poster_kkkv_2026.jpg",
     isPoster: true,
     badge: "Flagship 2026 Poster",

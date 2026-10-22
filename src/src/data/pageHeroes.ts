@@ -42,7 +42,7 @@ export const pageHeroes: Record<PageHeroKey, PageHeroData> = {
     eyebrow: "Disciplines & Structured Pedagogy",
     title: "Master the Classical Arts",
     subtitle:
-      "Immerse in structured pedagogical training for Bharatanatyam, Mohiniyattam, and Carnatic music.",
+      "Immerse in structured pedagogical training for Bharatanatyam, Mohiniyattam and Carnatic music.",
     image: "/suha_media/Tabs/Courses.png",
     imagePosition: "object-[85%_top] sm:object-[86%_top] lg:object-[88%_top]",
     badges: ["Beginner to Advanced", "Graded Certification", "Flexible Batches"],
@@ -53,7 +53,7 @@ export const pageHeroes: Record<PageHeroKey, PageHeroData> = {
     eyebrow: "Celebrations & Stage Recitals",
     title: "Milestones of Artistic Excellence",
     subtitle:
-      "Experience prestigious annual festivals, divine Salangai Poojas, grand Arangetrams, and international classical showcases celebrating dedicated disciples and traditions.",
+      "Experience prestigious annual festivals, divine Salangai Poojas, grand Arangetrams and international classical showcases celebrating dedicated disciples and traditions.",
     image: "/suha_media/Tabs/Events.png",
     imagePosition: "object-[82%_top] sm:object-[84%_top] lg:object-[86%_top]",
     badges: ["Annual Kalai Vizha", "Salangai Poojas", "Global Stages"],
@@ -64,7 +64,7 @@ export const pageHeroes: Record<PageHeroKey, PageHeroData> = {
     eyebrow: "Revered Gurus & Mentors",
     title: "Masters of Classical Traditions",
     subtitle:
-      "Learn under celebrated gurus and dedicated performing artists committed to imparting rigorous classical technique, spiritual depth, and artistic integrity.",
+      "Learn under celebrated gurus and dedicated performing artists committed to imparting rigorous classical technique, spiritual depth and artistic integrity.",
     image: "/suha_media/Tabs/Faculties.png",
     imagePosition: "object-[80%_top] sm:object-[82%_top] lg:object-[84%_top]",
     badges: ["Guru Smt. Ranjini Pradeep", "Vocal & Natya Masters", "Personalized Guidance"],
@@ -75,7 +75,7 @@ export const pageHeroes: Record<PageHeroKey, PageHeroData> = {
     eyebrow: "Recitals & Visual Archives",
     title: "Moments of Divine Expression",
     subtitle:
-      "Explore vibrant visual memories capturing grand stage recitals, traditional Arangetrams, devotional temple celebrations, and joyful studio learning sessions.",
+      "Explore vibrant visual memories capturing grand stage recitals, traditional Arangetrams, devotional temple celebrations and joyful studio learning sessions.",
     image: "/suha_media/Tabs/Gallery.png",
     imagePosition: "object-[80%_top] sm:object-[82%_top] lg:object-[85%_top]",
     badges: ["Stage Performances", "Student Milestones", "Video Archives"],
@@ -86,7 +86,7 @@ export const pageHeroes: Record<PageHeroKey, PageHeroData> = {
     eyebrow: "Reflections & Heartfelt Gratitude",
     title: "Voices of Our Community",
     subtitle:
-      "Discover genuine reflections and praise shared by dedicated parents, enthusiastic students, esteemed guest luminaries, and classical arts patrons.",
+      "Discover genuine reflections and praise shared by dedicated parents, enthusiastic students, esteemed guest luminaries and classical arts patrons.",
     image: "/suha_media/Tabs/Testimonials_.png",
     imagePosition: "object-[85%_top] sm:object-[86%_top] lg:object-[88%_top]",
     badges: ["5.0 Star Rating", "Parent Testimonials", "Disciple Journeys"],
@@ -100,7 +100,7 @@ export const pageHeroes: Record<PageHeroKey, PageHeroData> = {
       "Connect with our team to inquire about admissions, studio locations in Perumbakkam and Medavakkam.",
     image: "/suha_media/Tabs/Contact.png",
     imagePosition: "object-[82%_top] sm:object-[84%_top] lg:object-[86%_top]",
-    badges: ["Perumbakkam & Medavakkam" , "WhatsApp Support"],
+    badges: ["Perumbakkam & Medavakkam", "WhatsApp Support"],
     primaryAction: { label: "Send Message", href: "#contact-form" },
     secondaryAction: { label: "Direct WhatsApp", href: "https://wa.me/919994883303" },
   },

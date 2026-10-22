@@ -67,52 +67,134 @@ const eventCategoriesConfig = [
 
 const vasanthaCuratedImages = [
   {
-    src: "/suha_media/shared/shared_curated_vasantha_swaranjali.jpg",
-    alt: "Vasantha Swaranjali - Classical Art Seva for elderly residents",
+    src: "/suha_media/gallery/vasantha_swaranjali/gallery_vasantha_01.jpg",
+    alt: "Vasantha Swaranjali - Classical Art Seva for elderly residents #1",
     title: "Vasantha Swaranjali Classical Seva #1",
     category: "Vasantha Swaranjali",
     folder: "Vasantha Swaranjali",
     year: "Compassionate Seva",
     source: "Suha Academy Seva Archive",
     permissionRequired: false,
-    eventUrl: "/events/vasantha-swaranjali",
-    eventTitle: "Suha’s Vasantha Swaranjali",
   },
   {
-    src: "/suha_media/shared/shared_media_asset_09.jpg",
-    alt: "Vocal and dance offerings for elderly residents at Vasantham homes",
-    title: "Intergenerational Musical Connection #2",
+    src: "/suha_media/gallery/vasantha_swaranjali/gallery_vasantha_02.jpg",
+    alt: "Vasantha Swaranjali - Intergenerational Artistry & Blessings #2",
+    title: "Intergenerational Artistry #2",
     category: "Vasantha Swaranjali",
     folder: "Vasantha Swaranjali",
     year: "Compassionate Seva",
     source: "Suha Academy Seva Archive",
     permissionRequired: false,
-    eventUrl: "/events/vasantha-swaranjali",
-    eventTitle: "Suha’s Vasantha Swaranjali",
   },
   {
-    src: "/suha_media/shared/shared_media_asset_08.jpg",
-    alt: "Blessings and smiles from elderly residents after recital",
-    title: "Elderly Blessings & Smiles #3",
+    src: "/suha_media/gallery/vasantha_swaranjali/gallery_vasantha_03.jpg",
+    alt: "Vasantha Swaranjali - Soulful Classical Vocal & Dance Offering #3",
+    title: "Vocal & Dance Offering #3",
     category: "Vasantha Swaranjali",
     folder: "Vasantha Swaranjali",
     year: "Compassionate Seva",
     source: "Suha Academy Seva Archive",
     permissionRequired: false,
-    eventUrl: "/events/vasantha-swaranjali",
-    eventTitle: "Suha’s Vasantha Swaranjali",
   },
   {
-    src: "/suha_media/shared/shared_media_asset_10.jpg",
-    alt: "Traditional Bhajans and classical dance at Vasantham Homes",
-    title: "Soulful Bhajans & Natyam #4",
+    src: "/suha_media/gallery/vasantha_swaranjali/gallery_vasantha_04.jpg",
+    alt: "Vasantha Swaranjali - Spreading Happiness through Classical Arts #4",
+    title: "Spreading Joy Through Art #4",
     category: "Vasantha Swaranjali",
     folder: "Vasantha Swaranjali",
     year: "Compassionate Seva",
     source: "Suha Academy Seva Archive",
     permissionRequired: false,
-    eventUrl: "/events/vasantha-swaranjali",
-    eventTitle: "Suha’s Vasantha Swaranjali",
+  },
+  {
+    src: "/suha_media/gallery/vasantha_swaranjali/gallery_vasantha_05.jpg",
+    alt: "Vasantha Swaranjali - Devotional Abhinaya for Elderly Residents #5",
+    title: "Devotional Abhinaya #5",
+    category: "Vasantha Swaranjali",
+    folder: "Vasantha Swaranjali",
+    year: "Compassionate Seva",
+    source: "Suha Academy Seva Archive",
+    permissionRequired: false,
+  },
+  {
+    src: "/suha_media/gallery/vasantha_swaranjali/gallery_vasantha_06.jpg",
+    alt: "Vasantha Swaranjali - Heartfelt Musical Moments at Vasantham #6",
+    title: "Heartfelt Musical Connection #6",
+    category: "Vasantha Swaranjali",
+    folder: "Vasantha Swaranjali",
+    year: "Compassionate Seva",
+    source: "Suha Academy Seva Archive",
+    permissionRequired: false,
+  },
+  {
+    src: "/suha_media/gallery/vasantha_swaranjali/gallery_vasantha_07.jpg",
+    alt: "Vasantha Swaranjali - Disciples Presenting Classical Bhajans #7",
+    title: "Classical Bhajans Recital #7",
+    category: "Vasantha Swaranjali",
+    folder: "Vasantha Swaranjali",
+    year: "Compassionate Seva",
+    source: "Suha Academy Seva Archive",
+    permissionRequired: false,
+  },
+  {
+    src: "/suha_media/gallery/vasantha_swaranjali/gallery_vasantha_08.jpg",
+    alt: "Vasantha Swaranjali - Youth Artists Performing with Devotion #8",
+    title: "Youth Artists Seva #8",
+    category: "Vasantha Swaranjali",
+    folder: "Vasantha Swaranjali",
+    year: "Compassionate Seva",
+    source: "Suha Academy Seva Archive",
+    permissionRequired: false,
+  },
+  {
+    src: "/suha_media/gallery/vasantha_swaranjali/gallery_vasantha_09.jpg",
+    alt: "Vasantha Swaranjali - Cherished Blessings from Senior Residents #9",
+    title: "Blessings & Reverence #9",
+    category: "Vasantha Swaranjali",
+    folder: "Vasantha Swaranjali",
+    year: "Compassionate Seva",
+    source: "Suha Academy Seva Archive",
+    permissionRequired: false,
+  },
+  {
+    src: "/suha_media/gallery/vasantha_swaranjali/gallery_vasantha_10.jpg",
+    alt: "Vasantha Swaranjali - Classical Dance Margam Presentation #10",
+    title: "Natyam Stage Offering #10",
+    category: "Vasantha Swaranjali",
+    folder: "Vasantha Swaranjali",
+    year: "Compassionate Seva",
+    source: "Suha Academy Seva Archive",
+    permissionRequired: false,
+  },
+  {
+    src: "/suha_media/gallery/vasantha_swaranjali/gallery_vasantha_11.jpg",
+    alt: "Vasantha Swaranjali - Ensemble Performance Bringing Warmth & Smiles #11",
+    title: "Ensemble Warmth & Smiles #11",
+    category: "Vasantha Swaranjali",
+    folder: "Vasantha Swaranjali",
+    year: "Compassionate Seva",
+    source: "Suha Academy Seva Archive",
+    permissionRequired: false,
+  },
+  {
+    src: "/suha_media/gallery/vasantha_swaranjali/gallery_vasantha_12.jpg",
+    alt: "Vasantha Swaranjali - Student Performers Felicitated by Elders #12",
+    title: "Intergenerational Felicitations #12",
+    category: "Vasantha Swaranjali",
+    folder: "Vasantha Swaranjali",
+    year: "Compassionate Seva",
+    source: "Suha Academy Seva Archive",
+    permissionRequired: false,
+  },
+  {
+    src: "/suha_media/gallery/vasantha_swaranjali/gallery_vasantha_13.jpg",
+    alt: "Vasantha Swaranjali - Memorable Group Gathering with Elders #13",
+    title: "Memorable Group Gathering #13",
+    category: "Vasantha Swaranjali",
+    folder: "Vasantha Swaranjali",
+    year: "Compassionate Seva",
+    source: "Suha Academy Seva Archive",
+    permissionRequired: false,
   },
 ];
 
@@ -1600,7 +1682,7 @@ const baseGalleryImages = [
     "permissionRequired": false,
     "eventUrl": "/about",
     "eventTitle": "Eminent Guests, Gurus & Cultural Encounters"
-},
+  },
   {
     "src": "/suha_media/gallery/memorable_encounters/gallery_encounter_007.jpg",
     "alt": "Honouring Cultural Patrons & Distinguished Guests #1 at Suha Academy",
@@ -1612,7 +1694,7 @@ const baseGalleryImages = [
     "permissionRequired": false,
     "eventUrl": "/about",
     "eventTitle": "Eminent Guests, Gurus & Cultural Encounters"
-},
+  },
   {
     "src": "/suha_media/gallery/memorable_encounters/gallery_encounter_008.jpg",
     "alt": "Honouring Cultural Patrons & Distinguished Guests #2 at Suha Academy",
@@ -1624,7 +1706,7 @@ const baseGalleryImages = [
     "permissionRequired": false,
     "eventUrl": "/about",
     "eventTitle": "Eminent Guests, Gurus & Cultural Encounters"
-},
+  },
   {
     "src": "/suha_media/gallery/memorable_encounters/gallery_encounter_009.jpg",
     "alt": "Eminent Dignitaries Felicitation on Stage #3 at Suha Academy",
@@ -1636,7 +1718,7 @@ const baseGalleryImages = [
     "permissionRequired": false,
     "eventUrl": "/about",
     "eventTitle": "Eminent Guests, Gurus & Cultural Encounters"
-},
+  },
   {
     "src": "/suha_media/gallery/memorable_encounters/gallery_encounter_010.jpg",
     "alt": "Stage Accolades with Renowned Cultural Guests at Suha Academy",
@@ -1648,7 +1730,7 @@ const baseGalleryImages = [
     "permissionRequired": false,
     "eventUrl": "/about",
     "eventTitle": "Eminent Guests, Gurus & Cultural Encounters"
-},
+  },
   {
     "src": "/suha_media/gallery/memorable_encounters/gallery_encounter_011.jpg",
     "alt": "Actor Sri Amit Bhargav Felicitating Student Disciples at Suha Academy",
@@ -1660,7 +1742,7 @@ const baseGalleryImages = [
     "permissionRequired": false,
     "eventUrl": "/about",
     "eventTitle": "Eminent Guests, Gurus & Cultural Encounters"
-},
+  },
   {
     "src": "/suha_media/gallery/memorable_encounters/gallery_encounter_012.jpg",
     "alt": "Dr. Divyasena & Distinguished Guests Felicitation at Suha Academy",
@@ -1672,7 +1754,7 @@ const baseGalleryImages = [
     "permissionRequired": false,
     "eventUrl": "/about",
     "eventTitle": "Eminent Guests, Gurus & Cultural Encounters"
-},
+  },
   {
     "src": "/suha_media/gallery/memorable_encounters/gallery_encounter_013.jpg",
     "alt": "Felicitation Ceremony with Classical Gurus & Luminaries at Suha Academy",
@@ -1684,7 +1766,7 @@ const baseGalleryImages = [
     "permissionRequired": false,
     "eventUrl": "/about",
     "eventTitle": "Eminent Guests, Gurus & Cultural Encounters"
-},
+  },
   {
     "src": "/suha_media/gallery/memorable_encounters/gallery_encounter_014.jpg",
     "alt": "Dignitary Blessings and Award Presentation at Suha Academy",
@@ -1696,7 +1778,7 @@ const baseGalleryImages = [
     "permissionRequired": false,
     "eventUrl": "/about",
     "eventTitle": "Eminent Guests, Gurus & Cultural Encounters"
-},
+  },
   {
     "src": "/suha_media/gallery/memorable_encounters/gallery_encounter_015.jpg",
     "alt": "Ceremonial Lamp Lighting & Guest Accolades #1 at Suha Academy",
@@ -1708,7 +1790,7 @@ const baseGalleryImages = [
     "permissionRequired": false,
     "eventUrl": "/about",
     "eventTitle": "Eminent Guests, Gurus & Cultural Encounters"
-},
+  },
   {
     "src": "/suha_media/gallery/memorable_encounters/gallery_encounter_016.jpg",
     "alt": "Ceremonial Lamp Lighting & Guest Accolades #2 at Suha Academy",
@@ -1720,7 +1802,7 @@ const baseGalleryImages = [
     "permissionRequired": false,
     "eventUrl": "/about",
     "eventTitle": "Eminent Guests, Gurus & Cultural Encounters"
-},
+  },
   {
     "src": "/suha_media/gallery/memorable_encounters/gallery_encounter_017.jpg",
     "alt": "Cultural Dignitaries on Stage at Suha Academy at Suha Academy",
@@ -1732,7 +1814,7 @@ const baseGalleryImages = [
     "permissionRequired": false,
     "eventUrl": "/about",
     "eventTitle": "Eminent Guests, Gurus & Cultural Encounters"
-},
+  },
   {
     "src": "/suha_media/gallery/memorable_encounters/gallery_encounter_018.jpg",
     "alt": "Blessings from Classical Maestros to Academy Students at Suha Academy",
@@ -1744,7 +1826,7 @@ const baseGalleryImages = [
     "permissionRequired": false,
     "eventUrl": "/about",
     "eventTitle": "Eminent Guests, Gurus & Cultural Encounters"
-},
+  },
   {
     "src": "/suha_media/gallery/memorable_encounters/gallery_encounter_019.jpg",
     "alt": "Presentation of Mementos to Honoured Dignitaries at Suha Academy",
@@ -1756,7 +1838,7 @@ const baseGalleryImages = [
     "permissionRequired": false,
     "eventUrl": "/about",
     "eventTitle": "Eminent Guests, Gurus & Cultural Encounters"
-},
+  },
   {
     "src": "/suha_media/gallery/memorable_encounters/gallery_encounter_020.jpg",
     "alt": "Grand Sabha Stage Felicitation Ceremony #1 at Suha Academy",
@@ -1768,7 +1850,7 @@ const baseGalleryImages = [
     "permissionRequired": false,
     "eventUrl": "/about",
     "eventTitle": "Eminent Guests, Gurus & Cultural Encounters"
-},
+  },
   {
     "src": "/suha_media/gallery/memorable_encounters/gallery_encounter_021.jpg",
     "alt": "Special Accolades & Trophies Presentation at Suha Academy",
@@ -1780,7 +1862,7 @@ const baseGalleryImages = [
     "permissionRequired": false,
     "eventUrl": "/about",
     "eventTitle": "Eminent Guests, Gurus & Cultural Encounters"
-},
+  },
   {
     "src": "/suha_media/gallery/memorable_encounters/gallery_encounter_022.jpg",
     "alt": "Grand Sabha Stage Felicitation Ceremony #2 at Suha Academy",
@@ -1792,7 +1874,7 @@ const baseGalleryImages = [
     "permissionRequired": false,
     "eventUrl": "/about",
     "eventTitle": "Eminent Guests, Gurus & Cultural Encounters"
-},
+  },
   {
     "src": "/suha_media/gallery/memorable_encounters/gallery_encounter_023.jpg",
     "alt": "Eminent Guests Blessing Student Performers at Suha Academy",
@@ -1804,7 +1886,7 @@ const baseGalleryImages = [
     "permissionRequired": false,
     "eventUrl": "/about",
     "eventTitle": "Eminent Guests, Gurus & Cultural Encounters"
-},
+  },
   {
     "src": "/suha_media/gallery/memorable_encounters/gallery_encounter_024.jpg",
     "alt": "Distinguished Arts Patrons Stage Presentation at Suha Academy",
@@ -1816,7 +1898,7 @@ const baseGalleryImages = [
     "permissionRequired": false,
     "eventUrl": "/about",
     "eventTitle": "Eminent Guests, Gurus & Cultural Encounters"
-},
+  },
   {
     "src": "/suha_media/gallery/memorable_encounters/gallery_encounter_025.jpg",
     "alt": "Souvenir & Award Presentation with Cultural Gurus at Suha Academy",
@@ -1828,7 +1910,7 @@ const baseGalleryImages = [
     "permissionRequired": false,
     "eventUrl": "/about",
     "eventTitle": "Eminent Guests, Gurus & Cultural Encounters"
-},
+  },
   {
     "src": "/suha_media/gallery/memorable_encounters/gallery_encounter_026.jpg",
     "alt": "Celebration of Classical Art Milestones with Guests at Suha Academy",
@@ -1840,7 +1922,7 @@ const baseGalleryImages = [
     "permissionRequired": false,
     "eventUrl": "/about",
     "eventTitle": "Eminent Guests, Gurus & Cultural Encounters"
-},
+  },
   {
     "src": "/suha_media/gallery/memorable_encounters/gallery_encounter_027.jpg",
     "alt": "Grand Auditorium Stage Gathering with Faculty & Dignitaries at Suha Academy",
@@ -1852,7 +1934,7 @@ const baseGalleryImages = [
     "permissionRequired": false,
     "eventUrl": "/about",
     "eventTitle": "Eminent Guests, Gurus & Cultural Encounters"
-},
+  },
   {
     "src": "/suha_media/gallery/memorable_encounters/gallery_encounter_028.jpg",
     "alt": "Excellence Certificate Presentation with Eminent Maestros at Suha Academy",
@@ -1864,7 +1946,7 @@ const baseGalleryImages = [
     "permissionRequired": false,
     "eventUrl": "/about",
     "eventTitle": "Eminent Guests, Gurus & Cultural Encounters"
-},
+  },
   {
     "src": "/suha_media/gallery/memorable_encounters/gallery_encounter_029.jpg",
     "alt": "Honouring Guest of Honour with Traditional Accolades at Suha Academy",
@@ -1876,7 +1958,7 @@ const baseGalleryImages = [
     "permissionRequired": false,
     "eventUrl": "/about",
     "eventTitle": "Eminent Guests, Gurus & Cultural Encounters"
-},
+  },
   {
     "src": "/suha_media/gallery/memorable_encounters/gallery_encounter_030.jpg",
     "alt": "Cultural Exchange & Warm Interactions with Stalwarts at Suha Academy",
@@ -1888,7 +1970,7 @@ const baseGalleryImages = [
     "permissionRequired": false,
     "eventUrl": "/about",
     "eventTitle": "Eminent Guests, Gurus & Cultural Encounters"
-},
+  },
   {
     "src": "/suha_media/gallery/memorable_encounters/gallery_encounter_031.jpg",
     "alt": "Blessings and Stage Felicitations for Young Artistes at Suha Academy",
@@ -1900,7 +1982,7 @@ const baseGalleryImages = [
     "permissionRequired": false,
     "eventUrl": "/about",
     "eventTitle": "Eminent Guests, Gurus & Cultural Encounters"
-},
+  },
   {
     "src": "/suha_media/gallery/memorable_encounters/gallery_encounter_032.jpg",
     "alt": "Moments of Joy & Felicitations with Esteemed Guests at Suha Academy",
@@ -1912,7 +1994,7 @@ const baseGalleryImages = [
     "permissionRequired": false,
     "eventUrl": "/about",
     "eventTitle": "Eminent Guests, Gurus & Cultural Encounters"
-},
+  },
   {
     "src": "/suha_media/gallery/memorable_encounters/gallery_encounter_033.jpg",
     "alt": "Annual Day Felicitations & Memento Presentation #1 at Suha Academy",
@@ -1924,7 +2006,7 @@ const baseGalleryImages = [
     "permissionRequired": false,
     "eventUrl": "/about",
     "eventTitle": "Eminent Guests, Gurus & Cultural Encounters"
-},
+  },
   {
     "src": "/suha_media/gallery/memorable_encounters/gallery_encounter_034.jpg",
     "alt": "Annual Day Felicitations & Memento Presentation #2 at Suha Academy",
@@ -1936,7 +2018,7 @@ const baseGalleryImages = [
     "permissionRequired": false,
     "eventUrl": "/about",
     "eventTitle": "Eminent Guests, Gurus & Cultural Encounters"
-},
+  },
   {
     "src": "/suha_media/gallery/memorable_encounters/gallery_encounter_035.jpg",
     "alt": "Sacred Temple Recital Felicitations with Guests at Suha Academy",
@@ -1948,7 +2030,7 @@ const baseGalleryImages = [
     "permissionRequired": false,
     "eventUrl": "/about",
     "eventTitle": "Eminent Guests, Gurus & Cultural Encounters"
-},
+  },
   {
     "src": "/suha_media/gallery/memorable_encounters/gallery_encounter_036.jpg",
     "alt": "Guru Smt. Ranjini Pradeep with Cultural Dignitaries at Suha Academy",
@@ -1960,7 +2042,7 @@ const baseGalleryImages = [
     "permissionRequired": false,
     "eventUrl": "/about",
     "eventTitle": "Eminent Guests, Gurus & Cultural Encounters"
-},
+  },
   {
     "src": "/suha_media/gallery/memorable_encounters/gallery_encounter_037.jpg",
     "alt": "Ceremonial Silk Ponnadai Offering to Eminent Vidwan at Suha Academy",
@@ -1972,7 +2054,7 @@ const baseGalleryImages = [
     "permissionRequired": false,
     "eventUrl": "/about",
     "eventTitle": "Eminent Guests, Gurus & Cultural Encounters"
-},
+  },
   {
     "src": "/suha_media/gallery/mohiniyattam/gallery_mohiniyattam_001.jpg",
     "alt": "Mohiniyattam — Swati Festival Stage Recital performed by Suha Academy disciples",
@@ -2608,19 +2690,19 @@ export const photoStory = [
     src: "/suha_media/home/home_showcase_stage_01.jpg",
     alt: "Dancers learning classical hand gestures and postures",
     caption: "Disciplined Foundations",
-    label: "Under Guru Smt. Ranjini Pradeep, each student masters the fundamentals of rhythm, posture, and mudras.",
+    label: "Under Guru Smt. Ranjini Pradeep, each student masters the fundamentals of rhythm, posture and mudras.",
   },
   {
     src: "/suha_media/shared/shared_media_asset_01.jpg",
     alt: "Students performing Bharatanatyam on stage in classical attire",
     caption: "Stage Artistry",
-    label: "Taking the stage with poise, grace, and confidence in group recitals, solo margams, and festival faceoffs.",
+    label: "Taking the stage with poise, grace and confidence in group recitals, solo margams and festival faceoffs.",
   },
   {
     src: "/suha_media/shared/shared_video_thumbnail_01.jpg",
     alt: "Student felicitation and awards ceremony with cultural luminaries",
     caption: "Recognition & Growth",
-    label: "Celebrating milestones, Arangetrams, and recognitions alongside eminent artists and loving community.",
+    label: "Celebrating milestones, Arangetrams and recognitions alongside eminent artists and loving community.",
   },
 ];
 

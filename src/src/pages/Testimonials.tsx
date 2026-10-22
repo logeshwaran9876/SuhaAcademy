@@ -43,7 +43,7 @@ export const communityReviews: ReviewItem[] = [
     badge: "Google Verified Review",
     url: "https://www.google.com/maps/contrib/106087498821330410605/reviews?hl=en-IN",
     quote:
-      "As a parent, I am delighted with the growth my daughter has experienced at the Suha Academy of fine arts. This is truly the best place for children to learn dance, not only because of the structured training but also because of the nurturing environment that makes every student feel valued. Under the guidance of Ranjani mam, my daughter has blossomed into a confident and graceful dancer. Ranjani mam’s teaching style is patient, inspiring, and deeply rooted in tradition, yet she knows how to connect with children in a way that keeps them motivated. The relationship between students and teacher is warm and respectful, creating a positive atmosphere where learning feels joyful. Another highlight of the academy is the bond between younger students and senior dancers. The seniors act as mentors, guiding and encouraging the juniors, which builds confidence and instills discipline. This sense of community makes the academy feel like a family, where everyone grows together. I have seen my daughter become smarter, sharper, and more expressive through her training here. The academy not only teaches dance but also shapes character and confidence. For any parent seeking the best for their child, This Academy is the perfect.",
+      "As a parent, I am delighted with the growth my daughter has experienced at the Suha Academy of fine arts. This is truly the best place for children to learn dance, not only because of the structured training but also because of the nurturing environment that makes every student feel valued. Under the guidance of Ranjani mam, my daughter has blossomed into a confident and graceful dancer. Ranjani mam’s teaching style is patient, inspiring and deeply rooted in tradition, yet she knows how to connect with children in a way that keeps them motivated. The relationship between students and teacher is warm and respectful, creating a positive atmosphere where learning feels joyful. Another highlight of the academy is the bond between younger students and senior dancers. The seniors act as mentors, guiding and encouraging the juniors, which builds confidence and instills discipline. This sense of community makes the academy feel like a family, where everyone grows together. I have seen my daughter become smarter, sharper and more expressive through her training here. The academy not only teaches dance but also shapes character and confidence. For any parent seeking the best for their child, This Academy is the perfect.",
   },
   {
     id: "p2",
@@ -67,7 +67,7 @@ export const communityReviews: ReviewItem[] = [
     rating: 5,
     badge: "Verified Academy Parent",
     quote:
-      "Ranjani mam has done a wonderful job in nurturing young talents and bringing out the best in every student. The dedication, patience, and passion shown by our Guru. Ranjani mam truly reflect in the confidence and grace of the performers. Mam’s teaching talent is incredible. The fact that the kids are so eager and passionate to attend every class without missing it says it all about how inspiring she is. Thank you for creating such a positive and inspiring environment for learning dance.",
+      "Ranjani mam has done a wonderful job in nurturing young talents and bringing out the best in every student. The dedication, patience and passion shown by our Guru. Ranjani mam truly reflect in the confidence and grace of the performers. Mam’s teaching talent is incredible. The fact that the kids are so eager and passionate to attend every class without missing it says it all about how inspiring she is. Thank you for creating such a positive and inspiring environment for learning dance.",
   },
   {
     id: "p4",
@@ -103,7 +103,7 @@ export const communityReviews: ReviewItem[] = [
     rating: 5,
     badge: "Verified Academy Parent",
     quote:
-      "Suha academy of Fine arts, is truly an amazing place to learn and grow music and dance. Ranjini mam is multi talented, very skilled, friendly, and dedicated to helping every student reach their full potential. The classes are engaging, well-organized, and suitable for all age groups. The academy also focuses on discipline, technique, and stage performance, which helps students develop both talent and confidence. I’m very happy to be part of such a wonderful learning environment and would definitely recommend this academy to anyone interested in music or dance.",
+      "Suha academy of Fine arts, is truly an amazing place to learn and grow music and dance. Ranjini mam is multi talented, very skilled, friendly and dedicated to helping every student reach their full potential. The classes are engaging, well-organized and suitable for all age groups. The academy also focuses on discipline, technique and stage performance, which helps students develop both talent and confidence. I’m very happy to be part of such a wonderful learning environment and would definitely recommend this academy to anyone interested in music or dance.",
   },
   {
     id: "p7",
@@ -127,7 +127,7 @@ export const communityReviews: ReviewItem[] = [
     rating: 5,
     badge: "Verified Academy Parent",
     quote:
-      "We are extremely happy to be a part of Suha Academy of Fine Arts, guided by the very talented and dedicated Guru Smt. Ranjini Pradeep. Her deep knowledge, patience, and passion for both Bharathanatyam and Carnatic music vocal are truly inspiring. Many kids has shown remarkable improvement not just in technique, but also in understanding the values, discipline, and cultural richness that come with learning these classical art forms. Ranjini mam’s ability to connect with each student and bring out their best is truly commendable. The academy maintains a warm, nurturing environment, with structured lessons and opportunities for performance, which helps build confidence and stage presence in childrens.We are very grateful to be a part from such a committed guru and highly recommend Suha Academy to anyone seeking authentic training in Bharathanatyam and Carnatic vocal music.",
+      "We are extremely happy to be a part of Suha Academy of Fine Arts, guided by the very talented and dedicated Guru Smt. Ranjini Pradeep. Her deep knowledge, patience and passion for both Bharathanatyam and Carnatic music vocal are truly inspiring. Many kids has shown remarkable improvement not just in technique, but also in understanding the values, discipline and cultural richness that come with learning these classical art forms. Ranjini mam’s ability to connect with each student and bring out their best is truly commendable. The academy maintains a warm, nurturing environment, with structured lessons and opportunities for performance, which helps build confidence and stage presence in childrens.We are very grateful to be a part from such a committed guru and highly recommend Suha Academy to anyone seeking authentic training in Bharathanatyam and Carnatic vocal music.",
   },
   {
     id: "p9",
@@ -151,7 +151,7 @@ export const communityReviews: ReviewItem[] = [
     rating: 5,
     badge: "Verified Academy Parent",
     quote:
-      "Ranjini Mam, Thank you from the bottom of our hearts for your dedication, patience, and guidance, Your hard work and passion were reflected in every performance, and it was truly a memorable celebration. We are grateful for the love, discipline, and confidence you have instilled in the children. Seeing them perform so beautifully on stage was a proud and joyful moment for all of us. Thank you once again for inspiring our children and nurturing their talent. We deeply appreciate everything you do and look forward to many more wonderful performances under your guidance.",
+      "Ranjini Mam, Thank you from the bottom of our hearts for your dedication, patience and guidance, Your hard work and passion were reflected in every performance and it was truly a memorable celebration. We are grateful for the love, discipline and confidence you have instilled in the children. Seeing them perform so beautifully on stage was a proud and joyful moment for all of us. Thank you once again for inspiring our children and nurturing their talent. We deeply appreciate everything you do and look forward to many more wonderful performances under your guidance.",
   },
 
   // 2. KKKV PARTICIPANTS (6 Reviews)
@@ -165,7 +165,7 @@ export const communityReviews: ReviewItem[] = [
     rating: 5,
     badge: "KKKV Festival Participant",
     quote:
-      "Hats off to the entire team at SUHA Academy for orchestrating an outstanding music competition every year!👏 My kids had an incredible experience participating and showcasing their talents. The planning, coordination, and execution were exemplary. 🤩 A huge thank you to SUHA Academy for creating such a powerful platform for young musicians to shine and boost their confidence. Your hard work is genuinely commendable! 🙏💕",
+      "Hats off to the entire team at SUHA Academy for orchestrating an outstanding music competition every year!👏 My kids had an incredible experience participating and showcasing their talents. The planning, coordination and execution were exemplary. 🤩 A huge thank you to SUHA Academy for creating such a powerful platform for young musicians to shine and boost their confidence. Your hard work is genuinely commendable! 🙏💕",
   },
   {
     id: "k2",
@@ -189,7 +189,7 @@ export const communityReviews: ReviewItem[] = [
     rating: 5,
     badge: "KKKV Platform Review",
     quote:
-      "I would like to extend my sincere gratitude to Ranju Madam, and the entire volunteering team for organizing such a seamless and well-coordinated event from beginning to end. This competition provided an excellent platform for children to showcase their talents on a prominent stage and in front of a wider audience. It was truly a valuable and enriching experience for all the participants. A heartfelt thank you to the judges for their thoughtful and constructive feedback, which will undoubtedly play a significant role in helping the children grow and evolve into more confident and capable individuals in the field of arts. We look forward with great anticipation to the next edition of KKKV.",
+      "I would like to extend my sincere gratitude to Ranju Madam and the entire volunteering team for organizing such a seamless and well-coordinated event from beginning to end. This competition provided an excellent platform for children to showcase their talents on a prominent stage and in front of a wider audience. It was truly a valuable and enriching experience for all the participants. A heartfelt thank you to the judges for their thoughtful and constructive feedback, which will undoubtedly play a significant role in helping the children grow and evolve into more confident and capable individuals in the field of arts. We look forward with great anticipation to the next edition of KKKV.",
   },
   {
     id: "k4",
@@ -239,7 +239,7 @@ export const communityReviews: ReviewItem[] = [
     rating: 5,
     badge: "Stage Choreography Review",
     quote:
-      "“The choreography, discipline, and dedication of Ranjani Mam and team are truly impressive. Every session is well-structured and enjoyable. It’s not just about dance here — it’s about building confidence, teamwork, and creativity.” The way programs are organised by this academy are speechless and children are learning it 100%",
+      "“The choreography, discipline and dedication of Ranjani Mam and team are truly impressive. Every session is well-structured and enjoyable. It’s not just about dance here — it’s about building confidence, teamwork and creativity.” The way programs are organised by this academy are speechless and children are learning it 100%",
   },
   {
     id: "e2",
@@ -263,7 +263,7 @@ export const communityReviews: ReviewItem[] = [
     rating: 5,
     badge: "Stage Recital Revelation",
     quote:
-      "A heartfelt thank you to Guru Smt. Ranjini Pradeep Ma'am and the entire team of SUHA Fine Arts Academy for organizing such a wonderful and memorable event. Although my daughter, Ishani, joined the academy only towards the end of last year and has been actively learning in recent months, witnessing her performance today was truly a revelation. We were delighted to see another beautiful version of her talent and confidence on stage. I know this is just the beginning, and there is still a long way to go, but this performance has given us immense joy and pride. It was equally inspiring to watch all the talented young performers showcase their hard work and dedication. This would not have been possible without the tireless efforts, guidance, patience, and encouragement of Ranjini Ma'am and every member of the academy. Our sincere gratitude to the entire SUHA Fine Arts Academy family for making this event so special and unforgettable. Wishing you all many more successful performances and continued excellence.",
+      "A heartfelt thank you to Guru Smt. Ranjini Pradeep Ma'am and the entire team of SUHA Fine Arts Academy for organizing such a wonderful and memorable event. Although my daughter, Ishani, joined the academy only towards the end of last year and has been actively learning in recent months, witnessing her performance today was truly a revelation. We were delighted to see another beautiful version of her talent and confidence on stage. I know this is just the beginning and there is still a long way to go, but this performance has given us immense joy and pride. It was equally inspiring to watch all the talented young performers showcase their hard work and dedication. This would not have been possible without the tireless efforts, guidance, patience and encouragement of Ranjini Ma'am and every member of the academy. Our sincere gratitude to the entire SUHA Fine Arts Academy family for making this event so special and unforgettable. Wishing you all many more successful performances and continued excellence.",
   },
   {
     id: "e4",
@@ -275,7 +275,7 @@ export const communityReviews: ReviewItem[] = [
     rating: 5,
     badge: "17th Annual Day & Swaranjali",
     quote:
-      "My daughter joined Suha Academy about eight months ago, and I have been truly impressed by her progress in both Bharatanatyam and Carnatic music. Under the guidance of Guru Smt. Ranjini Pradeep, she has developed not only in skill but also in discipline, confidence, and stage presence. Every event is organized with exceptional dedication. The recently concluded 17th Annual Day was a spectacular celebration of art, reflecting months of sincere practice and meticulous planning. The opportunity given to every student to perform on stage was truly memorable. I also appreciate initiatives like Swarangali, where children perform for senior citizens, creating a meaningful experience for both generations. It beautifully reflects the values nurtured by the academy. Guru Smt. Ranjini Pradeep always encourages her students and parents to attend the prestigious programs she is associated with, providing invaluable exposure to the world of classical arts. It has been a privilege to witness and learn from eminent personalities such as Kalaimamani Smt. Nithyasree Mahadevan, Guru Shri Madurai R. Muralidharan, Smt. Chitra Muralidharan, Dr. Padma Subrahmanyam, Padma Shri P. Unnikrishnan, and Shri Sai Vignesh, and many more who have graced the academy’s events and inspired the students with their presence and encouragement. Guru Smt. Ranjini Pradeep pays attention to every detail—from choreography and orchestra to lighting, costumes, makeup, and overall stage presentation. Regular music and dance examinations, along with small tokens of appreciation, keep the children motivated and eager to learn. Thank you, Ma’am, for your unwavering dedication and for inspiring every child to strive for excellence. Wishing you and all your students continued success as you take Indian classical arts and Carnatic music to even greater heights across the world.",
+      "My daughter joined Suha Academy about eight months ago and I have been truly impressed by her progress in both Bharatanatyam and Carnatic music. Under the guidance of Guru Smt. Ranjini Pradeep, she has developed not only in skill but also in discipline, confidence and stage presence. Every event is organized with exceptional dedication. The recently concluded 17th Annual Day was a spectacular celebration of art, reflecting months of sincere practice and meticulous planning. The opportunity given to every student to perform on stage was truly memorable. I also appreciate initiatives like Swarangali, where children perform for senior citizens, creating a meaningful experience for both generations. It beautifully reflects the values nurtured by the academy. Guru Smt. Ranjini Pradeep always encourages her students and parents to attend the prestigious programs she is associated with, providing invaluable exposure to the world of classical arts. It has been a privilege to witness and learn from eminent personalities such as Kalaimamani Smt. Nithyasree Mahadevan, Guru Shri Madurai R. Muralidharan, Smt. Chitra Muralidharan, Dr. Padma Subrahmanyam, Padma Shri P. Unnikrishnan and Shri Sai Vignesh and many more who have graced the academy’s events and inspired the students with their presence and encouragement. Guru Smt. Ranjini Pradeep pays attention to every detail—from choreography and orchestra to lighting, costumes, makeup and overall stage presentation. Regular music and dance examinations, along with small tokens of appreciation, keep the children motivated and eager to learn. Thank you, Ma’am, for your unwavering dedication and for inspiring every child to strive for excellence. Wishing you and all your students continued success as you take Indian classical arts and Carnatic music to even greater heights across the world.",
   },
   {
     id: "e5",
@@ -287,7 +287,7 @@ export const communityReviews: ReviewItem[] = [
     rating: 5,
     badge: "17th Annual Day Celebration",
     quote:
-      "What a blissful Saturday evening we had witnessing the 17th Annual Day celebration of Suha Academy. Every performance was a delight to watch and reflected immense dedication, patience, and hard work put by Ranjini mam in nurturing each student. Every and everyone performed with such grace, confidence, and joy making the evening truly memorable.My heartfelt appreciation also goes to the parent coordinators, volunteers, and everyone who worked tirelessly behind the scenes to make the Annual Day such a grand success. Thank you so much, Mam, for giving my daughter the opportunity to perform on such a wonderful stage and create memories she will cherish forever. I feel truly happy to have enrolled her at Suha Academy and look forward to many more years of learning under your guidance.",
+      "What a blissful Saturday evening we had witnessing the 17th Annual Day celebration of Suha Academy. Every performance was a delight to watch and reflected immense dedication, patience and hard work put by Ranjini mam in nurturing each student. Every and everyone performed with such grace, confidence and joy making the evening truly memorable.My heartfelt appreciation also goes to the parent coordinators, volunteers and everyone who worked tirelessly behind the scenes to make the Annual Day such a grand success. Thank you so much, Mam, for giving my daughter the opportunity to perform on such a wonderful stage and create memories she will cherish forever. I feel truly happy to have enrolled her at Suha Academy and look forward to many more years of learning under your guidance.",
   },
 ];
 
@@ -460,10 +460,10 @@ export default function Testimonials() {
                   <span>The Spirit of Suha Academy</span>
                 </div>
                 <p className="font-serif text-lg sm:text-xl text-navy-950 italic leading-snug font-normal">
-                  &ldquo;Under the guidance of Ranjini Mam, our students blossom into confident and graceful artists. The academy not only teaches dance and music but shapes character, discipline, and lifelong passion.&rdquo;
+                  &ldquo;Under the guidance of Ranjini Mam, our students blossom into confident and graceful artists. The academy not only teaches dance and music but shapes character, discipline and lifelong passion.&rdquo;
                 </p>
                 <p className="text-xs text-navy-600 font-medium">
-                  Reflected in 21+ heartfelt testimonials from parents across Medavakkam, Perumbakkam, and Tamil Nadu.
+                  Reflected in 21+ heartfelt testimonials from parents across Medavakkam, Perumbakkam and Tamil Nadu.
                 </p>
               </div>
             </div>
@@ -493,11 +493,10 @@ export default function Testimonials() {
               <button
                 key={tab.id}
                 onClick={() => setActiveCategory(tab.id as CategoryFilter)}
-                className={`px-4 py-2 text-xs uppercase tracking-wider font-semibold rounded-full transition-all duration-300 cursor-pointer border ${
-                  activeCategory === tab.id
+                className={`px-4 py-2 text-xs uppercase tracking-wider font-semibold rounded-full transition-all duration-300 cursor-pointer border ${activeCategory === tab.id
                     ? "bg-navy-950 text-gold-300 border-navy-950 shadow-sm"
                     : "bg-white text-navy-800 border-ivory-200 hover:bg-gold-50 hover:text-gold-700 hover:border-gold-300"
-                }`}
+                  }`}
               >
                 {tab.label}
               </button>
@@ -550,7 +549,7 @@ export default function Testimonials() {
           </Reveal>
           <Reveal delay={0.1}>
             <p className="text-cream-100/60 max-w-lg mx-auto mb-8 text-sm">
-              Experience the disciplined joy of Bharatanatyam, Mohiniyattam, and Carnatic Vocal under Guru Smt. Ranjini Pradeep.
+              Experience the disciplined joy of Bharatanatyam, Mohiniyattam and Carnatic Vocal under Guru Smt. Ranjini Pradeep.
             </p>
           </Reveal>
           <Reveal delay={0.2}>

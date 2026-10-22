@@ -105,7 +105,7 @@ export default function CourseDetail({ slug }: { slug: string }) {
                         <span>{course.tradition}</span>
                       </div>
                       <p className="text-[11px] text-cream-200/90 leading-tight">
-                        Authentic classical transmission upholding shastric geometry, bhava, and tala precision.
+                        Authentic classical transmission upholding shastric geometry, bhava and tala precision.
                       </p>
                     </div>
                   </div>
@@ -201,7 +201,7 @@ export default function CourseDetail({ slug }: { slug: string }) {
             number="02"
             eyebrow="Structured Pedagogy"
             title="Three Progressive Stages of Mastery"
-            subtitle="Each stage builds upon foundational mechanics and rhythm, nurturing technical command, expressive sophistication, and independent performance readiness."
+            subtitle="Each stage builds upon foundational mechanics and rhythm, nurturing technical command, expressive sophistication and independent performance readiness."
           />
 
           {/* Level Switcher Tabs */}
@@ -219,8 +219,8 @@ export default function CourseDetail({ slug }: { slug: string }) {
                   type="button"
                   onClick={() => setActiveLevelIndex(lIdx)}
                   className={`w-full py-3.5 px-4 rounded-sm sm:rounded-full text-xs font-bold transition-all duration-300 flex flex-col items-center justify-center gap-1 cursor-pointer shadow-xs text-center border ${isActive
-                      ? "bg-navy-950 text-gold-300 border-gold-400 ring-2 ring-gold-400/40 shadow-md"
-                      : "bg-white text-navy-800 border-gold-400/30 hover:border-gold-500 hover:bg-gold-50/60"
+                    ? "bg-navy-950 text-gold-300 border-gold-400 ring-2 ring-gold-400/40 shadow-md"
+                    : "bg-white text-navy-800 border-gold-400/30 hover:border-gold-500 hover:bg-gold-50/60"
                     }`}
                 >
                   <div className="flex items-center gap-2">
@@ -396,12 +396,12 @@ export default function CourseDetail({ slug }: { slug: string }) {
                 </div>
 
                 <div className="p-4 rounded-sm bg-[#FAF7F0] border-l-4 border-gold-500 text-xs sm:text-sm text-navy-900 leading-relaxed font-serif italic">
-                  &ldquo;Classical art is not merely stage performance; it is a sacred sadhana that cultivates humility, character, geometric discipline, and lifelong inner joy in every student.&rdquo;
+                  &ldquo;Classical art is not merely stage performance; it is a sacred sadhana that cultivates humility, character, geometric discipline and lifelong inner joy in every student.&rdquo;
                 </div>
 
                 <p className="text-xs sm:text-sm text-navy-800/90 leading-relaxed">
                   Students at Suha Academy benefit from direct guru mentorship upholding authentic
-                  postures, precise tala counting, and genuine expressive depth. Whether preparing for
+                  postures, precise tala counting and genuine expressive depth. Whether preparing for
                   Salangai Poojas, sabha concerts, or full solo debut Arangetrams, every disciple
                   receives patient, personalized guidance.
                 </p>
@@ -439,7 +439,7 @@ export default function CourseDetail({ slug }: { slug: string }) {
             number="04"
             eyebrow="Visual Archives"
             title={`${course.title} Glimpses & Recitals`}
-            subtitle="Authentic moments of dedicated studio practice, sacred ceremonies, and vibrant stage presentations."
+            subtitle="Authentic moments of dedicated studio practice, sacred ceremonies and vibrant stage presentations."
           />
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-12">

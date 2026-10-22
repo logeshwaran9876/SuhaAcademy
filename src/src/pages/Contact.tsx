@@ -88,9 +88,7 @@ export default function Contact() {
                       Admission Enquiries
                     </p>
                     <p className="text-base text-navy-900 font-semibold">{academy.phone}</p>
-                    <p className="text-xs text-navy-600/70 mt-0.5">
-                      Guidance &amp; Batch Placement
-                    </p>
+                    
                   </div>
                 </a>
 
@@ -108,7 +106,7 @@ export default function Contact() {
                     </p>
                     <p className="text-base text-navy-900 font-semibold">{academy.phoneAlt}</p>
                     <p className="text-xs text-navy-600/70 mt-0.5">
-                      KKKV 2026, Temple Recitals, Arangetram & Cultural Bookings
+                      KKKV, Temple Recitals, Arangetram & Cultural Bookings
                     </p>
                   </div>
                 </a>
@@ -148,9 +146,7 @@ export default function Contact() {
                       Official Academy Email
                     </p>
                     <p className="text-sm text-navy-900 font-medium break-all">{academy.email}</p>
-                    <p className="text-xs text-navy-600/70 mt-0.5">
-                      For formal correspondence, syllabus & certification queries
-                    </p>
+                
                   </div>
                 </a>
               </div>

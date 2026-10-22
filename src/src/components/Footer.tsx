@@ -36,7 +36,7 @@ export default function Footer() {
                   Suha Academy
                 </div>
                 <div className="text-[10px] uppercase tracking-[0.2em] text-gold-300">
-                  Fine Arts
+                  Of Fine Arts
                 </div>
               </div>
             </div>

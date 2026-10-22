@@ -118,9 +118,7 @@ export default function FacultyModal({ faculty, onClose }: FacultyModalProps) {
               >
                 {faculty.name}
               </h2>
-              <p className="text-sm sm:text-base font-serif italic text-gold-800 font-medium mt-1">
-                {faculty.title}
-              </p>
+             
             </div>
           </div>
 

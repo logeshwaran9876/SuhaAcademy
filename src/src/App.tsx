@@ -39,13 +39,13 @@ const pageMetas: MetaConfig[] = [
     path: "/faculty",
     title: "Eminent Faculty & Gurus | Suha Academy of Fine Arts",
     description:
-      "Meet the revered classical masters and faculty at Suha Academy of Fine Arts — Guru Smt. Ranjini Pradeep, Sri Thinagar Raj, and Smt. Swarna Sahasra.",
+      "Meet the revered classical masters and faculty at Suha Academy of Fine Arts — Guru Smt. Ranjini Pradeep, Sri Thinagar Raj and Smt. Swarna Sahasra.",
   },
   {
     path: "/faculties",
     title: "Eminent Faculty & Gurus | Suha Academy of Fine Arts",
     description:
-      "Meet the revered classical masters and faculty at Suha Academy of Fine Arts — Guru Smt. Ranjini Pradeep, Sri Thinagar Raj, and Smt. Swarna Sahasra.",
+      "Meet the revered classical masters and faculty at Suha Academy of Fine Arts — Guru Smt. Ranjini Pradeep, Sri Thinagar Raj and Smt. Swarna Sahasra.",
   },
   {
     path: "/courses",
@@ -63,7 +63,7 @@ const pageMetas: MetaConfig[] = [
     path: "/courses/mohiniyattam",
     title: "Mohiniyattam Classes in Chennai | Suha Academy",
     description:
-      "Learn Mohiniyattam at Suha Academy — graceful classical Kerala dance, basic adavus, chuzhippu, and traditional repertoire.",
+      "Learn Mohiniyattam at Suha Academy — graceful classical Kerala dance, basic adavus, chuzhippu and traditional repertoire.",
   },
   {
     path: "/courses/carnatic-music",
@@ -101,7 +101,7 @@ const pageMetas: MetaConfig[] = [
     description:
       "Contact Suha Academy of Fine Arts for Bharatanatyam and Carnatic Music classes in Medavakkam & Perumbakkam, Chennai. Call +91 99948 83303.",
   },
-  
+
 ];
 
 function usePageMeta() {

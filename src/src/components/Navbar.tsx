@@ -59,8 +59,8 @@ export default function Navbar() {
               <span className="font-serif text-[17px] font-semibold tracking-tight text-navy-950 group-hover:text-gold-700 transition-colors">
                 Suha Academy
               </span>
-              <span className="text-[9.5px] font-sans uppercase tracking-[0.28em] text-gold-700 font-semibold">
-                Fine Arts
+              <span className="text-[9.5px] font-sans uppercase tracking-[0.22em] text-gold-700 font-semibold">
+                Of Fine Arts
               </span>
             </div>
           </Link>
@@ -143,8 +143,8 @@ export default function Navbar() {
             </div>
             <div className="text-left">
               <div className="font-serif text-cream-50 text-xl font-semibold">Suha Academy</div>
-              <div className="text-[10px] uppercase tracking-[0.24em] text-gold-300">
-                Fine Arts
+              <div className="text-[10px] uppercase tracking-[0.22em] text-gold-300">
+                Of Fine Arts
               </div>
             </div>
           </div>
