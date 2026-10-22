@@ -8,6 +8,7 @@ interface PageHeroProps {
   eyebrow?: string;
   title?: string;
   subtitle?: string;
+  bulletPoints?: string[];
   image?: string;
   height?: "sm" | "md" | "lg";
   imagePosition?: string;
@@ -21,6 +22,7 @@ export default function PageHero({
   eyebrow: propEyebrow,
   title: propTitle,
   subtitle: propSubtitle,
+  bulletPoints: propBulletPoints,
   image: propImage,
   height = "lg",
   imagePosition: propImagePosition,
@@ -33,21 +35,22 @@ export default function PageHero({
   const eyebrow = propEyebrow ?? data.eyebrow ?? "Suha Academy";
   const title = propTitle ?? data.title ?? "Suha Academy of Fine Arts";
   const subtitle = propSubtitle ?? data.subtitle;
+  const bulletPoints = propBulletPoints ?? data.bulletPoints;
   const image = propImage ?? data.image ?? "/suha_media/Tabs/About.png";
   const imagePosition =
     propImagePosition ??
     data.imagePosition ??
-    "object-[75%_center] sm:object-[78%_center]";
+    "object-[85%_top] sm:object-[86%_top] lg:object-[88%_top]";
   const primaryAction = propPrimaryAction ?? data.primaryAction;
   const secondaryAction = propSecondaryAction ?? data.secondaryAction;
   const badges = propBadges ?? data.badges;
 
   const heightClass =
     height === "sm"
-      ? "min-h-[44vh] sm:min-h-[50vh] py-10 sm:py-14"
-      : height === "lg"
-        ? "min-h-[72vh] sm:min-h-[82vh] lg:min-h-[88vh] py-16 sm:py-24 lg:py-28"
-        : "min-h-[56vh] sm:min-h-[66vh] py-14 sm:py-18 lg:py-22";
+      ? "min-h-[40vh] sm:min-h-[46vh] lg:min-h-[52vh]"
+      : height === "md"
+        ? "min-h-[50vh] sm:min-h-[58vh] lg:min-h-[64vh]"
+        : "min-h-[64vh] sm:min-h-[72vh] lg:min-h-[78vh] xl:min-h-[82vh]";
 
   return (
     <section
@@ -65,14 +68,16 @@ export default function PageHero({
 
         {/* Balanced Theatrical Vignette: Keeps background lamps/stage visible while providing crisp text contrast */}
         {/* Desktop: Gentle left dark shadow for editorial copy, completely clear stage on right */}
-        <div className="hidden lg:block absolute inset-0 bg-gradient-to-r from-[#0A0507] via-[#0A0507]/80 via-45% to-transparent w-[65%]" />
+        <div className="hidden lg:block absolute inset-0 bg-gradient-to-r from-[#0A0507] via-[#0A0507]/85 via-50% to-transparent w-[68%]" />
 
         {/* Mobile / Tablet: Smooth top-to-bottom dark gradient */}
-        <div className="lg:hidden absolute inset-0 bg-gradient-to-b from-[#0A0507]/92 via-[#0A0507]/55 to-[#0A0507]/95" />
+        <div className="lg:hidden absolute inset-0 bg-gradient-to-b from-[#0A0507]/90 via-[#0A0507]/60 to-[#0A0507]/92" />
 
-        {/* Subtle top & bottom edges blend */}
-        <div className="absolute inset-0 bg-gradient-to-t from-[#0A0507] via-transparent to-[#0A0507]/60" />
-        <div className="absolute inset-0 bg-gradient-to-b from-[#0A0507]/80 via-transparent to-transparent" />
+        {/* Subtle bottom edge blend */}
+        <div className="absolute inset-0 bg-gradient-to-t from-[#0A0507]/90 via-transparent to-transparent pointer-events-none" />
+
+        {/* Subtle navbar top protection */}
+        <div className="absolute top-0 inset-x-0 h-28 bg-gradient-to-b from-[#0A0507]/60 to-transparent pointer-events-none" />
 
         {/* Ambient warm top spotlight shimmer */}
         <div className="absolute -top-20 left-1/3 w-[600px] h-[220px] bg-gradient-radial from-amber-500/15 via-orange-500/5 to-transparent blur-3xl rounded-full pointer-events-none animate-shimmer" />
@@ -110,17 +115,17 @@ export default function PageHero({
       </div>
 
       {/* Main Container - Left Content Layout (Identical to Home Hero) */}
-      <div className="relative z-10 container-wide section-padding py-12 sm:py-16 lg:py-20 flex flex-col justify-center w-full">
+      <div className="relative z-10 container-wide section-padding py-14 sm:py-18 lg:py-22 flex flex-col justify-center w-full">
         <div className="grid lg:grid-cols-12 gap-8 lg:gap-12 items-center w-full">
           {/* Left Column: Editorial Content */}
-          <div className="lg:col-span-8 xl:col-span-7 flex flex-col items-start justify-center text-left max-w-xl xl:max-w-2xl">
+          <div className="lg:col-span-7 xl:col-span-6 flex flex-col items-start justify-center text-left max-w-lg xl:max-w-xl">
             {/* Eyebrow / Breadcrumb with Lotus glyph */}
             <Reveal>
               <div className="flex items-center gap-2 mb-3 sm:mb-4">
                 <span className="w-2 h-2 rounded-full bg-gold-400 shadow-sm shadow-gold-400/60 animate-pulse" />
                 <div className="inline-flex items-center gap-1.5 sm:gap-2 px-3.5 py-1 rounded-full bg-navy-950/80 border border-gold-400/35 backdrop-blur-md shadow-lg shadow-black/50">
                   <Link to="/" className="text-[11px] sm:text-xs text-cream-100/75 hover:text-gold-300 transition-colors">
-                    Home
+                    {pageKey?.toLocaleUpperCase() || "HOME"}
                   </Link>
                   <ChevronRight className="w-3 h-3 text-gold-400/50 shrink-0" />
                   <span className="text-[11px] sm:text-xs text-gold-300 font-medium tracking-wider uppercase font-sans truncate max-w-[220px] sm:max-w-none">
@@ -140,9 +145,26 @@ export default function PageHero({
             {/* Subtitle */}
             {subtitle && (
               <Reveal delay={0.2}>
-                <p className="text-xs sm:text-base lg:text-lg text-cream-100/90 font-light font-sans leading-relaxed max-w-sm sm:max-w-xl text-left mb-6 sm:mb-7 drop-shadow-sm">
+                <p className="text-xs sm:text-base lg:text-lg text-cream-100/90 font-light font-sans leading-relaxed max-w-sm sm:max-w-xl text-left mb-4 sm:mb-5 drop-shadow-sm">
                   {subtitle}
                 </p>
+              </Reveal>
+            )}
+
+            {/* Bullet points */}
+            {bulletPoints && bulletPoints.length > 0 && (
+              <Reveal delay={0.25}>
+                <ul className="flex flex-wrap items-center gap-x-5 gap-y-2 mb-6 sm:mb-7">
+                  {bulletPoints.map((point, index) => (
+                    <li
+                      key={index}
+                      className="inline-flex items-center gap-2 text-xs sm:text-sm text-gold-200/95 font-medium tracking-wide"
+                    >
+                      <span className="w-1.5 h-1.5 rounded-full bg-gold-400 shadow-xs shadow-gold-400/50" />
+                      <span>{point}</span>
+                    </li>
+                  ))}
+                </ul>
               </Reveal>
             )}
 

@@ -77,10 +77,7 @@ export default function FacultyModal({ faculty, onClose }: FacultyModalProps) {
         <div className="flex items-center justify-between px-6 sm:px-8 py-4 bg-[#F4EDE0]/95 backdrop-blur-md border-b border-gold-400/30 shrink-0 z-10">
           <div className="flex items-center gap-3">
             <span className="px-3 py-1 text-[11px] uppercase font-mono tracking-wider bg-gold-500 text-navy-950 font-bold rounded-full shadow-xs flex items-center gap-1.5">
-              <span className="w-1.5 h-1.5 rounded-full bg-navy-950" />
-              {faculty.discipline}
-            </span>
-            <span className="text-xs text-navy-800 font-semibold hidden sm:inline">
+
               ✦ {faculty.shortRole}
             </span>
           </div>
@@ -97,99 +94,33 @@ export default function FacultyModal({ faculty, onClose }: FacultyModalProps) {
 
         {/* Modal Scrollable Body */}
         <div className="overflow-y-auto p-6 sm:p-8 space-y-7 custom-scrollbar">
-          {/* Top Profile Header: Portrait & Introduction */}
-          <div className="grid sm:grid-cols-12 gap-6 sm:gap-8 items-start">
-            {/* Left: Framed Portrait */}
-            <div className="sm:col-span-5 md:col-span-4 flex flex-col items-center sm:items-start text-center sm:text-left">
-              <div className="relative w-full max-w-[240px] aspect-[4/5] rounded-sm overflow-hidden bg-navy-950 shadow-xl border-2 border-gold-500/50 mx-auto sm:mx-0 group">
-                <img
-                  src={faculty.image}
-                  alt={faculty.name}
-                  className="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-105"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-navy-950/60 via-transparent to-transparent pointer-events-none" />
-                <GoldFrame />
-
-                {/* Floating Experience Badge on Portrait */}
-                <div className="absolute bottom-3 left-3 right-3">
-                  <span className="inline-flex items-center gap-1.5 px-2.5 py-1 text-[11px] font-semibold bg-navy-950/90 backdrop-blur-md text-gold-300 border border-gold-400/40 rounded-xs shadow-md">
-                    <Sparkles className="w-3.5 h-3.5 text-gold-400" />
-                    <span>{faculty.experience}</span>
-                  </span>
-                </div>
-              </div>
+          {/* Top Profile Header: Centered Portrait & Details in Single Column */}
+          <div className="flex flex-col items-center text-center max-w-2xl mx-auto">
+            {/* Centered Framed Portrait */}
+            <div className="relative w-full max-w-[220px] sm:max-w-[240px] aspect-[4/5] rounded-sm overflow-hidden bg-navy-950 shadow-xl border-2 border-gold-500/50 group">
+              <img
+                src={faculty.image}
+                alt={faculty.name}
+                className="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-105"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-navy-950/60 via-transparent to-transparent pointer-events-none" />
+              <GoldFrame />
             </div>
 
-            {/* Right: Titles, Quote, Credentials & Teaching Centers */}
-            <div className="sm:col-span-7 md:col-span-8 flex flex-col space-y-4">
-              <div>
-                <span className="text-xs uppercase tracking-[0.25em] text-gold-700 font-bold block mb-1">
-                  {faculty.shortRole}
-                </span>
-                <h2
-                  id="faculty-modal-title"
-                  className="font-display text-2xl sm:text-3xl lg:text-4xl text-[#15233F] font-bold leading-tight tracking-tight"
-                >
-                  {faculty.name}
-                </h2>
-                <p className="text-sm sm:text-base font-serif italic text-gold-800 font-medium mt-1">
-                  {faculty.title}
-                </p>
-
-                {/* Role Chips */}
-                <div className="flex flex-wrap gap-1.5 mt-3">
-                  {faculty.roles.map((role) => (
-                    <span
-                      key={role}
-                      className="px-3 py-1 text-[11px] font-medium rounded-full bg-white text-navy-900 border border-gold-400/35 shadow-xs"
-                    >
-                      {role}
-                    </span>
-                  ))}
-                </div>
-              </div>
-
-              {/* Quote Banner */}
-              <div className="relative p-4 sm:p-5 rounded-sm bg-gradient-to-r from-gold-100/90 via-gold-50/70 to-[#FAF5EB] border-l-4 border-gold-500 shadow-xs">
-                <Quote className="w-6 h-6 text-gold-500/30 absolute top-3 right-3 pointer-events-none" />
-                <p className="text-xs sm:text-sm font-serif italic text-navy-950 leading-relaxed pr-6 font-medium">
-                  &ldquo;{faculty.quote}&rdquo;
-                </p>
-              </div>
-
-              {/* Side-by-side Info Tiles: Credentials & Teaching Centers */}
-              <div className="grid sm:grid-cols-2 gap-3 pt-1">
-                {/* Credentials */}
-                <div className="flex items-start gap-2.5 text-xs p-3 rounded-sm bg-white/90 border border-ivory-300 shadow-xs">
-                  <GraduationCap className="w-4 h-4 text-gold-600 shrink-0 mt-0.5" />
-                  <div>
-                    <span className="text-[10px] uppercase tracking-wider text-gold-800 font-bold block mb-0.5">
-                      Pedagogy & Lineage
-                    </span>
-                    <span className="text-navy-900 font-medium leading-snug block">{faculty.credentials}</span>
-                  </div>
-                </div>
-
-                {/* Teaching Centers */}
-                <div className="flex items-start gap-2.5 text-xs p-3 rounded-sm bg-white/90 border border-ivory-300 shadow-xs">
-                  <MapPin className="w-4 h-4 text-gold-600 shrink-0 mt-0.5" />
-                  <div>
-                    <span className="text-[10px] uppercase tracking-wider text-gold-800 font-bold block mb-0.5">
-                      Teaching Centers
-                    </span>
-                    <div className="flex flex-wrap gap-1 mt-1">
-                      {faculty.centers.map((c, i) => (
-                        <span
-                          key={i}
-                          className="inline-block px-1.5 py-0.5 text-[10px] font-medium bg-gold-50 border border-gold-400/30 text-navy-900 rounded-xs"
-                        >
-                          {c.split("(")[0]}
-                        </span>
-                      ))}
-                    </div>
-                  </div>
-                </div>
-              </div>
+            {/* Centered Titles & Designation underneath */}
+            <div className="mt-5 text-center max-w-xl mx-auto">
+              <span className="text-xs uppercase tracking-[0.25em] text-gold-700 font-bold block mb-1">
+                {faculty.shortRole}
+              </span>
+              <h2
+                id="faculty-modal-title"
+                className="font-display text-2xl sm:text-3xl lg:text-4xl text-[#15233F] font-bold leading-tight tracking-tight"
+              >
+                {faculty.name}
+              </h2>
+              <p className="text-sm sm:text-base font-serif italic text-gold-800 font-medium mt-1">
+                {faculty.title}
+              </p>
             </div>
           </div>
 
@@ -199,64 +130,15 @@ export default function FacultyModal({ faculty, onClose }: FacultyModalProps) {
               <h3 className="text-xs uppercase tracking-[0.22em] text-gold-800 font-bold mb-2.5 flex items-center gap-2">
                 <span>✦ Detailed Pedagogical Biography</span>
               </h3>
-              <p className="text-xs sm:text-sm text-navy-900/90 leading-relaxed font-sans">
+              <p className="text-xs sm:text-sm text-navy-900/90 leading-relaxed font-sans whitespace-pre-line">
                 {faculty.bio}
               </p>
             </div>
 
-            <div className="p-5 bg-gradient-to-br from-[#F5EFE3] to-[#FAF6EE] rounded-sm border border-gold-400/35 shadow-xs">
-              <h4 className="text-xs uppercase tracking-[0.2em] text-gold-800 font-bold mb-2 flex items-center gap-2">
-                <Sparkles className="w-3.5 h-3.5 text-gold-600" />
-                <span>Pedagogical Approach & Ethos</span>
-              </h4>
-              <p className="text-xs sm:text-sm text-navy-900 leading-relaxed">
-                {faculty.teachingPhilosophy}
-              </p>
-            </div>
+       
           </div>
 
-          {/* Two-Column Responsive Deep Dive: Specializations & Milestones */}
-          <div className="grid md:grid-cols-2 gap-6 sm:gap-8 pt-6 border-t border-gold-400/30">
-            {/* Left: Core Disciplines & Repertoire Taught */}
-            <div>
-              <h3 className="text-xs uppercase tracking-[0.2em] text-gold-800 font-bold mb-3 flex items-center gap-2">
-                <BookOpen className="w-4 h-4 text-gold-600" />
-                <span>Core Disciplines & Repertoire Taught</span>
-              </h3>
-              <div className="space-y-2">
-                {faculty.specializations.map((spec, sIdx) => (
-                  <div
-                    key={sIdx}
-                    className="flex items-start gap-2.5 p-2.5 rounded-sm bg-white/90 border border-ivory-300/90 hover:border-gold-400 transition-colors shadow-xs"
-                  >
-                    <span className="text-gold-600 font-bold text-xs mt-0.5">✦</span>
-                    <span className="text-xs text-navy-900 leading-snug font-medium">
-                      {spec}
-                    </span>
-                  </div>
-                ))}
-              </div>
-            </div>
-
-            {/* Right: Key Milestones */}
-            <div>
-              <h3 className="text-xs uppercase tracking-[0.2em] text-gold-800 font-bold mb-3 flex items-center gap-2">
-                <Award className="w-4 h-4 text-gold-600" />
-                <span>Key Milestones & Recognitions</span>
-              </h3>
-              <ul className="space-y-2">
-                {faculty.achievements.map((ach, aIdx) => (
-                  <li
-                    key={aIdx}
-                    className="flex items-start gap-2.5 p-2.5 rounded-sm bg-white/90 border border-ivory-300/90 text-xs text-navy-900 leading-relaxed shadow-xs"
-                  >
-                    <CheckCircle2 className="w-4 h-4 text-gold-600 shrink-0 mt-0.5" />
-                    <span>{ach}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          </div>
+      
         </div>
 
         {/* Modal Footer Actions */}

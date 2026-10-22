@@ -60,7 +60,7 @@ export default function CourseDetail({ slug }: { slug: string }) {
         title={course.title}
         subtitle={course.shortDescription}
         image={course.heroImage || course.image}
-        imagePosition="object-[78%_center] sm:object-[80%_center]"
+        imagePosition={course.heroImagePosition || "object-[84%_top] sm:object-[86%_top] lg:object-[88%_top]"}
         height="lg"
         badges={[course.tradition, "Beginner to Advanced", "Certified Curriculum"]}
       />
@@ -116,7 +116,6 @@ export default function CourseDetail({ slug }: { slug: string }) {
               <div className="w-full mt-4 space-y-2">
                 <div className="flex items-center justify-between text-xs p-3 rounded-sm bg-white border border-gold-400/30 shadow-xs">
                   <span className="font-semibold text-navy-950">Training Formats</span>
-                  <span className="font-semibold text-gold-800">Studio & Global Online</span>
                 </div>
                 <div className="flex items-center justify-between text-xs p-3 rounded-sm bg-white border border-gold-400/30 shadow-xs">
                   <span className="font-semibold text-navy-950">Discipline Lead</span>

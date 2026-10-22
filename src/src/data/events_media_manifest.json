@@ -1388,6 +1388,86 @@
     "folder": "/suha_media/events/salangai_pooja_arangetram",
     "images": [
       {
+        "src": "/suha_media/events/salangai_pooja_arangetram/salangai_pooja_63.jpg",
+        "origName": "AK_02757.JPG",
+        "origSize": 22990103,
+        "compressedSize": 495982,
+        "width": 1365,
+        "height": 2048
+      },
+      {
+        "src": "/suha_media/events/salangai_pooja_arangetram/salangai_pooja_64.jpg",
+        "origName": "AK_02838.JPG",
+        "origSize": 20859645,
+        "compressedSize": 398755,
+        "width": 2048,
+        "height": 1365
+      },
+      {
+        "src": "/suha_media/events/salangai_pooja_arangetram/salangai_pooja_65.jpg",
+        "origName": "AK_02977.JPG",
+        "origSize": 9714897,
+        "compressedSize": 378055,
+        "width": 1365,
+        "height": 2048
+      },
+      {
+        "src": "/suha_media/events/salangai_pooja_arangetram/salangai_pooja_66.jpg",
+        "origName": "AK_03170.JPG",
+        "origSize": 9168621,
+        "compressedSize": 358156,
+        "width": 1365,
+        "height": 2048
+      },
+      {
+        "src": "/suha_media/events/salangai_pooja_arangetram/salangai_pooja_67.jpg",
+        "origName": "AK_03218.JPG",
+        "origSize": 21194075,
+        "compressedSize": 400856,
+        "width": 2048,
+        "height": 1365
+      },
+      {
+        "src": "/suha_media/events/salangai_pooja_arangetram/salangai_pooja_68.jpg",
+        "origName": "AK_03281.JPG",
+        "origSize": 10101415,
+        "compressedSize": 478757,
+        "width": 1365,
+        "height": 2048
+      },
+      {
+        "src": "/suha_media/events/salangai_pooja_arangetram/salangai_pooja_69.jpg",
+        "origName": "AK_03293.JPG",
+        "origSize": 21857342,
+        "compressedSize": 465465,
+        "width": 2048,
+        "height": 1365
+      },
+      {
+        "src": "/suha_media/events/salangai_pooja_arangetram/salangai_pooja_70.jpg",
+        "origName": "AK_03385.JPG",
+        "origSize": 11382687,
+        "compressedSize": 576375,
+        "width": 1365,
+        "height": 2048
+      },
+      {
+        "src": "/suha_media/events/salangai_pooja_arangetram/salangai_pooja_71.jpg",
+        "origName": "AK_03425.JPG",
+        "origSize": 25415424,
+        "compressedSize": 661039,
+        "width": 2048,
+        "height": 1365
+      },
+      {
+        "src": "/suha_media/events/salangai_pooja_arangetram/salangai_pooja_72.jpg",
+        "origName": "AK_03437.JPG",
+        "origSize": 25918182,
+        "compressedSize": 652503,
+        "width": 2048,
+        "height": 1365
+      },
+      {
         "src": "/suha_media/events/salangai_pooja_arangetram/salangai_pooja_01.jpg",
         "origName": "FB_IMG_1791529737048.jpg",
         "origSize": 122858,
@@ -2048,6 +2128,532 @@
         "compressedSize": 320465,
         "width": 8256,
         "height": 5504
+      }
+    ]
+  },
+  "kkkv": {
+    "title": "KKKV — Kodai Kaala Kalai Vizha",
+    "folder": "/suha_media/events/kkkv",
+    "images": [
+      {
+        "src": "/suha_media/events/kkkv/kkkv_01.jpg",
+        "origName": "kkkv_01.jpg",
+        "origSize": 195976,
+        "compressedSize": 195976,
+        "width": 1067,
+        "height": 1600
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_02.jpg",
+        "origName": "kkkv_02.jpg",
+        "origSize": 205985,
+        "compressedSize": 205985,
+        "width": 1067,
+        "height": 1600
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_03.jpg",
+        "origName": "kkkv_03.jpg",
+        "origSize": 186473,
+        "compressedSize": 186473,
+        "width": 1067,
+        "height": 1600
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_04.jpg",
+        "origName": "kkkv_04.jpg",
+        "origSize": 178731,
+        "compressedSize": 178731,
+        "width": 1067,
+        "height": 1600
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_05.jpg",
+        "origName": "kkkv_05.jpg",
+        "origSize": 274198,
+        "compressedSize": 274198,
+        "width": 1600,
+        "height": 1067
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_06.jpg",
+        "origName": "kkkv_06.jpg",
+        "origSize": 290046,
+        "compressedSize": 290046,
+        "width": 1600,
+        "height": 1067
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_07.jpg",
+        "origName": "kkkv_07.jpg",
+        "origSize": 164062,
+        "compressedSize": 164062,
+        "width": 1600,
+        "height": 1067
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_08.jpg",
+        "origName": "kkkv_08.jpg",
+        "origSize": 225982,
+        "compressedSize": 225982,
+        "width": 1067,
+        "height": 1600
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_09.jpg",
+        "origName": "kkkv_09.jpg",
+        "origSize": 240639,
+        "compressedSize": 240639,
+        "width": 1600,
+        "height": 1067
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_10.jpg",
+        "origName": "kkkv_10.jpg",
+        "origSize": 127363,
+        "compressedSize": 127363,
+        "width": 1067,
+        "height": 1600
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_11.jpg",
+        "origName": "kkkv_11.jpg",
+        "origSize": 156121,
+        "compressedSize": 156121,
+        "width": 1600,
+        "height": 1067
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_12.jpg",
+        "origName": "kkkv_12.jpg",
+        "origSize": 268489,
+        "compressedSize": 268489,
+        "width": 1600,
+        "height": 1067
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_13.jpg",
+        "origName": "kkkv_13.jpg",
+        "origSize": 173022,
+        "compressedSize": 173022,
+        "width": 1067,
+        "height": 1600
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_14.jpg",
+        "origName": "kkkv_14.jpg",
+        "origSize": 289937,
+        "compressedSize": 289937,
+        "width": 1600,
+        "height": 1067
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_15.jpg",
+        "origName": "kkkv_15.jpg",
+        "origSize": 162271,
+        "compressedSize": 162271,
+        "width": 1600,
+        "height": 1067
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_16.jpg",
+        "origName": "kkkv_16.jpg",
+        "origSize": 179977,
+        "compressedSize": 179977,
+        "width": 1067,
+        "height": 1600
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_17.jpg",
+        "origName": "kkkv_17.jpg",
+        "origSize": 160898,
+        "compressedSize": 160898,
+        "width": 1067,
+        "height": 1600
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_18.jpg",
+        "origName": "kkkv_18.jpg",
+        "origSize": 194548,
+        "compressedSize": 194548,
+        "width": 1067,
+        "height": 1600
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_19.jpg",
+        "origName": "kkkv_19.jpg",
+        "origSize": 185894,
+        "compressedSize": 185894,
+        "width": 1067,
+        "height": 1600
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_20.jpg",
+        "origName": "kkkv_20.jpg",
+        "origSize": 211741,
+        "compressedSize": 211741,
+        "width": 1067,
+        "height": 1600
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_21.jpg",
+        "origName": "kkkv_21.jpg",
+        "origSize": 198579,
+        "compressedSize": 198579,
+        "width": 1067,
+        "height": 1600
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_22.jpg",
+        "origName": "kkkv_22.jpg",
+        "origSize": 89617,
+        "compressedSize": 89617,
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_23.jpg",
+        "origName": "kkkv_23.jpg",
+        "origSize": 109902,
+        "compressedSize": 109902,
+        "width": 1286,
+        "height": 714
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_24.jpg",
+        "origName": "kkkv_24.jpg",
+        "origSize": 164752,
+        "compressedSize": 164752,
+        "width": 853,
+        "height": 1280
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_25.jpg",
+        "origName": "kkkv_25.jpg",
+        "origSize": 179442,
+        "compressedSize": 179442,
+        "width": 1280,
+        "height": 1280
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_26.jpg",
+        "origName": "kkkv_26.jpg",
+        "origSize": 237485,
+        "compressedSize": 237485,
+        "width": 1600,
+        "height": 1067
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_27.jpg",
+        "origName": "kkkv_27.jpg",
+        "origSize": 200615,
+        "compressedSize": 200615,
+        "width": 1600,
+        "height": 1067
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_28.jpg",
+        "origName": "kkkv_28.jpg",
+        "origSize": 243251,
+        "compressedSize": 243251,
+        "width": 1600,
+        "height": 1067
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_29.jpg",
+        "origName": "kkkv_29.jpg",
+        "origSize": 155680,
+        "compressedSize": 155680,
+        "width": 1600,
+        "height": 1067
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_30.jpg",
+        "origName": "kkkv_30.jpg",
+        "origSize": 184252,
+        "compressedSize": 184252,
+        "width": 1600,
+        "height": 1067
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_31.jpg",
+        "origName": "kkkv_31.jpg",
+        "origSize": 141452,
+        "compressedSize": 141452,
+        "width": 1600,
+        "height": 1067
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_32.jpg",
+        "origName": "kkkv_32.jpg",
+        "origSize": 203613,
+        "compressedSize": 203613,
+        "width": 1600,
+        "height": 1067
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_33.jpg",
+        "origName": "kkkv_33.jpg",
+        "origSize": 202123,
+        "compressedSize": 202123,
+        "width": 1600,
+        "height": 1067
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_34.jpg",
+        "origName": "kkkv_34.jpg",
+        "origSize": 190339,
+        "compressedSize": 190339,
+        "width": 1600,
+        "height": 1067
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_35.jpg",
+        "origName": "kkkv_35.jpg",
+        "origSize": 144447,
+        "compressedSize": 144447,
+        "width": 1600,
+        "height": 1067
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_36.jpg",
+        "origName": "kkkv_36.jpg",
+        "origSize": 173426,
+        "compressedSize": 173426,
+        "width": 1067,
+        "height": 1600
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_37.jpg",
+        "origName": "kkkv_37.jpg",
+        "origSize": 237166,
+        "compressedSize": 237166,
+        "width": 1600,
+        "height": 1067
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_38.jpg",
+        "origName": "kkkv_38.jpg",
+        "origSize": 157908,
+        "compressedSize": 157908,
+        "width": 1600,
+        "height": 1067
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_39.jpg",
+        "origName": "kkkv_39.jpg",
+        "origSize": 190044,
+        "compressedSize": 190044,
+        "width": 1600,
+        "height": 1067
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_40.jpg",
+        "origName": "kkkv_40.jpg",
+        "origSize": 190066,
+        "compressedSize": 190066,
+        "width": 1600,
+        "height": 1067
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_41.jpg",
+        "origName": "kkkv_41.jpg",
+        "origSize": 241488,
+        "compressedSize": 241488,
+        "width": 1600,
+        "height": 1067
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_42.jpg",
+        "origName": "kkkv_42.jpg",
+        "origSize": 216314,
+        "compressedSize": 216314,
+        "width": 1600,
+        "height": 1067
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_43.jpg",
+        "origName": "kkkv_43.jpg",
+        "origSize": 242301,
+        "compressedSize": 242301,
+        "width": 1600,
+        "height": 1067
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_44.jpg",
+        "origName": "kkkv_44.jpg",
+        "origSize": 221582,
+        "compressedSize": 221582,
+        "width": 1600,
+        "height": 1067
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_45.jpg",
+        "origName": "kkkv_45.jpg",
+        "origSize": 194148,
+        "compressedSize": 194148,
+        "width": 1600,
+        "height": 1067
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_46.jpg",
+        "origName": "kkkv_46.jpg",
+        "origSize": 203833,
+        "compressedSize": 203833,
+        "width": 1600,
+        "height": 1067
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_47.jpg",
+        "origName": "kkkv_47.jpg",
+        "origSize": 182463,
+        "compressedSize": 182463,
+        "width": 1600,
+        "height": 1067
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_48.jpg",
+        "origName": "kkkv_48.jpg",
+        "origSize": 214246,
+        "compressedSize": 214246,
+        "width": 1600,
+        "height": 1067
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_49.jpg",
+        "origName": "kkkv_49.jpg",
+        "origSize": 196565,
+        "compressedSize": 196565,
+        "width": 1600,
+        "height": 1067
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_50.jpg",
+        "origName": "kkkv_50.jpg",
+        "origSize": 214482,
+        "compressedSize": 214482,
+        "width": 1600,
+        "height": 1067
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_51.jpg",
+        "origName": "kkkv_51.jpg",
+        "origSize": 257554,
+        "compressedSize": 257554,
+        "width": 1600,
+        "height": 1067
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_52.jpg",
+        "origName": "kkkv_52.jpg",
+        "origSize": 146496,
+        "compressedSize": 146496,
+        "width": 1600,
+        "height": 1067
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_53.jpg",
+        "origName": "kkkv_53.jpg",
+        "origSize": 313015,
+        "compressedSize": 313015,
+        "width": 1600,
+        "height": 1067
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_54.jpg",
+        "origName": "kkkv_54.jpg",
+        "origSize": 286290,
+        "compressedSize": 286290,
+        "width": 1600,
+        "height": 1067
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_55.jpg",
+        "origName": "kkkv_55.jpg",
+        "origSize": 205109,
+        "compressedSize": 205109,
+        "width": 1600,
+        "height": 1067
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_56.jpg",
+        "origName": "kkkv_56.jpg",
+        "origSize": 161929,
+        "compressedSize": 161929,
+        "width": 1600,
+        "height": 1067
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_57.jpg",
+        "origName": "kkkv_57.jpg",
+        "origSize": 187787,
+        "compressedSize": 187787,
+        "width": 1600,
+        "height": 1067
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_58.jpg",
+        "origName": "kkkv_58.jpg",
+        "origSize": 199882,
+        "compressedSize": 199882,
+        "width": 1600,
+        "height": 1067
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_59.jpg",
+        "origName": "kkkv_59.jpg",
+        "origSize": 215561,
+        "compressedSize": 215561,
+        "width": 1600,
+        "height": 1067
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_60.jpg",
+        "origName": "kkkv_60.jpg",
+        "origSize": 290583,
+        "compressedSize": 290583,
+        "width": 1600,
+        "height": 1067
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_61.jpg",
+        "origName": "kkkv_61.jpg",
+        "origSize": 309164,
+        "compressedSize": 309164,
+        "width": 1600,
+        "height": 1067
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_62.jpg",
+        "origName": "kkkv_62.jpg",
+        "origSize": 182156,
+        "compressedSize": 182156,
+        "width": 1600,
+        "height": 1067
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_63.jpg",
+        "origName": "kkkv_63.jpg",
+        "origSize": 291160,
+        "compressedSize": 291160,
+        "width": 1600,
+        "height": 1067
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_64.jpg",
+        "origName": "kkkv_64.jpg",
+        "origSize": 193800,
+        "compressedSize": 193800,
+        "width": 1067,
+        "height": 1600
+      },
+      {
+        "src": "/suha_media/events/kkkv/kkkv_65.jpg",
+        "origName": "kkkv_65.jpg",
+        "origSize": 175567,
+        "compressedSize": 175567,
+        "width": 1067,
+        "height": 1600
       }
     ]
   }

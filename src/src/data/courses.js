@@ -9,6 +9,7 @@ export const courses = [
     guruImage: "/suha_media/shared/shared_faculty_ranjini_pradeep.png",
     guruLink: "/faculty#founder-spotlight",
     heroImage: "/suha_media/Tabs/Courses.png",
+    heroImagePosition: "object-[85%_top] sm:object-[86%_top] lg:object-[88%_top]",
     image: "/suha_media/Tabs/Courses.png",
     secondaryImage: "/suha_media/Website/Bharatanatyam intro pic/09_stage_production_highlight.jpg",
     icon: "Sparkles",
@@ -183,7 +184,7 @@ export const courses = [
       "Rhythm (Talam), footwork (adavus) and expressive abhinaya",
       "Stage performance, Salanga Pooja, and annual day recitals",
       "Full solo Arangetram preparation with live classical orchestra",
-      "Batches across Medavakkam, Perumbakkam, and Global Online",
+      "Batches across Medavakkam, Perumbakkam",
     ],
   },
   {
@@ -196,6 +197,7 @@ export const courses = [
     guruImage: "/suha_media/shared/shared_faculty_swarna_sahasra_01.jpg",
     guruLink: "/faculty#classical-instructors",
     heroImage: "/suha_media/Tabs/mohiniyattam.png",
+    heroImagePosition: "object-[88%_top] sm:object-[90%_top] lg:object-[92%_top]",
     image: "/suha_media/Tabs/mohiniyattam.png",
     secondaryImage: "/suha_media/courses/course_mohiniyattam_slider_01.jpg",
     icon: "Heart",
@@ -388,6 +390,7 @@ export const courses = [
     guruImage: "/suha_media/shared/shared_faculty_thinagar_raj.png",
     guruLink: "/faculty#classical-instructors",
     heroImage: "/suha_media/Tabs/Carnatic.png",
+    heroImagePosition: "object-[80%_top] sm:object-[82%_top] lg:object-[84%_top]",
     image: "/suha_media/Tabs/Carnatic.png",
     secondaryImage: "/suha_media/Website/Carnatic music intro pic/_DSC2246.JPG",
     icon: "Music",
@@ -429,7 +432,7 @@ export const courses = [
     levels: [
       {
         id: "beginner",
-        name: "1. Beginner Level (Foundation)",
+        name: "1. Beginner Level",
         subtitle: "Voice and Pitch Training (Abhyasagaanam)",
         badge: "Abhyasagaanam Stage",
         milestone: "Milestone: Geethams & Swarajathis Stage Presentation",
@@ -490,7 +493,7 @@ export const courses = [
       },
       {
         id: "intermediate",
-        name: "2. Intermediate Level (Repertoire Building)",
+        name: "2. Intermediate Level ",
         subtitle: "Sabha Ganam, Varnams & Trinity Kritis",
         badge: "Sabha Ganam Stage",
         milestone: "Milestone: Sabha Recital Debut & Margazhi Temple Choir",
@@ -521,7 +524,7 @@ export const courses = [
       },
       {
         id: "advanced",
-        name: "3. Advanced Level (Manodharma & Concert Preparation)",
+        name: "3. Advanced Level",
         subtitle: "Improvisation, Pancharatnas & Kutchery Paddhati",
         badge: "Manodharma Stage",
         milestone: "Milestone: Full Solo Classical Kutchery (Concert) Debut",

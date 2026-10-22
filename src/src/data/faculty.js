@@ -54,7 +54,6 @@ export const founderMember = {
   centers: [
     "Navins Starwood Towers Clubhouse, Vengaivasal – Medavakkam, Chennai",
     "Ixora Clubhouse, Bollineni Hillside (Oak 1406), Perumbakkam, Chennai",
-    "Global Online One-on-One Mentorship",
   ],
   courseSlug: "bharatanatyam",
   courseLink: "/courses/bharatanatyam",
@@ -76,7 +75,6 @@ export const instructors = [
       "Founder, Sahasra Kalavriksha Center",
     ],
     image: "/suha_media/shared/shared_faculty_swarna_sahasra_01.jpg",
-    experience: "20+ Years Dedicated Learning & Teaching (Started at Age 5)",
     credentials:
       "Kalakshetra Tradition (Bharatanatyam) · Trained under Kalaimamani Smt Gopika Varma (Mohiniyattam)",
     quote:
@@ -128,7 +126,6 @@ export const instructors = [
       "Vocal & Violin Specialist",
     ],
     image: "/suha_media/shared/shared_faculty_thinagar_raj.png",
-    experience: "Sangeetha Vidwan (First Class 2015) · 2 Years at Suha Academy",
     credentials:
       "Diploma in Music Teacher Training (First Class, 2015), Tamil University Thanjavur (Main: Vocal, Subsidiary: Violin) · Sangeetha Vidwan",
     quote:
@@ -157,7 +154,6 @@ export const instructors = [
     centers: [
       "Navins Starwood Towers Center, Medavakkam",
       "Ixora Clubhouse, Perumbakkam Center",
-      "Online Interactive Vocal Sessions",
     ],
     courseSlug: "carnatic-music",
     courseLink: "/courses/carnatic-music",
@@ -277,7 +273,7 @@ export const facultyHighlights = [
   {
     number: "160+",
     label: "Active Disciples",
-    desc: "Individualized attention across Medavakkam, Perumbakkam, and online batches.",
+    desc: "Individualized attention across Medavakkam, Perumbakkam.",
   },
   {
     number: "25+",
