@@ -11,6 +11,7 @@ export const founderMember = {
     "Bharathanatyam Dancer & Guru",
     "Carnatic Vocalist",
     "Performing Artist",
+    "Actress • Television Artist • Anchor",
     "Founder, Kodai Kaala Kalai Vizha (KKKV)",
     "Life Member of ABHAI",
   ],
@@ -21,16 +22,46 @@ export const founderMember = {
   quote:
     "Classical dance and music are not merely stage performances; they are a sacred sadhana that cultivates humility, character, discipline and lifelong inner joy in every student.",
   shortBio:
-    "A distinguished Bharathanatyam dancer, Carnatic vocalist and performing artist, Smt. Ranjini Pradeep is a passionate exponent of Indian classical arts whose journey began at the age of seven. With a Master’s degree in Bharathanatyam and over 16 years of teaching experience, she has dedicated her artistic journey to deepening her own practice while inspiring and mentoring the next generation of artistes.",
+    "A distinguished Bharathanatyam dancer, Carnatic vocalist and performing artist, Smt. Ranjini Pradeep began her journey in Indian classical arts at the age of seven. Holding a Master’s degree in Bharathanatyam and bringing over 16 years of teaching experience, she is dedicated to preserving classical traditions while nurturing the next generation of artistes through disciplined training and artistic mentorship.",
   paragraphs: [
-    "A distinguished Bharathanatyam dancer, Carnatic vocalist and performing artist, Smt. Ranjini Pradeep is a passionate exponent of Indian classical arts whose journey began at the age of seven.",
-    "With a Master’s degree in Bharathanatyam and over 16 years of teaching experience, she has dedicated her artistic journey to deepening her own practice while inspiring and mentoring the next generation of artistes.",
-    "She is a senior disciple of Kalaimamani Sri Madurai R. Muralidaran and Smt. Chithra Muralidaran in Bharathanatyam and a disciple of Padma Shri Dr. Nithyashree Mahadevan in Carnatic Music.",
-    "Her artistic excellence has earned her the prestigious “Natya Thaaragai” title from the Lions Club. In 2011, she was honoured as the Best Female Dancer representing Tamil Nadu, Puducherry and the Andaman & Nicobar Directorate at the RDC–NCC Parade, New Delhi, where she had the distinction of performing before the Chiefs of the Indian Army, Navy and Air Force.",
-    "Her artistic canvas extends beyond classical dance and music. Beginning her career as a child artist in the Tamil film industry, she has appeared in films, television serials and commercials. She has also been the lead female singer of the Saadhaga Paravaigal light music orchestra, reflecting her versatility as a performing artist.",
-    "A life member of ABHAI (Association of Bharathanatyam Artists of India), she has graced prestigious platforms in India and abroad. Her performances with her students at SIFAS, Singapore, during the Shivratri festival and at Batu Caves Temple, Malaysia, during Thaipoosam reflect her commitment to taking Indian classical arts to diverse audiences.",
+    "A distinguished Bharathanatyam dancer, Carnatic vocalist and performing artist, Smt. Ranjini Pradeep began her journey in Indian classical arts at the age of seven.",
+    "Holding a Master’s degree in Bharathanatyam and bringing over 16 years of teaching experience, she is dedicated to preserving classical traditions while nurturing the next generation of artistes through disciplined training and artistic mentorship.",
+    "She is a senior disciple of Kalaimamani Sri Madurai R. Muralidaran and Smt. Chithra Muralidaran in Bharathanatyam, and a disciple of Padma Shri Dr. Nithyashree Mahadevan in Carnatic music.",
+    "Her artistic achievements include the prestigious “Natya Thaaragai” title conferred by the Lions Club. In 2011, she was honoured as the Best Female Dancer representing Tamil Nadu, Puducherry and the Andaman & Nicobar Directorate at the RDC–NCC Parade in New Delhi, where she performed before the Chiefs of the Indian Army, Navy and Air Force.",
+    "A life member of ABHAI (Association of Bharathanatyam Artists of India), she has graced distinguished platforms in India and abroad. Her performances with her students at SIFAS, Singapore, during the Shivratri festival and at Batu Caves Temple, Malaysia, during Thaipoosam reflect her commitment to sharing the richness of Indian classical arts with diverse audiences.",
+    "Beyond classical dance, she has also served as the lead female singer of the Saadhaga Paravaigal light music orchestra, bringing together her passion for music, movement and performance in a multifaceted artistic journey.",
+    "CINEMA & BEYOND: Smt. Ranjini Pradeep began her artistic journey as a child artist in the Tamil film industry, showcasing her versatility across cinema, television and commercial media.",
+    "Her film credits include Nila Kaalam, Thendral, Pandavar Bhoomi, Anbu and Sarkar, where she had the privilege of sharing screen space with Tamil Nadu Chief Minister Thiru. Joseph Vijay.",
+    "She has portrayed lead roles in popular Tamil television serials, including Shiva Manasula Shakthi on Vijay TV and Kalyana Parisu on Sun TV. Her commercial appearances include leading brands such as Pothys, Chennai Silks, Sree Kumaran Thanga Maligai, Pantene, Sathya Stores and CSC Computers.",
+    "Extending her presence to television hosting, she has anchored programmes such as Top Star Singer on Vasanth TV and Endrendrum PBS on Vijay TV, alongside music programmes for Nenjam Marapadhillai on Doordarshan and Kalaignar TV.",
+    "Her multifaceted journey across cinema, television, advertising and programme hosting reflects her versatility, screen presence and enduring passion for the performing arts.",
   ],
-  bio: "A distinguished Bharathanatyam dancer, Carnatic vocalist and performing artist, Smt. Ranjini Pradeep is a passionate exponent of Indian classical arts whose journey began at the age of seven.\n\nWith a Master’s degree in Bharathanatyam and over 16 years of teaching experience, she has dedicated her artistic journey to deepening her own practice while inspiring and mentoring the next generation of artistes.\n\nShe is a senior disciple of Kalaimamani Sri Madurai R. Muralidaran and Smt. Chithra Muralidaran in Bharathanatyam and a disciple of Padma Shri Dr. Nithyashree Mahadevan in Carnatic Music.\n\nHer artistic excellence has earned her the prestigious “Natya Thaaragai” title from the Lions Club. In 2011, she was honoured as the Best Female Dancer representing Tamil Nadu, Puducherry and the Andaman & Nicobar Directorate at the RDC–NCC Parade, New Delhi, where she had the distinction of performing before the Chiefs of the Indian Army, Navy and Air Force.\n\nHer artistic canvas extends beyond classical dance and music. Beginning her career as a child artist in the Tamil film industry, she has appeared in films, television serials and commercials. She has also been the lead female singer of the Saadhaga Paravaigal light music orchestra, reflecting her versatility as a performing artist.\n\nA life member of ABHAI (Association of Bharathanatyam Artists of India), she has graced prestigious platforms in India and abroad. Her performances with her students at SIFAS, Singapore, during the Shivratri festival and at Batu Caves Temple, Malaysia, during Thaipoosam reflect her commitment to taking Indian classical arts to diverse audiences.",
+  bio: `ARTISTRY & LEGACY
+A distinguished Bharathanatyam dancer, Carnatic vocalist and performing artist, Smt. Ranjini Pradeep began her journey in Indian classical arts at the age of seven.
+
+Holding a Master’s degree in Bharathanatyam and bringing over 16 years of teaching experience, she is dedicated to preserving classical traditions while nurturing the next generation of artistes through disciplined training and artistic mentorship.
+
+She is a senior disciple of Kalaimamani Sri Madurai R. Muralidaran and Smt. Chithra Muralidaran in Bharathanatyam, and a disciple of Padma Shri Dr. Nithyashree Mahadevan in Carnatic music.
+
+Her artistic achievements include the prestigious “Natya Thaaragai” title conferred by the Lions Club. In 2011, she was honoured as the Best Female Dancer representing Tamil Nadu, Puducherry and the Andaman & Nicobar Directorate at the RDC–NCC Parade in New Delhi, where she performed before the Chiefs of the Indian Army, Navy and Air Force.
+
+A life member of ABHAI (Association of Bharathanatyam Artists of India), she has graced distinguished platforms in India and abroad. Her performances with her students at SIFAS, Singapore, during the Shivratri festival and at Batu Caves Temple, Malaysia, during Thaipoosam reflect her commitment to sharing the richness of Indian classical arts with diverse audiences.
+
+Beyond classical dance, she has also served as the lead female singer of the Saadhaga Paravaigal light music orchestra, bringing together her passion for music, movement and performance in a multifaceted artistic journey.
+
+
+CINEMA & BEYOND
+Actress • Television Artist • Anchor • Performing Artist
+
+Smt. Ranjini Pradeep began her artistic journey as a child artist in the Tamil film industry, showcasing her versatility across cinema, television and commercial media.
+
+Her film credits include Nila Kaalam, Thendral, Pandavar Bhoomi, Anbu and Sarkar, where she had the privilege of sharing screen space with Tamil Nadu Chief Minister Thiru. Joseph Vijay.
+
+She has portrayed lead roles in popular Tamil television serials, including Shiva Manasula Shakthi on Vijay TV and Kalyana Parisu on Sun TV. Her commercial appearances include leading brands such as Pothys, Chennai Silks, Sree Kumaran Thanga Maligai, Pantene, Sathya Stores and CSC Computers.
+
+Extending her presence to television hosting, she has anchored programmes such as Top Star Singer on Vasanth TV and Endrendrum PBS on Vijay TV, alongside music programmes for Nenjam Marapadhillai on Doordarshan and Kalaignar TV.
+
+Her multifaceted journey across cinema, television, advertising and programme hosting reflects her versatility, screen presence and enduring passion for the performing arts.`,
   teachingPhilosophy:
     "Rooted firmly in the classical Natya Shastra, Guru Ranjini’s pedagogy blends uncompromising adherence to foundational geometric Araimandi, clear mudras and brisk adavus with deeply evocative Abhinaya. She believes that every child progresses with dignity at their own natural pace, cultivating mutual camaraderie and mutual encouragement across senior and junior batches.",
   specializations: [
@@ -41,14 +72,18 @@ export const founderMember = {
     "Solo Arangetram Intensive Mentorship & 25+ Salanga Poojas",
     "Saraswathi Veena (Gayaki Style) & Nattuvangam",
     "State Classical Festival Direction (KKKV)",
+    "Cinema, Television & Media Performing Arts Mentorship",
   ],
   achievements: [
-    "Awarded the prestigious “Natya Thaaragai” title from the Lions Club",
+    "Conferred the prestigious “Natya Thaaragai” title by the Lions Club",
     "Honoured as Best Female Dancer representing TN, Puducherry & A&N Directorate at RDC–NCC Parade, New Delhi (2011), performing before Chiefs of Indian Army, Navy & Air Force",
     "Life Member of ABHAI (Association of Bharathanatyam Artists of India)",
-    "Performances with students at SIFAS, Singapore (Shivratri Festival) and Batu Caves Temple, Malaysia (Thaipoosam)",
+    "International classical festival presentations with students at SIFAS, Singapore (Shivratri Festival) and Batu Caves Temple, Malaysia (Thaipoosam)",
     "Lead female singer of the Saadhaga Paravaigal light music orchestra",
-    "Former child artist in the Tamil film industry, television serials and commercials",
+    "Film credits include Nila Kaalam, Thendral, Pandavar Bhoomi, Anbu and Sarkar (sharing screen space with Thiru. Joseph Vijay)",
+    "Lead roles in popular television serials including Shiva Manasula Shakthi (Vijay TV) and Kalyana Parisu (Sun TV)",
+    "Commercial appearances for leading brands: Pothys, Chennai Silks, Sree Kumaran Thanga Maligai, Pantene, Sathya Stores, CSC Computers",
+    "Television host & anchor for Top Star Singer (Vasanth TV), Endrendrum PBS (Vijay TV), and music shows on Doordarshan & Kalaignar TV",
     "Founder and curator of Kodai Kaala Kalai Vizha (KKKV) state-level classical festival",
   ],
   centers: [

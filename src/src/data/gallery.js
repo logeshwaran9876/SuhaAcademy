@@ -63,160 +63,34 @@ const eventCategoriesConfig = [
     eventTitle: "KKKV — Kodai Kaala Kalai Vizha",
     prefixTitle: 'KKKV Kalai Vizha Stage Presentation',
   },
-];
 
-const vasanthaCuratedImages = [
   {
-    src: "/suha_media/gallery/vasantha_swaranjali/gallery_vasantha_01.jpg",
-    alt: "Vasantha Swaranjali - Classical Art Seva for elderly residents #1",
-    title: "Vasantha Swaranjali Classical Seva #1",
-    category: "Vasantha Swaranjali",
-    folder: "Vasantha Swaranjali",
-    year: "Compassionate Seva",
+    key: 'vasantha-swaranjali',
+    category: 'Vasantha Swaranjali',
+    folder: 'Vasantha Swaranjali',
+    year: 'Compassionate Seva',
     source: "Suha Academy Seva Archive",
-    permissionRequired: false,
-  },
-  {
-    src: "/suha_media/gallery/vasantha_swaranjali/gallery_vasantha_02.jpg",
-    alt: "Vasantha Swaranjali - Intergenerational Artistry & Blessings #2",
-    title: "Intergenerational Artistry #2",
-    category: "Vasantha Swaranjali",
-    folder: "Vasantha Swaranjali",
-    year: "Compassionate Seva",
-    source: "Suha Academy Seva Archive",
-    permissionRequired: false,
-  },
-  {
-    src: "/suha_media/gallery/vasantha_swaranjali/gallery_vasantha_03.jpg",
-    alt: "Vasantha Swaranjali - Soulful Classical Vocal & Dance Offering #3",
-    title: "Vocal & Dance Offering #3",
-    category: "Vasantha Swaranjali",
-    folder: "Vasantha Swaranjali",
-    year: "Compassionate Seva",
-    source: "Suha Academy Seva Archive",
-    permissionRequired: false,
-  },
-  {
-    src: "/suha_media/gallery/vasantha_swaranjali/gallery_vasantha_04.jpg",
-    alt: "Vasantha Swaranjali - Spreading Happiness through Classical Arts #4",
-    title: "Spreading Joy Through Art #4",
-    category: "Vasantha Swaranjali",
-    folder: "Vasantha Swaranjali",
-    year: "Compassionate Seva",
-    source: "Suha Academy Seva Archive",
-    permissionRequired: false,
-  },
-  {
-    src: "/suha_media/gallery/vasantha_swaranjali/gallery_vasantha_05.jpg",
-    alt: "Vasantha Swaranjali - Devotional Abhinaya for Elderly Residents #5",
-    title: "Devotional Abhinaya #5",
-    category: "Vasantha Swaranjali",
-    folder: "Vasantha Swaranjali",
-    year: "Compassionate Seva",
-    source: "Suha Academy Seva Archive",
-    permissionRequired: false,
-  },
-  {
-    src: "/suha_media/gallery/vasantha_swaranjali/gallery_vasantha_06.jpg",
-    alt: "Vasantha Swaranjali - Heartfelt Musical Moments at Vasantham #6",
-    title: "Heartfelt Musical Connection #6",
-    category: "Vasantha Swaranjali",
-    folder: "Vasantha Swaranjali",
-    year: "Compassionate Seva",
-    source: "Suha Academy Seva Archive",
-    permissionRequired: false,
-  },
-  {
-    src: "/suha_media/gallery/vasantha_swaranjali/gallery_vasantha_07.jpg",
-    alt: "Vasantha Swaranjali - Disciples Presenting Classical Bhajans #7",
-    title: "Classical Bhajans Recital #7",
-    category: "Vasantha Swaranjali",
-    folder: "Vasantha Swaranjali",
-    year: "Compassionate Seva",
-    source: "Suha Academy Seva Archive",
-    permissionRequired: false,
-  },
-  {
-    src: "/suha_media/gallery/vasantha_swaranjali/gallery_vasantha_08.jpg",
-    alt: "Vasantha Swaranjali - Youth Artists Performing with Devotion #8",
-    title: "Youth Artists Seva #8",
-    category: "Vasantha Swaranjali",
-    folder: "Vasantha Swaranjali",
-    year: "Compassionate Seva",
-    source: "Suha Academy Seva Archive",
-    permissionRequired: false,
-  },
-  {
-    src: "/suha_media/gallery/vasantha_swaranjali/gallery_vasantha_09.jpg",
-    alt: "Vasantha Swaranjali - Cherished Blessings from Senior Residents #9",
-    title: "Blessings & Reverence #9",
-    category: "Vasantha Swaranjali",
-    folder: "Vasantha Swaranjali",
-    year: "Compassionate Seva",
-    source: "Suha Academy Seva Archive",
-    permissionRequired: false,
-  },
-  {
-    src: "/suha_media/gallery/vasantha_swaranjali/gallery_vasantha_10.jpg",
-    alt: "Vasantha Swaranjali - Classical Dance Margam Presentation #10",
-    title: "Natyam Stage Offering #10",
-    category: "Vasantha Swaranjali",
-    folder: "Vasantha Swaranjali",
-    year: "Compassionate Seva",
-    source: "Suha Academy Seva Archive",
-    permissionRequired: false,
-  },
-  {
-    src: "/suha_media/gallery/vasantha_swaranjali/gallery_vasantha_11.jpg",
-    alt: "Vasantha Swaranjali - Ensemble Performance Bringing Warmth & Smiles #11",
-    title: "Ensemble Warmth & Smiles #11",
-    category: "Vasantha Swaranjali",
-    folder: "Vasantha Swaranjali",
-    year: "Compassionate Seva",
-    source: "Suha Academy Seva Archive",
-    permissionRequired: false,
-  },
-  {
-    src: "/suha_media/gallery/vasantha_swaranjali/gallery_vasantha_12.jpg",
-    alt: "Vasantha Swaranjali - Student Performers Felicitated by Elders #12",
-    title: "Intergenerational Felicitations #12",
-    category: "Vasantha Swaranjali",
-    folder: "Vasantha Swaranjali",
-    year: "Compassionate Seva",
-    source: "Suha Academy Seva Archive",
-    permissionRequired: false,
-  },
-  {
-    src: "/suha_media/gallery/vasantha_swaranjali/gallery_vasantha_13.jpg",
-    alt: "Vasantha Swaranjali - Memorable Group Gathering with Elders #13",
-    title: "Memorable Group Gathering #13",
-    category: "Vasantha Swaranjali",
-    folder: "Vasantha Swaranjali",
-    year: "Compassionate Seva",
-    source: "Suha Academy Seva Archive",
-    permissionRequired: false,
-  },
-];
+    eventUrl: '/events/vasantha-swaranjali',
+    eventTitle: "Suha’s Vasantha Swaranjali",
+    prefixTitle: 'Vasantha Swaranjali Seva',
+  },];
 
-const eventGalleryImages = [
-  ...vasanthaCuratedImages,
-  ...eventCategoriesConfig.flatMap((cfg) => {
-    const item = manifest[cfg.key];
-    if (!item || !item.images) return [];
-    return item.images.map((img, i) => ({
-      src: img.src,
-      alt: `${cfg.prefixTitle} #${i + 1} by Suha Academy of Fine Arts`,
-      title: `${cfg.prefixTitle} #${i + 1}`,
-      category: cfg.category,
-      folder: cfg.folder,
-      year: cfg.year,
-      source: cfg.source,
-      permissionRequired: false,
-      eventUrl: cfg.eventUrl,
-      eventTitle: cfg.eventTitle,
-    }));
-  }),
-];
+const eventGalleryImages = eventCategoriesConfig.flatMap((cfg) => {
+  const item = manifest[cfg.key];
+  if (!item || !item.images) return [];
+  return item.images.map((img, i) => ({
+    src: img.src,
+    alt: `${cfg.prefixTitle} #${i + 1} by Suha Academy of Fine Arts`,
+    title: `${cfg.prefixTitle} #${i + 1}`,
+    category: cfg.category,
+    folder: cfg.folder,
+    year: cfg.year,
+    source: cfg.source,
+    permissionRequired: false,
+    eventUrl: cfg.eventUrl,
+    eventTitle: cfg.eventTitle,
+  }));
+});
 
 const baseGalleryImages = [
   {
@@ -1588,30 +1462,6 @@ const baseGalleryImages = [
     "eventTitle": "Suha Annual Day Celebration & KKKV"
   },
   {
-    "src": "/suha_media/shared/shared_media_asset_14.jpg",
-    "alt": "Stage Felicitation with Cultural Luminaries at Suha Academy",
-    "title": "Stage Felicitation with Cultural Luminaries",
-    "category": "Memorable Encounters",
-    "folder": "Memorable encounters",
-    "year": "Cultural Encounter",
-    "source": "Suha Academy Dignitaries Archive",
-    "permissionRequired": false,
-    "eventUrl": "/about",
-    "eventTitle": "Eminent Guests, Gurus & Cultural Encounters"
-  },
-  {
-    "src": "/suha_media/shared/shared_media_asset_15.jpg",
-    "alt": "Blessings from Eminent Classical Maestros at Suha Academy",
-    "title": "Blessings from Eminent Classical Maestros",
-    "category": "Memorable Encounters",
-    "folder": "Memorable encounters",
-    "year": "Cultural Encounter",
-    "source": "Suha Academy Dignitaries Archive",
-    "permissionRequired": false,
-    "eventUrl": "/about",
-    "eventTitle": "Eminent Guests, Gurus & Cultural Encounters"
-  },
-  {
     "src": "/suha_media/gallery/memorable_encounters/gallery_encounter_001.jpg",
     "alt": "Interaction with Renowned Classical Gurus at Suha Academy",
     "title": "Interaction with Renowned Classical Gurus",
@@ -2031,31 +1881,7 @@ const baseGalleryImages = [
     "eventUrl": "/about",
     "eventTitle": "Eminent Guests, Gurus & Cultural Encounters"
   },
-  {
-    "src": "/suha_media/gallery/memorable_encounters/gallery_encounter_036.jpg",
-    "alt": "Guru Smt. Ranjini Pradeep with Cultural Dignitaries at Suha Academy",
-    "title": "Guru Smt. Ranjini Pradeep with Cultural Dignitaries",
-    "category": "Memorable Encounters",
-    "folder": "Memorable encounters",
-    "year": "Cultural Encounter",
-    "source": "Suha Academy Dignitaries Archive",
-    "permissionRequired": false,
-    "eventUrl": "/about",
-    "eventTitle": "Eminent Guests, Gurus & Cultural Encounters"
-  },
-  {
-    "src": "/suha_media/gallery/memorable_encounters/gallery_encounter_037.jpg",
-    "alt": "Ceremonial Silk Ponnadai Offering to Eminent Vidwan at Suha Academy",
-    "title": "Ceremonial Silk Ponnadai Offering to Eminent Vidwan",
-    "category": "Memorable Encounters",
-    "folder": "Memorable encounters",
-    "year": "Cultural Encounter",
-    "source": "Suha Academy Dignitaries Archive",
-    "permissionRequired": false,
-    "eventUrl": "/about",
-    "eventTitle": "Eminent Guests, Gurus & Cultural Encounters"
-  },
-  {
+    {
     "src": "/suha_media/gallery/mohiniyattam/gallery_mohiniyattam_001.jpg",
     "alt": "Mohiniyattam — Swati Festival Stage Recital performed by Suha Academy disciples",
     "title": "Mohiniyattam — Swati Festival Stage Recital",
@@ -2104,9 +1930,9 @@ const baseGalleryImages = [
     "eventTitle": "Mohiniyattam Classical Repertory"
   },
   {
-    "src": "/suha_media/shared/shared_media_asset_16.jpg",
-    "alt": "Classical Lasya Posture & Bhava performed by Suha Academy disciples",
-    "title": "Classical Lasya Posture & Bhava",
+    "src": "/suha_media/gallery/mohiniyattam/gallery_mohiniyattam_005.jpg",
+    "alt": "Delicate Mudras & Traditional Geetham performed by Suha Academy disciples",
+    "title": "Delicate Mudras & Traditional Geetham",
     "category": "Mohiniyattam",
     "folder": "Mohiniyattam",
     "year": "Swati Festival & Recitals",
@@ -2116,9 +1942,9 @@ const baseGalleryImages = [
     "eventTitle": "Mohiniyattam Classical Repertory"
   },
   {
-    "src": "/suha_media/gallery/mohiniyattam/gallery_mohiniyattam_005.jpg",
-    "alt": "Delicate Mudras & Traditional Geetham performed by Suha Academy disciples",
-    "title": "Delicate Mudras & Traditional Geetham",
+    "src": "/suha_media/gallery/mohiniyattam/gallery_mohiniyattam_006.jpg",
+    "alt": "Classical Lasya Posture & Bhava performed by Suha Academy disciples",
+    "title": "Classical Lasya Posture & Bhava",
     "category": "Mohiniyattam",
     "folder": "Mohiniyattam",
     "year": "Swati Festival & Recitals",
@@ -2682,6 +2508,7 @@ export const galleryCategories = [
   "International Recitals",
   "Bharathanatyam",
   "Carnatic Music",
+  "Mohiniyattam",
   "Memorable Encounters",
 ];
 

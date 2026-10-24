@@ -115,7 +115,7 @@ export default function Hero() {
             {/* Subtitle: Minimal, Clear & Authentic */}
             <Reveal delay={0.2}>
               <p className="text-xs sm:text-base lg:text-lg text-cream-100/85 font-light font-sans leading-relaxed mb-5 sm:mb-8 max-w-sm sm:max-w-xl">
-                Traditional Carnatic Music, Bharathanatyam and Mohiniyattam - refined through excellence under the guidance of Founder &amp; Artistic Director Smt. Ranjini Pradeep.
+                Traditional Carnatic Music, Bharathanatyam and Mohiniyattam Dances refined through excellence under the guidance of Founder &amp; Artistic Director Smt. Ranjini Pradeep.
               </p>
             </Reveal>
 
