@@ -21,16 +21,20 @@ export default function About() {
   const distinguishedGuests = [
     { name: "Dr. Nithyashree Mahadevan", role: "Eminent Carnatic Vocalist" },
     { name: "Smt. Mahathi", role: "Carnatic Vocalist & Playback Singer" },
-    { name: "Anand Aravindakshan", role: "Playback Singer & Title Winner" },
-    { name: "Sriram & Roshini", role: "Playback Singers" },
+    { name: "Smt. Chitra Muralitharan", role: "Paramaguru & Kalaimamani Bharathanatyam Exponent" },
+    { name: "Smt. Kavya Muralitharan", role: "Bharathanatyam Exponent & Artist" },
+    { name: "Sri Sai Charan", role: "Carnatic Vocalist & Playback Singer" },
+    { name: "Sri Sai Vignesh", role: "Carnatic Vocalist & Playback Singer" },
+    { name: "Sri Anand Aravindakshan", role: "Playback Singer & Title Winner" },
+    { name: "Sri Sriram & Smt. Roshini", role: "Playback Singers" },
     { name: "Smt. Divyasena", role: "Bharathanatyam Exponent & Guru" },
     { name: "Smt. Srekala Bharath", role: "Kalaimamani Bharathanatyam Guru" },
     { name: "Sri Narendra Kumar", role: "Classical Dancer & Choreographer" },
     { name: "Sri Shivakumar", role: "Classical Dancer" },
-    { name: "Dr. Udaykumar", role: "Cultural Scholar & Dignitary" },
-    { name: "Amit Bhargav", role: "Prominent Actor & Media Personality" },
-    { name: "MGR Latha", role: "Veteran Actress & Classical Patron" },
-    { name: "Sadhagaparavaigal Sankar & Bharanidaran", role: "Renowned Music Ensembles" },
+    { name: "Dr. Udaykumar", role: "ENT, Head and Neck Surgeon" },
+    { name: "Sri Amit Bhargav", role: "Prominent Actor & Media Personality" },
+    { name: "Smt. MGR Latha", role: "Veteran Actress & Classical Patron" },
+    { name: "Sri Sankar & Sri Bharanidaran (Saadhaga Paravaigal)", role: "Renowned Music Ensemble" },
   ];
 
   const milestones = [
@@ -381,10 +385,11 @@ export default function About() {
             <Reveal delay={0.1}>
               <p>
                 Suha Academy’s Annual Day celebrations have welcomed several distinguished personalities
-                from the worlds of music, dance and cinema, including playback singer Anand Aravindakshan,
-                singers Sriram and Roshini, Smt. Mahathi, Dr. Nithyashree Mahadevan, Dr. Udaykumar,
-                dancers Sri Narendra Kumar, Smt. Divyasena, Smt. Srekala Bharath and Sri Shivakumar,
-                actor Amit Bhargav, actress MGR Latha and Sadhagaparavaigal Sankar and Bharanidaran,
+                from the worlds of music, dance and cinema, including playback singer Sri Anand Aravindakshan,
+                singers Sri Sriram and Smt. Roshini, Smt. Mahathi, Dr. Nithyashree Mahadevan, Dr. Udaykumar (ENT, Head and Neck Surgeon),
+                dancers Smt. Chitra Muralitharan, Smt. Kavya Muralitharan, Sri Narendra Kumar, Smt. Divyasena,
+                Smt. Srekala Bharath and Sri Shivakumar, vocalists Sri Sai Charan and Sri Sai Vignesh,
+                actor Sri Amit Bhargav, actress Smt. MGR Latha and Sri Sankar and Sri Bharanidaran of Saadhaga Paravaigal,
                 among many other eminent guests and artists.
               </p>
             </Reveal>

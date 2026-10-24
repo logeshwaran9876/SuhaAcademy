@@ -240,24 +240,44 @@ export const events = [
     poster: "/suha_media/events/events_intro/event_intro_vasantha_swaranjali.jpg",
     gallery: [
       {
-        src: "/suha_media/shared/shared_curated_vasantha_swaranjali.jpg",
+        src: "/suha_media/gallery/vasantha_swaranjali/gallery_vasantha_01.jpg",
         title: "Classical Art Seva at Vasantham Homes",
         subtitle: "Students sharing classical music and dance with elderly residents",
       },
       {
-        src: "/suha_media/shared/shared_media_asset_09.jpg",
-        title: "Vocal Seva for Senior Residents",
+        src: "/suha_media/gallery/vasantha_swaranjali/gallery_vasantha_02.jpg",
+        title: "Intergenerational Artistry & Blessings",
         subtitle: "Spreading warmth, peace and spiritual joy through classical melodies",
       },
       {
-        src: "/suha_media/shared/shared_media_asset_08.jpg",
-        title: "Intergenerational Blessings & Smiles",
+        src: "/suha_media/gallery/vasantha_swaranjali/gallery_vasantha_03.jpg",
+        title: "Soulful Vocal & Dance Offering",
         subtitle: "Elderly residents blessing young disciples after heartfelt performances",
       },
       {
-        src: "/suha_media/shared/shared_media_asset_10.jpg",
-        title: "Traditional Bhajans & Keerthanams Offering",
+        src: "/suha_media/gallery/vasantha_swaranjali/gallery_vasantha_04.jpg",
+        title: "Spreading Happiness Through Classical Arts",
         subtitle: "Creating unforgettable moments of human connection through art",
+      },
+      {
+        src: "/suha_media/gallery/vasantha_swaranjali/gallery_vasantha_05.jpg",
+        title: "Devotional Abhinaya for Elderly Residents",
+        subtitle: "Bringing smiles and cultural warmth to senior residents",
+      },
+      {
+        src: "/suha_media/gallery/vasantha_swaranjali/gallery_vasantha_06.jpg",
+        title: "Heartfelt Musical Moments at Vasantham",
+        subtitle: "Soulful Carnatic compositions and interactive singing",
+      },
+      {
+        src: "/suha_media/gallery/vasantha_swaranjali/gallery_vasantha_07.jpg",
+        title: "Disciples Presenting Classical Bhajans",
+        subtitle: "Touching hearts through traditional music offerings",
+      },
+      {
+        src: "/suha_media/gallery/vasantha_swaranjali/gallery_vasantha_08.jpg",
+        title: "Youth Artists Performing with Devotion",
+        subtitle: "Cherished blessings and love from the elders of Vasantham",
       },
     ],
     mediaLinks: [
@@ -277,12 +297,12 @@ export const events = [
         type: "instagram",
       },
       {
-        title: "Intergenerational Dance Presentation",
+        title: "Intergenerational Classical Music Seva",
         url: "https://www.instagram.com/reel/Dbi3jkRpVxQ/?xtok=djJwY3YwNnFuNzVm",
         type: "instagram",
       },
       {
-        title: "Vocal & Dance Seva at Vasantham",
+        title: "Classical Dance Seva at Vasantham",
         url: "https://www.instagram.com/reel/DasqS_MpyZn/?mdxt=Mnc3N29zYXpkbHQ4",
         type: "instagram",
       },
@@ -506,9 +526,19 @@ export const events = [
     ),
     mediaLinks: [
       {
-        title: "Salangai Pooja & Arangetram Video Highlights",
+        title: "Arangetram Teaser of Kum. Rakshitha",
         url: "https://youtu.be/HQMUe4QTR44?si=kcA6Gfd2iG9WH19y",
         type: "youtube",
+      },
+      {
+        title: "Salanga Poojai by Suha Academy Students",
+        url: "https://youtu.be/0vI-agFD-II?si=_P8MPIxq0sxt-Pv9",
+        type: "youtube",
+      },
+      {
+        title: "Salangai Pooja Recital Moments",
+        url: "https://www.instagram.com/p/DewrSoPDGac/?rpxt=enA2bnV4amIxcngx",
+        type: "instagram",
       },
     ],
   },
@@ -568,8 +598,23 @@ export const events = [
     ),
     mediaLinks: [
       {
-        title: "KKKV Highlights & Prize Distribution on YouTube",
-        url: "https://www.youtube.com/watch?v=kAhSLsi6SGM",
+        title: "KODAI KAALA KALAI VIZHA 2026 | Guru Smt. Ranjini Pradeep",
+        url: "https://youtu.be/BvlolDYekg4?si=jc-2gDahB6MSNZPP",
+        type: "youtube",
+      },
+      {
+        title: "KODAI KAALA KALAI VIZHA 2025 Highlights",
+        url: "https://youtu.be/66Syv-PIdQA?si=uSRJS3ZTHQ9EuFsU",
+        type: "youtube",
+      },
+      {
+        title: "KKKV 2024 Classical Music Competition",
+        url: "https://youtu.be/guB5T8BOJmg?si=L8A0cWvE3fXCK_iQ",
+        type: "youtube",
+      },
+      {
+        title: "KKKV 2024 Classical Faceoff @ Suha Academy",
+        url: "https://youtu.be/yui_VFJ_mco?si=CZ4sAAumu1ODuBb5",
         type: "youtube",
       },
     ],
@@ -603,8 +648,23 @@ export const kkkvEvents = [
     ),
     mediaLinks: [
       {
-        title: "KKKV Highlights on YouTube",
-        url: "https://www.youtube.com/watch?v=kAhSLsi6SGM",
+        title: "KODAI KAALA KALAI VIZHA 2026 | Guru Smt. Ranjini Pradeep",
+        url: "https://youtu.be/BvlolDYekg4?si=jc-2gDahB6MSNZPP",
+        type: "youtube",
+      },
+      {
+        title: "KODAI KAALA KALAI VIZHA 2025 Highlights",
+        url: "https://youtu.be/66Syv-PIdQA?si=uSRJS3ZTHQ9EuFsU",
+        type: "youtube",
+      },
+      {
+        title: "KKKV 2024 Classical Music Competition",
+        url: "https://youtu.be/guB5T8BOJmg?si=L8A0cWvE3fXCK_iQ",
+        type: "youtube",
+      },
+      {
+        title: "KKKV 2024 Classical Faceoff @ Suha Academy",
+        url: "https://youtu.be/yui_VFJ_mco?si=CZ4sAAumu1ODuBb5",
         type: "youtube",
       },
     ],
