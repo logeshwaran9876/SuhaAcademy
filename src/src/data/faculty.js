@@ -51,7 +51,6 @@ Beyond classical dance, she has also served as the lead female singer of the Saa
 
 
 <b>CINEMA & BEYOND</b>
-Actress • Television Artist 
 
 Smt. Ranjini Pradeep began her artistic journey as a child artist in the Tamil film industry, showcasing her versatility across cinema, television and commercial media.
 
