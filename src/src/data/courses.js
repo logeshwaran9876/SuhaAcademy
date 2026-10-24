@@ -366,10 +366,6 @@ export const courses = [
         src: "/suha_media/courses/course_mohiniyattam_slider_04.jpg",
         caption: "Traditional Kerala Kasavu Ensemble Choreography",
       },
-      {
-        src: "/suha_media/courses/course_mohiniyattam_slider_05.jpg",
-        caption: "Stage Recital Featuring Swati Tirunal Compositions",
-      },
     ],
     cta: "Explore Mohiniyattam",
     highlights: [
@@ -589,10 +585,6 @@ export const courses = [
       {
         src: "/suha_media/courses/course_carnatic_slider_03.jpg",
         caption: "Thyagaraja Aradhana Pancharatna Homage Choir",
-      },
-      {
-        src: "/suha_media/courses/course_carnatic_slider_04.jpg",
-        caption: "Student Solo Vocal Stage Debut Recital",
       },
     ],
     cta: "Explore Carnatic Music",
