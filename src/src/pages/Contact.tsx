@@ -102,7 +102,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <p className="text-[11px] uppercase tracking-wider text-gold-600 font-semibold mb-0.5">
-                      Event & Enquiries
+                      Event Enquiries
                     </p>
                     <p className="text-base text-navy-900 font-semibold">{academy.phoneAlt}</p>
                     <p className="text-xs text-navy-600/70 mt-0.5">

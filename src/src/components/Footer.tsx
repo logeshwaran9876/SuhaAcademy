@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Instagram, Facebook, Youtube, Phone, Mail, MapPin, ArrowUpRight } from "lucide-react";
+import { Instagram, Facebook, Youtube, Phone, Mail, MapPin, ArrowUpRight, ArrowUp, Home as HomeIcon } from "lucide-react";
 import { academy, navLinks } from "@/data/academy";
 import { OrnamentDivider } from "./Decorations";
 
@@ -195,11 +195,32 @@ export default function Footer() {
           <OrnamentDivider light />
         </div>
 
-        {/* Bottom */}
+        {/* Bottom Bar with Return Controls */}
         <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-cream-100/40">
           <p>
             &copy; 2026 Suha Academy of Fine Arts. All rights reserved.
           </p>
+
+          <div className="flex items-center gap-3">
+            <button
+              type="button"
+              onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+              className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full border border-gold-400/30 bg-gold-500/10 text-gold-300 hover:text-white hover:border-gold-400 hover:bg-gold-500/20 transition-all text-xs font-medium group cursor-pointer shadow-sm"
+              title="Return to the top of the page"
+            >
+              <span>Return to Top</span>
+              <ArrowUp className="w-3.5 h-3.5 transition-transform duration-300 group-hover:-translate-y-0.5 text-gold-400" />
+            </button>
+            <Link
+              to="/"
+              className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full border border-cream-100/20 bg-cream-100/5 text-cream-100/70 hover:text-gold-300 hover:border-gold-400/40 hover:bg-cream-100/10 transition-all text-xs font-medium group"
+              title="Return to Academy Homepage"
+            >
+              <HomeIcon className="w-3.5 h-3.5 text-gold-400/80" />
+              <span>Return Home</span>
+            </Link>
+          </div>
+
           <p className="text-cream-100/30">
             Established {academy.established} &middot; Chennai, Tamil Nadu
           </p>

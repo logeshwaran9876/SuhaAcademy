@@ -115,12 +115,12 @@ export const instructors = [
   {
     id: "thinagar-raja",
     name: "Sri J. Thinagar Raja",
-    title: "Carnatic music and dance instructor",
+    title: "Carnatic Music Instructor",
     discipline: "Carnatic Vocal & Music Education",
     category: "instructor",
-    shortRole: "Carnatic Music & Dance Instructor",
+    shortRole: "Carnatic Music Instructor",
     roles: [
-      "Carnatic Music & Dance Instructor",
+      "Carnatic Music Instructor",
       "Sangeetha Vidwan",
       "Diploma in Music Teacher Training (Tamil University)",
       "Vocal & Violin Specialist",

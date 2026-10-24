@@ -402,7 +402,16 @@ export default function EventDetails() {
           )}
 
           <Reveal delay={0.3}>
-            <OrnamentDivider className="mt-16" />
+            <div className="mt-12 text-center">
+              <Link
+                to="/events"
+                className="inline-flex items-center gap-2 px-6 py-3 bg-navy-950 text-gold-300 hover:bg-gold-500 hover:text-navy-950 text-xs uppercase tracking-wider font-semibold rounded-sm border border-gold-400/40 transition-all shadow-md group"
+              >
+                <ArrowLeft className="w-4 h-4 transition-transform group-hover:-translate-x-1" />
+                <span>Back to All Events</span>
+              </Link>
+            </div>
+            <OrnamentDivider className="mt-12" />
           </Reveal>
         </div>
       </section>

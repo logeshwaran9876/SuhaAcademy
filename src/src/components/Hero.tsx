@@ -109,8 +109,6 @@ export default function Hero() {
                 Rooted in Tradition.
                 <br />
                 Elevated by Grace.
-                <br />
-
               </h1>
             </Reveal>
 

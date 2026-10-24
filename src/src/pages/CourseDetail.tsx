@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import {
   ArrowRight,
+  ArrowLeft,
   Check,
   CheckCircle2,
   Sparkles,
@@ -589,6 +590,13 @@ export default function CourseDetail({ slug }: { slug: string }) {
             </div>
 
             <div className="shrink-0 flex flex-col sm:flex-row items-center gap-3 w-full md:w-auto">
+              <Link
+                to="/courses"
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-5 py-3.5 border border-gold-400/40 text-cream-100 hover:text-white hover:border-gold-300 font-semibold text-xs uppercase tracking-wider rounded-sm transition-all duration-300 backdrop-blur-md bg-gold-500/5 hover:bg-gold-500/15 group"
+              >
+                <ArrowLeft className="w-4 h-4 transition-transform duration-300 group-hover:-translate-x-1 text-gold-400" />
+                <span>All Courses</span>
+              </Link>
               <Link
                 to="/contact"
                 className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-navy-950 text-gold-300 font-semibold text-xs uppercase tracking-wider rounded-sm hover:bg-gold-500 hover:text-navy-950 transition-all duration-300 shadow-md group"
