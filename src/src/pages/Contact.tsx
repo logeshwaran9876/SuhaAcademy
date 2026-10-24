@@ -105,9 +105,7 @@ export default function Contact() {
                       Event Enquiries
                     </p>
                     <p className="text-base text-navy-900 font-semibold">{academy.phoneAlt}</p>
-                    <p className="text-xs text-navy-600/70 mt-0.5">
-                      KKKV, Temple Recitals, Arangetram & Cultural Bookings
-                    </p>
+                    
                   </div>
                 </a>
 

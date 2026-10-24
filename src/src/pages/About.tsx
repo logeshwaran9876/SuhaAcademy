@@ -382,17 +382,7 @@ export default function About() {
 
           {/* Narrative Paragraphs from Client Document (Pages 4 & 5) */}
           <div className="max-w-4xl mx-auto mt-12 space-y-5 text-navy-800/85 text-sm sm:text-base leading-relaxed text-center">
-            <Reveal delay={0.1}>
-              <p>
-                Suha Academy’s Annual Day celebrations have welcomed several distinguished personalities
-                from the worlds of music, dance and cinema, including playback singer Sri Anand Aravindakshan,
-                singers Sri Sriram and Smt. Roshini, Smt. Mahathi, Dr. Nithyashree Mahadevan, Dr. Udaykumar (ENT, Head and Neck Surgeon),
-                dancers Smt. Chitra Muralitharan, Smt. Kavya Muralitharan, Sri Narendra Kumar, Smt. Divyasena,
-                Smt. Srekala Bharath and Sri Shivakumar, vocalists Sri Sai Charan and Sri Sai Vignesh,
-                actor Sri Amit Bhargav, actress Smt. MGR Latha and Sri Sankar and Sri Bharanidaran of Saadhaga Paravaigal,
-                among many other eminent guests and artists.
-              </p>
-            </Reveal>
+          
 
             <Reveal delay={0.15}>
               <p>
