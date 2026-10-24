@@ -125,8 +125,6 @@ const memorableEncountersGallery = [
   { src: "/suha_media/gallery/memorable_encounters/gallery_encounter_033.jpg", title: "Annual Day Felicitations & Memento Presentation #1", subtitle: "Cherishing guidance and patronage from cultural leaders" },
   { src: "/suha_media/gallery/memorable_encounters/gallery_encounter_034.jpg", title: "Annual Day Felicitations & Memento Presentation #2", subtitle: "Traditional honors and blessings for student growth" },
   { src: "/suha_media/gallery/memorable_encounters/gallery_encounter_035.jpg", title: "Sacred Temple Recital Felicitations with Guests", subtitle: "Honouring dignitaries at sacred temple sabhas" },
-  { src: "/suha_media/gallery/memorable_encounters/gallery_encounter_036.jpg", title: "Guru Smt. Ranjini Pradeep with Cultural Dignitaries", subtitle: "Guiding the academy with revered masters of the art" },
-  { src: "/suha_media/gallery/memorable_encounters/gallery_encounter_037.jpg", title: "Ceremonial Silk Ponnadai Offering to Eminent Vidwan", subtitle: "Traditional reverence and blessings before deity sanctum" },
 ];
 
 export const events = [
@@ -238,48 +236,11 @@ export const events = [
       "Bharathanatyam & Vocal Offerings",
     ],
     poster: "/suha_media/events/events_intro/event_intro_vasantha_swaranjali.jpg",
-    gallery: [
-      {
-        src: "/suha_media/gallery/vasantha_swaranjali/gallery_vasantha_01.jpg",
-        title: "Classical Art Seva at Vasantham Homes",
-        subtitle: "Students sharing classical music and dance with elderly residents",
-      },
-      {
-        src: "/suha_media/gallery/vasantha_swaranjali/gallery_vasantha_02.jpg",
-        title: "Intergenerational Artistry & Blessings",
-        subtitle: "Spreading warmth, peace and spiritual joy through classical melodies",
-      },
-      {
-        src: "/suha_media/gallery/vasantha_swaranjali/gallery_vasantha_03.jpg",
-        title: "Soulful Vocal & Dance Offering",
-        subtitle: "Elderly residents blessing young disciples after heartfelt performances",
-      },
-      {
-        src: "/suha_media/gallery/vasantha_swaranjali/gallery_vasantha_04.jpg",
-        title: "Spreading Happiness Through Classical Arts",
-        subtitle: "Creating unforgettable moments of human connection through art",
-      },
-      {
-        src: "/suha_media/gallery/vasantha_swaranjali/gallery_vasantha_05.jpg",
-        title: "Devotional Abhinaya for Elderly Residents",
-        subtitle: "Bringing smiles and cultural warmth to senior residents",
-      },
-      {
-        src: "/suha_media/gallery/vasantha_swaranjali/gallery_vasantha_06.jpg",
-        title: "Heartfelt Musical Moments at Vasantham",
-        subtitle: "Soulful Carnatic compositions and interactive singing",
-      },
-      {
-        src: "/suha_media/gallery/vasantha_swaranjali/gallery_vasantha_07.jpg",
-        title: "Disciples Presenting Classical Bhajans",
-        subtitle: "Touching hearts through traditional music offerings",
-      },
-      {
-        src: "/suha_media/gallery/vasantha_swaranjali/gallery_vasantha_08.jpg",
-        title: "Youth Artists Performing with Devotion",
-        subtitle: "Cherished blessings and love from the elders of Vasantham",
-      },
-    ],
+    gallery: makeGallery(
+      'vasantha-swaranjali',
+      "Vasantha Swaranjali Seva",
+      "Intergenerational bonding and compassionate classical arts at Vasantham Homes"
+    ),
     mediaLinks: [
       {
         title: "Elderly Home Recital Glimpse I",
