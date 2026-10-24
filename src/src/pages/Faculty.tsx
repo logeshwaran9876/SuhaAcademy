@@ -162,7 +162,7 @@ export default function Faculty() {
                   Guru Smt. Ranjini Pradeep
                 </h3>
                 <p className="text-xs font-serif italic text-gold-800 font-medium mt-1 mb-4">
-                  Bharathanatyam Dancer &bull; Carnatic Vocalist &bull; Performing Artist
+                Dedicated to preserving and nurturing the timeless traditions of Indian classical arts
                 </p>
 
                 <div className="inline-flex items-center gap-2 px-5 py-2.5 rounded-sm bg-navy-950 text-gold-300 group-hover:bg-gold-500 group-hover:text-navy-950 text-xs font-bold uppercase tracking-wider transition-all duration-300 shadow-sm">

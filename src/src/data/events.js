@@ -316,6 +316,30 @@ export const events = [
     ),
     mediaLinks: [
       {
+        title: "National Recital Glimpse I",
+        url: "https://www.instagram.com/reel/Devleo0MiKt/?psln=MWFpZDd6OGcyNGUyeA==",
+        type: "instagram",
+        category: "National Recitals",
+      },
+      {
+        title: "National Recital Glimpse II",
+        url: "https://www.instagram.com/reel/DeoG9SSAbcZ/?xtok=NTVncnlmY2RldjJo",
+        type: "instagram",
+        category: "National Recitals",
+      },
+      {
+        title: "National Recital Glimpse III",
+        url: "https://www.instagram.com/reel/DegTy2Eg4nI/?psln=OTJtZmp2ZWRiamZl",
+        type: "instagram",
+        category: "National Recitals",
+      },
+      {
+        title: "National Recital Glimpse IV",
+        url: "https://www.instagram.com/reel/Def999fAJjh/?vrfl=MWdsYmk5ZDlzdjdhbw==",
+        type: "instagram",
+        category: "National Recitals",
+      },
+      {
         title: "Bhakthi Lahari — Part 1 (Temple Events)",
         url: "https://www.instagram.com/reel/DdRqtp8hSvS/?obrf=emlibms4YWFzanc5",
         type: "instagram",

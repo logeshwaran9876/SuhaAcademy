@@ -36,7 +36,7 @@ export const founderMember = {
     "Extending her presence to television hosting, she has anchored programmes such as Top Star Singer on Vasanth TV and Endrendrum PBS on Vijay TV, alongside music programmes for Nenjam Marapadhillai on Doordarshan and Kalaignar TV.",
     "Her multifaceted journey across cinema, television, advertising and programme hosting reflects her versatility, screen presence and enduring passion for the performing arts.",
   ],
-  bio: `ARTISTRY & LEGACY
+  bio: `<b>ARTISTRY & LEGACY</b>
 A distinguished Bharathanatyam dancer, Carnatic vocalist and performing artist, Smt. Ranjini Pradeep began her journey in Indian classical arts at the age of seven.
 
 Holding a Master’s degree in Bharathanatyam and bringing over 16 years of teaching experience, she is dedicated to preserving classical traditions while nurturing the next generation of artistes through disciplined training and artistic mentorship.
@@ -50,8 +50,8 @@ A life member of ABHAI (Association of Bharathanatyam Artists of India), she has
 Beyond classical dance, she has also served as the lead female singer of the Saadhaga Paravaigal light music orchestra, bringing together her passion for music, movement and performance in a multifaceted artistic journey.
 
 
-CINEMA & BEYOND
-Actress • Television Artist • Anchor • Performing Artist
+<b>CINEMA & BEYOND</b>
+Actress • Television Artist 
 
 Smt. Ranjini Pradeep began her artistic journey as a child artist in the Tamil film industry, showcasing her versatility across cinema, television and commercial media.
 

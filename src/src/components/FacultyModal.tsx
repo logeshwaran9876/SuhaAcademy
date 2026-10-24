@@ -40,6 +40,75 @@ interface FacultyModalProps {
   onClose: () => void;
 }
 
+function renderFormattedBio(bio: string) {
+  if (!bio) return null;
+
+  const paragraphs = bio.split(/\n\n+/);
+
+  return (
+    <div className="space-y-4 text-xs sm:text-sm text-navy-900/90 leading-relaxed font-sans">
+      {paragraphs.map((para, pIdx) => {
+        const lines = para.split(/\n/);
+        return (
+          <p key={pIdx}>
+            {lines.map((line, lIdx) => {
+              const regex = /(?:[<>]b[>](.*?)<\s*\/\s*b[>])|(?:<strong>(.*?)<\/strong>)|(?:\*\*(.*?)\*\*)/gi;
+              const hasTags = /(?:[<>]b[>])|(?:<strong>)|(?:\*\*)/i.test(line);
+
+              if (!hasTags) {
+                return (
+                  <span key={lIdx}>
+                    {lIdx > 0 && <br />}
+                    {line}
+                  </span>
+                );
+              }
+
+              const parts: React.ReactNode[] = [];
+              let lastIndex = 0;
+              let match: RegExpExecArray | null;
+              regex.lastIndex = 0;
+
+              while ((match = regex.exec(line)) !== null) {
+                if (match.index > lastIndex) {
+                  parts.push(line.slice(lastIndex, match.index));
+                }
+                const boldContent = match[1] || match[2] || match[3] || "";
+                const isHeading = /^(ARTISTRY & LEGACY|CINEMA & BEYOND)/i.test(boldContent.trim());
+
+                parts.push(
+                  <strong
+                    key={match.index}
+                    className={
+                      isHeading
+                        ? "font-bold text-navy-950 font-display text-sm sm:text-base tracking-wider uppercase block "
+                        : "font-bold text-navy-950"
+                    }
+                  >
+                    {boldContent}
+                  </strong>
+                );
+                lastIndex = regex.lastIndex;
+              }
+
+              if (lastIndex < line.length) {
+                parts.push(line.slice(lastIndex));
+              }
+
+              return (
+                <span key={lIdx}>
+                  {lIdx > 0 && <br />}
+                  {parts}
+                </span>
+              );
+            })}
+          </p>
+        );
+      })}
+    </div>
+  );
+}
+
 export default function FacultyModal({ faculty, onClose }: FacultyModalProps) {
   useEffect(() => {
     if (!faculty) return;
@@ -122,15 +191,11 @@ export default function FacultyModal({ faculty, onClose }: FacultyModalProps) {
           {/* Full Biography Narrative */}
           <div className="space-y-4 pt-6 border-t border-gold-400/30">
             <div>
-              <h3 className="text-xs uppercase tracking-[0.22em] text-gold-800 font-bold mb-2.5 flex items-center gap-2">
+              <h3 className="text-xs uppercase tracking-[0.22em] text-gold-800 font-bold mb-3 flex items-center gap-2">
                 <span>✦ Detailed Pedagogical Biography</span>
               </h3>
-              <p className="text-xs sm:text-sm text-navy-900/90 leading-relaxed font-sans whitespace-pre-line">
-                {faculty.bio}
-              </p>
+              {renderFormattedBio(faculty.bio)}
             </div>
-
-       
           </div>
 
       
