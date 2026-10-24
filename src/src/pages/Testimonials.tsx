@@ -516,25 +516,7 @@ export default function Testimonials() {
             ))}
           </div>
 
-          {/* Share Your Story Card */}
-          <div className="mt-16 max-w-2xl mx-auto bg-white border border-gold-500/25 p-8 rounded-sm text-center shadow-xs">
-            <Sparkles className="w-6 h-6 text-gold-500 mx-auto mb-3" />
-            <h3 className="font-display text-lg text-navy-950 mb-2 font-medium">
-              Are you a Suha Academy parent, student, or festival participant?
-            </h3>
-            <p className="text-xs text-navy-700/70 mb-5 leading-relaxed">
-              We cherish hearing how classical arts have touched your life and nurtured stage confidence. Share your feedback with our artistic director.
-            </p>
-            <a
-              href={`https://wa.me/${academy.phoneRaw}?text=${encodeURIComponent("Hi Suha Academy, I would like to share our testimonial & review.")}`}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-6 py-3 bg-[#25D366] text-white text-xs font-semibold rounded-sm hover:bg-[#1da851] transition-colors shadow-sm"
-            >
-              <MessageCircle className="w-4 h-4" />
-              <span>Submit Review via WhatsApp</span>
-            </a>
-          </div>
+       
         </div>
       </section>
 
