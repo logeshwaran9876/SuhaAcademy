@@ -2506,8 +2506,6 @@ export const galleryCategories = [
   "Suha's Utsavams",
   "Vasantha Swaranjali",
   "International Recitals",
-  "Bharathanatyam",
-  "Carnatic Music",
   "Mohiniyattam",
   "Memorable Encounters",
 ];
