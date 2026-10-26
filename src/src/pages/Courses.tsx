@@ -21,7 +21,7 @@ const courseShowcases: CourseShowcaseData[] = [
     introHeading: "Intro",
     introParagraphs: [
       "The classical music of South India is Carnatic Music which comprises of basic elements such as Raga, Tala, Shruthi and Swaras. It is one of the two main genres of classical music ( other being Hindustani ) and has evolved from the ancient Hindu texts and traditions with most of the songs being composed in Telugu, Tamil and Sanskrit. It is important for an aspiring singer to learn Carnatic music in order to understand the fundamentals of Ragas and Talas.",
-      "Although improvisation plays an important role, Carnatic music is mainly sung through compositions, especially the kritis (or kirtanams) – a form developed between the 14th and 20th centuries by composers such as Purandara Dasa, and the Trinity of Carnatic music.",
+      "Although improvisation plays an important role, Carnatic music is mainly sung through compositions, especially the kritis (or kirtanams) – a form developed between the 14th and 20th centuries by composers such as Purandara Dasaand the Trinity of Carnatic music.",
       "Carnatic music is also usually taught and learned through compositions. Telugu language predominates in the evolution of Carnatic music.",
     ],
     photos: [
@@ -55,9 +55,9 @@ const courseShowcases: CourseShowcaseData[] = [
     eyebrow: "Classical Dance · Vazhuvoor Baani",
     introHeading: "Intro",
     introParagraphs: [
-      "Bharathanatyam training at Suha Academy follows a systematic learning approach across three stages — Basic, Intermediate, and Advanced — nurturing students into confident dancers with strong technique, rhythmic precision, expressive depth, and a sound understanding of the art form.",
-      "The academy follows the Vazhuvoor Baani, celebrated for its fluid movements, graceful body lines, expressive facial expressions, and vibrant stage presentation.",
-      "As students advance through each stage, they explore foundational adavus, hand gestures, rhythmic coordination, and body control, gradually progressing to complex dance compositions, nuanced abhinaya, traditional repertoire, and choreographic creativity.",
+      "Bharathanatyam training at Suha Academy follows a systematic learning approach across three stages — Basic, Intermediateand Advanced — nurturing students into confident dancers with strong technique, rhythmic precision, expressive depthand a sound understanding of the art form.",
+      "The academy follows the Vazhuvoor Baani, celebrated for its fluid movements, graceful body lines, expressive facial expressionsand vibrant stage presentation.",
+      "As students advance through each stage, they explore foundational adavus, hand gestures, rhythmic coordinationand body control, gradually progressing to complex dance compositions, nuanced abhinaya, traditional repertoireand choreographic creativity.",
     ],
     photos: [
       {
@@ -110,8 +110,8 @@ const courseShowcases: CourseShowcaseData[] = [
     eyebrow: "The Dance of the Enchantress · Kerala Tradition",
     introHeading: "Intro",
     introParagraphs: [
-      "The Mohiniyattam curriculum is structured into three progressive levels — **Basic, Intermediate, and Advanced** — designed to develop students’ technical proficiency, expressive abilities, theoretical knowledge, and artistic understanding of this graceful classical dance form of Kerala.",
-      "Each level builds upon the foundations of the previous one, enabling students to progress from fundamental movements and gestures to elaborate repertoire, expressive interpretation, and independent choreography.",
+      "The Mohiniyattam curriculum is structured into three progressive levels — **Basic, Intermediateand Advanced** — designed to develop students’ technical proficiency, expressive abilities, theoretical knowledgeand artistic understanding of this graceful classical dance form of Kerala.",
+      "Each level builds upon the foundations of the previous one, enabling students to progress from fundamental movements and gestures to elaborate repertoire, expressive interpretationand independent choreography.",
     ],
     photos: [
       {

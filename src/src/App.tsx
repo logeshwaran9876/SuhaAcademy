@@ -39,13 +39,13 @@ const pageMetas: MetaConfig[] = [
     path: "/faculty",
     title: "Eminent Faculty & Gurus | Suha Academy of Fine Arts",
     description:
-      "Meet the revered classical masters and faculty at Suha Academy of Fine Arts — Guru Smt. Ranjini Pradeep, Sri Thinagar Raj and Smt. Swarna Sahasra.",
+      "Meet the revered classical masters and faculty at Suha Academy of Fine Arts — Guru Smt. Ranjini Pradeep, Sri. Thinagar Raj and Smt. Swarna Sahasra.",
   },
   {
     path: "/faculties",
     title: "Eminent Faculty & Gurus | Suha Academy of Fine Arts",
     description:
-      "Meet the revered classical masters and faculty at Suha Academy of Fine Arts — Guru Smt. Ranjini Pradeep, Sri Thinagar Raj and Smt. Swarna Sahasra.",
+      "Meet the revered classical masters and faculty at Suha Academy of Fine Arts — Guru Smt. Ranjini Pradeep, Sri. Thinagar Raj and Smt. Swarna Sahasra.",
   },
   {
     path: "/courses",

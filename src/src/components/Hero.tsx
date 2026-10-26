@@ -115,7 +115,7 @@ export default function Hero() {
             {/* Subtitle: Minimal, Clear & Authentic */}
             <Reveal delay={0.2}>
               <p className="text-xs sm:text-base lg:text-lg text-cream-100/85 font-light font-sans leading-relaxed mb-5 sm:mb-8 max-w-sm sm:max-w-xl">
-                Founder &amp; Artistic Director Smt. Ranjini Pradeep, Senior Disciple of Kalaimamani Sri Madurai R. Muralidaran and Smt. Chithra Muralidaran in Bharathanatyam, &amp; Padma Shri Smt. Nithyasree Mahadevan in Carnatic Music.
+                Founder &amp; Artistic Director Smt. Ranjini Pradeep, Senior Disciple of Kalaimamani Sri. Madurai R. Muralidaran and Smt. Chithra Muralidara &amp; Padma Shri Smt. Nithyasree Mahadevan in Carnatic Music.
               </p>
             </Reveal>
 

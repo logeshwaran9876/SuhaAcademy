@@ -381,7 +381,7 @@ export const courses = [
     title: "Carnatic Music",
     tamilTitle: "கர்நாடக இசை",
     tradition: "South Indian Classical Shastric Tradition",
-    leadGuru: "Sri J. Thinagar Raja & Guru Smt. Ranjini Pradeep",
+    leadGuru: "Sri. J. Thinagar Raja & Guru Smt. Ranjini Pradeep",
     guruRole: "Sangeetha Vidwan & Disciple of Padma Shri Dr. Nithyashree Mahadevan",
     guruImage: "/suha_media/shared/shared_faculty_thinagar_raj.png",
     guruLink: "/faculty#classical-instructors",
@@ -473,7 +473,7 @@ export const courses = [
           {
             title: "Geetams",
             description:
-              "Introductory classical songs combining melody and sahitya (e.g., Sri Gananatha in Malahari, Varaveena in Mohanam, Keraya Neeranu).",
+              "Introductory classical songs combining melody and sahitya (e.g., Sri. Gananatha in Malahari, Varaveena in Mohanam, Keraya Neeranu).",
           },
           {
             title: "Swarajathis",
@@ -530,7 +530,7 @@ export const courses = [
           {
             title: "Special Compositions (Pancharatna Kritis)",
             description:
-              "Mastering the monumental Ghanaraga Pancharatna Kritis of Saint Tyagaraja in Nattai, Gowla, Arabhi, Varali and Sri ragas.",
+              "Mastering the monumental Ghanaraga Pancharatna Kritis of Saint Tyagaraja in Nattai, Gowla, Arabhi, Varali and Sri. ragas.",
           },
           {
             title: "Other Classical Forms",

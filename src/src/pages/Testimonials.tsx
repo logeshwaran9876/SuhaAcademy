@@ -205,7 +205,7 @@ export const communityReviews: ReviewItem[] = [
   },
   {
     id: "k5",
-    name: "Sri Viswapriya Ramanathan",
+    name: "Sri. Viswapriya Ramanathan",
     role: "Parent of KKKV 2025 Participant",
     category: "kkkv",
     categoryLabel: "KKKV Participants",

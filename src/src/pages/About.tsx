@@ -18,24 +18,24 @@ import { OrnamentDivider, MandalaWatermark, GoldFrame } from "@/components/Decor
 import { academy, faculty } from "@/data/academy";
 
 export default function About() {
-  const distinguishedGuests = [
-    { name: "Dr. Nithyashree Mahadevan", role: "Eminent Carnatic Vocalist" },
-    { name: "Smt. Mahathi", role: "Carnatic Vocalist & Playback Singer" },
-    { name: "Smt. Chitra Muralitharan", role: "Paramaguru & Kalaimamani Bharathanatyam Exponent" },
-    { name: "Smt. Kavya Muralitharan", role: "Bharathanatyam Exponent & Artist" },
-    { name: "Sri Sai Charan", role: "Carnatic Vocalist & Playback Singer" },
-    { name: "Sri Sai Vignesh", role: "Carnatic Vocalist & Playback Singer" },
-    { name: "Sri Anand Aravindakshan", role: "Playback Singer & Title Winner" },
-    { name: "Sri Sriram & Smt. Roshini", role: "Playback Singers" },
-    { name: "Smt. Divyasena", role: "Bharathanatyam Exponent & Guru" },
-    { name: "Smt. Srekala Bharath", role: "Kalaimamani Bharathanatyam Guru" },
-    { name: "Sri Narendra Kumar", role: "Classical Dancer & Choreographer" },
-    { name: "Sri Shivakumar", role: "Classical Dancer" },
-    { name: "Dr. Udaykumar", role: "ENT, Head and Neck Surgeon" },
-    { name: "Sri Amit Bhargav", role: "Prominent Actor & Media Personality" },
-    { name: "Smt. MGR Latha", role: "Veteran Actress & Classical Patron" },
-    { name: "Sri Sankar & Sri Bharanidaran (Saadhaga Paravaigal)", role: "Renowned Music Ensemble" },
-  ];
+const distinguishedGuests = [
+  { name: "Dr. Nithyashree Mahadevan", role: "Eminent Carnatic Vocalist" },
+  { name: "Smt. Mahathi", role: "Carnatic Vocalist & Playback Singer" },
+  { name: "Smt. Chitra Muralidharan", role: "Paramaguru & Kalaimamani Bharathanatyam Exponent" },
+  { name: "Smt. Kavya Muralidharan", role: "Bharathanatyam Exponent & Artist" },
+  { name: "Sri. Sai Charan", role: "Carnatic Vocalist & Playback Singer" },
+  { name: "Sri. Sai Vignesh", role: "Carnatic Vocalist & Playback Singer" },
+  { name: "Sri. Anand Aravindakshan", role: "Playback Singer & Title Winner" },
+  { name: "Sri. Sriram & Smt. Roshini", role: "Playback Singers" },
+  { name: "Smt. Divyasena", role: "Bharathanatyam Exponent & Guru" },
+  { name: "Smt. Srekala Bharath", role: "Kalaimamani Bharathanatyam Guru" },
+  { name: "Sri. Narendra Kumar", role: "Classical Dancer & Choreographer" },
+  { name: "Sri. Shivakumar", role: "Classical Dancer" },
+  { name: "Dr. Udaykumar", role: "ENT, Head and Neck Surgeon" },
+  { name: "Sri. Amit Bhargav", role: "Prominent Actor & Media Personality" },
+  { name: "Smt. MGR Latha", role: "Veteran Actress & Classical Patron" },
+  { name: "Sri. Sankar & Sri. Bharanidaran (Saadhaga Paravaigal)", role: "Renowned Music Ensemble" },
+];
 
   const milestones = [
     {
