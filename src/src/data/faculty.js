@@ -18,7 +18,7 @@ export const founderMember = {
   image: "/suha_media/shared/shared_faculty_ranjini_pradeep.png",
   experience: "16+ Years Teaching & Choreography (Practicing since Age 7)",
   credentials:
-    "Master’s Degree in Bharathanatyam · Senior Disciple of Kalaimamani Sri Madurai R. Muralidaran & Smt. Chithra Muralidaran (Bharathanatyam) · Disciple of Padma Shri Dr. Nithyashree Mahadevan (Carnatic Music)",
+    "Master’s Degree in Bharathanatyam · Senior Disciple of Kalaimamani Sri. Madurai R. Muralidaran & Smt. Chithra Muralidaran (Bharathanatyam) · Disciple of Padma Shri Dr. Nithyashree Mahadevan (Carnatic Music)",
   quote:
     "Classical dance and music are not merely stage performances; they are a sacred sadhana that cultivates humility, character, discipline and lifelong inner joy in every student.",
   shortBio:
@@ -26,7 +26,7 @@ export const founderMember = {
   paragraphs: [
     "A distinguished Bharathanatyam dancer, Carnatic vocalist and performing artist, Smt. Ranjini Pradeep began her journey in Indian classical arts at the age of seven.",
     "Holding a Master’s degree in Bharathanatyam and bringing over 16 years of teaching experience, she is dedicated to preserving classical traditions while nurturing the next generation of artistes through disciplined training and artistic mentorship.",
-    "She is a senior disciple of Kalaimamani Sri Madurai R. Muralidaran and Smt. Chithra Muralidaran in Bharathanatyam, and a disciple of Padma Shri Dr. Nithyashree Mahadevan in Carnatic music.",
+    "She is a senior disciple of Kalaimamani Sri. Madurai R. Muralidaran and Smt. Chithra Muralidaran in Bharathanatyam and a disciple of Padma Shri Dr. Nithyashree Mahadevan in Carnatic music.",
     "Her artistic achievements include the prestigious “Natya Thaaragai” title conferred by the Lions Club. In 2011, she was honoured as the Best Female Dancer representing Tamil Nadu, Puducherry and the Andaman & Nicobar Directorate at the RDC–NCC Parade in New Delhi, where she performed before the Chiefs of the Indian Army, Navy and Air Force.",
     "A life member of ABHAI (Association of Bharathanatyam Artists of India), she has graced distinguished platforms in India and abroad. Her performances with her students at SIFAS, Singapore, during the Shivratri festival and at Batu Caves Temple, Malaysia, during Thaipoosam reflect her commitment to sharing the richness of Indian classical arts with diverse audiences.",
     "Beyond classical dance, she has also served as the lead female singer of the Saadhaga Paravaigal light music orchestra, bringing together her passion for music, movement and performance in a multifaceted artistic journey.",
@@ -41,7 +41,7 @@ A distinguished Bharathanatyam dancer, Carnatic vocalist and performing artist, 
 
 Holding a Master’s degree in Bharathanatyam and bringing over 16 years of teaching experience, she is dedicated to preserving classical traditions while nurturing the next generation of artistes through disciplined training and artistic mentorship.
 
-She is a senior disciple of Kalaimamani Sri Madurai R. Muralidaran and Smt. Chithra Muralidaran in Bharathanatyam, and a disciple of Padma Shri Dr. Nithyashree Mahadevan in Carnatic music.
+She is a senior disciple of Kalaimamani Sri. Madurai R. Muralidaran and Smt. Chithra Muralidaran in Bharathanatyam and a disciple of Padma Shri Dr. Nithyashree Mahadevan in Carnatic music.
 
 Her artistic achievements include the prestigious “Natya Thaaragai” title conferred by the Lions Club. In 2011, she was honoured as the Best Female Dancer representing Tamil Nadu, Puducherry and the Andaman & Nicobar Directorate at the RDC–NCC Parade in New Delhi, where she performed before the Chiefs of the Indian Army, Navy and Air Force.
 
@@ -82,7 +82,7 @@ Her multifaceted journey across cinema, television, advertising and programme ho
     "Film credits include Nila Kaalam, Thendral, Pandavar Bhoomi, Anbu and Sarkar (sharing screen space with Thiru. Joseph Vijay)",
     "Lead roles in popular television serials including Shiva Manasula Shakthi (Vijay TV) and Kalyana Parisu (Sun TV)",
     "Commercial appearances for leading brands: Pothys, Chennai Silks, Sree Kumaran Thanga Maligai, Pantene, Sathya Stores, CSC Computers",
-    "Television host & anchor for Top Star Singer (Vasanth TV), Endrendrum PBS (Vijay TV), and music shows on Doordarshan & Kalaignar TV",
+    "Television host & anchor for Top Star Singer (Vasanth TV), Endrendrum PBS (Vijay TV)and music shows on Doordarshan & Kalaignar TV",
     "Founder and curator of Kodai Kaala Kalai Vizha (KKKV) state-level classical festival",
   ],
   centers: [
@@ -148,7 +148,7 @@ export const instructors = [
   },
   {
     id: "thinagar-raja",
-    name: "Sri J. Thinagar Raja",
+    name: "Sri. J. Thinagar Raja",
     title: "Carnatic Music Instructor",
     discipline: "Carnatic Vocal & Music Education",
     category: "instructor",
@@ -171,7 +171,7 @@ export const instructors = [
     ],
     bio: "A dedicated Carnatic music educator and a Sangeetha Vidwan, holds a Diploma in Music Teacher Training from Tamil University, Thanjavur, having secured First Class in 2015. With Vocal as his main subject and Violin as his subsidiary subject, he brings a strong academic foundation and a passion for music education. Through his 2 years of association with Suha Academy of Fine Arts, he is committed to nurturing young musical talent, strengthening vocal proficiency and fostering a deeper appreciation for the rich traditions of Carnatic music.",
     teachingPhilosophy:
-      "Focusing on pitch purity (shruti shuddham) and tala precision, Sri J. Thinagar Raja systematically guides students through foundational swara exercises and kritis, ensuring that each student develops a solid classical foundation and confident vocal control.",
+      "Focusing on pitch purity (shruti shuddham) and tala precision, Sri. J. Thinagar Raja systematically guides students through foundational swara exercises and kritis, ensuring that each student develops a solid classical foundation and confident vocal control.",
     specializations: [
       "Vocal Music Teacher Training & Voice Culture",
       "Violin Subsidiary Foundations & Shruti Alignment",

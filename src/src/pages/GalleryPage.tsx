@@ -40,7 +40,7 @@ export default function GalleryPage() {
           <SectionHeader
             eyebrow="Live Recitals"
             title="Video Archive & YouTube Showcase"
-            subtitle="Watch classical dance Margam items, Carnatic vocal choirs and Annual Day felicitations by Dr. Divyasena, Sri Sai Vignesh and Sri Amit Bhargav."
+            subtitle="Watch classical dance Margam items, Carnatic vocal choirs and Annual Day felicitations by Dr. Divyasena, Sri. Sai Vignesh and Sri. Amit Bhargav."
           />
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mt-14">

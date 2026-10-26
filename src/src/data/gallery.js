@@ -311,8 +311,8 @@ const baseGalleryImages = [
   },
   {
     "src": "/suha_media/gallery/memorable_encounters/gallery_encounter_011.jpg",
-    "alt": "Actor Sri Amit Bhargav Felicitating Student Disciples at Suha Academy",
-    "title": "Actor Sri Amit Bhargav Felicitating Student Disciples",
+    "alt": "Actor Sri. Amit Bhargav Felicitating Student Disciples at Suha Academy",
+    "title": "Actor Sri. Amit Bhargav Felicitating Student Disciples",
     "category": "Memorable Encounters",
     "folder": "Memorable encounters",
     "year": "Cultural Encounter",
@@ -609,7 +609,7 @@ const baseGalleryImages = [
     "eventUrl": "/events/memorable-encounters",
     "eventTitle": "Memorable Encounters"
   },
-    {
+  {
     "src": "/suha_media/gallery/mohiniyattam/gallery_mohiniyattam_001.jpg",
     "alt": "Mohiniyattam — Swati Festival Stage Recital performed by Suha Academy disciples",
     "title": "Mohiniyattam — Swati Festival Stage Recital",
