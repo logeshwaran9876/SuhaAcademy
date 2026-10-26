@@ -94,1278 +94,6 @@ const eventGalleryImages = eventCategoriesConfig.flatMap((cfg) => {
 
 const baseGalleryImages = [
   {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_005.jpg",
-    "alt": "Pushpanjali Stage Invocation #1 by students of Suha Academy of Fine Arts",
-    "title": "Pushpanjali Stage Invocation #1",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_006.jpg",
-    "alt": "Araimandi Posture & Precision #1 by students of Suha Academy of Fine Arts",
-    "title": "Araimandi Posture & Precision #1",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_007.jpg",
-    "alt": "Jathiswaram Rhythmic Footwork #1 by students of Suha Academy of Fine Arts",
-    "title": "Jathiswaram Rhythmic Footwork #1",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_008.jpg",
-    "alt": "Alarippu Geometric Grace #1 by students of Suha Academy of Fine Arts",
-    "title": "Alarippu Geometric Grace #1",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_009.jpg",
-    "alt": "Varnam Thematic Storytelling #1 by students of Suha Academy of Fine Arts",
-    "title": "Varnam Thematic Storytelling #1",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_010.jpg",
-    "alt": "Abhinaya & Navarasa Bhava #1 by students of Suha Academy of Fine Arts",
-    "title": "Abhinaya & Navarasa Bhava #1",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_011.jpg",
-    "alt": "Thillana Dynamic Rhythmic Finale #1 by students of Suha Academy of Fine Arts",
-    "title": "Thillana Dynamic Rhythmic Finale #1",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_012.jpg",
-    "alt": "Classical Duet Stage Presentation #1 by students of Suha Academy of Fine Arts",
-    "title": "Classical Duet Stage Presentation #1",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_013.jpg",
-    "alt": "Margam Solo Recital Grace #1 by students of Suha Academy of Fine Arts",
-    "title": "Margam Solo Recital Grace #1",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/shared/shared_media_asset_06.jpg",
-    "alt": "Synchronized Ensemble Choreography #1 by students of Suha Academy of Fine Arts",
-    "title": "Synchronized Ensemble Choreography #1",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_014.jpg",
-    "alt": "Stage Recital & Nattuvangam Tala #1 by students of Suha Academy of Fine Arts",
-    "title": "Stage Recital & Nattuvangam Tala #1",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_015.jpg",
-    "alt": "Salanga Pooja Disciples Debut #1 by students of Suha Academy of Fine Arts",
-    "title": "Salanga Pooja Disciples Debut #1",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_016.jpg",
-    "alt": "Arangetram Solo Margam Repertoire #1 by students of Suha Academy of Fine Arts",
-    "title": "Arangetram Solo Margam Repertoire #1",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_017.jpg",
-    "alt": "Kavithuvam Sacred Movement #1 by students of Suha Academy of Fine Arts",
-    "title": "Kavithuvam Sacred Movement #1",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_018.jpg",
-    "alt": "Padam Expressive Abhinaya #1 by students of Suha Academy of Fine Arts",
-    "title": "Padam Expressive Abhinaya #1",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_019.jpg",
-    "alt": "Ashtapadi Devotional Depiction #1 by students of Suha Academy of Fine Arts",
-    "title": "Ashtapadi Devotional Depiction #1",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_020.jpg",
-    "alt": "Temple Stage Classical Offering #1 by students of Suha Academy of Fine Arts",
-    "title": "Temple Stage Classical Offering #1",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_021.jpg",
-    "alt": "Nataraja Anjali & Sculptural Poise #1 by students of Suha Academy of Fine Arts",
-    "title": "Nataraja Anjali & Sculptural Poise #1",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_022.jpg",
-    "alt": "Pushpanjali Stage Invocation #2 by students of Suha Academy of Fine Arts",
-    "title": "Pushpanjali Stage Invocation #2",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_023.jpg",
-    "alt": "Araimandi Posture & Precision #2 by students of Suha Academy of Fine Arts",
-    "title": "Araimandi Posture & Precision #2",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_024.jpg",
-    "alt": "Jathiswaram Rhythmic Footwork #2 by students of Suha Academy of Fine Arts",
-    "title": "Jathiswaram Rhythmic Footwork #2",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_025.jpg",
-    "alt": "Alarippu Geometric Grace #2 by students of Suha Academy of Fine Arts",
-    "title": "Alarippu Geometric Grace #2",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_026.jpg",
-    "alt": "Varnam Thematic Storytelling #2 by students of Suha Academy of Fine Arts",
-    "title": "Varnam Thematic Storytelling #2",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_027.jpg",
-    "alt": "Abhinaya & Navarasa Bhava #2 by students of Suha Academy of Fine Arts",
-    "title": "Abhinaya & Navarasa Bhava #2",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_028.jpg",
-    "alt": "Thillana Dynamic Rhythmic Finale #2 by students of Suha Academy of Fine Arts",
-    "title": "Thillana Dynamic Rhythmic Finale #2",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_029.jpg",
-    "alt": "Classical Duet Stage Presentation #2 by students of Suha Academy of Fine Arts",
-    "title": "Classical Duet Stage Presentation #2",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_030.jpg",
-    "alt": "Margam Solo Recital Grace #2 by students of Suha Academy of Fine Arts",
-    "title": "Margam Solo Recital Grace #2",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_031.jpg",
-    "alt": "Synchronized Ensemble Choreography #2 by students of Suha Academy of Fine Arts",
-    "title": "Synchronized Ensemble Choreography #2",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_032.jpg",
-    "alt": "Stage Recital & Nattuvangam Tala #2 by students of Suha Academy of Fine Arts",
-    "title": "Stage Recital & Nattuvangam Tala #2",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_033.jpg",
-    "alt": "Salanga Pooja Disciples Debut #2 by students of Suha Academy of Fine Arts",
-    "title": "Salanga Pooja Disciples Debut #2",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_034.jpg",
-    "alt": "Arangetram Solo Margam Repertoire #2 by students of Suha Academy of Fine Arts",
-    "title": "Arangetram Solo Margam Repertoire #2",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_035.jpg",
-    "alt": "Kavithuvam Sacred Movement #2 by students of Suha Academy of Fine Arts",
-    "title": "Kavithuvam Sacred Movement #2",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_036.jpg",
-    "alt": "Padam Expressive Abhinaya #2 by students of Suha Academy of Fine Arts",
-    "title": "Padam Expressive Abhinaya #2",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_037.jpg",
-    "alt": "Ashtapadi Devotional Depiction #2 by students of Suha Academy of Fine Arts",
-    "title": "Ashtapadi Devotional Depiction #2",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_038.jpg",
-    "alt": "Temple Stage Classical Offering #2 by students of Suha Academy of Fine Arts",
-    "title": "Temple Stage Classical Offering #2",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_039.jpg",
-    "alt": "Nataraja Anjali & Sculptural Poise #2 by students of Suha Academy of Fine Arts",
-    "title": "Nataraja Anjali & Sculptural Poise #2",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_040.jpg",
-    "alt": "Pushpanjali Stage Invocation #3 by students of Suha Academy of Fine Arts",
-    "title": "Pushpanjali Stage Invocation #3",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_041.jpg",
-    "alt": "Araimandi Posture & Precision #3 by students of Suha Academy of Fine Arts",
-    "title": "Araimandi Posture & Precision #3",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_042.jpg",
-    "alt": "Jathiswaram Rhythmic Footwork #3 by students of Suha Academy of Fine Arts",
-    "title": "Jathiswaram Rhythmic Footwork #3",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_043.jpg",
-    "alt": "Alarippu Geometric Grace #3 by students of Suha Academy of Fine Arts",
-    "title": "Alarippu Geometric Grace #3",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_044.jpg",
-    "alt": "Varnam Thematic Storytelling #3 by students of Suha Academy of Fine Arts",
-    "title": "Varnam Thematic Storytelling #3",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_045.jpg",
-    "alt": "Abhinaya & Navarasa Bhava #3 by students of Suha Academy of Fine Arts",
-    "title": "Abhinaya & Navarasa Bhava #3",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_046.jpg",
-    "alt": "Thillana Dynamic Rhythmic Finale #3 by students of Suha Academy of Fine Arts",
-    "title": "Thillana Dynamic Rhythmic Finale #3",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_047.jpg",
-    "alt": "Classical Duet Stage Presentation #3 by students of Suha Academy of Fine Arts",
-    "title": "Classical Duet Stage Presentation #3",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_058.jpg",
-    "alt": "Margam Solo Recital Grace #3 by students of Suha Academy of Fine Arts",
-    "title": "Margam Solo Recital Grace #3",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_059.jpg",
-    "alt": "Synchronized Ensemble Choreography #3 by students of Suha Academy of Fine Arts",
-    "title": "Synchronized Ensemble Choreography #3",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_060.jpg",
-    "alt": "Stage Recital & Nattuvangam Tala #3 by students of Suha Academy of Fine Arts",
-    "title": "Stage Recital & Nattuvangam Tala #3",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_061.jpg",
-    "alt": "Salanga Pooja Disciples Debut #3 by students of Suha Academy of Fine Arts",
-    "title": "Salanga Pooja Disciples Debut #3",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_062.jpg",
-    "alt": "Arangetram Solo Margam Repertoire #3 by students of Suha Academy of Fine Arts",
-    "title": "Arangetram Solo Margam Repertoire #3",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_063.jpg",
-    "alt": "Kavithuvam Sacred Movement #3 by students of Suha Academy of Fine Arts",
-    "title": "Kavithuvam Sacred Movement #3",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_064.jpg",
-    "alt": "Padam Expressive Abhinaya #3 by students of Suha Academy of Fine Arts",
-    "title": "Padam Expressive Abhinaya #3",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_065.jpg",
-    "alt": "Ashtapadi Devotional Depiction #3 by students of Suha Academy of Fine Arts",
-    "title": "Ashtapadi Devotional Depiction #3",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_066.jpg",
-    "alt": "Temple Stage Classical Offering #3 by students of Suha Academy of Fine Arts",
-    "title": "Temple Stage Classical Offering #3",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_067.jpg",
-    "alt": "Nataraja Anjali & Sculptural Poise #3 by students of Suha Academy of Fine Arts",
-    "title": "Nataraja Anjali & Sculptural Poise #3",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_068.jpg",
-    "alt": "Pushpanjali Stage Invocation #4 by students of Suha Academy of Fine Arts",
-    "title": "Pushpanjali Stage Invocation #4",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_069.jpg",
-    "alt": "Araimandi Posture & Precision #4 by students of Suha Academy of Fine Arts",
-    "title": "Araimandi Posture & Precision #4",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_070.jpg",
-    "alt": "Jathiswaram Rhythmic Footwork #4 by students of Suha Academy of Fine Arts",
-    "title": "Jathiswaram Rhythmic Footwork #4",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_071.jpg",
-    "alt": "Alarippu Geometric Grace #4 by students of Suha Academy of Fine Arts",
-    "title": "Alarippu Geometric Grace #4",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_072.jpg",
-    "alt": "Varnam Thematic Storytelling #4 by students of Suha Academy of Fine Arts",
-    "title": "Varnam Thematic Storytelling #4",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_073.jpg",
-    "alt": "Abhinaya & Navarasa Bhava #4 by students of Suha Academy of Fine Arts",
-    "title": "Abhinaya & Navarasa Bhava #4",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_074.jpg",
-    "alt": "Thillana Dynamic Rhythmic Finale #4 by students of Suha Academy of Fine Arts",
-    "title": "Thillana Dynamic Rhythmic Finale #4",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_048.jpg",
-    "alt": "Margam Solo Recital Grace #4 by students of Suha Academy of Fine Arts",
-    "title": "Margam Solo Recital Grace #4",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_049.jpg",
-    "alt": "Synchronized Ensemble Choreography #4 by students of Suha Academy of Fine Arts",
-    "title": "Synchronized Ensemble Choreography #4",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_050.jpg",
-    "alt": "Salanga Pooja Disciples Debut #4 by students of Suha Academy of Fine Arts",
-    "title": "Salanga Pooja Disciples Debut #4",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_051.jpg",
-    "alt": "Kavithuvam Sacred Movement #4 by students of Suha Academy of Fine Arts",
-    "title": "Kavithuvam Sacred Movement #4",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_052.jpg",
-    "alt": "Ashtapadi Devotional Depiction #4 by students of Suha Academy of Fine Arts",
-    "title": "Ashtapadi Devotional Depiction #4",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_053.jpg",
-    "alt": "Nataraja Anjali & Sculptural Poise #4 by students of Suha Academy of Fine Arts",
-    "title": "Nataraja Anjali & Sculptural Poise #4",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_054.jpg",
-    "alt": "Araimandi Posture & Precision #5 by students of Suha Academy of Fine Arts",
-    "title": "Araimandi Posture & Precision #5",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_055.jpg",
-    "alt": "Jathiswaram Rhythmic Footwork #5 by students of Suha Academy of Fine Arts",
-    "title": "Jathiswaram Rhythmic Footwork #5",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_056.jpg",
-    "alt": "Alarippu Geometric Grace #5 by students of Suha Academy of Fine Arts",
-    "title": "Alarippu Geometric Grace #5",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_057.jpg",
-    "alt": "Varnam Thematic Storytelling #5 by students of Suha Academy of Fine Arts",
-    "title": "Varnam Thematic Storytelling #5",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_075.jpg",
-    "alt": "Abhinaya & Navarasa Bhava #5 by students of Suha Academy of Fine Arts",
-    "title": "Abhinaya & Navarasa Bhava #5",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_076.jpg",
-    "alt": "Classical Duet Stage Presentation #5 by students of Suha Academy of Fine Arts",
-    "title": "Classical Duet Stage Presentation #5",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_077.jpg",
-    "alt": "Margam Solo Recital Grace #5 by students of Suha Academy of Fine Arts",
-    "title": "Margam Solo Recital Grace #5",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_078.jpg",
-    "alt": "Synchronized Ensemble Choreography #5 by students of Suha Academy of Fine Arts",
-    "title": "Synchronized Ensemble Choreography #5",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_079.jpg",
-    "alt": "Stage Recital & Nattuvangam Tala #5 by students of Suha Academy of Fine Arts",
-    "title": "Stage Recital & Nattuvangam Tala #5",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_080.jpg",
-    "alt": "Salanga Pooja Disciples Debut #5 by students of Suha Academy of Fine Arts",
-    "title": "Salanga Pooja Disciples Debut #5",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_081.jpg",
-    "alt": "Arangetram Solo Margam Repertoire #5 by students of Suha Academy of Fine Arts",
-    "title": "Arangetram Solo Margam Repertoire #5",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_082.jpg",
-    "alt": "Kavithuvam Sacred Movement #5 by students of Suha Academy of Fine Arts",
-    "title": "Kavithuvam Sacred Movement #5",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_083.jpg",
-    "alt": "Padam Expressive Abhinaya #5 by students of Suha Academy of Fine Arts",
-    "title": "Padam Expressive Abhinaya #5",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_084.jpg",
-    "alt": "Ashtapadi Devotional Depiction #5 by students of Suha Academy of Fine Arts",
-    "title": "Ashtapadi Devotional Depiction #5",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_085.jpg",
-    "alt": "Temple Stage Classical Offering #5 by students of Suha Academy of Fine Arts",
-    "title": "Temple Stage Classical Offering #5",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_086.jpg",
-    "alt": "Nataraja Anjali & Sculptural Poise #5 by students of Suha Academy of Fine Arts",
-    "title": "Nataraja Anjali & Sculptural Poise #5",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_087.jpg",
-    "alt": "Araimandi Posture & Precision #6 by students of Suha Academy of Fine Arts",
-    "title": "Araimandi Posture & Precision #6",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_088.jpg",
-    "alt": "Jathiswaram Rhythmic Footwork #6 by students of Suha Academy of Fine Arts",
-    "title": "Jathiswaram Rhythmic Footwork #6",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_089.jpg",
-    "alt": "Alarippu Geometric Grace #6 by students of Suha Academy of Fine Arts",
-    "title": "Alarippu Geometric Grace #6",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_090.jpg",
-    "alt": "Varnam Thematic Storytelling #6 by students of Suha Academy of Fine Arts",
-    "title": "Varnam Thematic Storytelling #6",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_091.jpg",
-    "alt": "Abhinaya & Navarasa Bhava #6 by students of Suha Academy of Fine Arts",
-    "title": "Abhinaya & Navarasa Bhava #6",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_092.jpg",
-    "alt": "Classical Duet Stage Presentation #6 by students of Suha Academy of Fine Arts",
-    "title": "Classical Duet Stage Presentation #6",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_093.jpg",
-    "alt": "Margam Solo Recital Grace #6 by students of Suha Academy of Fine Arts",
-    "title": "Margam Solo Recital Grace #6",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_094.jpg",
-    "alt": "Synchronized Ensemble Choreography #6 by students of Suha Academy of Fine Arts",
-    "title": "Synchronized Ensemble Choreography #6",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_095.jpg",
-    "alt": "Stage Recital & Nattuvangam Tala #6 by students of Suha Academy of Fine Arts",
-    "title": "Stage Recital & Nattuvangam Tala #6",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_096.jpg",
-    "alt": "Salanga Pooja Disciples Debut #6 by students of Suha Academy of Fine Arts",
-    "title": "Salanga Pooja Disciples Debut #6",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_097.jpg",
-    "alt": "Arangetram Solo Margam Repertoire #6 by students of Suha Academy of Fine Arts",
-    "title": "Arangetram Solo Margam Repertoire #6",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_098.jpg",
-    "alt": "Kavithuvam Sacred Movement #6 by students of Suha Academy of Fine Arts",
-    "title": "Kavithuvam Sacred Movement #6",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_099.jpg",
-    "alt": "Padam Expressive Abhinaya #6 by students of Suha Academy of Fine Arts",
-    "title": "Padam Expressive Abhinaya #6",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_100.jpg",
-    "alt": "Ashtapadi Devotional Depiction #6 by students of Suha Academy of Fine Arts",
-    "title": "Ashtapadi Devotional Depiction #6",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_101.jpg",
-    "alt": "Temple Stage Classical Offering #6 by students of Suha Academy of Fine Arts",
-    "title": "Temple Stage Classical Offering #6",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_102.jpg",
-    "alt": "Nataraja Anjali & Sculptural Poise #6 by students of Suha Academy of Fine Arts",
-    "title": "Nataraja Anjali & Sculptural Poise #6",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_103.jpg",
-    "alt": "Pushpanjali Stage Invocation #7 by students of Suha Academy of Fine Arts",
-    "title": "Pushpanjali Stage Invocation #7",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/shared/shared_media_asset_04.jpg",
-    "alt": "Araimandi Posture & Precision #7 by students of Suha Academy of Fine Arts",
-    "title": "Araimandi Posture & Precision #7",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_001.jpg",
-    "alt": "Jathiswaram Rhythmic Footwork #7 by students of Suha Academy of Fine Arts",
-    "title": "Jathiswaram Rhythmic Footwork #7",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_002.jpg",
-    "alt": "Alarippu Geometric Grace #7 by students of Suha Academy of Fine Arts",
-    "title": "Alarippu Geometric Grace #7",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_003.jpg",
-    "alt": "Varnam Thematic Storytelling #7 by students of Suha Academy of Fine Arts",
-    "title": "Varnam Thematic Storytelling #7",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/shared/shared_media_asset_05.jpg",
-    "alt": "Abhinaya & Navarasa Bhava #7 by students of Suha Academy of Fine Arts",
-    "title": "Abhinaya & Navarasa Bhava #7",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
-    "src": "/suha_media/gallery/bharatanatyam/gallery_bharatanatyam_004.jpg",
-    "alt": "Thillana Dynamic Rhythmic Finale #7 by students of Suha Academy of Fine Arts",
-    "title": "Thillana Dynamic Rhythmic Finale #7",
-    "category": "Bharathanatyam",
-    "folder": "Bharathanatyam",
-    "year": "Stage Recital",
-    "source": "Suha Academy Bharathanatyam Stage Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/national-recitals",
-    "eventTitle": "National Classical Recitals & Stage Margam"
-  },
-  {
     "src": "/suha_media/shared/shared_media_asset_11.jpg",
     "alt": "Annual Day Lamp Lighting Ceremony at Suha Academy of Fine Arts",
     "title": "Annual Day Lamp Lighting Ceremony",
@@ -1470,8 +198,8 @@ const baseGalleryImages = [
     "year": "Cultural Encounter",
     "source": "Suha Academy Dignitaries Archive",
     "permissionRequired": false,
-    "eventUrl": "/about",
-    "eventTitle": "Eminent Guests, Gurus & Cultural Encounters"
+    "eventUrl": "/events/memorable-encounters",
+    "eventTitle": "Memorable Encounters"
   },
   {
     "src": "/suha_media/gallery/memorable_encounters/gallery_encounter_002.jpg",
@@ -1482,8 +210,8 @@ const baseGalleryImages = [
     "year": "Cultural Encounter",
     "source": "Suha Academy Dignitaries Archive",
     "permissionRequired": false,
-    "eventUrl": "/about",
-    "eventTitle": "Eminent Guests, Gurus & Cultural Encounters"
+    "eventUrl": "/events/memorable-encounters",
+    "eventTitle": "Memorable Encounters"
   },
   {
     "src": "/suha_media/gallery/memorable_encounters/gallery_encounter_003.jpg",
@@ -1494,8 +222,8 @@ const baseGalleryImages = [
     "year": "Cultural Encounter",
     "source": "Suha Academy Dignitaries Archive",
     "permissionRequired": false,
-    "eventUrl": "/about",
-    "eventTitle": "Eminent Guests, Gurus & Cultural Encounters"
+    "eventUrl": "/events/memorable-encounters",
+    "eventTitle": "Memorable Encounters"
   },
   {
     "src": "/suha_media/gallery/memorable_encounters/gallery_encounter_004.jpg",
@@ -1506,8 +234,8 @@ const baseGalleryImages = [
     "year": "Cultural Encounter",
     "source": "Suha Academy Dignitaries Archive",
     "permissionRequired": false,
-    "eventUrl": "/about",
-    "eventTitle": "Eminent Guests, Gurus & Cultural Encounters"
+    "eventUrl": "/events/memorable-encounters",
+    "eventTitle": "Memorable Encounters"
   },
   {
     "src": "/suha_media/gallery/memorable_encounters/gallery_encounter_005.jpg",
@@ -1518,8 +246,8 @@ const baseGalleryImages = [
     "year": "Cultural Encounter",
     "source": "Suha Academy Dignitaries Archive",
     "permissionRequired": false,
-    "eventUrl": "/about",
-    "eventTitle": "Eminent Guests, Gurus & Cultural Encounters"
+    "eventUrl": "/events/memorable-encounters",
+    "eventTitle": "Memorable Encounters"
   },
   {
     "src": "/suha_media/gallery/memorable_encounters/gallery_encounter_006.jpg",
@@ -1530,8 +258,8 @@ const baseGalleryImages = [
     "year": "Cultural Encounter",
     "source": "Suha Academy Dignitaries Archive",
     "permissionRequired": false,
-    "eventUrl": "/about",
-    "eventTitle": "Eminent Guests, Gurus & Cultural Encounters"
+    "eventUrl": "/events/memorable-encounters",
+    "eventTitle": "Memorable Encounters"
   },
   {
     "src": "/suha_media/gallery/memorable_encounters/gallery_encounter_007.jpg",
@@ -1542,8 +270,8 @@ const baseGalleryImages = [
     "year": "Cultural Encounter",
     "source": "Suha Academy Dignitaries Archive",
     "permissionRequired": false,
-    "eventUrl": "/about",
-    "eventTitle": "Eminent Guests, Gurus & Cultural Encounters"
+    "eventUrl": "/events/memorable-encounters",
+    "eventTitle": "Memorable Encounters"
   },
   {
     "src": "/suha_media/gallery/memorable_encounters/gallery_encounter_008.jpg",
@@ -1554,8 +282,8 @@ const baseGalleryImages = [
     "year": "Cultural Encounter",
     "source": "Suha Academy Dignitaries Archive",
     "permissionRequired": false,
-    "eventUrl": "/about",
-    "eventTitle": "Eminent Guests, Gurus & Cultural Encounters"
+    "eventUrl": "/events/memorable-encounters",
+    "eventTitle": "Memorable Encounters"
   },
   {
     "src": "/suha_media/gallery/memorable_encounters/gallery_encounter_009.jpg",
@@ -1566,8 +294,8 @@ const baseGalleryImages = [
     "year": "Cultural Encounter",
     "source": "Suha Academy Dignitaries Archive",
     "permissionRequired": false,
-    "eventUrl": "/about",
-    "eventTitle": "Eminent Guests, Gurus & Cultural Encounters"
+    "eventUrl": "/events/memorable-encounters",
+    "eventTitle": "Memorable Encounters"
   },
   {
     "src": "/suha_media/gallery/memorable_encounters/gallery_encounter_010.jpg",
@@ -1578,8 +306,8 @@ const baseGalleryImages = [
     "year": "Cultural Encounter",
     "source": "Suha Academy Dignitaries Archive",
     "permissionRequired": false,
-    "eventUrl": "/about",
-    "eventTitle": "Eminent Guests, Gurus & Cultural Encounters"
+    "eventUrl": "/events/memorable-encounters",
+    "eventTitle": "Memorable Encounters"
   },
   {
     "src": "/suha_media/gallery/memorable_encounters/gallery_encounter_011.jpg",
@@ -1590,8 +318,8 @@ const baseGalleryImages = [
     "year": "Cultural Encounter",
     "source": "Suha Academy Dignitaries Archive",
     "permissionRequired": false,
-    "eventUrl": "/about",
-    "eventTitle": "Eminent Guests, Gurus & Cultural Encounters"
+    "eventUrl": "/events/memorable-encounters",
+    "eventTitle": "Memorable Encounters"
   },
   {
     "src": "/suha_media/gallery/memorable_encounters/gallery_encounter_012.jpg",
@@ -1602,8 +330,8 @@ const baseGalleryImages = [
     "year": "Cultural Encounter",
     "source": "Suha Academy Dignitaries Archive",
     "permissionRequired": false,
-    "eventUrl": "/about",
-    "eventTitle": "Eminent Guests, Gurus & Cultural Encounters"
+    "eventUrl": "/events/memorable-encounters",
+    "eventTitle": "Memorable Encounters"
   },
   {
     "src": "/suha_media/gallery/memorable_encounters/gallery_encounter_013.jpg",
@@ -1614,8 +342,8 @@ const baseGalleryImages = [
     "year": "Cultural Encounter",
     "source": "Suha Academy Dignitaries Archive",
     "permissionRequired": false,
-    "eventUrl": "/about",
-    "eventTitle": "Eminent Guests, Gurus & Cultural Encounters"
+    "eventUrl": "/events/memorable-encounters",
+    "eventTitle": "Memorable Encounters"
   },
   {
     "src": "/suha_media/gallery/memorable_encounters/gallery_encounter_014.jpg",
@@ -1626,8 +354,8 @@ const baseGalleryImages = [
     "year": "Cultural Encounter",
     "source": "Suha Academy Dignitaries Archive",
     "permissionRequired": false,
-    "eventUrl": "/about",
-    "eventTitle": "Eminent Guests, Gurus & Cultural Encounters"
+    "eventUrl": "/events/memorable-encounters",
+    "eventTitle": "Memorable Encounters"
   },
   {
     "src": "/suha_media/gallery/memorable_encounters/gallery_encounter_015.jpg",
@@ -1638,8 +366,8 @@ const baseGalleryImages = [
     "year": "Cultural Encounter",
     "source": "Suha Academy Dignitaries Archive",
     "permissionRequired": false,
-    "eventUrl": "/about",
-    "eventTitle": "Eminent Guests, Gurus & Cultural Encounters"
+    "eventUrl": "/events/memorable-encounters",
+    "eventTitle": "Memorable Encounters"
   },
   {
     "src": "/suha_media/gallery/memorable_encounters/gallery_encounter_016.jpg",
@@ -1650,8 +378,8 @@ const baseGalleryImages = [
     "year": "Cultural Encounter",
     "source": "Suha Academy Dignitaries Archive",
     "permissionRequired": false,
-    "eventUrl": "/about",
-    "eventTitle": "Eminent Guests, Gurus & Cultural Encounters"
+    "eventUrl": "/events/memorable-encounters",
+    "eventTitle": "Memorable Encounters"
   },
   {
     "src": "/suha_media/gallery/memorable_encounters/gallery_encounter_017.jpg",
@@ -1662,8 +390,8 @@ const baseGalleryImages = [
     "year": "Cultural Encounter",
     "source": "Suha Academy Dignitaries Archive",
     "permissionRequired": false,
-    "eventUrl": "/about",
-    "eventTitle": "Eminent Guests, Gurus & Cultural Encounters"
+    "eventUrl": "/events/memorable-encounters",
+    "eventTitle": "Memorable Encounters"
   },
   {
     "src": "/suha_media/gallery/memorable_encounters/gallery_encounter_018.jpg",
@@ -1674,8 +402,8 @@ const baseGalleryImages = [
     "year": "Cultural Encounter",
     "source": "Suha Academy Dignitaries Archive",
     "permissionRequired": false,
-    "eventUrl": "/about",
-    "eventTitle": "Eminent Guests, Gurus & Cultural Encounters"
+    "eventUrl": "/events/memorable-encounters",
+    "eventTitle": "Memorable Encounters"
   },
   {
     "src": "/suha_media/gallery/memorable_encounters/gallery_encounter_019.jpg",
@@ -1686,8 +414,8 @@ const baseGalleryImages = [
     "year": "Cultural Encounter",
     "source": "Suha Academy Dignitaries Archive",
     "permissionRequired": false,
-    "eventUrl": "/about",
-    "eventTitle": "Eminent Guests, Gurus & Cultural Encounters"
+    "eventUrl": "/events/memorable-encounters",
+    "eventTitle": "Memorable Encounters"
   },
   {
     "src": "/suha_media/gallery/memorable_encounters/gallery_encounter_020.jpg",
@@ -1698,8 +426,8 @@ const baseGalleryImages = [
     "year": "Cultural Encounter",
     "source": "Suha Academy Dignitaries Archive",
     "permissionRequired": false,
-    "eventUrl": "/about",
-    "eventTitle": "Eminent Guests, Gurus & Cultural Encounters"
+    "eventUrl": "/events/memorable-encounters",
+    "eventTitle": "Memorable Encounters"
   },
   {
     "src": "/suha_media/gallery/memorable_encounters/gallery_encounter_021.jpg",
@@ -1710,8 +438,8 @@ const baseGalleryImages = [
     "year": "Cultural Encounter",
     "source": "Suha Academy Dignitaries Archive",
     "permissionRequired": false,
-    "eventUrl": "/about",
-    "eventTitle": "Eminent Guests, Gurus & Cultural Encounters"
+    "eventUrl": "/events/memorable-encounters",
+    "eventTitle": "Memorable Encounters"
   },
   {
     "src": "/suha_media/gallery/memorable_encounters/gallery_encounter_022.jpg",
@@ -1722,8 +450,8 @@ const baseGalleryImages = [
     "year": "Cultural Encounter",
     "source": "Suha Academy Dignitaries Archive",
     "permissionRequired": false,
-    "eventUrl": "/about",
-    "eventTitle": "Eminent Guests, Gurus & Cultural Encounters"
+    "eventUrl": "/events/memorable-encounters",
+    "eventTitle": "Memorable Encounters"
   },
   {
     "src": "/suha_media/gallery/memorable_encounters/gallery_encounter_023.jpg",
@@ -1734,8 +462,8 @@ const baseGalleryImages = [
     "year": "Cultural Encounter",
     "source": "Suha Academy Dignitaries Archive",
     "permissionRequired": false,
-    "eventUrl": "/about",
-    "eventTitle": "Eminent Guests, Gurus & Cultural Encounters"
+    "eventUrl": "/events/memorable-encounters",
+    "eventTitle": "Memorable Encounters"
   },
   {
     "src": "/suha_media/gallery/memorable_encounters/gallery_encounter_024.jpg",
@@ -1746,8 +474,8 @@ const baseGalleryImages = [
     "year": "Cultural Encounter",
     "source": "Suha Academy Dignitaries Archive",
     "permissionRequired": false,
-    "eventUrl": "/about",
-    "eventTitle": "Eminent Guests, Gurus & Cultural Encounters"
+    "eventUrl": "/events/memorable-encounters",
+    "eventTitle": "Memorable Encounters"
   },
   {
     "src": "/suha_media/gallery/memorable_encounters/gallery_encounter_025.jpg",
@@ -1758,8 +486,8 @@ const baseGalleryImages = [
     "year": "Cultural Encounter",
     "source": "Suha Academy Dignitaries Archive",
     "permissionRequired": false,
-    "eventUrl": "/about",
-    "eventTitle": "Eminent Guests, Gurus & Cultural Encounters"
+    "eventUrl": "/events/memorable-encounters",
+    "eventTitle": "Memorable Encounters"
   },
   {
     "src": "/suha_media/gallery/memorable_encounters/gallery_encounter_026.jpg",
@@ -1770,8 +498,8 @@ const baseGalleryImages = [
     "year": "Cultural Encounter",
     "source": "Suha Academy Dignitaries Archive",
     "permissionRequired": false,
-    "eventUrl": "/about",
-    "eventTitle": "Eminent Guests, Gurus & Cultural Encounters"
+    "eventUrl": "/events/memorable-encounters",
+    "eventTitle": "Memorable Encounters"
   },
   {
     "src": "/suha_media/gallery/memorable_encounters/gallery_encounter_027.jpg",
@@ -1782,8 +510,8 @@ const baseGalleryImages = [
     "year": "Cultural Encounter",
     "source": "Suha Academy Dignitaries Archive",
     "permissionRequired": false,
-    "eventUrl": "/about",
-    "eventTitle": "Eminent Guests, Gurus & Cultural Encounters"
+    "eventUrl": "/events/memorable-encounters",
+    "eventTitle": "Memorable Encounters"
   },
   {
     "src": "/suha_media/gallery/memorable_encounters/gallery_encounter_028.jpg",
@@ -1794,8 +522,8 @@ const baseGalleryImages = [
     "year": "Cultural Encounter",
     "source": "Suha Academy Dignitaries Archive",
     "permissionRequired": false,
-    "eventUrl": "/about",
-    "eventTitle": "Eminent Guests, Gurus & Cultural Encounters"
+    "eventUrl": "/events/memorable-encounters",
+    "eventTitle": "Memorable Encounters"
   },
   {
     "src": "/suha_media/gallery/memorable_encounters/gallery_encounter_029.jpg",
@@ -1806,8 +534,8 @@ const baseGalleryImages = [
     "year": "Cultural Encounter",
     "source": "Suha Academy Dignitaries Archive",
     "permissionRequired": false,
-    "eventUrl": "/about",
-    "eventTitle": "Eminent Guests, Gurus & Cultural Encounters"
+    "eventUrl": "/events/memorable-encounters",
+    "eventTitle": "Memorable Encounters"
   },
   {
     "src": "/suha_media/gallery/memorable_encounters/gallery_encounter_030.jpg",
@@ -1818,8 +546,8 @@ const baseGalleryImages = [
     "year": "Cultural Encounter",
     "source": "Suha Academy Dignitaries Archive",
     "permissionRequired": false,
-    "eventUrl": "/about",
-    "eventTitle": "Eminent Guests, Gurus & Cultural Encounters"
+    "eventUrl": "/events/memorable-encounters",
+    "eventTitle": "Memorable Encounters"
   },
   {
     "src": "/suha_media/gallery/memorable_encounters/gallery_encounter_031.jpg",
@@ -1830,8 +558,8 @@ const baseGalleryImages = [
     "year": "Cultural Encounter",
     "source": "Suha Academy Dignitaries Archive",
     "permissionRequired": false,
-    "eventUrl": "/about",
-    "eventTitle": "Eminent Guests, Gurus & Cultural Encounters"
+    "eventUrl": "/events/memorable-encounters",
+    "eventTitle": "Memorable Encounters"
   },
   {
     "src": "/suha_media/gallery/memorable_encounters/gallery_encounter_032.jpg",
@@ -1842,8 +570,8 @@ const baseGalleryImages = [
     "year": "Cultural Encounter",
     "source": "Suha Academy Dignitaries Archive",
     "permissionRequired": false,
-    "eventUrl": "/about",
-    "eventTitle": "Eminent Guests, Gurus & Cultural Encounters"
+    "eventUrl": "/events/memorable-encounters",
+    "eventTitle": "Memorable Encounters"
   },
   {
     "src": "/suha_media/gallery/memorable_encounters/gallery_encounter_033.jpg",
@@ -1854,8 +582,8 @@ const baseGalleryImages = [
     "year": "Cultural Encounter",
     "source": "Suha Academy Dignitaries Archive",
     "permissionRequired": false,
-    "eventUrl": "/about",
-    "eventTitle": "Eminent Guests, Gurus & Cultural Encounters"
+    "eventUrl": "/events/memorable-encounters",
+    "eventTitle": "Memorable Encounters"
   },
   {
     "src": "/suha_media/gallery/memorable_encounters/gallery_encounter_034.jpg",
@@ -1866,8 +594,8 @@ const baseGalleryImages = [
     "year": "Cultural Encounter",
     "source": "Suha Academy Dignitaries Archive",
     "permissionRequired": false,
-    "eventUrl": "/about",
-    "eventTitle": "Eminent Guests, Gurus & Cultural Encounters"
+    "eventUrl": "/events/memorable-encounters",
+    "eventTitle": "Memorable Encounters"
   },
   {
     "src": "/suha_media/gallery/memorable_encounters/gallery_encounter_035.jpg",
@@ -1878,8 +606,8 @@ const baseGalleryImages = [
     "year": "Cultural Encounter",
     "source": "Suha Academy Dignitaries Archive",
     "permissionRequired": false,
-    "eventUrl": "/about",
-    "eventTitle": "Eminent Guests, Gurus & Cultural Encounters"
+    "eventUrl": "/events/memorable-encounters",
+    "eventTitle": "Memorable Encounters"
   },
     {
     "src": "/suha_media/gallery/mohiniyattam/gallery_mohiniyattam_001.jpg",
@@ -1952,546 +680,6 @@ const baseGalleryImages = [
     "permissionRequired": false,
     "eventUrl": "/courses/mohiniyattam",
     "eventTitle": "Mohiniyattam Classical Repertory"
-  },
-  {
-    "src": "/suha_media/shared/shared_media_asset_08.jpg",
-    "alt": "Carnatic Vocal Choir Presentation #1 by students of Suha Academy of Fine Arts",
-    "title": "Carnatic Vocal Choir Presentation #1",
-    "category": "Carnatic Music",
-    "folder": "Carnatic music",
-    "year": "Concert Recital",
-    "source": "Suha Academy Choral & Vocal Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/suha-utsavam",
-    "eventTitle": "Suha Utsavams & Sacred Music Festivities"
-  },
-  {
-    "src": "/suha_media/shared/shared_media_asset_09.jpg",
-    "alt": "Junior Vocal Geetham Recital #1 by students of Suha Academy of Fine Arts",
-    "title": "Junior Vocal Geetham Recital #1",
-    "category": "Carnatic Music",
-    "folder": "Carnatic music",
-    "year": "Concert Recital",
-    "source": "Suha Academy Choral & Vocal Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/suha-utsavam",
-    "eventTitle": "Suha Utsavams & Sacred Music Festivities"
-  },
-  {
-    "src": "/suha_media/shared/shared_media_asset_10.jpg",
-    "alt": "Classical Keerthanam Chorus #1 by students of Suha Academy of Fine Arts",
-    "title": "Classical Keerthanam Chorus #1",
-    "category": "Carnatic Music",
-    "folder": "Carnatic music",
-    "year": "Concert Recital",
-    "source": "Suha Academy Choral & Vocal Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/suha-utsavam",
-    "eventTitle": "Suha Utsavams & Sacred Music Festivities"
-  },
-  {
-    "src": "/suha_media/gallery/carnatic_music/gallery_carnatic_036.jpg",
-    "alt": "Pancharatna Krithi Choral Tribute #1 by students of Suha Academy of Fine Arts",
-    "title": "Pancharatna Krithi Choral Tribute #1",
-    "category": "Carnatic Music",
-    "folder": "Carnatic music",
-    "year": "Concert Recital",
-    "source": "Suha Academy Choral & Vocal Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/suha-utsavam",
-    "eventTitle": "Suha Utsavams & Sacred Music Festivities"
-  },
-  {
-    "src": "/suha_media/gallery/carnatic_music/gallery_carnatic_037.jpg",
-    "alt": "Shruti Shuddham & Melodic Purity #1 by students of Suha Academy of Fine Arts",
-    "title": "Shruti Shuddham & Melodic Purity #1",
-    "category": "Carnatic Music",
-    "folder": "Carnatic music",
-    "year": "Concert Recital",
-    "source": "Suha Academy Choral & Vocal Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/suha-utsavam",
-    "eventTitle": "Suha Utsavams & Sacred Music Festivities"
-  },
-  {
-    "src": "/suha_media/gallery/carnatic_music/gallery_carnatic_038.jpg",
-    "alt": "Thyagaraja Aradhana Choral Homage #1 by students of Suha Academy of Fine Arts",
-    "title": "Thyagaraja Aradhana Choral Homage #1",
-    "category": "Carnatic Music",
-    "folder": "Carnatic music",
-    "year": "Concert Recital",
-    "source": "Suha Academy Choral & Vocal Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/suha-utsavam",
-    "eventTitle": "Suha Utsavams & Sacred Music Festivities"
-  },
-  {
-    "src": "/suha_media/gallery/carnatic_music/gallery_carnatic_039.jpg",
-    "alt": "Navaratri Utsav Sangeetha Seva #1 by students of Suha Academy of Fine Arts",
-    "title": "Navaratri Utsav Sangeetha Seva #1",
-    "category": "Carnatic Music",
-    "folder": "Carnatic music",
-    "year": "Concert Recital",
-    "source": "Suha Academy Choral & Vocal Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/suha-utsavam",
-    "eventTitle": "Suha Utsavams & Sacred Music Festivities"
-  },
-  {
-    "src": "/suha_media/gallery/carnatic_music/gallery_carnatic_040.jpg",
-    "alt": "Senior Disciples Classical Varnam #1 by students of Suha Academy of Fine Arts",
-    "title": "Senior Disciples Classical Varnam #1",
-    "category": "Carnatic Music",
-    "folder": "Carnatic music",
-    "year": "Concert Recital",
-    "source": "Suha Academy Choral & Vocal Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/suha-utsavam",
-    "eventTitle": "Suha Utsavams & Sacred Music Festivities"
-  },
-  {
-    "src": "/suha_media/gallery/carnatic_music/gallery_carnatic_041.jpg",
-    "alt": "Devotional Sloka & Bhajan Recital #1 by students of Suha Academy of Fine Arts",
-    "title": "Devotional Sloka & Bhajan Recital #1",
-    "category": "Carnatic Music",
-    "folder": "Carnatic music",
-    "year": "Concert Recital",
-    "source": "Suha Academy Choral & Vocal Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/suha-utsavam",
-    "eventTitle": "Suha Utsavams & Sacred Music Festivities"
-  },
-  {
-    "src": "/suha_media/gallery/carnatic_music/gallery_carnatic_001.jpg",
-    "alt": "Concert Vocal with Tala Coordination #1 by students of Suha Academy of Fine Arts",
-    "title": "Concert Vocal with Tala Coordination #1",
-    "category": "Carnatic Music",
-    "folder": "Carnatic music",
-    "year": "Concert Recital",
-    "source": "Suha Academy Choral & Vocal Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/suha-utsavam",
-    "eventTitle": "Suha Utsavams & Sacred Music Festivities"
-  },
-  {
-    "src": "/suha_media/gallery/carnatic_music/gallery_carnatic_002.jpg",
-    "alt": "Mridangam Accompaniment Vocal Ensemble #1 by students of Suha Academy of Fine Arts",
-    "title": "Mridangam Accompaniment Vocal Ensemble #1",
-    "category": "Carnatic Music",
-    "folder": "Carnatic music",
-    "year": "Concert Recital",
-    "source": "Suha Academy Choral & Vocal Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/suha-utsavam",
-    "eventTitle": "Suha Utsavams & Sacred Music Festivities"
-  },
-  {
-    "src": "/suha_media/gallery/carnatic_music/gallery_carnatic_003.jpg",
-    "alt": "Swara Rhythmic Exercises in Chorus #1 by students of Suha Academy of Fine Arts",
-    "title": "Swara Rhythmic Exercises in Chorus #1",
-    "category": "Carnatic Music",
-    "folder": "Carnatic music",
-    "year": "Concert Recital",
-    "source": "Suha Academy Choral & Vocal Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/suha-utsavam",
-    "eventTitle": "Suha Utsavams & Sacred Music Festivities"
-  },
-  {
-    "src": "/suha_media/gallery/carnatic_music/gallery_carnatic_004.jpg",
-    "alt": "Annual Vocal Stage Performance #1 by students of Suha Academy of Fine Arts",
-    "title": "Annual Vocal Stage Performance #1",
-    "category": "Carnatic Music",
-    "folder": "Carnatic music",
-    "year": "Concert Recital",
-    "source": "Suha Academy Choral & Vocal Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/suha-utsavam",
-    "eventTitle": "Suha Utsavams & Sacred Music Festivities"
-  },
-  {
-    "src": "/suha_media/gallery/carnatic_music/gallery_carnatic_005.jpg",
-    "alt": "Classical Vocal Presentation #1 by students of Suha Academy of Fine Arts",
-    "title": "Classical Vocal Presentation #1",
-    "category": "Carnatic Music",
-    "folder": "Carnatic music",
-    "year": "Concert Recital",
-    "source": "Suha Academy Choral & Vocal Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/suha-utsavam",
-    "eventTitle": "Suha Utsavams & Sacred Music Festivities"
-  },
-  {
-    "src": "/suha_media/gallery/carnatic_music/gallery_carnatic_006.jpg",
-    "alt": "Carnatic Vocal Choir Presentation #2 by students of Suha Academy of Fine Arts",
-    "title": "Carnatic Vocal Choir Presentation #2",
-    "category": "Carnatic Music",
-    "folder": "Carnatic music",
-    "year": "Concert Recital",
-    "source": "Suha Academy Choral & Vocal Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/suha-utsavam",
-    "eventTitle": "Suha Utsavams & Sacred Music Festivities"
-  },
-  {
-    "src": "/suha_media/gallery/carnatic_music/gallery_carnatic_007.jpg",
-    "alt": "Junior Vocal Geetham Recital #2 by students of Suha Academy of Fine Arts",
-    "title": "Junior Vocal Geetham Recital #2",
-    "category": "Carnatic Music",
-    "folder": "Carnatic music",
-    "year": "Concert Recital",
-    "source": "Suha Academy Choral & Vocal Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/suha-utsavam",
-    "eventTitle": "Suha Utsavams & Sacred Music Festivities"
-  },
-  {
-    "src": "/suha_media/gallery/carnatic_music/gallery_carnatic_008.jpg",
-    "alt": "Classical Keerthanam Chorus #2 by students of Suha Academy of Fine Arts",
-    "title": "Classical Keerthanam Chorus #2",
-    "category": "Carnatic Music",
-    "folder": "Carnatic music",
-    "year": "Concert Recital",
-    "source": "Suha Academy Choral & Vocal Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/suha-utsavam",
-    "eventTitle": "Suha Utsavams & Sacred Music Festivities"
-  },
-  {
-    "src": "/suha_media/gallery/carnatic_music/gallery_carnatic_009.jpg",
-    "alt": "Pancharatna Krithi Choral Tribute #2 by students of Suha Academy of Fine Arts",
-    "title": "Pancharatna Krithi Choral Tribute #2",
-    "category": "Carnatic Music",
-    "folder": "Carnatic music",
-    "year": "Concert Recital",
-    "source": "Suha Academy Choral & Vocal Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/suha-utsavam",
-    "eventTitle": "Suha Utsavams & Sacred Music Festivities"
-  },
-  {
-    "src": "/suha_media/gallery/carnatic_music/gallery_carnatic_010.jpg",
-    "alt": "Shruti Shuddham & Melodic Purity #2 by students of Suha Academy of Fine Arts",
-    "title": "Shruti Shuddham & Melodic Purity #2",
-    "category": "Carnatic Music",
-    "folder": "Carnatic music",
-    "year": "Concert Recital",
-    "source": "Suha Academy Choral & Vocal Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/suha-utsavam",
-    "eventTitle": "Suha Utsavams & Sacred Music Festivities"
-  },
-  {
-    "src": "/suha_media/gallery/carnatic_music/gallery_carnatic_011.jpg",
-    "alt": "Thyagaraja Aradhana Choral Homage #2 by students of Suha Academy of Fine Arts",
-    "title": "Thyagaraja Aradhana Choral Homage #2",
-    "category": "Carnatic Music",
-    "folder": "Carnatic music",
-    "year": "Concert Recital",
-    "source": "Suha Academy Choral & Vocal Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/suha-utsavam",
-    "eventTitle": "Suha Utsavams & Sacred Music Festivities"
-  },
-  {
-    "src": "/suha_media/shared/shared_media_asset_07.jpg",
-    "alt": "Navaratri Utsav Sangeetha Seva #2 by students of Suha Academy of Fine Arts",
-    "title": "Navaratri Utsav Sangeetha Seva #2",
-    "category": "Carnatic Music",
-    "folder": "Carnatic music",
-    "year": "Concert Recital",
-    "source": "Suha Academy Choral & Vocal Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/suha-utsavam",
-    "eventTitle": "Suha Utsavams & Sacred Music Festivities"
-  },
-  {
-    "src": "/suha_media/gallery/carnatic_music/gallery_carnatic_012.jpg",
-    "alt": "Senior Disciples Classical Varnam #2 by students of Suha Academy of Fine Arts",
-    "title": "Senior Disciples Classical Varnam #2",
-    "category": "Carnatic Music",
-    "folder": "Carnatic music",
-    "year": "Concert Recital",
-    "source": "Suha Academy Choral & Vocal Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/suha-utsavam",
-    "eventTitle": "Suha Utsavams & Sacred Music Festivities"
-  },
-  {
-    "src": "/suha_media/gallery/carnatic_music/gallery_carnatic_013.jpg",
-    "alt": "Devotional Sloka & Bhajan Recital #2 by students of Suha Academy of Fine Arts",
-    "title": "Devotional Sloka & Bhajan Recital #2",
-    "category": "Carnatic Music",
-    "folder": "Carnatic music",
-    "year": "Concert Recital",
-    "source": "Suha Academy Choral & Vocal Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/suha-utsavam",
-    "eventTitle": "Suha Utsavams & Sacred Music Festivities"
-  },
-  {
-    "src": "/suha_media/gallery/carnatic_music/gallery_carnatic_014.jpg",
-    "alt": "Concert Vocal with Tala Coordination #2 by students of Suha Academy of Fine Arts",
-    "title": "Concert Vocal with Tala Coordination #2",
-    "category": "Carnatic Music",
-    "folder": "Carnatic music",
-    "year": "Concert Recital",
-    "source": "Suha Academy Choral & Vocal Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/suha-utsavam",
-    "eventTitle": "Suha Utsavams & Sacred Music Festivities"
-  },
-  {
-    "src": "/suha_media/gallery/carnatic_music/gallery_carnatic_015.jpg",
-    "alt": "Mridangam Accompaniment Vocal Ensemble #2 by students of Suha Academy of Fine Arts",
-    "title": "Mridangam Accompaniment Vocal Ensemble #2",
-    "category": "Carnatic Music",
-    "folder": "Carnatic music",
-    "year": "Concert Recital",
-    "source": "Suha Academy Choral & Vocal Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/suha-utsavam",
-    "eventTitle": "Suha Utsavams & Sacred Music Festivities"
-  },
-  {
-    "src": "/suha_media/gallery/carnatic_music/gallery_carnatic_016.jpg",
-    "alt": "Swara Rhythmic Exercises in Chorus #2 by students of Suha Academy of Fine Arts",
-    "title": "Swara Rhythmic Exercises in Chorus #2",
-    "category": "Carnatic Music",
-    "folder": "Carnatic music",
-    "year": "Concert Recital",
-    "source": "Suha Academy Choral & Vocal Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/suha-utsavam",
-    "eventTitle": "Suha Utsavams & Sacred Music Festivities"
-  },
-  {
-    "src": "/suha_media/gallery/carnatic_music/gallery_carnatic_017.jpg",
-    "alt": "Annual Vocal Stage Performance #2 by students of Suha Academy of Fine Arts",
-    "title": "Annual Vocal Stage Performance #2",
-    "category": "Carnatic Music",
-    "folder": "Carnatic music",
-    "year": "Concert Recital",
-    "source": "Suha Academy Choral & Vocal Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/suha-utsavam",
-    "eventTitle": "Suha Utsavams & Sacred Music Festivities"
-  },
-  {
-    "src": "/suha_media/gallery/carnatic_music/gallery_carnatic_018.jpg",
-    "alt": "Classical Vocal Presentation #2 by students of Suha Academy of Fine Arts",
-    "title": "Classical Vocal Presentation #2",
-    "category": "Carnatic Music",
-    "folder": "Carnatic music",
-    "year": "Concert Recital",
-    "source": "Suha Academy Choral & Vocal Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/suha-utsavam",
-    "eventTitle": "Suha Utsavams & Sacred Music Festivities"
-  },
-  {
-    "src": "/suha_media/gallery/carnatic_music/gallery_carnatic_019.jpg",
-    "alt": "Carnatic Vocal Choir Presentation #3 by students of Suha Academy of Fine Arts",
-    "title": "Carnatic Vocal Choir Presentation #3",
-    "category": "Carnatic Music",
-    "folder": "Carnatic music",
-    "year": "Concert Recital",
-    "source": "Suha Academy Choral & Vocal Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/suha-utsavam",
-    "eventTitle": "Suha Utsavams & Sacred Music Festivities"
-  },
-  {
-    "src": "/suha_media/gallery/carnatic_music/gallery_carnatic_020.jpg",
-    "alt": "Junior Vocal Geetham Recital #3 by students of Suha Academy of Fine Arts",
-    "title": "Junior Vocal Geetham Recital #3",
-    "category": "Carnatic Music",
-    "folder": "Carnatic music",
-    "year": "Concert Recital",
-    "source": "Suha Academy Choral & Vocal Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/suha-utsavam",
-    "eventTitle": "Suha Utsavams & Sacred Music Festivities"
-  },
-  {
-    "src": "/suha_media/gallery/carnatic_music/gallery_carnatic_021.jpg",
-    "alt": "Classical Keerthanam Chorus #3 by students of Suha Academy of Fine Arts",
-    "title": "Classical Keerthanam Chorus #3",
-    "category": "Carnatic Music",
-    "folder": "Carnatic music",
-    "year": "Concert Recital",
-    "source": "Suha Academy Choral & Vocal Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/suha-utsavam",
-    "eventTitle": "Suha Utsavams & Sacred Music Festivities"
-  },
-  {
-    "src": "/suha_media/gallery/carnatic_music/gallery_carnatic_022.jpg",
-    "alt": "Pancharatna Krithi Choral Tribute #3 by students of Suha Academy of Fine Arts",
-    "title": "Pancharatna Krithi Choral Tribute #3",
-    "category": "Carnatic Music",
-    "folder": "Carnatic music",
-    "year": "Concert Recital",
-    "source": "Suha Academy Choral & Vocal Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/suha-utsavam",
-    "eventTitle": "Suha Utsavams & Sacred Music Festivities"
-  },
-  {
-    "src": "/suha_media/gallery/carnatic_music/gallery_carnatic_023.jpg",
-    "alt": "Shruti Shuddham & Melodic Purity #3 by students of Suha Academy of Fine Arts",
-    "title": "Shruti Shuddham & Melodic Purity #3",
-    "category": "Carnatic Music",
-    "folder": "Carnatic music",
-    "year": "Concert Recital",
-    "source": "Suha Academy Choral & Vocal Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/suha-utsavam",
-    "eventTitle": "Suha Utsavams & Sacred Music Festivities"
-  },
-  {
-    "src": "/suha_media/gallery/carnatic_music/gallery_carnatic_024.jpg",
-    "alt": "Thyagaraja Aradhana Choral Homage #3 by students of Suha Academy of Fine Arts",
-    "title": "Thyagaraja Aradhana Choral Homage #3",
-    "category": "Carnatic Music",
-    "folder": "Carnatic music",
-    "year": "Concert Recital",
-    "source": "Suha Academy Choral & Vocal Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/suha-utsavam",
-    "eventTitle": "Suha Utsavams & Sacred Music Festivities"
-  },
-  {
-    "src": "/suha_media/gallery/carnatic_music/gallery_carnatic_025.jpg",
-    "alt": "Navaratri Utsav Sangeetha Seva #3 by students of Suha Academy of Fine Arts",
-    "title": "Navaratri Utsav Sangeetha Seva #3",
-    "category": "Carnatic Music",
-    "folder": "Carnatic music",
-    "year": "Concert Recital",
-    "source": "Suha Academy Choral & Vocal Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/suha-utsavam",
-    "eventTitle": "Suha Utsavams & Sacred Music Festivities"
-  },
-  {
-    "src": "/suha_media/gallery/carnatic_music/gallery_carnatic_026.jpg",
-    "alt": "Senior Disciples Classical Varnam #3 by students of Suha Academy of Fine Arts",
-    "title": "Senior Disciples Classical Varnam #3",
-    "category": "Carnatic Music",
-    "folder": "Carnatic music",
-    "year": "Concert Recital",
-    "source": "Suha Academy Choral & Vocal Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/suha-utsavam",
-    "eventTitle": "Suha Utsavams & Sacred Music Festivities"
-  },
-  {
-    "src": "/suha_media/gallery/carnatic_music/gallery_carnatic_027.jpg",
-    "alt": "Devotional Sloka & Bhajan Recital #3 by students of Suha Academy of Fine Arts",
-    "title": "Devotional Sloka & Bhajan Recital #3",
-    "category": "Carnatic Music",
-    "folder": "Carnatic music",
-    "year": "Concert Recital",
-    "source": "Suha Academy Choral & Vocal Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/suha-utsavam",
-    "eventTitle": "Suha Utsavams & Sacred Music Festivities"
-  },
-  {
-    "src": "/suha_media/gallery/carnatic_music/gallery_carnatic_028.jpg",
-    "alt": "Concert Vocal with Tala Coordination #3 by students of Suha Academy of Fine Arts",
-    "title": "Concert Vocal with Tala Coordination #3",
-    "category": "Carnatic Music",
-    "folder": "Carnatic music",
-    "year": "Concert Recital",
-    "source": "Suha Academy Choral & Vocal Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/suha-utsavam",
-    "eventTitle": "Suha Utsavams & Sacred Music Festivities"
-  },
-  {
-    "src": "/suha_media/gallery/carnatic_music/gallery_carnatic_029.jpg",
-    "alt": "Mridangam Accompaniment Vocal Ensemble #3 by students of Suha Academy of Fine Arts",
-    "title": "Mridangam Accompaniment Vocal Ensemble #3",
-    "category": "Carnatic Music",
-    "folder": "Carnatic music",
-    "year": "Concert Recital",
-    "source": "Suha Academy Choral & Vocal Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/suha-utsavam",
-    "eventTitle": "Suha Utsavams & Sacred Music Festivities"
-  },
-  {
-    "src": "/suha_media/gallery/carnatic_music/gallery_carnatic_030.jpg",
-    "alt": "Swara Rhythmic Exercises in Chorus #3 by students of Suha Academy of Fine Arts",
-    "title": "Swara Rhythmic Exercises in Chorus #3",
-    "category": "Carnatic Music",
-    "folder": "Carnatic music",
-    "year": "Concert Recital",
-    "source": "Suha Academy Choral & Vocal Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/suha-utsavam",
-    "eventTitle": "Suha Utsavams & Sacred Music Festivities"
-  },
-  {
-    "src": "/suha_media/gallery/carnatic_music/gallery_carnatic_031.jpg",
-    "alt": "Annual Vocal Stage Performance #3 by students of Suha Academy of Fine Arts",
-    "title": "Annual Vocal Stage Performance #3",
-    "category": "Carnatic Music",
-    "folder": "Carnatic music",
-    "year": "Concert Recital",
-    "source": "Suha Academy Choral & Vocal Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/suha-utsavam",
-    "eventTitle": "Suha Utsavams & Sacred Music Festivities"
-  },
-  {
-    "src": "/suha_media/gallery/carnatic_music/gallery_carnatic_032.jpg",
-    "alt": "Classical Vocal Presentation #3 by students of Suha Academy of Fine Arts",
-    "title": "Classical Vocal Presentation #3",
-    "category": "Carnatic Music",
-    "folder": "Carnatic music",
-    "year": "Concert Recital",
-    "source": "Suha Academy Choral & Vocal Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/suha-utsavam",
-    "eventTitle": "Suha Utsavams & Sacred Music Festivities"
-  },
-  {
-    "src": "/suha_media/gallery/carnatic_music/gallery_carnatic_033.jpg",
-    "alt": "Carnatic Vocal Choir Presentation #4 by students of Suha Academy of Fine Arts",
-    "title": "Carnatic Vocal Choir Presentation #4",
-    "category": "Carnatic Music",
-    "folder": "Carnatic music",
-    "year": "Concert Recital",
-    "source": "Suha Academy Choral & Vocal Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/suha-utsavam",
-    "eventTitle": "Suha Utsavams & Sacred Music Festivities"
-  },
-  {
-    "src": "/suha_media/gallery/carnatic_music/gallery_carnatic_034.jpg",
-    "alt": "Junior Vocal Geetham Recital #4 by students of Suha Academy of Fine Arts",
-    "title": "Junior Vocal Geetham Recital #4",
-    "category": "Carnatic Music",
-    "folder": "Carnatic music",
-    "year": "Concert Recital",
-    "source": "Suha Academy Choral & Vocal Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/suha-utsavam",
-    "eventTitle": "Suha Utsavams & Sacred Music Festivities"
-  },
-  {
-    "src": "/suha_media/gallery/carnatic_music/gallery_carnatic_035.jpg",
-    "alt": "Classical Keerthanam Chorus #4 by students of Suha Academy of Fine Arts",
-    "title": "Classical Keerthanam Chorus #4",
-    "category": "Carnatic Music",
-    "folder": "Carnatic music",
-    "year": "Concert Recital",
-    "source": "Suha Academy Choral & Vocal Archive",
-    "permissionRequired": false,
-    "eventUrl": "/events/suha-utsavam",
-    "eventTitle": "Suha Utsavams & Sacred Music Festivities"
   }
 ];
 
