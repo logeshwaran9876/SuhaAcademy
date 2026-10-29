@@ -256,38 +256,51 @@ export default function EventDetails() {
                 </div>
 
                 <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-5">
-                  {event.gallery.slice(0, visibleCount).map((photo, pIdx) => (
-                    <div
-                      key={pIdx}
-                      onClick={() => setLightboxIdx(pIdx)}
-                      className="group relative bg-white border border-ivory-200 rounded-sm overflow-hidden cursor-pointer hover:border-gold-400 hover:shadow-lg transition-all duration-300 flex flex-col justify-between"
-                    >
-                      <div className="relative aspect-[4/3] overflow-hidden bg-navy-950">
-                        <img
-                          src={photo.src}
-                          alt={photo.title || event.title}
-                          loading="lazy"
-                          className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                        />
-                        <div className="absolute inset-0 bg-gradient-to-t from-navy-950/80 via-navy-950/20 to-transparent" />
-                        <div className="absolute inset-0 opacity-0 group-hover:opacity-100 bg-navy-950/30 transition-opacity flex items-center justify-center">
-                          <span className="px-3 py-1.5 bg-navy-950/90 text-gold-300 text-xs font-medium rounded-sm border border-gold-400/40 flex items-center gap-1.5 shadow-md">
-                            <Maximize2 className="w-3.5 h-3.5" /> View Photo
-                          </span>
+                  {event.gallery.slice(0, visibleCount).map((photo, pIdx) => {
+                    const hasCaption = Boolean(
+                      (photo.title && photo.title.trim()) ||
+                      (photo.subtitle && photo.subtitle.trim())
+                    );
+
+                    return (
+                      <div
+                        key={pIdx}
+                        onClick={() => setLightboxIdx(pIdx)}
+                        className={`group relative bg-white border border-ivory-200 rounded-sm overflow-hidden cursor-pointer hover:border-gold-400 hover:shadow-lg transition-all duration-300 flex flex-col ${
+                          hasCaption ? "justify-between" : ""
+                        }`}
+                      >
+                        <div className="relative aspect-[4/3] overflow-hidden bg-navy-950">
+                          <img
+                            src={photo.src}
+                            alt={photo.title || event.title}
+                            loading="lazy"
+                            className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                          />
+                          <div className="absolute inset-0 bg-gradient-to-t from-navy-950/80 via-navy-950/20 to-transparent" />
+                          <div className="absolute inset-0 opacity-0 group-hover:opacity-100 bg-navy-950/30 transition-opacity flex items-center justify-center">
+                            <span className="px-3 py-1.5 bg-navy-950/90 text-gold-300 text-xs font-medium rounded-sm border border-gold-400/40 flex items-center gap-1.5 shadow-md">
+                              <Maximize2 className="w-3.5 h-3.5" /> View Photo
+                            </span>
+                          </div>
                         </div>
-                      </div>
-                      <div className="p-3 bg-white">
-                        <h4 className="text-xs font-semibold text-navy-900 group-hover:text-gold-700 transition-colors line-clamp-1">
-                          {photo.title}
-                        </h4>
-                        {photo.subtitle && (
-                          <p className="text-[11px] text-navy-600/70 line-clamp-1 mt-0.5">
-                            {photo.subtitle}
-                          </p>
+                        {hasCaption && (
+                          <div className="p-3 bg-white">
+                            {photo.title && photo.title.trim() && (
+                              <h4 className="text-xs font-semibold text-navy-900 group-hover:text-gold-700 transition-colors line-clamp-1">
+                                {photo.title}
+                              </h4>
+                            )}
+                            {photo.subtitle && photo.subtitle.trim() && (
+                              <p className="text-[11px] text-navy-600/70 line-clamp-1 mt-0.5">
+                                {photo.subtitle}
+                              </p>
+                            )}
+                          </div>
                         )}
                       </div>
-                    </div>
-                  ))}
+                    );
+                  })}
                 </div>
 
                 {/* Load More Pagination */}
